@@ -1,36 +1,9 @@
 palette:
-  negro_color: '#000000'
-  blanco_color: '#FFFFFF'
-  rojo_color: '#FF3C0F'
-  fresa_color: '#FF5D5A'
-  amarillo_color: '#FFB414'
-  amarillo-claro_color: '#FFFFF0'
-  celeste_color: '#499DD0'
-  plomo_color: '#DEDEDE'
-backgrounds:
-  header-background_color: '#FF5D5A'
-  reto-background_color: '#FFFFF0'
-  visto-background_color: '#FFB414'
-  body-background_color: '#FFFFF0'
-  servicios-background_color: '#FFB414'
-  reserva-llamada-background_color: '#499DD0'
-  testimonios-background_color: '#FFFFF0'
-  suscribete-background_color: '#FFFFF0'
-  frase-background_color: '#499DD0'
-  footer-background_color: '#FFB414'
-  mobile-menu-background_color: '#FF5D5A'
-texto:
-  body-font-family: "'open-sans', sans-serif"
-  menu-text_color: '#000000'
-  mobile-menu-text_color: '#000000'
-  footer-text_color: '#000000'  
-texto-especial:
-  titulos-font-family: "'filson-soft', sans-serif"
-me-viste:
-  company-logo-size: '15%'
-certificaciones:
-  certificacion-logo-size: '25%'
-  certificacion-logo-size-mobile: '75%'
+  dark_color: '#222222'
+  white_color: '#FFFFFF'
+  beige_color: '#FEF8F0'
+  orange_color: '#AC441E'
+  green_color: '#96844C'
 
   
 

@@ -1,42 +1,41 @@
 menu:
   link-1:
-    name: Inicio
+    name: Home
     url: /index
   link-2:
-    name: Podcast
-    url: https://anchor.fm/ingrid220
+    name: Shop
+    url: /shop
   link-3:
-    name: Ebook
-    url: >-
-      https://www.amazon.com/-/es/dp/B09R4NT863/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZQNMAF1FHKBF&keywords=ingrid+carranza&qid=1643149983&s=digital-text&sprefix=ingrid+carranza%2Cdigital-text%2C174&sr=1-1
+    name: Sale
+    url: /sale
   link-4:
-    name: Servicios
-    url: /index#servicios
+    name: Why Hakau
+    url: /why-hakau
   link-5:
-    name: Testimonios
-    url: /index#testimonios
+    name: Allies
+    url: /allies
   link-6:
-    name: Mi Historia
-    url: /index#mi-historia
+    name: Contact
+    url: /contact
   link-7:
-    name: Contacto
-    url: /index#contacto
+    name: Blog
+    url: /blog
 social:
   linkedin: true
   linkedin-name: Linkedin
-  linkedin_url: https://www.linkedin.com/in/ingrid-carranza/
+  linkedin_url:
   instagram: true
   instagram-name: Instagram
-  instagram_url: https://www.instagram.com/ingridcarranzamarketing/
+  instagram_url:
   tik-tok: true
   tik-tok-name: Tik Tok
-  tik-tok_url: https://www.tiktok.com/@ingridcarranzamarketing
+  tik-tok_url:
   youtube: true
   youtube-name: Youtube
-  youtube_url: https://www.youtube.com/user/KattyCarranza
+  youtube_url: 
   facebook: true
   facebook-name: Facebook
-  facebook_url: https://www.facebook.com/Ingrid-Carranza-106620277940539
+  facebook_url:
   pinterest: false
   pinterest-name: Pinterest
   pinterest_url:

@@ -44,7 +44,6 @@ img { max-width: 100%; height: auto; }
   flex-direction: row-reverse;
 }
 
-
 .flex-flip-row { flex-direction: row-reverse; }
 
 .tall-100 { min-height: 100vh; }
@@ -159,57 +158,21 @@ img { max-width: 100%; height: auto; }
   margin: 1rem;
 }
 
-.border-black {
-  border-right: 3px solid var(--negro);
-}
-
-.timeline-border {
-  border-left: 3px solid var(--amarillo);
-}
-
-.timeline-bullet {
-  background: var(--rojo);
-  width: 2.2rem;
-  height: 2.2rem;
-  left: 100%;
-  top: 1.5%;
-  border: .6rem solid var(--body-background);
-  content: "";
-  position: absolute;
-  transform: translateX(calc(-50% + 1px));
-  border-radius: 100%;
-  animation: none;
-}
-
-.timeline-vertical {
-  writing-mode: vertical-lr;
-}
-
 
 /* ------------ Backgrounds & Background Images  ----------------------- */
 
-.bg-blue      { background-color: var(--celeste); }
-.bg-beige     { background-color: var(--amarillo-claro); }
-.bg-red       { background-color: var(--rojo); }
-.bg-fresa     { background-color: var(--fresa); }
-.bg-yellow    { background-color: var(--amarillo); }
-.bg-white     { background-color: var(--blanco); }
-.bg-grey    { background-color: var(--plomo); }
+.bg-dark      { background-color: var(--dark); }
+.bg-white    { background-color: var(--amarillo-claro); }
+.bg-beige       { background-color: var(--rojo); }
+.bg-orange     { background-color: var(--fresa); }
+.bg-green    { background-color: var(--amarillo); }
 
 .bg-image {
     background-color: var(--amarillo-claro); /* Set a fall-back color while images are loading */ 
-    /* background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600'); */
+    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-}
-
-.bg-explore{
-  background-color: var(--amarillo-claro); /* Set a fall-back color while images are loading */ 
-  background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
 }
 
 .bg-logo {
@@ -252,51 +215,9 @@ img { max-width: 100%; height: auto; }
   left: 6vw;
 }
 
-.logo-company img {
-  max-width: var(--company-logo-size);
-  opacity: 0.9;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.logo-certificacion img {
-  max-width: var(--certificacion-logo-size);
-  opacity: 0.9;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.logo-header {
-  max-width: 20%;
-  opacity: 0.3;
-  position: absolute;
-  bottom: -10%;
-  left: -1%;
-}
-
-.pop-up-logo img {
-  max-width: 15%;
-  opacity: 0.3;
-  position: absolute;
-  bottom: 1%;
-  right: -1%;
-}
-
-.timeline-image img {
-  max-width: 60%;
-}
-
-.bg-radius-sm {
-  border-radius: 5px;
-}
-
-.bg-radius-lg {
-  border-radius: 35px;
-}
-
-.bg-radius-md {
-  border-radius: 10px;
-}
+.bg-radius-sm   { border-radius: 5px; }
+.bg-radius-lg   { border-radius: 35px; }
+.bg-radius-md   { border-radius: 10px; }
 
 .bg-overlay {
   position: relative;
@@ -312,7 +233,6 @@ img { max-width: 100%; height: auto; }
   height: 100%;
   /* background-color: rgba(0,0,0,0.3); */
 }
-
 
 .bg-overlay > * {
   z-index: 2;
@@ -347,19 +267,6 @@ img { max-width: 100%; height: auto; }
   border: 2px solid var(--amarillo-claro);
   color: var(--amarillo-claro); */
 }
-
-/* .card:hover p {
-  color: var(--amarillo-claro);
-}
-
-.card:hover h3 {
-  color: var(--amarillo-claro);
-} */
-  
-/* .servicios .card-container:nth-child(even) .card {
-  margin-top: -2rem;
-  margin-bottom: 2rem;
-} */
 
 .card {
   min-height: 15vw;
@@ -422,22 +329,6 @@ hr.paid-services {
   margin-bottom: 0;
   }
 
-
-/* SERVICIOS */
-
-.wave-container {
-  background: var(--amarillo);
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-}
-.wave-container > svg {
-  display: block;
-  width: 100%;
-}
-
-
-
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
 .landscape            { padding-bottom: 66% ; }
@@ -445,12 +336,7 @@ hr.paid-services {
 .portrait-tall        { padding-bottom: 175%; }
 .portrait             { padding-bottom: 125%; }
 .square               { padding-bottom: 100%; }
-.square-2               { padding-bottom: 80%; }
-
-.full-width { 
-    max-width: 100%;
-    height: auto;
- }
+.square-2             { padding-bottom: 80%; }
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
@@ -460,14 +346,12 @@ hr.paid-services {
 
 /* ------------ Typography Styles ----------------------- */
 
-.left         { text-align: left; }
-.right        { text-align: right; }
-.center       { text-align: center; }
-.justify      { text-align: justify; }
-.uppercase    { text-transform: uppercase; }
-.vertical-align {
-  vertical-align: middle;
-}
+.left           { text-align: left; }
+.right          { text-align: right; }
+.center         { text-align: center; }
+.justify        { text-align: justify; }
+.uppercase      { text-transform: uppercase; }
+.vertical-align { vertical-align: middle; }
 
 body {
   font-family: var(--body-font-family);  /* Add your font here */ 
