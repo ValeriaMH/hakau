@@ -20,6 +20,9 @@ menu:
   link-7:
     name: Blog
     url: /blog
+translation:
+  lang-1: EN
+  lang-2: ES
 social:
   linkedin: true
   linkedin-name: Linkedin

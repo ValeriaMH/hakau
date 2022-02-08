@@ -4,7 +4,14 @@ palette:
   beige_color: '#FEF8F0'
   orange_color: '#AC441E'
   green_color: '#96844C'
-
+backgrounds:
+  body-background_color: '#FFFFFF'
+  mobile-menu-background_color: '#FEF8F0'
+text:
+  body-font-family: "'Cormorant Garamond', serif"
+  menu-text_color: '#FFFFFF'
+  mobile-menu-text_color: '#AC441E'
+  footer-text_color: '#FFFFFF'  
   
 
   

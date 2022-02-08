@@ -1,73 +1,20 @@
 <nav class="col-12 grid">
-    <div class="col-4_md-7 padded-l-2 padded-t-sm no-hover">
+    <div class="col-3_md-5 padded-l-2 padded-t-sm no-hover">
         <a href="/index" class="logo">
             <img src="{{ site.data.site-settings.general.logo_image }}" />
         </a>
     </div>
-    <div class="col-5_md-1"></div>
-    <nav class="col-3_md-4 right padded-r-2 padded-t-1 hide-sm">
-        <ul>
-            <li><a href="{{ site.data.navigation.menu.link-2.url }}" target="_blank">{{ site.data.navigation.menu.link-2.name }}</a>
-            </li>
-            <li><a href="{{ site.data.navigation.menu.link-3.url }}" target="_blank">{{ site.data.navigation.menu.link-3.name }}</a>
-            </li>
-            <li><a href="{{ site.data.navigation.menu.link-4.url }}">{{ site.data.navigation.menu.link-4.name }}</a>
-            </li>
-            <li><a href="{{ site.data.navigation.menu.link-5.url }}">{{ site.data.navigation.menu.link-5.name }}</a>
-            </li>
-            <li><a href="{{ site.data.navigation.menu.link-6.url }}">{{ site.data.navigation.menu.link-6.name }}</a>
-            </li>
-            <li><a href="{{ site.data.navigation.menu.link-7.url }}">{{ site.data.navigation.menu.link-7.name }}</a>
-            </li>
-
-        </ul>
-        <div class="social-header hide-sm">
-
-            {% if site.data.navigation.social.linkedin == true %}
-            <a href="{{ site.data.navigation.social.linkedin_url }}" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            {% endif %}
-
-            {% if site.data.navigation.social.instagram == true %}
-            <a href="{{ site.data.navigation.social.instagram_url }}" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            {% endif %}
-
-            {% if site.data.navigation.social.tik-tok == true %}
-            <a href="{{ site.data.navigation.social.tik-tok_url }}" target="_blank">
-                <i class="fab fa-tiktok"></i>
-            </a>
-            {% endif %}
-
-            {% if site.data.navigation.social.youtube == true %}
-            <a href="{{ site.data.navigation.social.youtube_url }}" target="_blank">
-                <i class="fab fa-youtube"></i>
-            </a>
-            {% endif %}
-
-            {% if site.data.navigation.social.facebook == true %}
-            <a href="{{ site.data.navigation.social.facebook_url }}" target="_blank">
-                <i class="fab fa-facebook"></i>
-            </a>
-            {% endif %}
-
-            {% if site.data.navigation.social.pinterest == true %}
-            <a href="{{ site.data.navigation.social.pinterest_url }}" target="_blank">
-                <i class="fab fa-pinterest"></i>
-            </a>
-            {% endif %}
-
-            {% if site.data.navigation.social.twitter == true %}
-            <a href="{{ site.data.navigation.social.twitter_url }}" target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            {% endif %}
-
-
-        </div>
-
-    </nav>
+    <div class="menu-links col-8_md-7 padded-r-2 padded-t-2 hide-sm">
+            <a href="{{ site.data.navigation.menu.link-2.url }}" target="_blank">{{ site.data.navigation.menu.link-2.name }}</a>
+            <a href="{{ site.data.navigation.menu.link-3.url }}" target="_blank">{{ site.data.navigation.menu.link-3.name }}</a>
+            <a href="{{ site.data.navigation.menu.link-4.url }}">{{ site.data.navigation.menu.link-4.name }}</a>
+            <a href="{{ site.data.navigation.menu.link-5.url }}">{{ site.data.navigation.menu.link-5.name }}</a>
+            <a href="{{ site.data.navigation.menu.link-6.url }}">{{ site.data.navigation.menu.link-6.name }}</a>
+            <a href="{{ site.data.navigation.menu.link-7.url }}">{{ site.data.navigation.menu.link-7.name }}</a>
+    </div>
+    <div class="lang-links col-1 padded-t-2 hide-sm">
+        <a href="{{ site.data.navigation.translation.lang-1.url }}">{{ site.data.navigation.translation.lang-1 }}</a>
+        <a href="{{ site.data.navigation.translation.lang-2.url }}">{{ site.data.navigation.translation.lang-2 }}</a>
+    </div>
 
 </nav>
