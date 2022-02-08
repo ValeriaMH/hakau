@@ -1,143 +1,98 @@
-<footer class="bg-yellow tall-100 tall-70-md grid">
+<footer class="bg-dark padded white-text">
 
-  <div class="col-12 grid">
-    <div class="col-7_md-6_sm-12 padded-sm hover-outline no-hover-sm sm-text-center medium-text sm-padded">
-      <a href="mailto: marketing@ingridcarranza.net" class="no-border-b sm-medium-text xs-medium-text-2 md-medium-text editable">marketing@ingridcarranza.site</a>
+  <div class="grid padded-b">
+    <div class="col-3">
+      <h4 class="orange-text">Suscribe</h4>
+      <p>Conoce a nuevos aliados y accede a ofertas exclusivas</p>
     </div>
-
-    <div class="col-2 hide-sm"></div>
-
-    <nav class="col-3_md-4_sm-12 right padded-r-1 padded-sm sm-text-center">
-      <ul>
-        <li><a href="{{ site.data.navigation.menu.link-1.url }}">{{ site.data.navigation.menu.link-1.name }}</a></li>
-        <li><a href="{{ site.data.navigation.menu.link-2.url }}" target="_blank">{{ site.data.navigation.menu.link-2.name }}</a></li>
-        <li><a href="{{ site.data.navigation.menu.link-3.url }}" target="_blank">{{ site.data.navigation.menu.link-3.name }}</a></li>
-        <li><a href="{{ site.data.navigation.menu.link-4.url }}">{{ site.data.navigation.menu.link-4.name }}</a></li>
-        <li><a href="{{ site.data.navigation.menu.link-5.url }}">{{ site.data.navigation.menu.link-5.name }}</a></li>
-        <li><a href="{{ site.data.navigation.menu.link-6.url }}">{{ site.data.navigation.menu.link-6.name }}</a></li>
-        <li><a href="{{ site.data.navigation.menu.link-7.url }}">{{ site.data.navigation.menu.link-7.name }}</a></li>
-
-      </ul>
-    </nav>
   </div>
 
-  <div class="col-12-middle padded-lr-xlg sm-padded md-padded-b-3 relative" id="contacto">
+  <hr>
 
-    <h4 class="hide-md">
-      <span class="big-text float-contact">{{page.texto-footer.titulo-contacto }}<br /></span>
-      <span class="big-text-outline-red float-contact-2">{{page.texto-footer.titulo-contacto-2 }}</span>
-    </h4>
-
-    <h4 class="show-md center padded-sm sm-margin-b-0 md-margin-b-1">
-      <span class="big-text sm-big-text md-big-text">{{page.texto-footer.titulo-contacto }}<br /></span>
-      <span class="big-text-outline-red sm-big-text md-big-text">{{page.texto-footer.titulo-contacto-2 }}</span>
-    </h4>
-
-    <form class="grid-center" name="contact" method="POST" data-netlify="true" action="/#contact">
-
-      <div class="col-6_sm-12 padded-03 padded-b-0">
-        <input type="text" name="name" placeholder="Nombre y apellido" />
-      </div>
-
-      <div class="col-6_sm-12 padded-03 padded-b-0">
-        <input type="email" name="_replyto" placeholder="E-mail" />
-      </div>
-
-      <div class="col-12 padded-03 padded-t-0">
-        <textarea placeholder="Escribe aquí tu mensaje"></textarea>
-        <input type="submit" value="Enviar" class="button-inverted" />
-      </div>
-
-    </form>
-
-  </div>
-
-  <div class="col-12 grid-bottom">
-
-    <div class="col-12 center padded padded-r-1 padded-b-1 padded-l-0 uppercase padded-t-0 sm-padded-t-2 md-padded md-padded-b-0 sm-padded show-md">
-      <p class="xs-text editable">
-           Ayudo a empresas, emprendedores y empleados a monetizar + con estrategias de Marketing de Contenidos, Marca Personal y Redes Sociales, sin necesidad de dominar el Marketing.
-      </p></div>
-
-    <div class="col-3 left padded padded-l-1 padded-b-1 uppercase hide-md">
-      <p class="subtitle-2">Copyright 2021<br />Website by
-      <a href="https://www.picaronstudio.com" target="_blank" class="picaron">Picaron Studio</a></p>
-    </div>
-
-    <div class="col-6_md-12 center padded-b-03 grid">
-      <nav class="col-12 social padded-b-04">
-        
-        {% if site.data.navigation.social.linkedin == true %}
-          <a href="{{ site.data.navigation.social.linkedin_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.linkedin-name }}</a>
-
-          <a href="{{ site.data.navigation.social.linkedin_url }}" target="_blank" class="show-md">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        {% endif %}
+  <div class="grid">
+    <div class="col-3 padded">
+      <p class="semi-bold">Sé parte de esta<br>común - unidad</p>
+      <nav class="social">
 
         {% if site.data.navigation.social.instagram == true %}
-          <span class="medium-text">.</span>
-          <a href="{{ site.data.navigation.social.instagram_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.instagram-name }}</a>
-
-          <a href="{{ site.data.navigation.social.instagram_url }}" target="_blank" class="show-md">
+          <a href="{{ site.data.navigation.social.instagram_url }}" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
         {% endif %}
 
+        {% if site.data.navigation.social.facebook == true %}
+          <a href="{{ site.data.navigation.social.facebook_url }}" target="_blank">
+          <i class="fab fa-facebook"></i>
+          </a>
+        {% endif %}
+  
         {% if site.data.navigation.social.tik-tok == true %}
-          <span class="medium-text">.</span>
-          <a href="{{ site.data.navigation.social.tik-tok_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.tik-tok-name }}</a>
-
-          <a href="{{ site.data.navigation.social.tik-tok_url }}" target="_blank" class="show-md">
+          <a href="{{ site.data.navigation.social.tik-tok_url }}" target="_blank">
             <i class="fab fa-tiktok"></i>
           </a>
         {% endif %}
 
-
         {% if site.data.navigation.social.youtube == true %}
-          <span class="medium-text">.</span>
-          <a href="{{ site.data.navigation.social.youtube_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.youtube-name }}</a>
-
-          <a href="{{ site.data.navigation.social.youtube_url }}" target="_blank" class="show-md">
+          <a href="{{ site.data.navigation.social.youtube_url }}" target="_blank">
             <i class="fab fa-youtube"></i>
           </a>
         {% endif %}
 
-        {% if site.data.navigation.social.facebook == true %}
-        <span class="medium-text">.</span>
-        <a href="{{ site.data.navigation.social.facebook_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.facebook-name }}</a>
-
-        <a href="{{ site.data.navigation.social.facebook_url }}" target="_blank" class="show-md">
-          <i class="fab fa-facebook"></i>
-        </a>
-       {% endif %}
-
-       {% if site.data.navigation.social.pinterest == true %}
-          <span class="medium-text">.</span>
-          <a href="{{ site.data.navigation.social.pinterest_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.pinterest-name }}</a>
-
-          <a href="{{ site.data.navigation.social.pinterest_url }}" target="_blank" class="show-md">
+        {% if site.data.navigation.social.linkedin == true %}
+          <a href="{{ site.data.navigation.social.linkedin_url }}" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        {% endif %}
+  
+        {% if site.data.navigation.social.pinterest == true %}
+          <a href="{{ site.data.navigation.social.pinterest_url }}" target="_blank">
             <i class="fab fa-pinterest"></i>
           </a>
         {% endif %}
-
+  
         {% if site.data.navigation.social.twitter == true %}
-          <span class="medium-text">.</span>
-          <a href="{{ site.data.navigation.social.twitter_url }}" class="uppercase hide-md" target="_blank">{{ site.data.navigation.social.twitter-name }}</a>
-
-          <a href="{{ site.data.navigation.social.twitter_url }}" target="_blank" class="show-md">
+          <a href="{{ site.data.navigation.social.twitter_url }}" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
         {% endif %}
-
+  
       </nav>
     </div>
+  </div>
 
-    <div class="col-3 right padded padded-r-1 padded-b-1 padded-l-1  uppercase padded-t-0 hide-md">
-      <p class="xs-text editable">
-           Ayudo a empresas, emprendedores y empleados a monetizar + con estrategias de Marketing de Contenidos, Marca Personal y Redes Sociales, sin necesidad de dominar el Marketing.
-      </p>
+  <div class="grid">
+    <div class="col-3 padded">
+      <h4>SHOP</h4>
+      <nav class="footer-links">
+        {% for item in site.data.navigation.footer-menu1 %}
+          <a href="{{item.url }}">{{item.name }}</a>
+        {% endfor %}
+      </nav>
     </div>
+    <div class="col-3 padded">
+      <h4>WHY HAKAU?</h4>
+      <nav class="footer-links">
+        {% for item in site.data.navigation.footer-menu2 %}
+          <a href="{{item.url }}">{{item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="col-3 padded">
+      <h4>CUSTOMER SERVCIE</h4>
+      <nav class="footer-links">
+        {% for item in site.data.navigation.footer-menu3 %}
+          <a href="{{item.url }}">{{item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+
+    
+
+
+
+  
+    
 
     <div class="col-12 center padded-sm padded-l-1 padded-b-1 uppercase show-md">
       <p class="subtitle-2">Copyright 2021<br />Website by

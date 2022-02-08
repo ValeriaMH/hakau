@@ -23,6 +23,35 @@ menu:
 translation:
   lang-1: EN
   lang-2: ES
+footer-menu1:
+  - name: Shop Hanan
+    url: /shop
+  - name: Shop Kay
+    url:
+  - name: Shop Uku
+    url:
+  - name: Best Sellers
+    url:
+  - name: On sale
+    url:
+footer-menu2:
+  - name: Our story
+    url: /why-hakau
+  - name: Our allies
+    url:
+  - name: Become an ally
+    url:
+  - name: Blog
+    url:
+footer-menu3:
+  - name: Delivery and refunds
+    url:
+  - name: FAQ
+    url:
+  - name: Contact us
+    url:
+  - name: Privacy Policy
+    url:
 social:
   linkedin: true
   linkedin-name: Linkedin
@@ -33,7 +62,7 @@ social:
   tik-tok: true
   tik-tok-name: Tik Tok
   tik-tok_url:
-  youtube: true
+  youtube: false
   youtube-name: Youtube
   youtube_url: 
   facebook: true

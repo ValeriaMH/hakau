@@ -30,6 +30,10 @@ img { max-width: 100%; height: auto; }
   display: inline-block;
 }
 
+.block a {
+  display: block;
+}
+
 /* ---------- Negative Space Utility Classes  ------------------ */ 
 
 .capped-width-wide      { max-width: 1600px; margin: auto; }
@@ -142,6 +146,7 @@ img { max-width: 100%; height: auto; }
 .margin-r-1 { margin-right: 1rem; }
 
 .margin-t-2 { margin-top: 2rem; }
+.margin-t-3 { margin-top: 3rem; }
 .margin-b-2 { margin-bottom: 2rem; }
 .margin-b-3 { margin-bottom: 3rem; }
 .margin-l-2 { margin-left: 2rem; }
@@ -283,13 +288,6 @@ img { max-width: 100%; height: auto; }
   width: 100%;
 }
 
-hr.paid-services {
-  border: .8px solid var(--negro);
-  width: 100%;
-  opacity: .5;
-  margin-bottom: 1rem;
-}
-
 .hover-container {
   background-size: cover;
   background-position: center;
@@ -349,7 +347,7 @@ hr.paid-services {
 
 body {
   font-family: var(--body-font-family);  /* Add your font here */ 
-  color: var(--negro);
+  color: var(--dark);
   background-color: var(--body-background);
   overflow-x: hidden;
 }
@@ -517,15 +515,34 @@ p:last-child {
 
 
 /* ------------ Buttons & Links ------------ */
+
 a {
-    color: inherit;
-    text-decoration: rgba(0,0,0,0);
-    padding: .1rem 0;
-    text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  position: relative;
 }
 
-a:hover {
-  border-bottom: 1px solid var(--menu-text);
+a:after {
+background: none repeat scroll 0 0 transparent;
+bottom: 0;
+content: "";
+display: block;
+height: 1px;
+left: 50%;
+position: absolute;
+background: #fff;
+transition: width 0.3s ease 0s, left 0.3s ease 0s;
+width: 0;
+}
+
+a:hover:after {
+width: 100%; 
+left: 0; 
 }
 
 p a {
@@ -572,17 +589,32 @@ p a {
 } */
 
 nav a {
-    padding: 0.1rem 0.3rem;
+    padding: 0.1rem 0.5rem;
     display: inline-block;
     width: auto;
     text-decoration: none;
     color: var(--white);
     text-transform: uppercase;
     border-bottom: 1px solid rgba(0,0,0,0);
+    position: relative;
 }
 
-nav a:hover {
-  border-bottom: 1px solid var(--menu-text);
+nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+nav a:hover:after {
+  width: 100%; 
+  left: 0; 
 }
 
 .menu-links a {
@@ -707,20 +739,20 @@ nav a:hover {
   color: var(--amarillo-claro);
   }
 
-.social-menu {
-  position: relative;
-  top: 125px;
-}
-.social-menu a {
+
+.social a {
+  display: block;
   color: inherit;
   font-size: 1.5rem;
   text-decoration: none;
-  margin-right: 1rem;
+  border-bottom: none;
+  margin: 1rem 0;
   padding: 0 0.2rem;
 }
 
-.social-menu a:hover {
-  color: var(--amarillo-claro);
+.social a:hover {
+  color: var(--orange);
+  border-bottom: none;
 }
 
 .social-menu-mobile a {
@@ -795,6 +827,19 @@ footer nav a {
   color: black;
   border-bottom: 1px solid black;
   font-weight: 200;
+}
+
+.footer-links a {
+  display: block;
+  text-transform: capitalize;
+  margin: .5rem 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.footer-links a:hover {
+  color: var(--orange);
+  border-bottom: none;
 }
 
 /* ------------ Contact Forms  ----------------------- */
@@ -894,12 +939,34 @@ opacity: 0.5;
 
 /* BANNER W/QUOTE */
 
-.banner-quote
+.banner-quote {
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.banner-quote h3 {
+  font-size: 3vw;
+}
 
 /* BORDERS */
 
 .border-r-black {
   border-right: 1px solid var(--dark);
+}
+
+footer hr {
+  border: .1px solid var(--green);
+  width: 100%;
 }
 
 /* FORCED ITEMS */
@@ -920,11 +987,6 @@ opacity: 0.5;
 .show-md,
 .show-sm-flex {
 	display: none; 
-}
-
-.inline { 
-  display: inline-block;
-  vertical-align: top;
 }
 
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
