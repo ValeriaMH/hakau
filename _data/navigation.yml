@@ -1,0 +1,45 @@
+menu:
+  link-1:
+    name: Inicio
+    url: /index
+  link-2:
+    name: Podcast
+    url: https://anchor.fm/ingrid220
+  link-3:
+    name: Ebook
+    url: >-
+      https://www.amazon.com/-/es/dp/B09R4NT863/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=ZQNMAF1FHKBF&keywords=ingrid+carranza&qid=1643149983&s=digital-text&sprefix=ingrid+carranza%2Cdigital-text%2C174&sr=1-1
+  link-4:
+    name: Servicios
+    url: /index#servicios
+  link-5:
+    name: Testimonios
+    url: /index#testimonios
+  link-6:
+    name: Mi Historia
+    url: /index#mi-historia
+  link-7:
+    name: Contacto
+    url: /index#contacto
+social:
+  linkedin: true
+  linkedin-name: Linkedin
+  linkedin_url: https://www.linkedin.com/in/ingrid-carranza/
+  instagram: true
+  instagram-name: Instagram
+  instagram_url: https://www.instagram.com/ingridcarranzamarketing/
+  tik-tok: true
+  tik-tok-name: Tik Tok
+  tik-tok_url: https://www.tiktok.com/@ingridcarranzamarketing
+  youtube: true
+  youtube-name: Youtube
+  youtube_url: https://www.youtube.com/user/KattyCarranza
+  facebook: true
+  facebook-name: Facebook
+  facebook_url: https://www.facebook.com/Ingrid-Carranza-106620277940539
+  pinterest: false
+  pinterest-name: Pinterest
+  pinterest_url:
+  twitter: false
+  twitter-name: Twitter
+  twitter_url:

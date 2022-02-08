@@ -1,0 +1,20 @@
+general:
+  logo_image: /images/ingrid-web2.png
+  logo-size: 85%
+  mobile-logo_image: /images/ingrid-web2.png
+  mobile-logo-size: 60%
+  explore-logo-size: 50%
+technical:
+  adobe-fonts-embed: <link rel="stylesheet" href="https://use.typekit.net/hqq0vnm.css">
+seo:
+  site_name: Ingrid Carranza | Marketing de Contenidos | Marketing Digital
+  title: Ingrid Carranza | Marketing de Contenidos | Marketing Digital
+  description: >-
+    Ayudo a empresas, emprendedores y empleados a monetizar + 
+
+    con estrategias en marketing de contenidos, marketing digital y redes
+    sociales, sin necesidad de invertir grandes presupuestos.
+  keywords:
+    - marketing digital
+    - marketing de contenidos
+    - 'redes sociales '
