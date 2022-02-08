@@ -977,6 +977,12 @@ footer hr {
   left: 5vw;
 }
 
+/* COUNTER */
+
+/* .counter:not(.is-visible) {
+	visibility: hidden;
+} */
+
 
 /* ------------ Responsive Styles ----------------------- */
 
