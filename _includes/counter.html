@@ -2,20 +2,39 @@
 
     <div class="grid">
   
-      <div class="col-12 center padded padded-b-sm">
-        <h3 class="xlarge-text regular line-height-md-3">{{site.data.counter.title }}</h3>
-      </div>
+      {% if page.url contains '/es' %}
 
-      {% for item in site.data.counter.elements %}
-      <div class="{{item.column-size }} center padded" id="{{item.id }}">
-        <img src="{{item.image }}" alt="">
-        <div class="text-4 counter" data-TargetNum="{{item.number }}" data-Speed="2000"></div>
-        <p class="small-text">{{item.description }}</p>
-      </div>
-      {% endfor %}
-      <div class="col-12_sm-12 left padded-t">
-        <p class="xs-text">{{site.data.counter.disclaimer }}</p>
-      </div>
+        <div class="col-12 center padded padded-b-sm">
+          <h3 class="xlarge-text regular line-height-md-3">{{site.data.contador.title }}</h3>
+        </div>
+        {% for item in site.data.contador.elements %}
+        <div class="{{item.column-size }} center padded" id="{{item.id }}">
+          <img src="{{item.image }}" alt="">
+          <div class="text-4 counter" data-TargetNum="{{item.number }}" data-Speed="2000"></div>
+          <p class="small-text">{{item.description }}</p>
+        </div>
+        {% endfor %}
+        <div class="col-12_sm-12 left padded-t">
+          <p class="xs-text">{{site.data.contador.disclaimer }}</p>
+        </div>
+
+      {% else %}
+
+        <div class="col-12 center padded padded-b-sm">
+          <h3 class="xlarge-text regular line-height-md-3">{{site.data.counter.title }}</h3>
+        </div>
+        {% for item in site.data.counter.elements %}
+        <div class="{{item.column-size }} center padded" id="{{item.id }}">
+          <img src="{{item.image }}" alt="">
+          <div class="text-4 counter" data-TargetNum="{{item.number }}" data-Speed="2000"></div>
+          <p class="small-text">{{item.description }}</p>
+        </div>
+        {% endfor %}
+        <div class="col-12_sm-12 left padded-t">
+          <p class="xs-text">{{site.data.counter.disclaimer }}</p>
+        </div>
+
+      {% endif %}
   
     </div>
   
