@@ -30,6 +30,37 @@ hakau-world:
   uku_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
   uku-cta-name: Shop Energy
   uku-cta-url:
+allies:
+  title: Aliados que sostienen al mundo
+  ally_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  ally-alt:
+  product_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  product-cta-name: Shop Juan Products
+  product-cta-url:
+  ally-name: Juan Machica
+  ally-nickname: '"El jefe de los hilos"'
+  ally-hometown: Pitumarca / Cusco
+  ally-description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer 
+  ally-cta-name: CONOCE LA HISTORIA DE JUAN
+  ally-cta-url: /allies
+collections:
+- name: Lifestyle Collection
+  description: Descubre cómo hasta lo más cotidiano puede generar un impacto positivo en la comunidad
+  cta-name: Shop Lifestyle
+  cta-url: /shop-lifestyle
+  small-text: /Kay/
+  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+- name: Energy Collection
+  description: Productos que conectan con tu energía interna
+  cta-name: Shop Energy
+  cta-url: /shop-lifestyle
+  small-text: /Uku/
+  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+final-banner:
+  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  quote: Las profundidades no conocen de kilometros
+  cta-name: Conoce nuestro proposito
+  cta-url: 
 ---
 
 <!------------------------ BANNER & MENU ------------------>
@@ -42,7 +73,7 @@ hakau-world:
       <h2 class="uppercase">{{page.hero-banner-home.quote }}</h2>
       <h1>{{page.hero-banner-home.descriptor }}</h1>
       <div class="margin-t-2">
-        <a href="{{page.hero-banner-home.cta-url }}">{{page.hero-banner-home.cta-name }}</a>
+        <a class="btn" href="{{page.hero-banner-home.cta-url }}">{{page.hero-banner-home.cta-name }}</a>
       </div>
   </div>
   
@@ -98,7 +129,7 @@ hakau-world:
     <div class="col-4_sm-12 padded-sm center">
       <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.hanan_image }}')"></div>
       <div class="margin-t-1 margin-b-1">
-        <a href="{{page.hakau-world.hanan-cta-url }}">{{page.hakau-world.hanan-cta-name }}</a>
+        <a class="btn" href="{{page.hakau-world.hanan-cta-url }}">{{page.hakau-world.hanan-cta-name }}</a>
       </div>
       <p>/Hanan/</p>
     </div>
@@ -127,7 +158,7 @@ hakau-world:
     <div class="col-4_sm-12 padded-sm center">
       <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.kay_image }}')"></div>
       <div class="margin-t-1 margin-b-1">
-        <a href="{{page.hakau-world.kay-cta-url }}">{{page.hakau-world.kay-cta-name }}</a>
+        <a class="btn" href="{{page.hakau-world.kay-cta-url }}">{{page.hakau-world.kay-cta-name }}</a>
       </div>
       <p>/Kay/</p>
     </div>
@@ -156,7 +187,7 @@ hakau-world:
     <div class="col-4_sm-12 padded-sm center">
       <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.uku_image }}')"></div>
       <div class="margin-t-1 margin-b-1">
-        <a href="{{page.hakau-world.uku-cta-url }}">{{page.hakau-world.uku-cta-name }}</a>
+        <a class="btn" href="{{page.hakau-world.uku-cta-url }}">{{page.hakau-world.uku-cta-name }}</a>
       </div>
       <p>/Uku/</p>
     </div>
@@ -167,7 +198,7 @@ hakau-world:
 
 <!--------------------  COUNTER -------------------->
 
-{% include 'counter.html' %}
+{% include counter.html %}
 
 <!--------------------  ALLIES -------------------->
 
@@ -175,38 +206,47 @@ hakau-world:
 
   <div class="grid">
 
-    <div class="col-3 bg-green"></div>
+    <div class="col-3 bg-green padded">
+      <div class="ally-image-neg">
+        <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image:url('{{ page.allies.product_image }}')"></div>
+      </div>
+    </div>
 
     <div class="col-9 grid relative">
   
       <div class="col-12 grid">
         <div class="col-4 border-r-black padded-t"></div>
         <div class="col-8"></div>
-        <div class="col-12 padded-sm padded-l">
-          <h3 class="large-text uppercase">Aliados que sostienen al mundo</h3>
+        <div class="col-12 padded-sm padded-l-5">
+          <h3 class="large-text uppercase">{{page.allies.title }}</h3>
         </div>
         <div class="col-4 border-r-black padded-t"></div>
         <div class="col-8"></div>
       </div>
 
-      <div class="image-link col-6-bottom padded-lg padded-t-20 padded-b">
-        <a href="/shop-juan-machica">
-          <div class="bg-image portrait-md bg-radius-xxxlg"></div>
-        </a>
+      <!-- PRODUCT IMAGE -->
+      <div class="col-6-bottom padded-lg md-padded padded-t-30 padded-b">
+        <div class="hover-container bg-radius-xxxlg" style="background-image:url('{{ page.allies.product_image }}')">
+          <div class="hover-overlay">
+            <div class="hover-inner padded center">
+              <a class="btn" href="{{page.allies.product-cta-url }}">{{page.allies.product-cta-name }}</a>
+            </div>
+          </div>
+        </div>
       </div>
 
+      <!-- ALLY STORY -->
       <div class="col-6 padded-lg">
         <div>
-          <h3 class="uppercase">Juan Machica</h3>
-          <p>"El jefe de los hilos"</p>
-          <p>Pitumarca / Cusco</p>
+          <h3 class="uppercase">{{page.allies.ally-name }}</h3>
+          <p>{{page.allies.ally-nickname }}</p>
+          <p>{{page.allies.ally-hometown }}</p>
         </div>
         <div class="padded-t">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer 
-          </p>
+          <p>{{page.allies.ally-description }}</p>
         </div>
         <div class="margin-t-2">
-          <a href="/allies">CONOCE LA HISTORIA DE JUAN</a>
+          <a class="btn btn-dark" href="{{page.allies.ally-cta-url }}">{{page.allies.ally-cta-name }}</a>
         </div>
       </div>
 
@@ -222,27 +262,21 @@ hakau-world:
 
 <section>
 
-  <div class="grid">
+  <div class="grid padded horizontal-scroll">
 
-    <div class="col-6_sm-12 padded padded-r-sm center">
+    {% for item in page.collections %}
+    <div class="col-6_sm-12 padded-sm center">
       <div class="bg-beige padded-lg">
-        <h3 class="green-text">Lifestyle Collection</h3>
-        <p>Descubre cómo hasta lo más cotidiano puede generar un impacto positivo en la comunidad</p>
-        <a href="/shop-lifestyle">Shop Lifestyle</a>
-        <p class="xs-text">/Kay/</p>
+        <h3 class="green-text">{{item.name }}</h3>
+        <p>{{item.description }}</p>
+        <div class="margin-b-1">
+          <a class="btn btn-green" href="{{item.cta-url }}">{{item.cta-name }}</a>
+        </div>
+        <p class="xs-text">{{item.small-text }}</p>
       </div>
-      <div class="bg-image landscape"></div>
+      <div class="bg-image landscape" style="background-image:url('{{ item.image }}')"></div>
     </div>
-
-    <div class="col-6_sm-12 padded-l-sm padded center">
-      <div class="bg-beige padded-lg">
-        <h3 class="green-text">Energy Collection</h3>
-        <p>Productos que conectan con tu energía interna</p>
-        <a href="/shop-lifestyle">Shop Energy</a>
-        <p class="xs-text">/Uku/</p>
-      </div>
-      <div class="bg-image landscape"></div>
-    </div>
+    {% endfor %}
 
   </div>
 
@@ -250,12 +284,11 @@ hakau-world:
 
 <!-------------------- FINAL QUOTE -------------------->
 
-<section class="bg-image bg-attached tall-100 banner-quote">
+<section class="bg-image bg-attached tall-100 banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
   <div class="capped-width-v-narrow">
-    <h3 class="uppercase line-height-md-3">LAS PROFUNDIDADES
-      NO CONOCEN DE KILÓMETROS</h3>
+    <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
       <div class="margin-t-3">
-        <a href="/why-hakau">Conoce nuestro proposito</a>
+        <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
       </div>
   </div>
 </section>

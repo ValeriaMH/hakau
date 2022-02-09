@@ -5,13 +5,14 @@ elements:
   image:
   description: Puestos de trabajo artesanal creados
   id: counters_1
-- column-size:
-  number:
+- column-size: col-4_sm-12
+  number: 100
   image:
-  description:
+  description: Puestos de trabajo artesanal creados
   id: counters_2
-- column-size:
-  number:
+- column-size: col-4_sm-12
+  number: 250
   image:
-  description:
-  id: counters_2
+  description: Puestos de trabajo artesanal creados
+  id: counters_3
+disclaimer: '*Cifras basadas en los productos y aliados ofrecidos en la web en Abril 2022.'
