@@ -1,0 +1,17 @@
+title: Small changes make<br> a big difference
+elements:
+- column-size: col-4_sm-12
+  number: 547
+  image:
+  description: Puestos de trabajo artesanal creados
+  id: counters_1
+- column-size:
+  number:
+  image:
+  description:
+  id: counters_2
+- column-size:
+  number:
+  image:
+  description:
+  id: counters_2

@@ -180,8 +180,8 @@ img { max-width: 100%; height: auto; }
 .bg-green    { background-color: var(--green); }
 
 .bg-image {
-    background-color: var(--amarillo-claro); /* Set a fall-back color while images are loading */ 
-    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
+    background-color: var(--amarillo-claro); /* Set a fall-back color while images are loading 
+    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600'); */ 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -323,7 +323,7 @@ img { max-width: 100%; height: auto; }
 
 .landscape            { padding-bottom: 66% ; }
 .landscape-md         { padding-bottom: 45% ; }
-.landscape-sm      { padding-bottom: 25% ; }
+.landscape-sm         { padding-bottom: 25% ; }
 .portrait-tall        { padding-bottom: 175%; }
 .portrait-md          { padding-bottom: 140%; }
 .portrait             { padding-bottom: 125%; }
@@ -653,16 +653,16 @@ nav a:hover:after {
   
   .hamburger span {
   width: 25px;
-  border: 1.3px solid var(--negro);
-  background-color: var(--negro);
+  border: 1.3px solid var(--orange);
+  background-color: var(--orange);
   display: block;
   border-radius: 22px;
   transition: 0.8s;
   }
   
   .hamburger.active span {
-  border-color: var(--amarillo);
-  background-color: var(--amarillo);
+  border-color: var(--green);
+  background-color: var(--green);
   }
   
   .burger-top, .burger-bottom {
@@ -924,7 +924,7 @@ opacity: 0.5;
 /* BANNER HOME */
 
 .banner-home {
-  padding: 15% 10% 10% 10%;
+  padding: 12% 10% 10% 10%;
   color: var(--white);
 }
 
@@ -977,11 +977,34 @@ footer hr {
   left: 5vw;
 }
 
-/* COUNTER */
+/* IMAGE LINKS */
 
-/* .counter:not(.is-visible) {
-	visibility: hidden;
-} */
+.image-link a {
+  padding: 0.1rem 0.5rem;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  position: unset;
+}
+
+.image-link a:after {
+  background: unset;
+  content: unset;
+  display: inline-block;
+  height: 100%;
+  position: unset;
+  background: #fff;
+  transition: unset;
+  width: 100%;
+}
+
+.image-link a:hover:after {
+  width: auto; 
+  left: 0; 
+}
 
 
 /* ------------ Responsive Styles ----------------------- */

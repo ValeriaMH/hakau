@@ -7,19 +7,42 @@ seo:
   keywords:
     - sustainable ecommerce
   hide-from-google: true
+hero-banner-home:
+  banner_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  quote: Discover a counscious Peru
+  descriptor: Hakau is a fair trade sustainable e-commerce
+  cta-name: Go to shop
+  cta-url: /shop
+hakau-world:
+  what-is-hakau: What is Hakau?
+  hanan-p1: En la mitología Inca, el Hanan Pacha era el mundo de arriba, de los dioses y era gobernado por el cóndor.
+  hanan-p2: Para HAKAU, es el resultado de ese viaje consciente, que nos conecta a nuestras raíces.
+  hanan_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  hanan-cta-name: Shop crafts
+  hanan-cta-url:
+  kay-p1: El Kay Pacha representaba el aquí y ahora, el mundo terrenal que era gobernado por el puma.
+  kay-p2: En HAKAU materializamos la sabiduría de nuestros ancestros en productos de la vida diaria.
+  kay_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  kay-cta-name: Shop Lifestyle
+  kay-cta-url:
+  uku-p1: Uku Pacha o el mundo de abajo, lo de adentro, que es representado por la serpiente.
+  uku-p2: En HAKAU nos conectamos con lo profundo a través de productos que nos llenen de energía.
+  uku_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  uku-cta-name: Shop Energy
+  uku-cta-url:
 ---
 
 <!------------------------ BANNER & MENU ------------------>
 
-<header class="bg-image tall-100">
+<header class="bg-image tall-100 tall-60-sm bg-pos-t" style="background-image:url('{{ page.hero-banner-home.banner_image }}')">
 
   {% include header-nav.html %}
   
   <div class="banner-home center capped-width-narrow">
-      <h2 class="uppercase">Discover a counscious Peru</h2>
-      <h1>Hakau is a fair trade sustainable e-commerce</h1>
+      <h2 class="uppercase">{{page.hero-banner-home.quote }}</h2>
+      <h1>{{page.hero-banner-home.descriptor }}</h1>
       <div class="margin-t-2">
-        <a href="/shop">Ir a la tienda</a>
+        <a href="{{page.hero-banner-home.cta-url }}">{{page.hero-banner-home.cta-name }}</a>
       </div>
   </div>
   
@@ -46,7 +69,7 @@ seo:
     <div class="col-6"></div>
 
     <div class="col-12 center padded">
-      <h3 class="large-text uppercase">What is Hakau?</h3>
+      <h3 class="large-text uppercase editable">{{page.hakau-world.what-is-hakau }}</h3>
     </div>
 
     <div class="col-6 border-r-black padded-t-lg"></div>
@@ -61,21 +84,21 @@ seo:
 
   <div class="grid-middle white-text">
 
-    <div class="col-4 padded-sm">
-      <h4 class="uppercase">Hanan</h4>
-      <p>En la mitología Inca, el Hanan Pacha era el mundo de arriba, de los dioses y era gobernado por el cóndor.</p>
-      <p>Para HAKAU, es el resultado de ese viaje consciente, que nos conecta a nuestras raíces.</p>
+    <div class="col-4_sm-12 padded-sm">
+      <h4 class="uppercase editable">Hanan</h4>
+      <p>{{page.hakau-world.hanan-p1 }}</p>
+      <p>{{page.hakau-world.hanan-p2 }}</p>
     </div>
 
-    <div class="col-4 padded-sm center">
+    <div class="col-4_sm-12 padded-sm center">
       <img src="" alt="">
       <p class="text-4">HA</p>
     </div>
 
-    <div class="col-4 padded-sm center">
-      <div class="bg-image bg-radius-xxlg landscape-md"></div>
+    <div class="col-4_sm-12 padded-sm center">
+      <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.hanan_image }}')"></div>
       <div class="margin-t-1 margin-b-1">
-        <a href="/shop-crafts">Shop Crafts</a>
+        <a href="{{page.hakau-world.hanan-cta-url }}">{{page.hakau-world.hanan-cta-name }}</a>
       </div>
       <p>/Hanan/</p>
     </div>
@@ -90,21 +113,21 @@ seo:
 
   <div class="grid-middle white-text">
 
-    <div class="col-4 padded-sm">
-      <h4 class="uppercase">Kay</h4>
-      <p>El Kay Pacha representaba el aquí y ahora, el mundo terrenal que era gobernado por el puma.</p>
-      <p>En HAKAU materializamos la sabiduría de nuestros ancestros en productos de la vida diaria.</p>
+    <div class="col-4_sm-12 padded-sm">
+      <h4 class="uppercase editable">Kay</h4>
+      <p>{{page.hakau-world.kay-p1 }}</p>
+      <p>{{page.hakau-world.kay-p2 }}</p>
     </div>
 
-    <div class="col-4 padded-sm center">
+    <div class="col-4_sm-12 padded-sm center">
       <img src="" alt="">
       <p class="text-4">KA</p>
     </div>
 
-    <div class="col-4 padded-sm center">
-      <div class="bg-image bg-radius-xxlg landscape-md"></div>
+    <div class="col-4_sm-12 padded-sm center">
+      <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.kay_image }}')"></div>
       <div class="margin-t-1 margin-b-1">
-        <a href="/shop-lifestyle">Shop Lifestyle</a>
+        <a href="{{page.hakau-world.kay-cta-url }}">{{page.hakau-world.kay-cta-name }}</a>
       </div>
       <p>/Kay/</p>
     </div>
@@ -119,21 +142,21 @@ seo:
 
   <div class="grid-middle white-text">
 
-    <div class="col-4 padded-sm">
-      <h4 class="uppercase">Kay</h4>
-      <p>Uku Pacha o el mundo de abajo, lo de adentro, que es representado por la serpiente.</p>
-      <p>En HAKAU nos conectamos con lo profundo a través de productos que nos llenen de energía.</p>
+    <div class="col-4_sm-12 padded-sm">
+      <h4 class="uppercase editable">Uku</h4>
+      <p>{{page.hakau-world.uku-p1 }}</p>
+      <p>{{page.hakau-world.uku-p2 }}</p>
     </div>
 
-    <div class="col-4 padded-sm center">
+    <div class="col-4_sm-12 padded-sm center">
       <img src="" alt="">
       <p class="text-4">U</p>
     </div>
 
-    <div class="col-4 padded-sm center">
-      <div class="bg-image bg-radius-xxlg landscape-md"></div>
+    <div class="col-4_sm-12 padded-sm center">
+      <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.uku_image }}')"></div>
       <div class="margin-t-1 margin-b-1">
-        <a href="/shop-lifestyle">Shop Energy</a>
+        <a href="{{page.hakau-world.uku-cta-url }}">{{page.hakau-world.uku-cta-name }}</a>
       </div>
       <p>/Uku/</p>
     </div>
@@ -144,35 +167,7 @@ seo:
 
 <!--------------------  COUNTER -------------------->
 
-<section class="bg-beige padded green-text">
-
-  <div class="grid">
-
-    <div class="col-12 center padded padded-b-sm">
-      <h3 class="xlarge-text regular line-height-md-3">Small changes make<br> a big difference</h3>
-    </div>
-    <div class="col-4 center padded">
-      <img src="" alt="">
-      <span class="text-4 counter">547</span>
-      <p class="small-text">Puestos de trabajo artesanal creados</p>
-    </div>
-    <div class="col-4 center padded">
-      <img src="" alt="">
-      <span class="text-4 counter">547</span>
-      <p class="small-text">Puestos de trabajo artesanal creados</p>
-    </div>
-    <div class="col-4 center padded">
-      <img src="" alt="">
-      <span class="text-4 counter">547</span>
-      <p class="small-text">Puestos de trabajo artesanal creados</p>
-    </div>
-    <div class="col-12 left padded-t">
-      <p class="xs-text">*Cifras basadas en los productos y aliados ofrecidos en la web en Abril 2022.</p>
-    </div>
-
-  </div>
-
-</section>
+{% include 'counter.html' %}
 
 <!--------------------  ALLIES -------------------->
 
@@ -194,7 +189,7 @@ seo:
         <div class="col-8"></div>
       </div>
 
-      <div class="col-6-bottom padded-lg padded-t-20 padded-b">
+      <div class="image-link col-6-bottom padded-lg padded-t-20 padded-b">
         <a href="/shop-juan-machica">
           <div class="bg-image portrait-md bg-radius-xxxlg"></div>
         </a>
