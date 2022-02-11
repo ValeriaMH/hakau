@@ -1050,8 +1050,14 @@ footer hr {
 /* CLIP PATH STYLES */
 
 .clip-circle {
-  clip-path: circle(50% at 50% 50%);
-  border: 1px solid var(--green);
+  border-radius: 100%;
+  border: 2px solid var(--green);
+  shape-outside: circle(50% at 0% 20%);
+  /* transform: rotate(-10deg); */
+}
+
+.text-circle {  
+  shape-outside: circle(50% at 0% 20%);
 }
 
 /* ------------ Responsive Styles ----------------------- */
