@@ -413,6 +413,7 @@ p:last-child {
 .xlarge-text { font-size: 2.5rem; }
 .xxlarge-text { font-size: 3rem; }
 .text-4 { font-size: 4rem; }
+.text-8 { font-size: 8rem; }
 
 /* Font weights */
 
@@ -521,9 +522,9 @@ a {
   padding: 0.1rem 0.5rem;
   display: inline-block;
   text-decoration: none;
-  color: var(--white);
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0,0,0,0);
+  color: var(--white);
 }
 
 a:hover {
@@ -607,16 +608,27 @@ p a {
 
 nav a {
     padding: 0.1rem 0.5rem;
-    display: inline-block;
-    width: auto;
     text-decoration: none;
-    color: var(--white);
     text-transform: uppercase;
     border-bottom: 1px solid rgba(0,0,0,0);
-    position: relative;
+    color: var(--white);
 }
 
-nav a:after {
+.menu-links a,
+.menu-links-dark a {
+  padding: 0.1rem 0.5rem;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  position: relative;
+  margin: 0 1.5rem;
+}
+
+.menu-links a:after,
+.menu-links-dark a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -624,18 +636,23 @@ nav a:after {
   height: 1px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: var(--white);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 
-nav a:hover:after {
+.menu-links a:hover:after,
+.menu-links-dark a:hover:after {
   width: 100%; 
   left: 0; 
 }
 
-.menu-links a {
-  margin: 0 1.5rem;
+.menu-links-dark a {
+  color: var(--dark);
+}
+
+.menu-links-dark a:after {
+  background: var(--dark);
 }
 
 .logo {
@@ -1029,6 +1046,13 @@ footer hr {
   transform: translateY(-50%);
 }
 
+
+/* CLIP PATH STYLES */
+
+.clip-circle {
+  clip-path: circle(50% at 50% 50%);
+  border: 1px solid var(--green);
+}
 
 /* ------------ Responsive Styles ----------------------- */
 

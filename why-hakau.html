@@ -1,0 +1,257 @@
+---
+layout: default
+seo:
+  title: Why Hakau | Hakau
+  description:
+  social_image:
+  keywords:
+    - sustainable ecommerce
+  hide-from-google: true
+hero-banner:
+  background: bg-beige
+  title: Why Hakau?
+  description-1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad, quasi saepe adipisci deleniti necessitatibus placeat consequuntur, expedita, unde quae tempora animi! Fugiat aspernatur accusantium dolorum facere consequatur.
+  description-2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad, quasi saepe adipisci deleniti necessitatibus placeat consequuntur, expedita, unde quae tempora animi! Fugiat aspernatur accusantium dolorum facere consequatur.
+final-banner:
+  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  quote: Las profundidades no conocen de kilometros
+  cta-name: Conoce nuestro proposito
+  cta-url: 
+---
+
+<!------------------------ BANNER & MENU ------------------>
+
+<header class="bg-beige tall-100 tall-60-sm">
+
+  {% include header-nav.html %}
+  
+  <div class="grid padded">
+    <div class="col-6-top">
+      <h1 class="uppercase green-text text-8 line-height-md-2">{{page.hero-banner.title }}</h1>
+    </div>
+    <div class="col-6-bottom padded-lg padded-b-0">
+      <p class="dark-text">{{page.hero-banner.description-1 }}</p>
+      <p class="dark-text">{{page.hero-banner.description-2 }}</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="col-8">
+      <div class="bg-green clip-circle"></div>
+    </div>
+  </div>
+
+</header>
+
+<!--------------------  MOBILE MENU -------------------->
+
+<div class="hamburger show-sm">
+  <span class="burger-top"></span>
+  <span class="burger-middle"></span>
+  <span class="burger-bottom"></span>
+</div>
+
+{% include mobile-menu.html %}
+
+<!--------------------  WHAT IS HAKAU -------------------->
+
+<section class="padded-b">
+  
+  <div class="grid capped-width-v-narrow relative padded-t">
+
+    <div class="col-6 border-r-black padded-t-lg"></div>
+    <div class="col-6"></div>
+
+    <div class="col-12 center padded">
+      <h3 class="large-text uppercase editable">{{page.hakau-world.what-is-hakau }}</h3>
+    </div>
+
+    <div class="col-6 border-r-black padded-t-lg"></div>
+    <div class="col-6"></div>
+  </div>
+
+</section>
+
+<!--------------------  HANAN -------------------->
+
+<section class="bg-orange padded padded-tb-sm">
+
+  <div class="grid-middle white-text">
+
+    <div class="col-4_sm-12 padded-sm">
+      <h4 class="uppercase editable">Hanan</h4>
+      <p>{{page.hakau-world.hanan-p1 }}</p>
+      <p>{{page.hakau-world.hanan-p2 }}</p>
+    </div>
+
+    <div class="col-4_sm-12 padded-sm center">
+      <img src="" alt="">
+      <p class="text-4">HA</p>
+    </div>
+
+    <div class="col-4_sm-12 padded-sm center">
+      <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.hanan_image }}')"></div>
+      <div class="margin-t-1 margin-b-1">
+        <a class="btn" href="{{page.hakau-world.hanan-cta-url }}">{{page.hakau-world.hanan-cta-name }}</a>
+      </div>
+      <p>/Hanan/</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!--------------------  KAY -------------------->
+
+<section class="bg-green padded padded-tb-sm">
+
+  <div class="grid-middle white-text">
+
+    <div class="col-4_sm-12 padded-sm">
+      <h4 class="uppercase editable">Kay</h4>
+      <p>{{page.hakau-world.kay-p1 }}</p>
+      <p>{{page.hakau-world.kay-p2 }}</p>
+    </div>
+
+    <div class="col-4_sm-12 padded-sm center">
+      <img src="" alt="">
+      <p class="text-4">KA</p>
+    </div>
+
+    <div class="col-4_sm-12 padded-sm center">
+      <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.kay_image }}')"></div>
+      <div class="margin-t-1 margin-b-1">
+        <a class="btn" href="{{page.hakau-world.kay-cta-url }}">{{page.hakau-world.kay-cta-name }}</a>
+      </div>
+      <p>/Kay/</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!--------------------  UKU -------------------->
+
+<section class="bg-dark padded padded-tb-sm">
+
+  <div class="grid-middle white-text">
+
+    <div class="col-4_sm-12 padded-sm">
+      <h4 class="uppercase editable">Uku</h4>
+      <p>{{page.hakau-world.uku-p1 }}</p>
+      <p>{{page.hakau-world.uku-p2 }}</p>
+    </div>
+
+    <div class="col-4_sm-12 padded-sm center">
+      <img src="" alt="">
+      <p class="text-4">U</p>
+    </div>
+
+    <div class="col-4_sm-12 padded-sm center">
+      <div class="bg-image bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.uku_image }}')"></div>
+      <div class="margin-t-1 margin-b-1">
+        <a class="btn" href="{{page.hakau-world.uku-cta-url }}">{{page.hakau-world.uku-cta-name }}</a>
+      </div>
+      <p>/Uku/</p>
+    </div>
+
+  </div>
+
+</section>
+
+<!--------------------  COUNTER -------------------->
+
+{% include counter.html %}
+
+<!--------------------  ALLIES -------------------->
+
+<section>
+
+  <div class="grid">
+
+    <div class="col-3 bg-green padded">
+      <div class="ally-image-neg">
+        <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image:url('{{ page.allies.product_image }}')"></div>
+      </div>
+    </div>
+
+    <div class="col-9 grid relative">
+  
+      <div class="col-12 grid">
+        <div class="col-4 border-r-black padded-t"></div>
+        <div class="col-8"></div>
+        <div class="col-12 padded-sm padded-l-5">
+          <h3 class="large-text uppercase">{{page.allies.title }}</h3>
+        </div>
+        <div class="col-4 border-r-black padded-t"></div>
+        <div class="col-8"></div>
+      </div>
+
+      <!-- PRODUCT IMAGE -->
+      <div class="col-6-bottom padded-lg md-padded padded-t-30 padded-b">
+        <div class="hover-container bg-radius-xxxlg" style="background-image:url('{{ page.allies.product_image }}')">
+          <div class="hover-overlay">
+            <div class="hover-inner padded center">
+              <a class="btn" href="{{page.allies.product-cta-url }}">{{page.allies.product-cta-name }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALLY STORY -->
+      <div class="col-6 padded-lg">
+        <div>
+          <h3 class="uppercase">{{page.allies.ally-name }}</h3>
+          <p>{{page.allies.ally-nickname }}</p>
+          <p>{{page.allies.ally-hometown }}</p>
+        </div>
+        <div class="padded-t">
+          <p>{{page.allies.ally-description }}</p>
+        </div>
+        <div class="margin-t-2">
+          <a class="btn btn-dark" href="{{page.allies.ally-cta-url }}">{{page.allies.ally-cta-name }}</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!--------------------  BEST SELLERS -------------------->
+
+<!-------------------- SHOP COLLECTIONS -------------------->
+
+<section>
+
+  <div class="grid padded horizontal-scroll">
+
+    {% for item in page.collections %}
+    <div class="col-6_sm-12 padded-sm center">
+      <div class="bg-beige padded-lg">
+        <h3 class="green-text">{{item.name }}</h3>
+        <p>{{item.description }}</p>
+        <div class="margin-b-1">
+          <a class="btn btn-green" href="{{item.cta-url }}">{{item.cta-name }}</a>
+        </div>
+        <p class="xs-text">{{item.small-text }}</p>
+      </div>
+      <div class="bg-image landscape" style="background-image:url('{{ item.image }}')"></div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</section>
+
+<!-------------------- FINAL QUOTE -------------------->
+
+<section class="bg-image bg-attached tall-100 banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
+  <div class="capped-width-v-narrow">
+    <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
+      <div class="margin-t-3">
+        <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
+      </div>
+  </div>
+</section>
