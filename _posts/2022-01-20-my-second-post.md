@@ -1,10 +1,10 @@
 ---
 layout: post-with-sidebar
-title: My first Post
+title: My second Post
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-author: Astrid
+author: Lu
 categories:
-  - category1
+  - category3
 featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
 comments: true
 seo:

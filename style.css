@@ -1232,6 +1232,27 @@ footer hr {
   text-decoration: none;
 }
 
+.blog-card .card-inner {
+  padding: 5% 10%;
+  padding-top: 100%;
+  background: rgb(65,65,77);
+  background: linear-gradient(0deg, rgba(42,42,50,0.8) 0%, rgba(42,42,50,0) 70%);
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+.blog-card {
+  border-radius: 10px;
+}
+
+.blog-card .card-inner .tag {
+  text-transform: uppercase;
+}
+
+[class*="grid"].post-item {
+  padding: 2.5%;
+}
+
 
 /* Individual Elements */
 
@@ -1336,6 +1357,40 @@ hr.long {
   width: 97%;
   margin: 1rem;
   opacity: 0.5;
+}
+
+/* BLOG FILTERS */
+
+.filter { 
+  position: relative; 
+  display: block;
+}
+
+.filter-title {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.filter-content {
+  position: absolute;
+  top: 100%;
+  left: 2.5%;
+  width: 10rem;
+  padding: .5rem 0;
+  margin-top: .1rem;
+  display:none; 
+  background-color: var(--white);
+  z-index: 2;
+}
+
+.filter:hover .filter-content{ 
+  display: block;
+  cursor: pointer;
+}
+
+.filter-content span {
+  display: block;
+  margin: .5rem 0;
 }
 
 /* ------------ Responsive Styles ----------------------- */
