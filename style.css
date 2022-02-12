@@ -194,6 +194,13 @@ img { max-width: 100%; height: auto; }
   margin-left: -5%;
 }
 
+.margin-contact-neg {
+  margin-left: -20%;
+}
+.margin-contact-neg2 {
+  margin-left: 10%;
+}
+
 .margin-all {
   margin: 1rem;
 }
@@ -784,6 +791,36 @@ nav a {
   border-bottom: none;
 }
 
+.social-contact {
+  position: absolute;
+  top: 0;
+  right: -12%;
+  color: var(--dark);
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-bottom: none;
+  margin: .5rem 0;
+  padding: 0 0.2rem;
+}
+
+.social-contact li {
+  list-style-type: none;
+  line-height: .8;
+}
+
+.social-contact a {
+  color: var(--dark);
+  font-size: 1.1rem;
+  margin: .05rem 0rem;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.social-contact a:hover {
+  color: var(--orange);
+  border-bottom: none;
+}
+
 .social-menu-mobile a {
   color: inherit;
   font-size: 1.5rem;
@@ -882,16 +919,38 @@ form textarea {
   outline: none;
   font-family: inherit;
   font-size: 0.9rem;
-  border-radius: 5px;
 }
 
 form input:focus,
 form textarea:focus {
-  border-color: var(--fresa);
+  border-color: var(--orange);
 }
 
 textarea {
   min-height: 6rem;
+}
+
+.contact form .btn {
+  width:100%;
+  margin-top: 0.65rem;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border: 1px solid var(--orange);
+/* featured color */
+}
+
+.contact input {
+  border: 1px solid var(--orange);
+}
+
+.contact textarea {
+  width: 100%;
+  border: 1px solid var(--orange);
+  font-size: 0.9rem;
+  padding: 1rem;
 }
 
 .form-style-sm textarea {
@@ -915,7 +974,7 @@ textarea {
   font-size: 1rem;
   border: 1px solid var(--amarillo);
 }
-form .button {
+form .btn {
   width:100%;
 }
 
