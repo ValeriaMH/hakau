@@ -115,8 +115,9 @@ img { max-width: 100%; height: auto; }
 .padded-r-2 { padding-right: 2rem; }
 
 .padded-l-5 { padding-left: 5rem; }
-.padded-l-lg { padding-left: 15%; }
+.padded-l-lg { padding-left: 10%; }
 .padded-r-10 { padding-right: 10rem; }
+.padded-r-md { padding-right: 7%; }
 .padded-r-lg { padding-right: 10%; }
 .padded-r-xlg { padding-right: 15%; }
 .padded-r-20 { padding-right: 20%; }
@@ -166,6 +167,16 @@ img { max-width: 100%; height: auto; }
 .margin-t-negative-2 { margin-top: -6%; }
 
 .margin-t-negative-3 { margin-top: -15%; }
+
+.margin-founders-neg1 {
+  margin-top: -20%;
+  margin-left: 5%;
+}
+
+.margin-founders-neg2 {
+  margin-top: -20%;
+  margin-left: -5%;
+}
 
 .margin-all {
   margin: 1rem;
@@ -1058,6 +1069,12 @@ footer hr {
 
 .text-circle {  
   shape-outside: circle(50% at 0% 20%);
+}
+
+.ladder-clip {
+  clip-path: polygon(0 0, 33% 0, 33% 33%, 66% 33%, 66% 66%, 100% 66%, 100% 100%, 0 100%);
+  background-color: var(--dark);
+  padding-bottom: 100%;
 }
 
 /* ------------ Responsive Styles ----------------------- */
