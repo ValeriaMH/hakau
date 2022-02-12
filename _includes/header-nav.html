@@ -4,7 +4,7 @@
             <img src="{{ site.data.site-settings.general.logo_image }}" />
         </a>
     </div>
-    <div class="{% if page.hero-banner.background == 'bg-beige' %}menu-links-dark{% else %} menu-links{% endif %} col-8_md-7 padded-r-2 padded-t-2 hide-sm">
+    <div class="{% if page.hero-banner.background == 'bg-beige' or 'bg-white' %}menu-links-dark{% else %} menu-links{% endif %} col-8_md-7 padded-r-2 padded-t-2 hide-sm">
             <a href="{{ site.data.navigation.menu.link-2.url }}">{{ site.data.navigation.menu.link-2.name }}</a>
             <a href="{{ site.data.navigation.menu.link-3.url }}">{{ site.data.navigation.menu.link-3.name }}</a>
             <a href="{{ site.data.navigation.menu.link-4.url }}">{{ site.data.navigation.menu.link-4.name }}</a>

@@ -1,0 +1,143 @@
+---
+layout: default
+seo:
+  title: Allies | Hakau
+  description:
+  social_image:
+  keywords:
+    - sustainable ecommerce
+  hide-from-google: true
+hero-banner:
+  banner1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  banner2_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  background: bg-white
+  title: Get to know our allies
+  description-1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad.
+allies:
+  ally1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  product1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  product1-cta-name: Shop ally products
+  product1-cta-url:
+  ally1-name: Juan Machica
+  ally1-nickname: El jefe de los hilos
+  ally1-hometown: Pitumarca / Cusco
+  ally1-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad.
+gallery:
+  title: Aliados que sostienen al mundo
+become-ally:
+  title: Become an ally
+  description: We work with small businesses and support local economy
+  cta-name: Be part of the Hakau Family
+  cta-url:
+---
+
+<!------------------------ BANNER & MENU ------------------>
+
+<header class="bg-white tall-100 tall-60-sm">
+
+  {% include header-nav.html %}
+  
+  <div class="grid padded">
+    <div class="col-6 padded-r">
+      <div class="bg-image portrait" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
+    </div>
+    <div class="col-6 padded-xlg padded-t center">
+      <h1 class="text-4 line-height-md-2 margin-b-2">{{page.hero-banner.title }}</h1>
+      <p class="dark-text">{{page.hero-banner.description-1 }}</p>
+    </div>
+  </div>
+
+</header>
+
+<!--------------------  MOBILE MENU -------------------->
+
+<div class="hamburger show-sm">
+  <span class="burger-top"></span>
+  <span class="burger-middle"></span>
+  <span class="burger-bottom"></span>
+</div>
+
+{% include mobile-menu.html %}
+
+<!--------------------  ALLIES -------------------->
+  
+<section>
+
+  <div class="grid padded">
+
+    <div class="col-12 grid">
+
+      <div class="col-8_sm-12 grid">
+
+        <div class="col-6 padded-lg padded-r-0 padded-t-0">
+          <div class="bg-image portrait-md bg-radius-200" style="background-image:url('{{ page.allies.ally1_image }}')"></div>
+        </div>
+
+        <div class="col-6-bottom padded-lg padded-l-0 md-padded padded-t padded-b margin-allies-neg">
+          <div class="hover-container bg-radius-200" style="background-image:url('{{ page.allies.product1_image }}')">
+            <div class="hover-overlay">
+              <div class="hover-inner center padded">
+                <a class="btn" href="{{page.allies.product1-cta-url }}">{{page.allies.product1-cta-name }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ALLY STORY -->
+      <div class="col-4_sm-12 padded padded-l-0">
+        <div>
+          <h3 class="uppercase">{{page.allies.ally1-name }}</h3>
+          <p>{{page.allies.ally1-nickname }}</p>
+          <p>{{page.allies.ally1-hometown }}</p>
+        </div>
+        <div class="padded-t">
+          <p>{{page.allies.ally1-description }}</p>
+        </div>
+        <div class="margin-t-2">
+          <a class="btn btn-dark" href="{{page.allies.ally1-cta-url }}">{{page.allies.ally1-cta-name }}</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+<!--------------------  BECOME AN ALLY -------------------->
+
+<section>
+  <div class="bg-orange white-text padded-md center">
+    <div class="capped-width-v-narrow">
+      <h3 class="xlarge-text line-height-md-2">{{page.become-ally.title }}</h3>
+      <p>{{page.become-ally.description }}</p>
+      <div class="margin-t-3">
+        <a class="btn" href="{{page.become-ally.cta-url }}">{{page.become-ally.cta-name }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--------------------  GALLERY TITLE -------------------->
+
+<section class="padded-b">
+  
+  <div class="grid capped-width-v-narrow relative padded-t">
+
+    <div class="col-6 border-r-black padded-t-lg"></div>
+    <div class="col-6"></div>
+
+    <div class="col-12 center padded">
+      <h3 class="large-text uppercase editable">{{page.gallery.title }}</h3>
+    </div>
+
+    <div class="col-6 border-r-black padded-t-lg"></div>
+    <div class="col-6"></div>
+  </div>
+
+</section>
