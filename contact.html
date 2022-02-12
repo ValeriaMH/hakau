@@ -79,21 +79,23 @@ gallery-items:
 
     <div class="col-5 padded orange-text">
       <h2 class="text-4 line-height-md-2 margin-b-2">{{page.hero-banner.title }}</h2>
-      <h1 class="uppercase margin-t-3">{{page.hero-banner.description-1 }}</h1>
+      <h1 class="uppercase margin-t-5">{{page.hero-banner.description-1 }}</h1>
       <!-- CONTACT FORM -->
-      <div class="grid contact">
+      <div class="grid contact padded-t">
         
         <div class="col-12">
           <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
-            <div class="col-12">
+            <div class="col-12 name-border">
               <input type="text" name="name" placeholder="Your Name">
             </div>
-            <div class="col-12">
+            <div class="col-12 email-border">
               <input type="email" name="_replyto" placeholder="Your Email">
             </div>
             <div class="col-12">
               <textarea placeholder="Hi, I'd like to be part of Hakau..."></textarea>
-              <input type="submit" value="Send" class="btn btn-orange">
+            </div>
+            <div class="col-12">
+              <input type="submit" value="Send" class="btn-contact">
             </div>
           </form>
         </div>
@@ -175,171 +177,29 @@ gallery-items:
 
 {% include mobile-menu.html %}
 
-<!--------------------  ALLIES -------------------->
-  
-<section>
-
-  <div class="grid padded">
-
-    <!-- ALLY 1 -->
-    <div class="col-12 grid">
-
-      <div class="col-8_sm-12 grid">
-
-        <div class="col-6 padded-lg padded-r-0 padded-t-0">
-          <div class="bg-image portrait-md bg-radius-200" style="background-image:url('{{ page.allies.ally1_image }}')"></div>
-        </div>
-
-        <div class="col-6-bottom padded-lg padded-l-0 md-padded padded-t padded-b margin-allies-neg">
-          <div class="hover-container portrait-md bg-radius-200" style="background-image:url('{{ page.allies.product1_image }}')">
-          </div>
-        </div>
-
-      </div>
-
-      <!-- ALLY STORY -->
-      <div class="col-4_sm-12 padded padded-l-0">
-        <div>
-          <h3 class="uppercase">{{page.allies.ally1-name }}</h3>
-          <p>{{page.allies.ally1-nickname }}</p>
-          <p>{{page.allies.ally1-hometown }}</p>
-        </div>
-        <div class="padded-t">
-          <p>{{page.allies.ally1-description }}</p>
-        </div>
-        <div class="margin-t-2">
-          <a class="btn btn-dark" href="{{page.allies.ally1-cta-url }}">{{page.allies.ally1-cta-name }}</a>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- ALLY 2 -->
-    <div class="col-12 grid">
-
-      <!-- ALLY STORY -->
-      <div class="col-4_sm-12 padded padded-r-0 padded-t-lg">
-        <div>
-          <h3 class="uppercase">{{page.allies.ally2-name }}</h3>
-          <p>{{page.allies.ally2-nickname }}</p>
-          <p>{{page.allies.ally2-hometown }}</p>
-        </div>
-        <div class="padded-t">
-          <p>{{page.allies.ally2-description }}</p>
-        </div>
-        <div class="margin-t-2">
-          <a class="btn btn-dark" href="{{page.allies.ally2-cta-url }}">{{page.allies.ally2-cta-name }}</a>
-        </div>
-      </div>
-
-      <!-- ALLY IMAGES -->
-      <div class="col-8_sm-12 grid">
-
-        <div class="col-6-bottom padded-lg padded-r-0 md-padded padded-t-lg padded-b margin-allies-neg2">
-          <div class="hover-container portrait-md bg-radius-200" style="background-image:url('{{ page.allies.product2_image }}')">
-          </div>
-        </div>
-
-        <div class="col-6 padded-lg padded-l-0 padded-t-lg">
-          <div class="bg-image portrait-md bg-radius-200" style="background-image:url('{{ page.allies.ally2_image }}')"></div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- ALLY 3 -->
-    <div class="col-12 grid">
-
-      <div class="col-8_sm-12 grid">
-
-        <div class="col-6 padded-lg padded-r-0 padded-t-lg">
-          <div class="bg-image portrait-md bg-radius-200" style="background-image:url('{{ page.allies.ally3_image }}')"></div>
-        </div>
-
-        <div class="col-6-bottom padded-lg padded-l-0 md-padded padded-t-lg padded-b margin-allies-neg3">
-          <div class="hover-container portrait-md bg-radius-200" style="background-image:url('{{ page.allies.product3_image }}')">
-          </div>
-        </div>
-
-      </div>
-
-      <!-- ALLY STORY -->
-      <div class="col-4_sm-12 padded padded-l-0 padded-t-lg">
-        <div>
-          <h3 class="uppercase">{{page.allies.ally3-name }}</h3>
-          <p>{{page.allies.ally3-nickname }}</p>
-          <p>{{page.allies.ally3-hometown }}</p>
-        </div>
-        <div class="padded-t">
-          <p>{{page.allies.ally3-description }}</p>
-        </div>
-        <div class="margin-t-2">
-          <a class="btn btn-dark" href="{{page.allies.ally3-cta-url }}">{{page.allies.ally3-cta-name }}</a>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-</section>
-
-
-<!--------------------  BECOME AN ALLY -------------------->
+<!--------------------  FAQ -------------------->
 
 <section class="padded-t-lg">
-  <div class="bg-orange white-text padded-md center">
-    <div class="capped-width-v-narrow">
-      <h3 class="xlarge-text line-height-md-2">{{page.become-ally.title }}</h3>
-      <p>{{page.become-ally.description }}</p>
-      <div class="margin-t-3">
-        <a class="btn" href="{{page.become-ally.cta-url }}">{{page.become-ally.cta-name }}</a>
+
+  <div class="grid padded padded-lg bg-orange">
+
+    <div class="col-12 padded white-text">
+        <h3 class="xxlarge-text center">
+            Frequently Asked Questions
+        </h3>
+        <dl class="accordion padded-lg padded-b-0">
+  
+          {% for item in site.data.frequent-questions %}
+  
+          <dt> {{item.question }}</dt>
+          <dd> {{%item.answer %}}</dd>
+        
+          {% endfor %}
+        
+        </dl>
       </div>
-    </div>
-  </div>
-</section>
-
-<!--------------------  GALLERY TITLE -------------------->
-
-<section class="padded-b">
-  
-  <div class="grid capped-width-v-narrow relative padded-t">
-
-    <div class="col-6 border-r-black padded-t-lg"></div>
-    <div class="col-6"></div>
-
-    <div class="col-12 center padded">
-      <h3 class="large-text uppercase editable">{{page.gallery.title }}</h3>
-      <p>{{page.gallery.description }}</p>
-    </div>
-
-    <div class="col-6 border-r-black padded-t-lg"></div>
-    <div class="col-6"></div>
+    
+    
   </div>
 
-</section>
-
-<!--------------------  POP UP GALLERY -------------------->
-
-<section class="padded center padded-t-1">
-
-  <div class="gallery grid-center padded-1" id="lightgallery">
-
-    {% for item in page.gallery-items %}
-    <a class="{{item.column-size }}" href="{{item.popup_image }}">
-        <div class="hover-container-gallery" style="background-image:url('{{item.background_image }}')">
-            <div class="hover-overlay-gallery">
-                <div class="hover-inner-gallery">
-                    <h4> {{item.text-hover}} </h4>
-                </div>
-            </div>
-        </div>
-    </a>
-    {% endfor %}
-
-  </div>
-  
 </section>
