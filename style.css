@@ -183,6 +183,17 @@ img { max-width: 100%; height: auto; }
   margin-left: -5%;
 }
 
+.margin-allies-neg2 {
+  margin-top: 25%;
+  margin-right: -5%;
+  margin-left: 5%;
+}
+
+.margin-allies-neg3 {
+  margin-top: 25%;
+  margin-left: -5%;
+}
+
 .margin-all {
   margin: 1rem;
 }
@@ -305,37 +316,6 @@ img { max-width: 100%; height: auto; }
 .card .button {
   width: 100%;
 }
-
-.hover-container {
-  background-size: cover;
-  background-position: center;
-  }
-  
-  .hover-overlay {
-  position: relative;
-  padding-bottom: 100%;
-  color: rgba(255, 255, 255, 0);
-  position: relative;
-  /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
-  transition: all 0.3s;
-  }
-  
-  .hover-overlay:hover {
-  background-color: rgba(60, 60, 60, 0.7);
-  color: var(--blanco);
-  }
-  
-  .hover-inner {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  }
-  
-  .hover-inner p {
-  margin-bottom: 0;
-  }
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
@@ -506,10 +486,6 @@ p:last-child {
   padding-right: 1rem;
   padding-bottom: 5%;
 }
-
-/* .gallery [class*="col-"] {
-  padding: 0; 
-} */
 
 /* Youtube Video */
 
@@ -1042,7 +1018,8 @@ footer hr {
   background-position: center;
   }
   
-.hover-overlay {
+.hover-overlay,
+.hover-overlay-allies {
   position: relative;
   padding-bottom: 140%;
   color: rgba(255, 255, 255, 0);
@@ -1050,6 +1027,10 @@ footer hr {
   /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
   transition: all 0.3s;
   border-radius: 150px;
+}
+
+.hover-overlay-allies {
+  border-radius: 200px;
 }
   
 .hover-overlay:hover {
@@ -1064,6 +1045,39 @@ footer hr {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+/* GALLERY */
+
+.hover-container-gallery {
+  background-size: cover;
+  background-position: center;
+  }
+  
+.hover-overlay-gallery {
+  position: relative;
+  padding-bottom: 100%;
+  color: rgba(255, 255, 255, 0);
+  position: relative;
+  /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
+  transition: all 0.3s;
+}
+  
+.hover-overlay-gallery:hover {
+  background-color: rgba(60, 60, 60, 0.4);
+  color: var(--white-text);
+}
+  
+.hover-inner-gallery {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.gallery [class*="col-"] {
+  padding: 0.5%;
+  }
 
 
 /* CLIP PATH STYLES */

@@ -199,3 +199,11 @@ $(".counter").each(function () {
       }
     );
 });
+
+// Pop up Gallery
+lightGallery(document.getElementById('lightgallery'), {
+  speed: 500,
+  download: false
+  
+});
+
