@@ -1,0 +1,82 @@
+---
+layout: default
+seo:
+  title: Blog | Hakau
+  description:
+  social_image:
+  keywords:
+    - sustainable ecommerce
+  hide-from-google: true
+hero-banner:
+  background:
+  banner_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  title: Blog
+quote: Working with small businesses and supporting local economy
+values:
+  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+final-banner:
+  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  quote: Small changes make a big difference
+  cta-name: Conoce nuestras ofertas
+  cta-url: 
+---
+
+<!------------------------ BANNER & MENU ------------------>
+
+<header class="bg-image tall-80" style="background-image:url('{{page.hero-banner.banner_image }}')">
+
+  {% include header-nav.html %}
+  
+  <div class="grid padded-20 padded-b-0 center">
+    <div class="col-12-bottom">
+      <h1 class="uppercase white-text text-8 uppercase">{{page.hero-banner.title }}</h1>
+    </div>
+  </div>
+
+</header>
+
+<!--------------------  MOBILE MENU -------------------->
+
+<div class="hamburger show-sm">
+  <span class="burger-top"></span>
+  <span class="burger-middle"></span>
+  <span class="burger-bottom"></span>
+</div>
+
+{% include mobile-menu.html %}
+
+<!--------------------  POSTS -------------------->
+
+<section>
+
+  <div class="grid">
+
+      {% for post in site.posts limit:12 %}
+
+      <div class="col-4_xs-12 post-item padded-1">
+          <div class="bg-image portrait" style="background-image: url('{{ post.featured_image }}');"></div>
+          <div class="padded-t-1 padded-b-1">
+              {% for item in post.categories %}
+                  <span class="tag"> {{ item }} </span>
+              {% endfor %}
+              <h2 class="margin-t-1"> {{ post.title }} </h2>
+              <p> {{ post.description }} </p>
+              <a href="{{ post.url }}" class="subtle-button"> Leer Más </a>
+          </div>
+      </div>
+      
+      {% endfor %}
+
+  </div>
+  
+</section>
+
+<!--------------------  QUOTE -------------------->
+
+<section>
+  <div class="bg-dark white-text padded-md center">
+    <div class="capped-width-v-narrow">
+      <h3 class="xlarge-text line-height-md-2">{{page.quote }}</h3>
+    </div>
+  </div>
+</section>

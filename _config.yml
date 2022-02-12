@@ -1,3 +1,10 @@
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:slug
+  archives: 
+    output: true
+
 _select_data:
   aspect-ratios:
     - square

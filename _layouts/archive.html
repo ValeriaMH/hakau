@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include header-nav.html %}  
+
+<section class="padded grid">
+
+    {% if page.intro-header == true %}
+    <div class="col-12 center padded-1">
+        <h1 class="semi-big-text-courier-sh"> {{page.title | capitalize }} </h1>
+        <p> {{page.description }} </p>
+    </div>
+    {% endif %}
+
+    {% for post in site.categories[page.category] %}
+
+        {% if page.post-style == true %}
+
+            {% include post-loop-item-square.html %}
+
+        {% else %}
+
+            {% include post-loop-item-small.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+</section>

@@ -1222,6 +1222,122 @@ footer hr {
     color: var(--accent-text);
     }
 
+
+/* ------------ Blogging elements  ----------------------- */
+
+
+/* Post Loop Item  */
+
+.post-item {
+  text-decoration: none;
+}
+
+
+/* Individual Elements */
+
+.tag {
+  display: inline-block;
+  font-weight: 200;
+  text-transform: lowercase;
+  font-size: .9rem;
+  margin-right: 0.5rem;
+}
+
+.category a {
+  display: inline-block;
+}
+
+.post-info {
+  font-size: 0.8rem;
+  color: var(--medium-text);
+}
+
+/* Individual Blog Post Pages  */
+
+.blog-content h1 {
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.blog-content p {
+  line-height: 1.6;
+}
+
+.blog-content hr {
+  border: none;
+  border: 1px solid var(--orange-light);
+}
+
+.blog-content p a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--dark-text);
+}
+
+.blog-content p a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid var(--pink-text);
+}
+
+.blog-content li a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--dark-text);
+}
+
+.blog-content li a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid var(--pink-text);
+}
+
+
+/* Sidebar */
+.sidebar-item {
+  border: 2px solid var(--light);
+  margin-bottom: 1rem;
+  color: var(--medium-text);
+}
+.sidebar-item p {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 300;
+}
+
+.sidebar-item a {
+  padding: 0.25rem 0rem;
+}
+
+.recent-posts-nav a {
+  display: block;
+  font-weight: 300;
+  padding: 0.25rem 0rem;
+}
+
+/* Social Share Nav  */
+
+.social-share a {
+  padding: 0.25rem 0.5rem;
+}
+
+/* Miscelaneous elements  */
+
+hr.short {
+  border: 1px solid var(--dark-text);
+  width: 2rem;
+  margin: 1rem 0;
+}
+
+hr.short.center {
+  margin:auto;
+  margin: 1rem auto;
+}
+
+hr.long {
+  border: 0.8px solid var(--dark-text);
+  width: 97%;
+  margin: 1rem;
+  opacity: 0.5;
+}
+
 /* ------------ Responsive Styles ----------------------- */
 
 /* General CSS Responsive Styles (Apply everywhere unless overriden) */ 

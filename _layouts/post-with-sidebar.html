@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+{% include header-nav.html %}
+
+<section class="grid padded capped-width-wide">
+
+    <div class="padded-1 col-9_md-12 blog-content sm-padded-0">
+
+        <div class="intro padded-1 padded-r-lg sm-padded-r">
+
+            {% for item in page.categories %}
+            <span class="tag"> {{ item }}</span>
+            {% endfor %}
+
+            <h1> {{ page.title }} </h1>
+
+            <p class="post-info"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
+
+        </div>
+        <div class="padded-1 padded-r-lg sm-padded-r">
+
+            {{content}}
+
+        </div>
+
+        {% include social-share.html %}
+
+    </div>
+
+    <!------------------ SIDEBAR  --------------------------------->
+    <aside class="padded-1 col-3_md-12">
+
+        <div class="sidebar-item padded-1">
+
+            <div class="margin-b-1">
+                <a href="/about">
+                    <h4> Sobre nosotras </h4>
+                </a>
+            </div>
+
+            <p>Picaron es un Estudio peruano de Branding & Diseño Web, basado en Australia, pero trabajando con empresas
+                en todo el mundo.</p>
+            <p>Nuestro propósito es empoderar a las marcas a ser únicas. Queremos demostrar que todos podemos vivir
+                haciendo lo que amamos y que nunca es tarde para empezar de nuevo.</p>
+
+        </div>
+
+        <div class="sidebar-item padded-1">
+            <h4> Post Recientes </h4>
+
+            <nav class="recent-posts-nav"> 
+                {% for post in site.posts limit:8 %}
+                     <a href="{{post.url}}"> {{post.title}}</a>
+                {% endfor %}
+            </nav>
+
+        </div>
+
+        <div class="sidebar-item padded-1">
+            <h4> Explora Categorías </h4>
+
+            <nav>
+                {% for archive in site.archives limit:8 %}
+                <a href="{{archive.url}}" class="tag"> {{archive.category}}</a>
+                {% endfor %}
+            </nav>
+
+        </div>
+
+        <div class="sidebar-item padded-1">
+            <h4> Explora Etiquetas </h4>
+
+            <nav>
+                {% for tag in site.tags limit:8 %}
+                <a href="{{tag.url}}" class="tag"> {{tag.tags}}</a>
+                {% endfor %}
+            </nav>
+
+        </div>
+
+    </aside> <!-- end sidebar-->
+
+</section>
+
+<section class="padded padded-t-0 padded-b-0">
+    {% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = 'https://www.picaronstudio.com';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '10122016'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://picaron-studio.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+</section>
+
+
+<!-- {% include related-posts.html %} -->
