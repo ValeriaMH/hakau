@@ -2,17 +2,17 @@ title: Small changes make<br> a big difference
 elements:
 - column-size: col-4_sm-12
   number: 547
-  image:
+  image: /images/hakau-icon9.png
   description: Puestos de trabajo artesanal creados
   id: counters_1
 - column-size: col-4_sm-12
   number: 100
-  image:
+  image: /images/hakau-icon10.png
   description: Puestos de trabajo artesanal creados
   id: counters_2
 - column-size: col-4_sm-12
   number: 250
-  image:
+  image: /images/hakau-icon11.png
   description: Puestos de trabajo artesanal creados
   id: counters_3
 disclaimer: '*Cifras basadas en los productos y aliados ofrecidos en la web en Abril 2022.'

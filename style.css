@@ -342,6 +342,9 @@ img { max-width: 100%; height: auto; }
 .bg-pos-b { background-position: bottom; }
 .bg-pos-l { background-position: left; }
 .bg-pos-r { background-position: right; }
+.bg-pos-c { background-position: center; }
+
+.bg-pos-t2 { background-position: 50% 20%; }
 
 /* ------------ Typography Styles ----------------------- */
 
@@ -881,6 +884,10 @@ nav a {
 
 /* ------------ Footer styles  ----------------------- */
 
+footer {
+  overflow-y: hidden;
+}
+
 footer nav a {
   display: inline-block;
   color: var(--footer-text);
@@ -888,12 +895,17 @@ footer nav a {
 
 .picaron {
   font-weight: 200;
+  font-size: .9rem;
 }
 
-.picaron:hover {
-  color: black;
-  border-bottom: 1px solid black;
+.picaron a {
+  text-transform: capitalize;
   font-weight: 200;
+  font-size: .9rem;
+}
+
+.picaron a:hover {
+  color: var(--orange);
 }
 
 .footer-links a {
@@ -907,6 +919,11 @@ footer nav a {
 .footer-links a:hover {
   color: var(--orange);
   border-bottom: none;
+}
+
+.hakau-footer img {
+  margin-left: -8%;
+  margin-bottom: -.6rem;
 }
 
 /* ------------ Contact Forms  ----------------------- */
@@ -1392,6 +1409,34 @@ hr.long {
   display: block;
   margin: .5rem 0;
 }
+
+/* IMAGES STYLES */
+
+.hakau-icon {
+  max-width: 10%;
+  height: auto;
+}
+
+.img-counter {
+  max-width: 25%;
+  height: auto;
+}
+
+/* FORCED IMAGES */
+
+.peruvian-handmade img {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  max-width: 20%;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+.conectamos-desde img {
+  transform: rotate(7deg);
+}
+
 
 /* ------------ Responsive Styles ----------------------- */
 

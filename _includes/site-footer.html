@@ -1,4 +1,4 @@
-<footer class="bg-dark padded white-text">
+<footer class="bg-dark padded padded-b-0 white-text">
 
   <div class="grid padded-b">
     <div class="col-3_sm-12">
@@ -9,6 +9,7 @@
 
   <hr>
 
+  <!-- SOCIALS -->
   <div class="grid">
     <div class="col-3_sm-12 padded">
       <p class="semi-bold">Sé parte de esta<br>común - unidad</p>
@@ -60,6 +61,7 @@
     </div>
   </div>
 
+  <!-- FOOTER LINKS -->
   <div class="grid">
     <div class="col-3_sm-12 padded">
       <h4>SHOP</h4>
@@ -77,28 +79,26 @@
         {% endfor %}
       </nav>
     </div>
-    <div class="col-3_sm-12 padded">
-      <h4>CUSTOMER SERVCIE</h4>
+    <div class="col-4_sm-12 padded">
+      <h4>CUSTOMER SERVICE</h4>
       <nav class="footer-links">
         {% for item in site.data.navigation.footer-menu3 %}
           <a href="{{item.url }}">{{item.name }}</a>
         {% endfor %}
       </nav>
     </div>
+    <div class="col-2-middle conectamos-desde">
+      <img src="/images/hakau-icon5.png" alt="hakau conectamos desde el corazon">
+    </div>
   </div>
 
-    
-
-
-
-  
-    
-
-    <div class="col-12 center padded-sm padded-l-1 padded-b-1 uppercase show-md">
-      <p class="subtitle-2">Copyright 2021<br />Website by
-      <a href="https://www.picaronstudio.com" target="_blank" class="picaron">Picaron Studio</a></p>
+  <div class="grid-bottom">
+    <div class="col-8 hakau-footer">
+      <img src="/images/hakau-icon23.png" alt="hakau logo">
     </div>
-
+    <div class="col-4 white-text picaron padded-1 right">
+      <p>Copyright 2022 | Website by<a href="https://www.picaronstudio.com" target="_blank">Picaron Studio</a></p>
+    </div>
   </div>
 
   {% include cookie-banner.html %}

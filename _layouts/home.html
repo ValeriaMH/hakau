@@ -61,7 +61,7 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <img src="" alt="">
+        <img src="/images/hakau-icon6.png" class="hakau-icon">
         <p class="text-4">HA</p>
       </div>
   
@@ -90,7 +90,7 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <img src="" alt="">
+        <img src="/images/hakau-icon7.png" class="hakau-icon">
         <p class="text-4">KA</p>
       </div>
   
@@ -119,7 +119,7 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <img src="" alt="">
+        <img src="/images/hakau-icon8.png" class="hakau-icon">
         <p class="text-4">U</p>
       </div>
   
@@ -141,13 +141,13 @@ layout: default
   
   <!--------------------  ALLIES -------------------->
   
-  <section>
+  <section class="relative">
   
     <div class="grid">
   
       <div class="col-3 bg-green padded">
         <div class="ally-image-neg">
-          <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image:url('{{ page.allies.product_image }}')"></div>
+          <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image:url('{{ page.allies.ally_image }}')"></div>
         </div>
       </div>
   
@@ -185,12 +185,16 @@ layout: default
             <p>{{page.allies.ally-description }}</p>
           </div>
           <div class="margin-t-2">
-            <a class="btn btn-dark" href="{{page.allies.ally-cta-url }}">{{page.allies.ally-cta-name }}</a>
+            <a class="btn btn-orange" href="{{page.allies.ally-cta-url }}">{{page.allies.ally-cta-name }}</a>
           </div>
         </div>
   
       </div>
   
+    </div>
+
+    <div class="peruvian-handmade">
+      <img src="/images/hakau-icon14.png" alt="hakau peruvian handmade">
     </div>
   
   </section>
@@ -213,7 +217,7 @@ layout: default
           </div>
           <p class="xs-text">{{item.small-text }}</p>
         </div>
-        <div class="bg-image landscape" style="background-image:url('{{ item.image }}')"></div>
+        <div class="bg-image landscape {{item.image-position }}" style="background-image:url('{{ item.image }}')"></div>
       </div>
       {% endfor %}
   
@@ -223,7 +227,7 @@ layout: default
   
   <!-------------------- FINAL QUOTE -------------------->
   
-  <section class="bg-image bg-attached tall-100 banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
+  <section class="bg-image bg-attached bg-overlay bg-overlay-gradient tall-100 banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
     <div class="capped-width-v-narrow">
       <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
         <div class="margin-t-3">
