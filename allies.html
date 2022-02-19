@@ -8,7 +8,7 @@ seo:
     - sustainable ecommerce
   hide-from-google: true
 hero-banner:
-  banner1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  banner1_image: /images/hakau-ecommerce8.jpg
   banner2_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
   background: bg-white
   title: Get to know our allies
@@ -22,16 +22,16 @@ allies:
   ally1-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad.
   ally1-cta-name: Shop Ally products
   ally-1-cta-url: 
-  ally2_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  product2_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  ally2_image: /images/hakau-ecommerce13.jpg
+  product2_image: /images/hakau-ecommerce12.jpg
   ally2-name: Chincheros Community
   ally2-nickname: El jefe de los hilos
   ally2-hometown: Pitumarca / Cusco
   ally2-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad.
   ally2-cta-name: Shop Ally products
   ally-2-cta-url: 
-  ally3_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  product3_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  ally3_image: /images/hakau-ecommerce6.jpg
+  product3_image: /images/hakau-ecommerce14.jpg
   ally3-name: Pitumarca Community
   ally3-nickname: El jefe de los hilos
   ally3-hometown: Pitumarca / Cusco
@@ -48,25 +48,25 @@ gallery:
   description: We believe in a fair trade commerce for everyone
 gallery-items:
 - column-size: col-4_sm-6_xs-12
-  background_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  popup_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  text-hover: Community
+  background_image: /images/hakau-ecommerce5.jpg
+  popup_image: /images/hakau-ecommerce5.jpg
+  text-hover: Jewelry Process
 - column-size: col-4_sm-6_xs-12
-  background_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  popup_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  background_image: /images/hakau-ecommerce1.jpg
+  popup_image: /images/hakau-ecommerce1.jpg
   text-hover: Cusco
 - column-size: col-4_sm-6_xs-12
-  background_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  popup_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  text-hover: Jewelry Process
+  background_image: /images/hakau-ecommerce4.jpg
+  popup_image: /images/hakau-ecommerce4.jpg
+  text-hover: Textiles
 - column-size: col-6_sm-6_xs-12
-  background_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  popup_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  background_image: /images/hakau-ecommerce3.jpg
+  popup_image: /images/hakau-ecommerce3.jpg
+  text-hover: Family of artisans
+- column-size: col-6_sm-6_xs-12
+  background_image: /images/hakau-ecommerce2.jpg
+  popup_image: /images/hakau-ecommerce2.jpg
   text-hover: House of artisans
-- column-size: col-6_sm-6_xs-12
-  background_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  popup_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-  text-hover: Juan Machica
 ---
 
 <!------------------------ BANNER & MENU ------------------>
@@ -76,12 +76,18 @@ gallery-items:
   {% include header-nav.html %}
   
   <div class="grid padded">
-    <div class="col-6 padded-r">
+    <div class="col-6 padded-r relative">
       <div class="bg-image portrait" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
+      <div class="square-ally">
+        <img src="/images/hakau-ecommerce7.jpg" alt="hakau allies">
+      </div>
     </div>
-    <div class="col-6 padded-xlg padded-t center">
+    <div class="col-6 padded-xlg padded-t center relative">
       <h1 class="text-4 line-height-md-2 margin-b-2">{{page.hero-banner.title }}</h1>
       <p class="dark-text">{{page.hero-banner.description-1 }}</p>
+      <div class="conectamos-desde2">
+        <img src="/images/hakau-icon5.png" alt="hakau conectamos desde el corazon">
+      </div>
     </div>
   </div>
 
@@ -99,7 +105,7 @@ gallery-items:
 
 <!--------------------  ALLIES -------------------->
   
-<section>
+<section class="bg-beige padded-b">
 
   <div class="grid padded">
 
@@ -120,7 +126,7 @@ gallery-items:
       </div>
 
       <!-- ALLY STORY -->
-      <div class="col-4_sm-12 padded padded-l-0">
+      <div class="col-4_sm-12 padded padded-l-0 relative">
         <div>
           <h3 class="uppercase">{{page.allies.ally1-name }}</h3>
           <p>{{page.allies.ally1-nickname }}</p>
@@ -130,7 +136,10 @@ gallery-items:
           <p>{{page.allies.ally1-description }}</p>
         </div>
         <div class="margin-t-2">
-          <a class="btn btn-dark" href="{{page.allies.ally1-cta-url }}">{{page.allies.ally1-cta-name }}</a>
+          <a class="btn btn-orange" href="{{page.allies.ally1-cta-url }}">{{page.allies.ally1-cta-name }}</a>
+        </div>
+        <div class="peruvian-handmade2">
+          <img src="/images/hakau-icon14.png" alt="hakau peruvian handmade">
         </div>
       </div>
 
@@ -140,7 +149,7 @@ gallery-items:
     <div class="col-12 grid">
 
       <!-- ALLY STORY -->
-      <div class="col-4_sm-12 padded padded-r-0 padded-t-lg">
+      <div class="col-4_sm-12 padded padded-r-0 padded-t-lg relative">
         <div>
           <h3 class="uppercase">{{page.allies.ally2-name }}</h3>
           <p>{{page.allies.ally2-nickname }}</p>
@@ -150,7 +159,10 @@ gallery-items:
           <p>{{page.allies.ally2-description }}</p>
         </div>
         <div class="margin-t-2">
-          <a class="btn btn-dark" href="{{page.allies.ally2-cta-url }}">{{page.allies.ally2-cta-name }}</a>
+          <a class="btn btn-orange" href="{{page.allies.ally2-cta-url }}">{{page.allies.ally2-cta-name }}</a>
+        </div>
+        <div class="support-small2">
+          <img src="/images/hakau-icon3.png" alt="hakau support small buy local">
         </div>
       </div>
 
@@ -197,7 +209,7 @@ gallery-items:
           <p>{{page.allies.ally3-description }}</p>
         </div>
         <div class="margin-t-2">
-          <a class="btn btn-dark" href="{{page.allies.ally3-cta-url }}">{{page.allies.ally3-cta-name }}</a>
+          <a class="btn btn-orange" href="{{page.allies.ally3-cta-url }}">{{page.allies.ally3-cta-name }}</a>
         </div>
       </div>
 
@@ -212,8 +224,11 @@ gallery-items:
 
 <!--------------------  BECOME AN ALLY -------------------->
 
-<section class="padded-t-lg">
-  <div class="bg-orange white-text padded-md center">
+<section>
+  <div class="bg-orange white-text padded-md center relative">
+    <div class="orange-heart center">
+      <img src="/images/hakau-icon1.png" alt="">
+    </div>
     <div class="capped-width-v-narrow">
       <h3 class="xlarge-text line-height-md-2">{{page.become-ally.title }}</h3>
       <p>{{page.become-ally.description }}</p>

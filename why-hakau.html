@@ -17,15 +17,15 @@ founders:
   quote1-orange: Creemos en una
   quote2-green: vida consciente
   quote3-orange: en comun - unidad
-  founder1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  founder1_image: /images/hakau-ecommerce9.jpg
   founder1-name: Astrid
   founder1-description: >-
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam.
-  founder2_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  founder2_image: /images/hakau-ecommerce10.jpg
   founder2-name: Jeka
   founder2-description: >-
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam.
-  founder3_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  founder3_image: /images/hakau-ecommerce9.jpg
   founder3-name: Lu
   founder3-description: >-
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam.
@@ -33,7 +33,7 @@ quote: Working with small businesses and supporting local economy
 values:
   image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
 final-banner:
-  image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  image: /images/hakau-banner2.jpg
   quote: Small changes make a big difference
   cta-name: Conoce nuestras ofertas
   cta-url: 
@@ -60,7 +60,7 @@ final-banner:
       <img src="" alt="">
     </div>
     <div class="col-8 padded-lg">
-      <div class="clip-circle square"></div>
+      <img src="" alt="">
     </div>
     <div class="col-4">
       <img src="" alt="">
@@ -105,11 +105,14 @@ final-banner:
   <div class="grid padded-lg padded-t-0">
 
     <div class="col-6 padded-r">
-      <h3 class="text-4">
+      <h3 class="text-4 padded-b">
         <span class="orange-text">{{page.founders.quote1-orange }}</span>
         <span class="green-text">{{page.founders.quote2-green }}<br></span>
         <span class="orange-text">{{page.founders.quote3-orange }}</span>
       </h3>
+      <div class="support-small right">
+        <img src="/images/hakau-icon3.png" alt="hakau support small">
+      </div>
     </div>
     <div class="col-6 grid">
       <div class="col-12 padded-r-lg">
@@ -154,7 +157,10 @@ final-banner:
 <!--------------------  QUOTE -------------------->
 
 <section>
-  <div class="bg-dark white-text padded-md center">
+  <div class="bg-dark white-text padded-md center relative">
+    <div class="black-heart center">
+      <img src="/images/hakau-icon1.png" alt="">
+    </div>
     <div class="capped-width-v-narrow">
       <h3 class="xlarge-text line-height-md-2">{{page.quote }}</h3>
     </div>
@@ -174,7 +180,7 @@ final-banner:
         <h4 class="normal-text uppercase regular">Union - Love</h4>
       </div>
       <div class="col-12 padded-r-25">
-        <div class="ladder-clip"></div>
+        <img src="/images/Escalera.svg" alt="">
       </div>
     </div>
 
@@ -187,7 +193,7 @@ final-banner:
 
 <!-------------------- FINAL QUOTE -------------------->
 
-<section class="bg-image bg-attached tall-100 banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
+<section class="bg-image bg-attached tall-100 banner-quote bg-overlay bg-overlay-gradient" style="background-image:url('{{ page.final-banner.image }}')">
   <div class="capped-width-v-narrow">
     <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
       <div class="margin-t-3">

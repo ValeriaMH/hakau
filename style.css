@@ -275,7 +275,7 @@ img { max-width: 100%; height: auto; }
 /* Add a second class to change the color or style  */
 
 .bg-overlay-gradient::before { 
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 } 
 
 .bg-overlay-gradient-logo::before { 
@@ -1071,7 +1071,7 @@ opacity: 0.5;
   background-attachment: fixed;
   background-color: white;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 20%;
   color: #fff;
   position: relative;
   min-height: 100vh;
@@ -1105,6 +1105,73 @@ footer hr {
   padding: 56%;
   margin: 60% -24vw 0 0;
 }
+
+.peruvian-handmade img {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  max-width: 20%;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+.peruvian-handmade2 img {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  max-width: 50%;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
+.conectamos-desde img {
+  transform: rotate(7deg);
+}
+
+.conectamos-desde2 img {
+  max-width: 50%;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.support-small img {
+  max-width: 35%;
+  height: auto;
+}
+
+.support-small2 img {
+  max-width: 35%;
+  height: auto;
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+}
+
+.black-heart img {
+  max-width: 8%;
+  position: absolute;
+  top: -18%;
+  left: 45.9%;
+}
+
+.orange-heart img {
+  max-width: 8%;
+  position: absolute;
+  top: -15%;
+  left: 45.9%;
+}
+
+.square-ally img {
+  position: absolute;
+  right: -17%;
+  bottom: 8%;
+  max-width: 55%;
+  border-radius: 3px;
+
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
 
 /* HOVER IMAGE CONTAINER */
 
@@ -1422,20 +1489,6 @@ hr.long {
   height: auto;
 }
 
-/* FORCED IMAGES */
-
-.peruvian-handmade img {
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
-  max-width: 20%;
-  height: auto;
-  transform: rotate(-45deg);
-}
-
-.conectamos-desde img {
-  transform: rotate(7deg);
-}
 
 
 /* ------------ Responsive Styles ----------------------- */
