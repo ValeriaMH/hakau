@@ -1547,6 +1547,7 @@ hr.long {
   .tall-80-md  { min-height: 80vh; }
   .tall-70-md  { min-height: 70vh; }
   .tall-60-md  { min-height: 60vh; }
+  .tall-50-md  { min-height: 50vh; }
   .tall-40-md  { min-height: 40vh; }
   .tall-30-md  { min-height: 30vh; }
   .tall-20-md  { min-height: 20vh; }
@@ -1636,8 +1637,11 @@ hr.long {
   .sm-portrait      { padding-bottom: 125%; }
   .sm-square        { padding-bottom: 100%; }
 
+  .tall-100-sm  { min-height: 100vh; }
+  .tall-80-sm  { min-height: 80vh; }
   .tall-65-sm  { min-height: 65vh; }
   .tall-60-sm  { min-height: 60vh; }
+  .tall-70-sm  { min-height: 70vh; }
   .tall-75-sm  { min-height: 75vh; }
   .tall-45-sm  { min-height: 45vh; }
   .tall-40-sm  { min-height: 40vh; }
@@ -1710,6 +1714,9 @@ hr.long {
     font-size: 4vw;
   }
 
+  .text-8 { font-size: 5rem; }
+  .text-4 { font-size: 3rem; }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -1743,6 +1750,8 @@ hr.long {
       font-size: 1.5rem;
       font-weight: 400;
     }
+
+    .text-4 { font-size: 2.5rem; }
 
 }
 
