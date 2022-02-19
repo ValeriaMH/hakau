@@ -1523,9 +1523,11 @@ hr.long {
   .md-padded-b-3 { padding-bottom: 3rem; }
 
   .md-padded-b-lg { padding-bottom: 10%; }
-  .md-padded-t-lg {padding-top: 10%; }
+  .md-padded-t-lg { padding-top: 10%; }
+  .md-padded-t-xlg { padding-top: 15%; }
 
   .md-padded { padding: 5%; }
+  .md-padded-r { padding-right: 5%; }
 
   .flex-wrap-md {
     flex-wrap: wrap-reverse;
@@ -1549,6 +1551,20 @@ hr.long {
   .tall-30-md  { min-height: 30vh; }
   .tall-20-md  { min-height: 20vh; }
   
+  .banner-home {
+    padding: 25% 10% 0% 10%;
+    color: var(--white);
+  }
+
+  .bg-attached {
+    background-attachment: unset;
+  }
+
+  .banner-quote h3 {
+    font-size: 4.5vw;
+  }
+
+  .text-8 { font-size: 6rem; }
 
 
 }
@@ -1600,7 +1616,8 @@ hr.long {
   .sm-padded-t-25 { padding-top: 25%; }
   .sm-padded-t-2 { padding-top: 2rem; }
   .sm-padded-l { padding-left: 5%; }
-  .sm-padded-l-md { padding-left: 10%; }
+  .sm-padded-l-md { padding-left: 8%; }
+  .sm-padded-l-lg { padding-left: 10%; }
   .sm-padded-l-0 { padding-left: 0; }
   .sm-padded-l-1 { padding-left: 1rem; }
   .sm-padded-r { padding-right: 5%; }
@@ -1684,6 +1701,15 @@ hr.long {
     color: var(--orange-light);
   }
 
+  .banner-home {
+    padding: 20% 10% 10% 10%;
+    color: var(--white);
+  }
+
+  .banner-quote h3 {
+    font-size: 4vw;
+  }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -1698,6 +1724,24 @@ hr.long {
 
     .logo {
       max-width: 100%;
+    }
+
+    .banner-home h2 {
+      font-size: 2.5rem;
+    }
+
+    .banner-home {
+      padding: 35% 10% 10% 10%;
+      color: var(--white);
+    }
+
+    .banner-quote h3 {
+      font-size: 6vw;
+    }
+
+    .banner-home h1 {
+      font-size: 1.5rem;
+      font-weight: 400;
     }
 
 }
