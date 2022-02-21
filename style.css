@@ -1148,6 +1148,14 @@ footer hr {
   left: 0%;
 }
 
+.support-small3 img {
+  max-width: 25%;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 7%;
+}
+
 .black-heart img {
   max-width: 8%;
   position: absolute;
