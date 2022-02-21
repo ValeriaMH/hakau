@@ -1162,6 +1162,27 @@ footer hr {
   left: 45.9%;
 }
 
+.hand-heart img {
+  max-width: 40%;
+  height: auto;
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  transform: rotate(-10deg);
+}
+
+.why-hakau img {
+  max-width: 90%;
+}
+
+.ladder-black img {
+  max-width: 67%;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
 .square-ally img {
   position: absolute;
   right: -17%;

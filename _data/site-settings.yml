@@ -1,7 +1,8 @@
 general:
-  logo_image: /images/ingrid-web2.png
-  logo-size: 85%
-  mobile-logo_image: /images/ingrid-web2.png
+  logo-white_image: /images/hakau-icon30.png
+  logo-dark_image: /images/hakau-icon31.png
+  logo-size: 45%
+  mobile-logo_image: /images/hakau-icon31.png
   mobile-logo-size: 60%
   explore-logo-size: 50%
 technical:

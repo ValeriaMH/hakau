@@ -1,7 +1,11 @@
 <nav class="col-12 grid hide-md">
-    <div class="col-3_md-5 padded-l-2 padded-t-sm no-hover">
+    <div class="col-3_md-5 padded-l-2 padded-t-1 no-hover">
         <a href="/index" class="logo">
-            <img src="{{ site.data.site-settings.general.logo_image }}" />
+            {% if page.hero-banner.background == 'bg-beige' or 'bg-white' %}
+                <img src="{{ site.data.site-settings.general.logo-dark_image }}"/>
+                {% else %}
+                <img src="{{ site.data.site-settings.general.logo-white_image }}"/>
+            {% endif %}
         </a>
     </div>
     <div class="{% if page.hero-banner.background == 'bg-beige' or 'bg-white' %}menu-links-dark {% else %} menu-links {% endif %} col-8_md-7 padded-r-2 padded-t-2 hide-sm">
