@@ -30,20 +30,24 @@ layout: default
   {% include mobile-menu.html %}
   
   <!--------------------  WHAT IS HAKAU -------------------->
+  <section class="padded-b center">
   
-  <section class="padded-b">
-    
-    <div class="grid capped-width-v-narrow relative padded-t">
+    <div class="grid-middle capped-width-narrow relative padded-t">
   
-      <div class="col-6 border-r-black padded-t-lg" data-aos="fade-up" data-aos-duration="500"></div>
-      <div class="col-6"></div>
-  
-      <div class="col-12 center padded">
-        <h3 class="large-text uppercase editable" data-aos="fade-up" data-aos-duration="500">{{page.hakau-world.what-is-hakau }}</h3>
+      
+      <div class="col-3 grid relative" data-aos="fade-left" data-aos-duration="500">
+        <span class="bullet"></span><div class="col-12 border-b-black"></div>
       </div>
   
-      <div class="col-6 border-r-black padded-t-lg" data-aos="fade-up" data-aos-duration="500"></div>
-      <div class="col-6"></div>
+      <div class="col-6-bottom center padded">
+        <h3 class="large-text uppercase editable">{{page.hakau-world.what-is-hakau }}</h3>
+      </div>
+  
+      <div class="col-3 grid relative" data-aos="fade-right" data-aos-duration="500">
+        <div class="col-12 border-b-black"></div><span class="bullet2"></span>
+      </div>
+     
+  
     </div>
   
   </section>

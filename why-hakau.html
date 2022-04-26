@@ -9,27 +9,25 @@ seo:
   hide-from-google: true
 hero-banner:
   background: bg-beige
+  banner_image: /images/hakau-ecommerce13.jpg
   title: Why Hakau?
-  description-1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad, quasi saepe adipisci deleniti necessitatibus placeat consequuntur, expedita, unde quae tempora animi! Fugiat aspernatur accusantium dolorum facere consequatur.
-  description-2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem aut ad, quasi saepe adipisci deleniti necessitatibus placeat consequuntur, expedita, unde quae tempora animi! Fugiat aspernatur accusantium dolorum facere consequatur.
+  description-1: "When it comes to a physical good, we know what is necessary to be able to inherit. But when we talk about knowing, we specifically need only one thing: listening."
+  description-2: This is how Hakau is born; of deepest listening. One who understood that the depths do not know kilometers and that they are as close as inside us; in the blood itself, in the ancestral memory. And then together we make that heritage travel and transcend all time and space through those who have always been treated; of people and their creations. And so life becomes eternal because knowledge is. And those who taught us a bit of everything, are still alive in each creation. May the wisdom of our people travel the entire world, that what is really important always find someone to travel through time and space, through pacha.
 founders:
   title: Our founders
-  quote1-orange: Creemos en una
-  quote2-green: vida consciente
-  quote3-orange: en comun - unidad
+  quote1-orange: We believe in a
+  quote2-green: conscius life in
+  quote3-orange: common - unity
   founder1_image: /images/hakau-ecommerce9.jpg
   founder1-name: Astrid
-  founder1-description: >-
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam.
+  founder1-description: I am Astrid, curious at heart, craftswoman, architect by profession and lover of nature and its rhythms by choice. Since child, the one who asked questions, the stubborn as people used to called me... as a grown up, the one who creates and turns things around. It is from here that I connect with myself and with others with our roots, our gifts and what we can weave together in common to make this experience called life one of the best, being aware of the space we inhabit and the impact we have with our daily acts.
   founder2_image: /images/hakau-ecommerce10.jpg
   founder2-name: Jeka
-  founder2-description: >-
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam.
+  founder2-description: I am Jeka, a lawyer by profession and passionate about just causes/justice. I am convinced that every good deed, no matter how small, generates a change. I'm involved in the development of sustainable issues and willing to contribute a grain of sand by making a community from person to person.
   founder3_image: /images/hakau-ecommerce9.jpg
   founder3-name: Lu
-  founder3-description: >-
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum consequuntur et dolorem eveniet nulla maxime dicta quos sapiente qui dolores facere numquam.
-quote: Working with small businesses and supporting local economy
+  founder3-description: "I'm 32 years old and I live in Texas with my husband, three kids and 4 dogs. I'm a certified Reiki healer and I'm currently pursuing a degree in Psychology: Life Coaching so I can assist, motivate and empower others in their journey. I'm passionate about astrology, herbalism and crystals! I am here because I believe we can co-create a more balanced world in community with our Planet, our cosmos and eachother."
+quote: We work with small businesses to provide opportunities and support local economies
 values:
   image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
 final-banner:
@@ -51,17 +49,23 @@ final-banner:
   
   <div class="grid">
     
-    <div class="col-9 padded">
+    <div class="col-9 padded padded-t-md padded-b-2">
       <h1>Why Hakau?</h1>
     </div>
     <div class="col-3"></div>
     <div class="col-10 grid">
-      <div class="col-6 bg-beige padded-lg">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero.</p>
-        <a class="btn btn-green margin-t-1" href="">Shop Products</a>
+      <div class="col-6 bg-beige padded-md padded-b">
+        <p>{{page.hero-banner.description-1}}</p>
+        <p>{{page.hero-banner.description-2}}</p>
+        <a class="btn btn-green margin-t-1" href="">Get to know our allies</a>
       </div>
       <div class="col-6">
-        <div class="bg-image square" style="background-image:url('{{ page.founders.founder1_image }}')"></div>
+        <div class="bg-image square bg-pos-t" style="background-image:url('{{ page.hero-banner.banner_image }}')"></div>
+      </div>
+    </div>
+    <div class="col-2-bottom center padded">
+      <div class="logo-k">
+        <img src="/images/hakau-icon35.svg" alt="">
       </div>
     </div>
   </div>
@@ -80,19 +84,24 @@ final-banner:
 
 <!--------------------  OUR FOUNDERS -------------------->
 
-<section class="padded-b">
+<section class="padded-b center">
   
-  <div class="grid capped-width-v-narrow relative padded-t">
+  <div class="grid-middle capped-width relative padded-t">
 
-    <div class="col-6 border-r-black padded-t-lg"></div>
-    <div class="col-6"></div>
+    <div class="col-1"></div>
+    <div class="col-3 grid relative" data-aos="fade-left" data-aos-duration="500">
+      <span class="bullet"></span><div class="col-12 border-b-black"></div>
+    </div>
 
-    <div class="col-12 center padded">
+    <div class="col-4-bottom center padded">
       <h3 class="large-text uppercase editable">{{page.founders.title }}</h3>
     </div>
 
-    <div class="col-6 border-r-black padded-t-lg"></div>
-    <div class="col-6"></div>
+    <div class="col-3 grid relative" data-aos="fade-right" data-aos-duration="500">
+      <div class="col-12 border-b-black"></div><span class="bullet2"></span>
+    </div>
+    <div class="col-1"></div>
+
   </div>
 
 </section>

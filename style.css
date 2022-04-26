@@ -76,6 +76,7 @@ img { max-width: 100%; height: auto; }
 .padded-2  { padding: 2rem; }
 
 .padded-t  { padding-top: 5%; }
+.padded-t-md  { padding-top: 7%; }
 .padded-t-lg  { padding-top: 10%; }
 .padded-t-20  { padding-top: 20%; }
 .padded-t-30  { padding-top: 30%; }
@@ -471,7 +472,7 @@ p:last-child {
 .header-why p {
   color: var(--green);
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* Slider */
@@ -1138,6 +1139,38 @@ opacity: 0.5;
   border-right: 1px solid var(--dark);
 }
 
+.border-b-black {
+  border-bottom: 1px solid var(--dark);
+}
+
+.bullet {
+  background: var(--white);
+  width: 1rem;
+  height: 1rem;
+  left: -3%;
+  top: -1.3vh;
+  border: 1px solid var(--dark);
+  content: "";
+  position: absolute;
+  transform: translateX(calc(-50% + 1px));
+  border-radius: 100%;
+  animation: none;
+}
+
+.bullet2 {
+  background: var(--white);
+  width: 1rem;
+  height: 1rem;
+  right: -5%;
+  top: -1.3vh;
+  border: 1px solid var(--dark);
+  content: "";
+  position: absolute;
+  transform: translateX(calc(-50% + 1px));
+  border-radius: 100%;
+  animation: none;
+}
+
 footer hr {
   border: .1px solid var(--green);
   width: 100%;
@@ -1188,6 +1221,19 @@ footer hr {
 .support-small img {
   max-width: 35%;
   height: auto;
+  animation: rotation 20s linear infinite;
+}
+
+@keyframes rotation {
+
+  0% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 .support-small2 img {
@@ -1281,12 +1327,17 @@ footer hr {
 }
 
 .green-economy-black img {
-  width: 25%;
+  width: 20%;
   height: auto;
   position: absolute;
   top: 0%;
   right: 0;
   z-index: 0;
+}
+
+.logo-k img {
+  width: 70%;
+  height: auto;
 }
 
 /* HOVER IMAGE CONTAINER */
