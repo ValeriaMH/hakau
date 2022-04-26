@@ -1,13 +1,13 @@
 <section class="bg-beige padded green-text">
 
     <div class="grid">
-  
-      {% if page.url contains '/es' %}
 
         <div class="col-12 center padded padded-b-sm">
-          <h3 class="xlarge-text regular line-height-md-3">{{site.data.contador.title }}</h3>
+          <h3 class="xlarge-text regular line-height-md-3">{{page.counter.title }}</h3>
         </div>
-        {% for item in site.data.contador.elements %}
+
+        {% if page.url contains '/es' %}
+        {% for item in site.data.counter.es %}
         <div class="{{item.column-size }} center padded" id="{{item.id }}">
           <img src="{{item.image }}" class="img-counter">
           <div class="text-4 counter" data-TargetNum="{{item.number }}" data-Speed="2000"></div>
@@ -15,15 +15,13 @@
         </div>
         {% endfor %}
         <div class="col-12_sm-12 left padded-t">
-          <p class="xs-text">{{site.data.contador.disclaimer }}</p>
+          <p class="xs-text">{{page.counter.disclaimer }}</p>
         </div>
 
       {% else %}
 
-        <div class="col-12 center padded padded-b-sm">
-          <h3 class="xlarge-text regular line-height-md-3">{{site.data.counter.title }}</h3>
-        </div>
-        {% for item in site.data.counter.elements %}
+        
+        {% for item in site.data.counter.en %}
         <div class="{{item.column-size }} center padded" id="{{item.id }}">
           <img src="{{item.image }}" class="img-counter">
           <div class="text-4 counter" data-TargetNum="{{item.number }}" data-Speed="2000"></div>
@@ -31,7 +29,7 @@
         </div>
         {% endfor %}
         <div class="col-12_sm-12 left padded-t">
-          <p class="xs-text">{{site.data.counter.disclaimer }}</p>
+          <p class="xs-text">{{page.counter.disclaimer }}</p>
         </div>
 
       {% endif %}

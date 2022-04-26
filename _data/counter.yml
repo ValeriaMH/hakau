@@ -1,5 +1,20 @@
-title: Small changes make<br> a big difference
-elements:
+en:
+- column-size: col-4_sm-12
+  number: 547
+  image: /images/hakau-icon11.png
+  description: Jobs created
+  id: counters_1
+- column-size: col-4_sm-12
+  number: 100
+  image: /images/hakau-icon9.png
+  description: Less pounds of plastic waste
+  id: counters_2
+- column-size: col-4_sm-12
+  number: 250
+  image: /images/hakau-icon10.png
+  description: Members of our community
+  id: counters_3
+es:
 - column-size: col-4_sm-12
   number: 547
   image: /images/hakau-icon11.png
@@ -15,4 +30,3 @@ elements:
   image: /images/hakau-icon10.png
   description: Puestos de trabajo artesanal creados
   id: counters_3
-disclaimer: '*Cifras basadas en los productos y aliados ofrecidos en la web en Abril 2022.'

@@ -35,14 +35,14 @@ layout: default
     
     <div class="grid capped-width-v-narrow relative padded-t">
   
-      <div class="col-6 border-r-black padded-t-lg"></div>
+      <div class="col-6 border-r-black padded-t-lg" data-aos="fade-up" data-aos-duration="500"></div>
       <div class="col-6"></div>
   
       <div class="col-12 center padded">
-        <h3 class="large-text uppercase editable">{{page.hakau-world.what-is-hakau }}</h3>
+        <h3 class="large-text uppercase editable" data-aos="fade-up" data-aos-duration="500">{{page.hakau-world.what-is-hakau }}</h3>
       </div>
   
-      <div class="col-6 border-r-black padded-t-lg"></div>
+      <div class="col-6 border-r-black padded-t-lg" data-aos="fade-up" data-aos-duration="500"></div>
       <div class="col-6"></div>
     </div>
   
@@ -234,31 +234,31 @@ layout: default
 
   <section>
 
-    <div class="grid best-sellers padded-lg padded-r">
+    <div class="grid best-sellers padded-lg padded-r padded-b">
 
       <div class="col-12 padded-b-0">
         <h2>Our best sellers</h2>
       </div>
 
-      <div class="col-4 padded padded-l-0 padded-r-lg">
-        <h4>Create a conscius life in common-unity</h4>
+      <div class="col-3 padded padded-l-0">
+        <h4>Create a conscius life in <span>common-unity</span></h4>
         <a class="btn btn-orange" href="">Shop</a>
       </div>
 
-      <div class="col-8 grid">
+      <div class="col-9 grid">
         {% for item in page.featured-products %}
        
           <div class="col-4_sm-12 padded-1 center">
             <a href="">
-            <div class="product-hover">
-              <img src="{{item.first_image }}" alt="{{item.title }}">
-              {% if item.second_image %}
-                <img src="{{item.second_image }}" class="product-img-top" alt="{{item.title }}">
-              {% endif %}
-            </div>
-            <h2 class="product-title">{{item.title }}</h2>
-            <p class="p-medium2"><span class="p-bold editable">Price:</span> {{item.price }}</p>
-          </a>
+              <div class="product-hover">
+                <img src="{{item.first_image }}" alt="{{item.title }}">
+                {% if item.second_image %}
+                  <img src="{{item.second_image }}" class="product-img-top" alt="{{item.title }}">
+                {% endif %}
+              </div>
+              <h3 class="margin-b-05">{{item.title }}</h3>
+              <p>{{item.price }}</p>
+            </a>
           </div>
         
         {% endfor %}
