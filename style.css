@@ -462,6 +462,17 @@ p:last-child {
   font-size: 1.2rem;
 }
 
+.header-why h1 {
+  color: var(--beige);
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.header-why p {
+  color: var(--green);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
 
 /* Slider */
 
@@ -649,6 +660,14 @@ nav a {
     text-transform: uppercase;
     border-bottom: 1px solid rgba(0,0,0,0);
     color: var(--white);
+}
+
+.fixed-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 2;
 }
 
 .menu-links a,
@@ -1241,6 +1260,14 @@ footer hr {
   animation: tilt 1s linear infinite alternate-reverse;
 }
 
+.green-economy img {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  bottom: 15%;
+  left: 7%;
+}
+
 @keyframes tilt {
 
   0% {
@@ -1253,6 +1280,14 @@ footer hr {
   }
 }
 
+.green-economy-black img {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  right: 0;
+  z-index: 0;
+}
 
 /* HOVER IMAGE CONTAINER */
 
