@@ -86,6 +86,7 @@ img { max-width: 100%; height: auto; }
 .padded-b-xlg  { padding-bottom: 12%; }
 .padded-l  { padding-left: 5%; }
 .padded-l-sm  { padding-left: 2.5%; }
+.padded-l-md  { padding-left: 7%; }
 .padded-r  { padding-right: 5%; }
 .padded-r-sm  { padding-right: 2.5%; }
 
@@ -176,6 +177,8 @@ img { max-width: 100%; height: auto; }
 .margin-t-negative-2 { margin-top: -6%; }
 
 .margin-t-negative-3 { margin-top: -15%; }
+
+.margin-b-neg-5 { margin-bottom: -5rem; }
 
 .margin-founders-neg1 {
   margin-top: -20%;
@@ -440,10 +443,19 @@ p:last-child {
 .semi-bold { font-weight: 600;}
 .bold { font-weight: 700;}
 
+.banner-home h2 {
+  font-size: 3.8rem;
+}
+
+.banner-home h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
 .best-sellers h2 {
   color: var(--green);
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 
 .best-sellers h4 {
@@ -473,7 +485,7 @@ p:last-child {
 .header-why h1 {
   color: var(--beige);
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .header-why p {
@@ -484,13 +496,19 @@ p:last-child {
 
 .founders h2 {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   color: var(--beige);
   text-align: center;
 }
 
 .founders h4 {
   font-size: 2rem;
+  color: var(--beige);
+}
+
+.founders h3,
+.founders p {
+  color: var(--beige);
 }
 
 .values h2 {
@@ -508,6 +526,10 @@ p:last-child {
 
 .allies-stories p {
   color: var(--beige);
+}
+
+#allies-buttons {
+  padding-bottom: 15%;
 }
 
 /* Slider */
@@ -1138,15 +1160,6 @@ opacity: 0.5;
   color: var(--white);
 }
 
-.banner-home h2 {
-  font-size: 3.8rem;
-}
-
-.banner-home h1 {
-  font-size: 1.8rem;
-  font-weight: 400;
-}
-
 /* BANNER W/QUOTE */
 
 .banner-quote {
@@ -1220,8 +1233,8 @@ footer hr {
 }
 
 .ally-image-neg-l {
-  padding: 45%;
-  margin-left: -20vw;
+  padding: 52%;
+  margin-left: -23vw;
 }
 
 .ally-image-neg {
@@ -1378,6 +1391,35 @@ footer hr {
 .logo-k img {
   width: 70%;
   height: auto;
+}
+
+.why-us-icon img {
+  position: absolute;
+  top: 12%;
+  right: -20%;
+  width: 35%;
+  transform: rotate(10deg);
+}
+
+.why-us-icon2 img {
+  position: absolute;
+  bottom: -14vh;
+  right: -8%;
+  width: 75%;
+}
+
+.why-us-icon3 img {
+  position: absolute;
+  bottom: 10vh;
+  right: 7%;
+  width: 20%;
+}
+
+.values-icon img {
+  position: absolute;
+  top: 8vh;
+  right: 4%;
+  width: 5%;
 }
 
 /* HOVER IMAGE CONTAINER */
