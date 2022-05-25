@@ -5,6 +5,33 @@ $(document).ready(function () {
     $('.mobile-menu').fadeToggle(100);
     $(this).toggleClass('active');
   });
+
+   // COURSES TYPE
+
+const tabs = document.querySelectorAll('.allies-stories__tab');
+const tabsContainer = document.querySelector('.allies-stories__tab-container');
+const tabsContent = document.querySelectorAll('.allies-stories__content');
+
+tabsContainer.addEventListener('click', function (e) {
+  const clicked = e.target.closest('.allies-stories__tab');
+
+  // Guard clause
+  if (!clicked) return;
+
+  // Remove active classes
+  tabs.forEach(t => t.classList.remove('allies-stories__tab--active'));
+  tabsContent.forEach(c => c.classList.remove('allies-stories__content--active'));
+
+  // Activate tab
+  clicked.classList.add('allies-stories__tab--active');
+
+  // Activate content area
+  document
+    .querySelector(`.allies-stories__content--${clicked.dataset.tab}`)
+    .classList.add('allies-stories__content--active');
+});
+
+
 });
 
 

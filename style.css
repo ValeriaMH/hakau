@@ -502,6 +502,14 @@ p:last-child {
   color: var(--beige);
 }
 
+.allies-stories h3 {
+  color: var(--beige);
+}
+
+.allies-stories p {
+  color: var(--beige);
+}
+
 /* Slider */
 
 .slider-item {
@@ -1211,6 +1219,11 @@ footer hr {
   left: 5vw;
 }
 
+.ally-image-neg-l {
+  padding: 45%;
+  margin-left: -20vw;
+}
+
 .ally-image-neg {
   padding: 56%;
   margin: 60% -24vw 0 0;
@@ -1704,7 +1717,96 @@ hr.long {
   transition: all .3s;
 }
 
+/* ALLIES BUTTONS */
 
+.allies-stories__tab-container {
+  /* justify-content: center; */
+  /* margin-bottom: -4rem; */
+  z-index: 2;
+} 
+
+/* .allies-stories__tab {
+  margin-right:1rem;
+} */
+
+.allies-stories__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.allies-stories__tab--1 {
+  background-color: var(--yellow);
+}
+
+.allies-stories__tab--1:hover {
+  background-color: var(--blue);
+}
+
+.allies-stories__tab--1:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.allies-stories__tab--2 {
+  background-color: var(--yellow);
+}
+
+.allies-stories__tab--2:hover {
+  background-color: var(--blue);
+}
+
+.allies-stories__tab--2:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.allies-stories__tab--3 {
+  background-color: var(--yellow);
+}
+
+.allies-stories__tab--3:hover {
+  background-color: var(--blue);
+}
+
+.allies-stories__tab--3:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.allies-stories__tab--4 {
+  background-color: var(--yellow);
+}
+
+.allies-stories__tab--4:hover {
+  background-color: var(--blue);
+}
+
+.allies-stories__tab--4:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/* .allies-stories__tab--active {
+  transform: translateY(-66%);
+} */
+
+.allies-stories__content {
+  display: none;
+  /* border: 1.5px solid var(--orange);
+  border-radius: 30px; */
+}
+/* JUST PRESENTATIONAL */
+/* font-size: 1.7rem;
+padding: 2.5rem 7rem 6.5rem 7rem;
+} */
+
+.allies-stories__content--active {
+display: flex;
+/* grid-template-columns: 7rem 1fr;
+column-gap: 3rem;
+row-gap: 0.5rem; */
+} 
 
 
 /* ------------ Responsive Styles ----------------------- */
