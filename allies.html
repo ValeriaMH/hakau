@@ -71,24 +71,43 @@ gallery-items:
 
 <!------------------------ BANNER & MENU ------------------>
 
-<header class="bg-white">
+<header class="header-why">
 
-  {% include header-nav.html %}
+  {% include header-nav-why.html %}
   
-  <div class="grid padded flex-flip-sm">
-    <div class="col-6_sm-12 padded-r sm-padded relative">
-      <div class="bg-image portrait" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
-      <div class="square-ally">
-        <img src="/images/hakau-ecommerce7.jpg" alt="hakau allies">
+  <div class="grid">
+
+    <div class="col-9 grid">
+
+      <div class="col-12 grid bg-orange">
+        <div class="col-8 padded padded-t-lg">
+          <div class="padded-t-l">
+            <h1 class="margin-b-1">Conoce a<br> nuestros<br> aliados</h1>
+          </div>
+        </div>
+        
+        <div class="col-4">
+          <div class="bg-image bg-pos-t tall-100" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="bg-beige padded-md"></div>
+      </div>
+    
+    </div>
+
+    <div class="col-3 grid bg-green">
+      <div class="col-12">
+        <div class="padded-lg">
+          <div class="margin-t-5 margin-b-5"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="bg-image bg-pos-t portrait-md margin-t-10" style="background-image:url('{{ page.hero-banner.banner2_image }}')"></div>
       </div>
     </div>
-    <div class="col-6_sm-12 padded-xlg md-padded padded-t center relative">
-      <h1 class="text-4 line-height-md-2 margin-b-2">{{page.hero-banner.title }}</h1>
-      <p class="dark-text">{{page.hero-banner.description-1 }}</p>
-      <div class="conectamos-desde2">
-        <img src="/images/hakau-icon5.png" alt="hakau conectamos desde el corazon">
-      </div>
-    </div>
+  
   </div>
 
 </header>
@@ -102,6 +121,10 @@ gallery-items:
 </div>
 
 {% include mobile-menu.html %}
+
+<!--------------------  ALLIES -------------------->
+
+
 
 <!--------------------  ALLIES -------------------->
   

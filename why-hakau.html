@@ -12,7 +12,7 @@ hero-banner:
   banner_image: /images/hakau-ecommerce13.jpg
   title: Why Hakau?
   description-1: "When it comes to a physical good, we know what is necessary to be able to inherit. But when we talk about knowing, we specifically need only one thing: listening."
-  description-2: This is how Hakau is born; of deepest listening. One who understood that the depths do not know kilometers and that they are as close as inside us; in the blood itself, in the ancestral memory. And then together we make that heritage travel and transcend all time and space through those who have always been treated; of people and their creations. And so life becomes eternal because knowledge is. And those who taught us a bit of everything, are still alive in each creation. May the wisdom of our people travel the entire world, that what is really important always find someone to travel through time and space, through pacha.
+  description-2: This is how Hakau is born; from the deepest listening. One who understood that the depths do not know kilometers and that they are as close as inside us; in the blood itself, in the ancestral memory. And then together we make that heritage travel and transcend all time and space through those who have always been treated; of people and their creations. And so life becomes eternal because knowledge is. And those who taught us a bit of everything, are still alive in each creation. May the wisdom of our people travel the entire world, that what is really important always find someone to travel through time and space, through pacha.
 founders:
   title: Our founders
   quote1-orange: We believe in a
@@ -26,7 +26,7 @@ founders:
   founder2-description: I am Jeka, a lawyer by profession and passionate about just causes/justice. I am convinced that every good deed, no matter how small, generates a change. I'm involved in the development of sustainable issues and willing to contribute a grain of sand by making a community from person to person.
   founder3_image: /images/hakau-ecommerce9.jpg
   founder3-name: Lu
-  founder3-description: "I'm 32 years old and I live in Texas with my husband, three kids and 4 dogs. I'm a certified Reiki healer and I'm currently pursuing a degree in Psychology: Life Coaching so I can assist, motivate and empower others in their journey. I'm passionate about astrology, herbalism and crystals! I am here because I believe we can co-create a more balanced world in community with our Planet, our cosmos and eachother."
+  founder3-description: "I'm 32 years old and I live in Texas with my husband, three kids and 4 dogs. I'm a certified Reiki healer and I'm currently pursuing a degree in Psychology: Life Coaching so I can assist, motivate and empower others in their journey. I'm passionate about astrology, herbalism and crystals! I am here because I believe we can co-create a more balanced world in community with our Planet, our cosmos and each other."
 quote: We work with small businesses to provide opportunities and support local economies
 values:
   image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
@@ -39,35 +39,23 @@ final-banner:
 
 <!------------------------ BANNER & MENU ------------------>
 
-<header class="bg-orange header-why relative">
-
-  <div class="green-economy-black">
-    <img src="/images/hakau-icon34.jpg" alt="">
-  </div>
+<header class="header-why">
 
   {% include header-nav-why.html %}
   
   <div class="grid">
-    
-    <div class="col-9 padded padded-t-md padded-b-2">
-      <h1>Why Hakau?</h1>
-    </div>
-    <div class="col-3"></div>
-    <div class="col-10 grid">
-      <div class="col-6 bg-beige padded-md padded-b">
+
+    <div class="col-5 bg-dark padded padded-t-lg">
+      <div>
+        <h1 class="margin-b-1">Why Hakau?</h1>
         <p>{{page.hero-banner.description-1}}</p>
         <p>{{page.hero-banner.description-2}}</p>
-        <a class="btn btn-green margin-t-1" href="">Get to know our allies</a>
-      </div>
-      <div class="col-6">
-        <div class="bg-image square bg-pos-t" style="background-image:url('{{ page.hero-banner.banner_image }}')"></div>
+        <a class="btn btn-beige margin-t-1" href="">Get to know our allies</a>
       </div>
     </div>
-    <div class="col-2-bottom center padded">
-      <div class="logo-k">
-        <img src="/images/hakau-icon35.svg" alt="">
-      </div>
-    </div>
+    
+    <div class="col-7 bg-image tall-100 bg-pos-t" style="background-image:url('{{ page.hero-banner.banner_image }}')"></div>
+  
   </div>
 
 </header>
@@ -82,86 +70,46 @@ final-banner:
 
 {% include mobile-menu.html %}
 
-<!--------------------  OUR FOUNDERS -------------------->
+<!--------------------  FOUNDERS NEW -------------------->
 
-<section class="padded-b center">
-  
-  <div class="grid-middle capped-width relative padded-t">
+<section class="bg-orange founders">
 
-    <div class="col-1"></div>
-    <div class="col-3 grid relative" data-aos="fade-left" data-aos-duration="500">
-      <span class="bullet"></span><div class="col-12 border-b-black"></div>
-    </div>
+  <div class="grid padded-t">
 
-    <div class="col-4-bottom center padded">
-      <h3 class="large-text uppercase editable">{{page.founders.title }}</h3>
-    </div>
-
-    <div class="col-3 grid relative" data-aos="fade-right" data-aos-duration="500">
-      <div class="col-12 border-b-black"></div><span class="bullet2"></span>
-    </div>
-    <div class="col-1"></div>
-
-  </div>
-
-</section>
-
-<!--------------------  FOUNDERS -------------------->
-
-<section>
-
-  <div class="grid padded-lg padded-t-0">
-
-    <div class="col-6_sm-12 padded-r sm-padded-r-0">
-      <h3 class="text-4 padded-b">
-        <span class="orange-text">{{page.founders.quote1-orange }}</span>
-        <span class="green-text">{{page.founders.quote2-green }}<br></span>
-        <span class="orange-text">{{page.founders.quote3-orange }}</span>
-      </h3>
-      <div class="support-small right">
-        <img src="/images/hakau-icon3.png" alt="hakau support small">
+    <div class="col-4 grid">
+      <div class="col-12 padded-xlg"></div>
+      <div class="col-12 padded-lg padded-r-25 margin-t-5 margin-b-3">
+          <h4>We believe in a conscius life in common - unity</h4>
+      </div>
+      <div class="col-12 bg-image portrait" style="background-image:url('{{ page.founders.founder2_image }}')"></div>
+      <div class="col-12 padded-lg bg-green">
+        <h3>{{page.founders.founder2-name }}</h3>
+        <p>{{page.founders.founder2-description }}</p>
       </div>
     </div>
 
-    <!-- FOUNDER 1 -->
-    <div class="col-6_sm-12 grid">
-      <div class="col-12 padded-r-lg sm-padded-r-0 sm-padded-l-lg">
-        <div class="bg-image square" style="background-image:url('{{ page.founders.founder1_image }}')"></div>
+    <div class="col-4 grid">
+      <div class="col-12 padded-md margin-t-3">
+        <h2>OUR FOUNDERS</h2>
       </div>
-      <div class="col-12 padded-r-lg sm-padded-l-lg sm-padded-r-0 padded-b margin-founders-neg1">
-        <div class="bg-orange padded white-text">
-          <h2>{{page.founders.founder1-name }}</h2>
-          <p>{{page.founders.founder1-description }}</p>
-        </div>
+      <div class="col-12 bg-image square" style="background-image:url('{{ page.founders.founder3_image }}')"></div>
+      <div class="col-12 padded-lg bg-green">
+        <h3>{{page.founders.founder3-name }}</h3>
+        <p>{{page.founders.founder3-description }}</p>
       </div>
     </div>
 
-    <!-- FOUNDER 2 -->
-    <div class="col-6_sm-12 grid">
-      <div class="col-12 padded-r-lg padded-t">
-        <div class="bg-image square"style="background-image:url('{{ page.founders.founder2_image }}')"></div>
+    <div class="col-4 grid">
+      <div class="col-12 bg-image square-2" style="background-image:url('{{ page.founders.founder1_image }}')">
       </div>
-      <div class="col-12 padded-r-lg margin-founders-neg2">
-        <div class="bg-green padded white-text">
-          <h2>{{page.founders.founder2-name }}</h2>
-          <p>{{page.founders.founder2-description }}</p>
-        </div>
+      <div class="col-12 padded-lg bg-green">
+        <h3>{{page.founders.founder1-name }}</h3>
+        <p>{{page.founders.founder1-description }}</p>
       </div>
     </div>
 
-    <!-- FOUNDER 3 -->
-    <div class="col-6_sm-12 grid">
-      <div class="col-12 padded-l-lg padded-t">
-        <div class="bg-image square"style="background-image:url('{{ page.founders.founder3_image }}')"></div>
-      </div>
-      <div class="col-12 padded-l-lg margin-founders-neg1">
-        <div class="bg-dark padded white-text">
-          <h2>{{page.founders.founder3-name }}</h2>
-          <p>{{page.founders.founder3-description }}</p>
-        </div>
-      </div>
-    </div>
-
+    <div class="col-12 padded-sm bg-green"></div>
+    
   </div>
 
 </section>
@@ -181,27 +129,34 @@ final-banner:
 
 <!--------------------  VALUES -------------------->
 
-<section>
-  <div class="grid bg-beige">
+<section class="values">
+  <div class="grid">
 
-    <div class="col-6_sm-12 grid relative">
-      <div class="support-small3 left">
-        <img src="/images/hakau-icon3.png" alt="hakau support small">
+    <div class="col-12" style="background-image:url('{{ page.final-banner.image }}')">
+      <div class="padded-lg padded-r-25">
+        <h2>La ruta para viajar desde el corazón nuestro al tuyo</h2>
       </div>
-      <div class="col-4 padded-r-25 ladder-black">
-        <img src="/images/hakau-icon27.png" alt="">
-      </div>
-      <div class="col-8-middle padded-xlg padded-t-0 orange-text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae reiciendis rerum consequatur. Quas necessitatibus similique nobis.</p>
-        <h4 class="normal-text uppercase regular">Social Responsability - Passion</h4>
-        <h4 class="normal-text uppercase regular">Honesty - Quality</h4>
-        <h4 class="normal-text uppercase regular">Union - Love</h4>
-      </div>
-      
     </div>
 
-    <div class="col-6_sm-12 padded">
-      <div class="bg-image portrait" style="background-image:url('{{ page.values.image }}')"></div>
+    <div class="col-4">
+      <div class="bg-orange center padded-lg">
+        <h3>Responsabilidad Social</h3>
+        <h3>Pasión</h3>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="bg-green center padded-lg">
+        <h3>Calidad</h3>
+        <h3>Integridad</h3>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <div class="bg-dark center padded-lg">
+        <h3>Honestidad</h3>
+        <h3>Unión</h3>
+      </div>
     </div>
 
   </div>
