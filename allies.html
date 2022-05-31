@@ -18,34 +18,42 @@ allies:
   image: /images/hakau-ecommerce5.jpg
   id: 1
   active: true
-- title: Comunidad 2
+  hover-active: true
+- title:
   image: /images/hakau-ecommerce1.jpg
   id: 2
   active: false
+  hover-active: false
 - title: Comunidad 3
   image: /images/hakau-ecommerce4.jpg
   id: 3
   active: false
-- title: Comunidad 4
+  hover-active: true
+- title:
   image: /images/hakau-ecommerce3.jpg
   id: 4
   active: false
-- title: Comunidad 5
+  hover-active: false
+- title:
   image: /images/hakau-ecommerce2.jpg
   id: 5
   active: false
+  hover-active: false
 - title: Comunidad 6
   image: /images/hakau-ecommerce7.jpg
   id: 6
   active: false
-- title: Comunidad 7
+  hover-active: true
+- title:
   image: /images/hakau-ecommerce8.jpg
   id: 7
   active: false
+  hover-active: false
 - title: Comunidad 8
   image: /images/hakau-ecommerce6.jpg
   id: 8
   active: false
+  hover-active: true
 allies-stories:
 - title:  Aristides Ramos Salama
   nickname: '"El que transforma los elementos"'
@@ -253,18 +261,26 @@ gallery-items:
         <h2>Creemos en una vida consciente en común - unidad</h2>
     </div>
 
-    <div class="col-12 allies-stories__tab-container left grid" id="allies-buttons">
+    <div class="col-3"></div>
+
+    <div class="col-9 allies-stories__tab-container left grid" id="allies-buttons">
 
       {% for item in page.allies %}
         <button class="col-3 allies-stories__tab allies-stories__tab--{{item.id }} {% if item.active == true %} allies-stories__tab--active {% endif %}" data-tab="{{item.id }}">
           
+          {% if item.hover-active == true %}
           <div class="hover-container-gallery" style="background-image:url('{{item.image }}')">
             <div class="hover-overlay-gallery">
-                <div class="hover-inner-gallery">
-                    <h4> {{item.title}} </h4>
-                </div>
+              <div class="hover-inner-gallery padded">
+                  <h4> {{item.title }} </h4>
+              </div> 
             </div>
           </div>
+          
+          {% else %}
+          <div class="hover-container-gallery square" style="background-image:url('{{item.image }}')">
+          </div>
+          {% endif %}
 
         </button>
       {% endfor %}
@@ -300,14 +316,14 @@ gallery-items:
         
       </div>
 
-      <div class="col-12 grid horizontal-scroll center">
+      <div class="col-12 grid allies-slider-container" id="allies-slider">
 
         {% for gallery in item.gallery limit: 6 %}
         
-        <div class="col-5_md-8_sm-10_xs-11 padded-l-0 sm-padded"> 
-            <div class="card-portfolio">
-                <div class="bg-image landscape sm-square" style="background-image: url('{{ gallery.gallery_image }}')"></div>
-            </div>
+        <div class="col-2_sm-5_xs-11 center">
+          <div class="slider-item">
+              <img src="{{gallery.gallery_image }}" alt="">
+          </div>
         </div>
 
         {% endfor %}

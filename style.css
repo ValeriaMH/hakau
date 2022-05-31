@@ -530,13 +530,13 @@ p:last-child {
 }
 
 #allies-buttons {
-  padding: 15%;
+  padding: 0 0 15% 0%;
 }
 
 /* Slider */
 
 .slider-item {
-  padding: 1rem;
+  padding: 0rem;
   display: none;
 }
 
@@ -1475,7 +1475,7 @@ footer hr {
 }
   
 .hover-overlay-gallery:hover {
-  background-color: rgba(60, 60, 60, 0.4);
+  background-color: rgba(20, 20, 20, .6);
   color: var(--white-text);
 }
   
@@ -1772,63 +1772,17 @@ hr.long {
   margin-right:1rem;
 } */
 
-.allies-stories__tab span {
-  margin-right: 1rem;
-  font-weight: 600;
-  display: inline-block;
+.allies-stories__tab {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.allies-stories__tab--1 {
-  background-color: var(--yellow);
+.allies-stories__tab:hover {
+  color: var(--beige);
 }
 
-.allies-stories__tab--1:hover {
-  background-color: var(--blue);
-}
 
-.allies-stories__tab--1:focus {
-  background-color: var(--blue);
-  color: var(--white);
-}
-
-.allies-stories__tab--2 {
-  background-color: var(--yellow);
-}
-
-.allies-stories__tab--2:hover {
-  background-color: var(--blue);
-}
-
-.allies-stories__tab--2:focus {
-  background-color: var(--blue);
-  color: var(--white);
-}
-
-.allies-stories__tab--3 {
-  background-color: var(--yellow);
-}
-
-.allies-stories__tab--3:hover {
-  background-color: var(--blue);
-}
-
-.allies-stories__tab--3:focus {
-  background-color: var(--blue);
-  color: var(--white);
-}
-
-.allies-stories__tab--4 {
-  background-color: var(--yellow);
-}
-
-.allies-stories__tab--4:hover {
-  background-color: var(--blue);
-}
-
-.allies-stories__tab--4:focus {
-  background-color: var(--blue);
-  color: var(--white);
-}
 
 /* .allies-stories__tab--active {
   transform: translateY(-66%);
