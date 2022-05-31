@@ -486,6 +486,7 @@ p:last-child {
   color: var(--beige);
   font-weight: 700;
   font-size: 5rem;
+  line-height: 1.1;
 }
 
 .header-why p {
@@ -529,7 +530,7 @@ p:last-child {
 }
 
 #allies-buttons {
-  padding-bottom: 15%;
+  padding: 15%;
 }
 
 /* Slider */

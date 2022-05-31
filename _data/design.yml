@@ -4,6 +4,8 @@ palette:
   beige_color: '#FEF8F0'
   orange_color: '#AC441E'
   green_color: '#96844C'
+  green2_color: '#907233'
+  green3_color: '#B79B68'
 backgrounds:
   body-background_color: '#FFFFFF'
   mobile-menu-background_color: '#FEF8F0'
