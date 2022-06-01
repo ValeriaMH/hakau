@@ -65,6 +65,8 @@ allies-stories:
   - gallery_image: /images/hakau-ecommerce7.jpg
   - gallery_image: /images/hakau-ecommerce2.jpg
   - gallery_image: /images/hakau-ecommerce1.jpg
+  - gallery_image: /images/hakau-ecommerce7.jpg
+  - gallery_image: /images/hakau-ecommerce5.jpg
   button-name: Shop Aristides Products
   button-url:
   id: 1
@@ -139,6 +141,7 @@ allies-stories:
   button-url:
   id: 6
   active: false
+  id-name: six
 - title: Comunidad 7
   nickname:
   location:
@@ -287,6 +290,7 @@ gallery-items:
       
     </div>
 
+    <!-- Allies stories -->
     {% for item in page.allies-stories %}
     <div class="col-12 grid allies-stories__content allies-stories__content--{{item.id }} {% if item.active == true %} allies-stories__content--active {% endif %}">
 
@@ -322,7 +326,8 @@ gallery-items:
         
         <div class="col-2_sm-5_xs-11 center">
           <div class="slider-item">
-              <img src="{{gallery.gallery_image }}" alt="">
+            <div class="bg-image landscape" style="background-image:url('{{ gallery.gallery_image }}')">
+            </div>
           </div>
         </div>
 

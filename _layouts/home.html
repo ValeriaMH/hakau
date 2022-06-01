@@ -57,7 +57,7 @@ layout: default
   <section class="bg-orange padded padded-tb-sm relative">
 
     <div class="hakau-k">
-      <img src="/images/hakau-icon33.png" alt="">
+      <img src="/images/hakau-icon9.png" alt="">
     </div>
   
     <div class="grid-middle white-text">
@@ -69,7 +69,7 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <img src="/images/hakau-icon6.png" class="hakau-icon">
+        <img src="/images/hakau-icon27.png" class="hakau-icon">
         <p class="text-4">HA</p>
       </div>
 
@@ -145,7 +145,7 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <img src="/images/hakau-icon8.png" class="hakau-icon">
+        <img src="/images/hakau-icon6.png" class="hakau-icon">
         <p class="text-4">U</p>
       </div>
 
@@ -302,12 +302,40 @@ layout: default
   
   <!-------------------- FINAL QUOTE -------------------->
   
-  <section class="bg-image bg-attached bg-overlay bg-overlay-gradient tall-100 tall-60-md banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
+  <!-- <section class="bg-image bg-attached bg-overlay bg-overlay-gradient tall-100 tall-60-md banner-quote" style="background-image:url('{{ page.final-banner.image }}')">
     <div class="capped-width-v-narrow">
       <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
         <div class="margin-t-3">
           <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
         </div>
     </div>
+  </section> -->
+
+  <section>
+
+    <div class="grid">
+
+      <div class="col-12 grid final-slider-container" id="final-slider">
+
+        {% for item in page.final-banner-slider limit: 3 %}
+    
+        <div class="col-12 center">
+          <div class="slider-item">
+            <div class="bg-image tall-100 tall-60-md bg-overlay bg-overlay-gradient banner-quote" style="background-image:url('{{ item.image }}')">
+              <div class="capped-width-v-narrow">
+                <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
+                  <div class="margin-t-3">
+                    <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
   </section>
-  

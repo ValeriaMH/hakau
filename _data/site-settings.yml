@@ -1,8 +1,8 @@
 general:
-  logo-white_image: /images/hakau-icon30.png
-  logo-dark_image: /images/hakau-icon31.png
+  logo-white_image: /images/hakau-icon4.png
+  logo-dark_image: /images/hakau-icon5.png
   logo-size: 45%
-  mobile-logo_image: /images/hakau-icon31.png
+  mobile-logo_image: /images/hakau-icon4.png
   mobile-logo-size: 60%
   explore-logo-size: 50%
 technical:

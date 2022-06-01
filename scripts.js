@@ -80,6 +80,51 @@ $('.allies-slider-container').slick({
 
 });
 
+// Final Banner Slider
+
+$('.final-slider-container').slick({
+  
+  autoplay: true,
+  autoplaySpeed: 3000,
+  speed: 500,
+  arrows: false,
+  accesibility: true,
+  dots: true,
+  fade: false,
+  infinite: true,
+  pauseOnHover: true,
+  pauseOnDotsHover: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  
+});
+
 
 // Animate on scroll - activate
 AOS.init({

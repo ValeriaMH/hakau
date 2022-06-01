@@ -286,7 +286,7 @@ img { max-width: 100%; height: auto; }
 /* Add a second class to change the color or style  */
 
 .bg-overlay-gradient::before { 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
 } 
 
 .bg-overlay-gradient-logo::before { 
@@ -573,7 +573,7 @@ p:last-child {
   bottom: 10px;
 }
 
-.slick-dots li,
+/* .slick-dots li,
 .slick-dots li button {
   width: 0.5rem;
 }
@@ -589,7 +589,7 @@ p:last-child {
 
 .slick-dotted.slick-slider {
   margin-bottom: 0.2rem;
-}
+} */
 
 .horizontal-scroll {
   overflow-x: auto;
@@ -597,6 +597,67 @@ p:last-child {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 5%;
+}
+
+/* FINAL BANNER SLIDER */
+
+#final-slider .slick-dots {
+  left: 0;
+/* without this the padding of the parent affects the centering of the dots. Do not delete   */
+  bottom: 10px;
+}
+
+#final-slider .slick-dots li,
+#final-slider .slick-dots li button {
+  width: 0.8rem;
+}
+
+#final-slider .slick-dots li button::before {
+  color: var(--orange);
+  font-size: 1.2rem;
+}
+
+#final-slider .slick-dots li.slick-active button::before {
+  position: absolute;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  opacity: 1;
+  border: none;
+  border-radius: 0%;
+  background-color: var(--green2);
+  /* text-indent: -9999px; */
+}
+
+#final-slider.slick-dotted.slick-slider {
+  margin-bottom: 0rem;
+}
+
+#final-slider .slick-dots li button::after {
+  position: absolute;
+  bottom: 25px;
+  display: block;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0;
+  list-style-type: none;
+  border-radius: 0;
+  text-align: center;
+  opacity: 1;
+}
+
+#final-slider .slick-dots li button {
+  position: absolute;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  opacity: 1;
+  border: none;
+  border-radius: 0%;
+  background-color: var(--orange);
+  text-indent: -9999px;
 }
 
 /* Youtube Video */
@@ -1172,7 +1233,7 @@ opacity: 0.5;
   background-color: white;
   background-size: cover;
   background-position: 50% 20%;
-  color: #fff;
+  color: var(--beige);
   position: relative;
   min-height: 100vh;
   text-align: center;
@@ -1735,7 +1796,7 @@ hr.long {
 }
 
 .img-counter {
-  max-width: 25%;
+  max-width: 28%;
   height: auto;
 }
 
