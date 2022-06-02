@@ -1,76 +1,67 @@
-menu:
-  link-1:
-    name: Home
-    url: /index
-  link-2:
-    name: Shop
-    url: /shop
-  link-3:
-    name: Sale
-    url: /sale
-  link-4:
-    name: Why Hakau
-    url: /why-hakau
-  link-5:
-    name: Allies
-    url: /allies
-  link-6:
-    name: Contact
-    url: /contact
-  link-7:
-    name: Blog
-    url: /blog
+menu-en:
+- name: Shop
+  url:
+- name: Sale
+  url:
+- name: Why Hakau
+  url: /why-hakau
+- name: Allies
+  url: /allies
+- name: Contact
+  url: /contact
+- name: Blog
+  url: /blog
+menu-es:
+- name: Tienda
+  url:
+- name: Ofertas
+  url:
+- name: Por qué Hakau
+  url: /es/por-que-hakau
+- name: Aliados
+  url: /es/aliados
+- name: Contacto
+  url: /es/contacto
+- name: Blog
+  url: /es/blog
 translation:
   lang-1: EN
   lang-2: ES
 footer-menu1:
-  - name: Shop Hanan
-    url: /shop
-  - name: Shop Kay
-    url:
-  - name: Shop Uku
-    url:
-  - name: Best Sellers
-    url:
-  - name: On sale
-    url:
+- name: Shop Hanan
+  url: /shop
+- name: Shop Kay
+  url:
+- name: Shop Uku
+  url:
+- name: Best Sellers
+  url:
+- name: On sale
+  url:
 footer-menu2:
-  - name: Our story
-    url: /why-hakau
-  - name: Our allies
-    url:
-  - name: Become an ally
-    url:
-  - name: Blog
-    url:
+- name: Our story
+  url: /why-hakau
+- name: Our allies
+  url:
+- name: Become an ally
+  url:
+- name: Blog
+  url:
 footer-menu3:
-  - name: Delivery and refunds
-    url:
-  - name: FAQ
-    url:
-  - name: Contact us
-    url:
-  - name: Privacy Policy
-    url:
+- name: Delivery and refunds
+  url:
+- name: FAQ
+  url:
+- name: Contact us
+  url:
+- name: Privacy Policy
+  url:
 social:
-  linkedin: true
-  linkedin-name: Linkedin
-  linkedin_url:
-  instagram: true
-  instagram-name: Instagram
-  instagram_url:
-  tik-tok: true
-  tik-tok-name: Tik Tok
-  tik-tok_url:
-  youtube: false
-  youtube-name: Youtube
-  youtube_url: 
-  facebook: true
-  facebook-name: Facebook
-  facebook_url:
-  pinterest: false
-  pinterest-name: Pinterest
-  pinterest_url:
-  twitter: false
-  twitter-name: Twitter
-  twitter_url:
+- url:
+  icon: fab fa-instagram
+- url:
+  icon: fab fa-facebook-square
+- url:
+  icon: fab fa-linkedin-in
+- url:
+  icon: fab fa-youtube

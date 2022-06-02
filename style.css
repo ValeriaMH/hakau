@@ -794,7 +794,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(0,0,0,0);
-    color: var(--white);
+    color: var(--beige);
 }
 
 .fixed-menu {
@@ -811,7 +811,7 @@ nav a {
   display: inline-block;
   width: auto;
   text-decoration: none;
-  color: var(--white);
+  color: var(--beige);
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0,0,0,0);
   position: relative;
@@ -827,7 +827,7 @@ nav a {
   height: 1px;
   left: 50%;
   position: absolute;
-  background: var(--white);
+  background: var(--beige);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -863,6 +863,47 @@ nav a {
 
 .logo a:hover {
   text-decoration: none;
+}
+
+.lang-links-dark a,
+.lang-links-white a {
+  padding: 0.1rem 0.5rem;
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  color: var(--dark);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  position: relative;
+  /* margin: 0 1.5rem; */
+}
+
+.lang-links-dark a:after,
+.lang-links-white a:after  {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: var(--dark);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.lang-links-dark a:hover:after,
+.lang-links-white a:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+
+.lang-links-white a {
+  color: var(--beige);
+}
+
+.lang-links-white a:after {
+  background: var(--beige);
 }
 
 /* HAMBURGER */
