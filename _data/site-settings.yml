@@ -1,6 +1,6 @@
 general:
-  logo-white_image: /images/hakau-icon4.png
-  logo-dark_image: /images/hakau-icon5.png
+  logo-white_image: /images/hakau-icon24.png
+  logo-dark_image: /images/hakau-icon25.png
   logo-size: 45%
   mobile-logo_image: /images/hakau-icon4.png
   mobile-logo-size: 60%
@@ -8,14 +8,8 @@ general:
 technical:
   adobe-fonts-embed: <link rel="stylesheet" href="https://use.typekit.net/hqq0vnm.css">
 seo:
-  site_name: Ingrid Carranza | Marketing de Contenidos | Marketing Digital
-  title: Ingrid Carranza | Marketing de Contenidos | Marketing Digital
-  description: >-
-    Ayudo a empresas, emprendedores y empleados a monetizar + 
-
-    con estrategias en marketing de contenidos, marketing digital y redes
-    sociales, sin necesidad de invertir grandes presupuestos.
+  site_name: Hakau | Sustainable Fair Trade E-commerce
+  title: Hakau | Sustainable Fair Trade E-commerce
+  description:
   keywords:
-    - marketing digital
-    - marketing de contenidos
-    - 'redes sociales '
+  - sustainable ecommerce
