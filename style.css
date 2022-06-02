@@ -78,6 +78,7 @@ img { max-width: 100%; height: auto; }
 .padded-t  { padding-top: 5%; }
 .padded-t-md  { padding-top: 7%; }
 .padded-t-lg  { padding-top: 10%; }
+.padded-t-xlg  { padding-top: 15%; }
 .padded-t-20  { padding-top: 20%; }
 .padded-t-30  { padding-top: 30%; }
 .padded-b-sm  { padding-bottom: 2.5%; }
@@ -346,6 +347,7 @@ img { max-width: 100%; height: auto; }
 .landscape-md         { padding-bottom: 45% ; }
 .landscape-sm         { padding-bottom: 25% ; }
 .portrait-tall        { padding-bottom: 175%; }
+.portrait-xlg        { padding-bottom: 205%; }
 .portrait-lg          { padding-bottom: 160%; }
 .portrait-md          { padding-bottom: 140%; }
 .portrait             { padding-bottom: 125%; }
@@ -527,6 +529,14 @@ p:last-child {
 
 .allies-stories h3 {
   color: var(--beige);
+}
+
+.allies-stories h2 {
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  color: var(--dark);
+  text-align: left;
+  writing-mode: sideways-lr;
 }
 
 .allies-stories p {
@@ -1247,6 +1257,24 @@ opacity: 0.5;
   font-size: 3vw;
 }
 
+.banner-allies {
+  padding: 10% 10%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  color: var(--beige);
+  position: relative;
+  min-height: 108vh;
+  text-align: left;
+}
+
+.banner-allies h4 {
+  font-size: 2.8rem;
+}
+
 /* BORDERS */
 
 .border-r-black {
@@ -1499,6 +1527,61 @@ footer hr {
 
 .values-icon2 {
   width: 15%;
+}
+
+.allies-svg {
+  width: 100%;
+  margin-bottom: -.8rem;
+}
+
+.allies-icon1 {
+  position: absolute;
+  top: 6vh;
+  right: 4%;
+  width: 90%;
+  transform: rotate(8.5deg);
+}
+
+.allies-icon2 {
+  position: absolute;
+  top: 30vh;
+  left: 4%;
+  width: 7%;
+}
+
+.allies-icon3 {
+  position: absolute;
+  top: 25vh;
+  left: 30%;
+  width: 10%;
+}
+
+.allies-icon4{
+  position: absolute;
+  top: 75vh;
+  left: 22%;
+  width: 12%;
+}
+
+.allies-icon5{
+  position: absolute;
+  top: -22vh;
+  left: 0;
+  width: 20%;
+}
+
+.allies-icon6{
+  position: absolute;
+  top: -12vh;
+  left: 42%;
+  width: 35%;
+}
+
+.allies-icon7{
+  position: absolute;
+  top: -12vh;
+  left: 42%;
+  width: 30%;
 }
 
 /* HOVER IMAGE CONTAINER */

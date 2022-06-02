@@ -211,15 +211,20 @@ gallery-items:
 
     <div class="col-9 grid">
 
-      <div class="col-12 grid-middle bg-orange">
-        <div class="col-8 padded padded-t-lg">
-          <div class="padded-t-l">
-            <h1 class="margin-b-1">Conoce a<br> nuestros<br> aliados</h1>
+      <div class="col-12 grid bg-orange">
+        <div class="col-8 padded-lg">
+          <img class="allies-icon2" src="/images/hakau-icon2.png" alt="">
+          <img class="allies-icon3" src="/images/hakau-icon15.png" alt="">
+          <img class="allies-icon4" src="/images/hakau-icon14.png" alt="">
+          <div class="padded-t-30">
+            <h1 class="margin-b-1">Get to<br> know our<br> allies</h1>
           </div>
         </div>
         
         <div class="col-4">
-          <div class="bg-image bg-pos-t tall-100" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
+          <div class="bg-image bg-pos-t banner-allies" style="background-image:url('{{ page.hero-banner.banner1_image }}')">
+            <h4>Sustainable e-commerce</h4>
+          </div>
         </div>
       </div>
 
@@ -230,10 +235,8 @@ gallery-items:
     </div>
 
     <div class="col-3 grid">
-      <div class="col-12 bg-green">
-        <div class="padded-lg">
-          <div class="margin-t-5 margin-b-5"></div>
-        </div>
+      <div class="col-12 bg-green relative bg-image square" style="background-image:url('/images/hakau-icon31.png')">
+        <img class="allies-icon1" src="/images/hakau-icon13.png" alt="">
       </div>
       <div class="col-12 bg-beige">
         <div class="bg-image bg-pos-t portrait-md" style="background-image:url('{{ page.hero-banner.banner2_image }}')"></div>
@@ -258,13 +261,12 @@ gallery-items:
 
 <section>
 
-  <div class="grid bg-beige allies-stories relative">
+  <div class="grid-top bg-beige allies-stories relative padded-t">
 
-    <div class="col-12 courses padded">
-        <h2>Creemos en una vida consciente en común - unidad</h2>
+    <div class="col-3 padded-md padded-l-lg relative">
+      <h2>Allies that<br> sustain the world</h2>
+      <img class="allies-icon6" src="/images/hakau-icon5.png" alt="">
     </div>
-
-    <div class="col-3"></div>
 
     <div class="col-9 allies-stories__tab-container left grid" id="allies-buttons">
 
@@ -294,16 +296,18 @@ gallery-items:
     {% for item in page.allies-stories %}
     <div class="col-12 grid allies-stories__content allies-stories__content--{{item.id }} {% if item.active == true %} allies-stories__content--active {% endif %}">
 
-      <div class="col-12 grid-middle bg-green">
+      <div class="col-12 grid-middle bg-green relative">
 
           <div class="col-4">
-            
+            <img class="allies-icon5" src="/images/hakau-icon32.png" alt="">
           </div>
+          
           <div class="col-8 bg-dark grid">
 
             <div class="col-4">
+              <img class="allies-icon7" src="/images/hakau-icon33.png" alt=""></div>
               <div class="ally-image-neg-l">
-                <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image: url('{{ item.image }}')"></div>
+                <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image: url('{{ item.image }}')">
               </div>
             </div>
             <div class="col-7 padded-lg padded-l">
