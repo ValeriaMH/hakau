@@ -1,0 +1,167 @@
+---
+layout: default
+---
+
+<!------------------------ BANNER & MENU ------------------>
+
+<header class="header-why">
+
+  {% include header-nav-why.html %}
+  
+  <div class="grid">
+
+    <div class="col-5_sm-12 bg-dark padded padded-t-lg relative">
+      <div class="why-us-icon">
+        <img src="/images/hakau-icon13.png" alt="">
+      </div>
+      <div class="padded-b padded-t">
+        <h1 class="margin-b-2">{{page.hero-banner.title }}</h1>
+        <p>{{page.hero-banner.description-1 }}</p>
+        <p>{{page.hero-banner.description-2 }}</p>
+        <a class="btn btn-beige margin-t-1" href="{{page.hero-banner.button-url }}">{{page.hero-banner.button-name }}</a>
+      </div>
+    </div>
+    
+    <div class="col-7_sm-12 bg-image tall-100 bg-pos-t relative" style="background-image:url('{{ page.hero-banner.banner_image }}')">
+      <div class="why-us-k">
+        <img src="/images/hakau-icon10.png" alt="">
+      </div>
+    </div>
+  
+  </div>
+
+</header>
+
+<!--------------------  MOBILE MENU -------------------->
+
+<div class="hamburger show-md">
+  <span class="burger-top"></span>
+  <span class="burger-middle"></span>
+  <span class="burger-bottom"></span>
+</div>
+
+{% include mobile-menu.html %}
+
+<!--------------------  FOUNDERS -------------------->
+
+<section class="bg-orange founders">
+
+  <div class="grid padded-t">
+
+    <div class="col-4_sm-12 grid">
+      <div class="col-12 padded-xlg"></div>
+      <div class="col-12 padded-lg padded-r-25 padded-l-xlg margin-t-8 margin-b-0">
+          <h4>{{page.founders.quote }}</h4>
+      </div>
+      <div class="col-12 bg-image portrait" style="background-image:url('{{ page.founders.founder2_image }}')"></div>
+      <div class="col-12 padded-lg bg-green">
+        <h3>{{page.founders.founder2-name }}</h3>
+        <p>{{page.founders.founder2-description }}</p>
+      </div>
+    </div>
+
+    <div class="col-4_sm-12 grid">
+      <div class="col-12 padded-md margin-t-1 center margin-b-neg-6">
+        <h2 class="margin-b-2">{{page.founders.title }}</h2>
+        <img src="/images/hakau-icon36.svg" alt="">
+      </div>
+      <div class="col-12 bg-image square" style="background-image:url('{{ page.founders.founder3_image }}')"></div>
+      <div class="col-12 padded-lg bg-green">
+        <h3>{{page.founders.founder3-name }}</h3>
+        <p>{{page.founders.founder3-description }}</p>
+      </div>
+    </div>
+
+    <div class="col-4_sm-12 grid">
+      <div class="col-12 bg-image square-2" style="background-image:url('{{ page.founders.founder1_image }}')">
+      </div>
+      <div class="col-12 padded-lg bg-green">
+        <h3>{{page.founders.founder1-name }}</h3>
+        <p>{{page.founders.founder1-description }}</p>
+      </div>
+    </div>
+
+    <div class="col-12 padded-sm bg-green relative">
+      <div class="why-us-icon2">
+        <img src="/images/hakau-icon37.svg" alt="">
+      </div>
+      <div class="why-us-icon3">
+        <img src="/images/hakau-icon6.png" alt="">
+      </div>
+    </div>
+    
+  </div>
+
+</section>
+
+<!--------------------  QUOTE -------------------->
+
+<section>
+  <div class="bg-dark white-text padded-md center relative">
+    <div class="black-heart center">
+      <img src="/images/hakau-icon11.png" alt="">
+    </div>
+    <div class="capped-width-v-narrow">
+      <h3 class="xlarge-text line-height-md-2">" {{page.quote }} "</h3>
+    </div>
+  </div>
+</section>
+
+<!--------------------  VALUES -------------------->
+
+<section class="values">
+
+  <div class="grid">
+
+    <div class="col-12 bg-image bg-pos-t2 relative" style="background-image:url('{{ page.values.image }}')">
+      <div class="padded-lg padded-r-25 padded-l-md">
+        <h2>{{ page.values.quote }}</h2>
+      </div>
+      <div class="values-icon">
+          <img src="/images/hakau-icon17.png" alt="">
+      </div>
+    </div>
+
+    <div class="col-4_sm-12">
+      <div class="bg-orange center padded-xlg padded-b-20 padded-t-20">
+        <div class="padded-b-xlg">
+          <img class="values-icon2" src="/images/hakau-icon18.png" alt="">
+        </div>
+        <h3>{{ page.values.value-1 }}</h3>
+        <h3>{{ page.values.value-2 }}</h3>
+      </div>
+    </div>
+
+    <div class="col-4_sm-12">
+      <div class="bg-green center padded-xlg padded-b-20 padded-t-20">
+        <div class="padded-b-xlg">
+          <img class="values-icon2" src="/images/hakau-icon19.png" alt="">
+        </div>
+        <h3>{{ page.values.value-3 }}</h3>
+        <h3>{{ page.values.value-4 }}</h3>
+      </div>
+    </div>
+
+    <div class="col-4_sm-12">
+      <div class="bg-dark center padded-xlg padded-b-20 padded-t-20">
+        <div class="padded-b-xlg">
+          <img class="values-icon2" src="/images/hakau-icon20.png" alt="">
+        </div>
+        <h3>{{ page.values.value-5 }}</h3>
+        <h3>{{ page.values.value-6 }}</h3>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-------------------- FINAL QUOTE -------------------->
+
+<section class="bg-image bg-attached tall-100 tall-70-md banner-quote bg-overlay bg-overlay-gradient" style="background-image:url('{{ page.final-banner.image }}')">
+  <div class="capped-width-v-narrow">
+    <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
+      <div class="margin-t-3">
+        <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
+      </div>
+  </div>
+</section>

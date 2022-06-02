@@ -1,23 +1,22 @@
 ---
-layout: default
+layout: about
 seo:
-  title: Why Hakau | Hakau
+  title: Why Hakau? | Hakau
   description:
   social_image:
   keywords:
     - sustainable ecommerce
   hide-from-google: true
 hero-banner:
-  background: bg-beige
   banner_image: /images/hakau-ecommerce13.jpg
-  title: Why Hakau?
+  title: Why<br> Hakau?
   description-1: "When it comes to a physical good, we know what is necessary to be able to inherit. But when we talk about knowing, we specifically need only one thing: listening."
   description-2: This is how Hakau is born; from the deepest listening. One who understood that the depths do not know kilometers and that they are as close as inside us; in the blood itself, in the ancestral memory. And then together we make that heritage travel and transcend all time and space through those who have always been treated; of people and their creations. And so life becomes eternal because knowledge is. And those who taught us a bit of everything, are still alive in each creation. May the wisdom of our people travel the entire world, that what is really important always find someone to travel through time and space, through pacha.
+  button-name: Get to know our allies
+  button-url: /allies
 founders:
-  title: Our founders
-  quote1-orange: We believe in a
-  quote2-green: conscious life in
-  quote3-orange: common - unity
+  title: Our<br> founders
+  quote: We believe in a conscious life in common - unity
   founder1_image: /images/hakau-ecommerce9.jpg
   founder1-name: Astrid
   founder1-description: I am Astrid, curious at heart, craftswoman, architect by profession and lover of nature and its rhythms by choice. Since child, the one who asked questions, the stubborn as people used to called me... as a grown up, the one who creates and turns things around. It is from here that I connect with myself and with others with our roots, our gifts and what we can weave together in common to make this experience called life one of the best, being aware of the space we inhabit and the impact we have with our daily acts.
@@ -29,174 +28,17 @@ founders:
   founder3-description: "I'm 32 years old and I live in Texas with my husband, three kids and 4 dogs. I'm a certified Reiki healer and I'm currently pursuing a degree in Psychology: Life Coaching so I can assist, motivate and empower others in their journey. I'm passionate about astrology, herbalism and crystals! I am here because I believe we can co-create a more balanced world in community with our Planet, our cosmos and each other."
 quote: Embracing our origins,<br> we connect with the world.
 values:
+  quote: The route to travel from our hearts<br> to yours.
   image: /images/hakau-community1.jpg
+  value-1: Social Responsability
+  value-2: Passion
+  value-3: Quality
+  value-4: Integrity
+  value-5: Honesty
+  value-6: Unity
 final-banner:
   image: /images/hakau-banner2.jpg
   quote: Small changes make a big difference
   cta-name: shop products on sale
   cta-url: 
 ---
-
-<!------------------------ BANNER & MENU ------------------>
-
-<header class="header-why">
-
-  {% include header-nav-why.html %}
-  
-  <div class="grid">
-
-    <div class="col-5 bg-dark padded padded-t-lg relative">
-      <div class="why-us-icon">
-        <img src="/images/hakau-icon13.png" alt="">
-      </div>
-      <div class="padded-b padded-t">
-        <h1 class="margin-b-2">Why<br> Hakau?</h1>
-        <p>{{page.hero-banner.description-1}}</p>
-        <p>{{page.hero-banner.description-2}}</p>
-        <a class="btn btn-beige margin-t-1" href="">Get to know our allies</a>
-      </div>
-    </div>
-    
-    <div class="col-7 bg-image tall-100 bg-pos-t relative" style="background-image:url('{{ page.hero-banner.banner_image }}')">
-      <div class="why-us-k">
-        <img src="/images/hakau-icon10.png" alt="">
-      </div>
-    </div>
-  
-  </div>
-
-</header>
-
-<!--------------------  MOBILE MENU -------------------->
-
-<div class="hamburger show-md">
-  <span class="burger-top"></span>
-  <span class="burger-middle"></span>
-  <span class="burger-bottom"></span>
-</div>
-
-{% include mobile-menu.html %}
-
-<!--------------------  FOUNDERS -------------------->
-
-<section class="bg-orange founders">
-
-  <div class="grid padded-t">
-
-    <div class="col-4 grid">
-      <div class="col-12 padded-xlg"></div>
-      <div class="col-12 padded-lg padded-r-25 padded-l-xlg margin-t-8 margin-b-0">
-          <h4>We believe in a conscious life in common - unity</h4>
-      </div>
-      <div class="col-12 bg-image portrait" style="background-image:url('{{ page.founders.founder2_image }}')"></div>
-      <div class="col-12 padded-lg bg-green">
-        <h3>{{page.founders.founder2-name }}</h3>
-        <p>{{page.founders.founder2-description }}</p>
-      </div>
-    </div>
-
-    <div class="col-4 grid">
-      <div class="col-12 padded-md margin-t-1 center margin-b-neg-6">
-        <h2 class="margin-b-2">OUR<br> FOUNDERS</h2>
-        <img src="/images/hakau-icon36.svg" alt="">
-      </div>
-      <div class="col-12 bg-image square" style="background-image:url('{{ page.founders.founder3_image }}')"></div>
-      <div class="col-12 padded-lg bg-green">
-        <h3>{{page.founders.founder3-name }}</h3>
-        <p>{{page.founders.founder3-description }}</p>
-      </div>
-    </div>
-
-    <div class="col-4 grid">
-      <div class="col-12 bg-image square-2" style="background-image:url('{{ page.founders.founder1_image }}')">
-      </div>
-      <div class="col-12 padded-lg bg-green">
-        <h3>{{page.founders.founder1-name }}</h3>
-        <p>{{page.founders.founder1-description }}</p>
-      </div>
-    </div>
-
-    <div class="col-12 padded-sm bg-green relative">
-      <div class="why-us-icon2">
-        <img src="/images/hakau-icon37.svg" alt="">
-      </div>
-      <div class="why-us-icon3">
-        <img src="/images/hakau-icon6.png" alt="">
-      </div>
-    </div>
-    
-  </div>
-
-</section>
-
-<!--------------------  QUOTE -------------------->
-
-<section>
-  <div class="bg-dark white-text padded-md center relative">
-    <div class="black-heart center">
-      <img src="/images/hakau-icon11.png" alt="">
-    </div>
-    <div class="capped-width-v-narrow">
-      <h3 class="xlarge-text line-height-md-2">" {{page.quote }} "</h3>
-    </div>
-  </div>
-</section>
-
-<!--------------------  VALUES -------------------->
-
-<section class="values">
-
-  <div class="grid">
-
-    <div class="col-12 bg-image bg-pos-t2 relative" style="background-image:url('{{ page.values.image }}')">
-      <div class="padded-lg padded-r-25 padded-l-md">
-        <h2>The route to travel from our hearts<br> to yours.</h2>
-      </div>
-      <div class="values-icon">
-          <img src="/images/hakau-icon17.png" alt="">
-      </div>
-    </div>
-
-    <div class="col-4">
-      <div class="bg-orange center padded-xlg padded-b-20 padded-t-20">
-        <div class="padded-b-xlg">
-          <img class="values-icon2" src="/images/hakau-icon18.png" alt="">
-        </div>
-        <h3>Social Responsibility</h3>
-        <h3>Passion</h3>
-      </div>
-    </div>
-
-    <div class="col-4">
-      <div class="bg-green center padded-xlg padded-b-20 padded-t-20">
-        <div class="padded-b-xlg">
-          <img class="values-icon2" src="/images/hakau-icon19.png" alt="">
-        </div>
-        <h3>Quality</h3>
-        <h3>Integrity</h3>
-      </div>
-    </div>
-
-    <div class="col-4">
-      <div class="bg-dark center padded-xlg padded-b-20 padded-t-20">
-        <div class="padded-b-xlg">
-          <img class="values-icon2" src="/images/hakau-icon20.png" alt="">
-        </div>
-        <h3>Honesty</h3>
-        <h3>Unity</h3>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-------------------- FINAL QUOTE -------------------->
-
-<section class="bg-image bg-attached tall-100 tall-70-md banner-quote bg-overlay bg-overlay-gradient" style="background-image:url('{{ page.final-banner.image }}')">
-  <div class="capped-width-v-narrow">
-    <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
-      <div class="margin-t-3">
-        <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
-      </div>
-  </div>
-</section>

@@ -152,10 +152,10 @@ gallery-items:
   
   <div class="grid">
 
-    <div class="col-9 grid">
+    <div class="col-9_sm-12 grid">
 
       <div class="col-12 grid bg-orange">
-        <div class="col-8 padded-lg">
+        <div class="col-8_sm-12 padded-lg">
           <img class="allies-icon2" src="/images/hakau-icon2.png" alt="">
           <img class="allies-icon3" src="/images/hakau-icon15.png" alt="">
           <img class="allies-icon4" src="/images/hakau-icon14.png" alt="">
@@ -164,7 +164,7 @@ gallery-items:
           </div>
         </div>
         
-        <div class="col-4">
+        <div class="col-4_sm-12">
           <div class="bg-image bg-pos-t banner-allies" style="background-image:url('{{ page.hero-banner.banner1_image }}')">
             <h4>Sustainable e-commerce</h4>
           </div>
@@ -177,7 +177,7 @@ gallery-items:
     
     </div>
 
-    <div class="col-3 grid">
+    <div class="col-3_sm-12 grid">
       <div class="col-12 bg-green relative bg-image square" style="background-image:url('/images/hakau-icon31.png')">
         <img class="allies-icon1" src="/images/hakau-icon13.png" alt="">
       </div>
@@ -214,7 +214,7 @@ gallery-items:
     <div class="col-9 allies-stories__tab-container left grid" id="allies-buttons">
 
       {% for item in page.allies %}
-        <button class="col-3 allies-stories__tab allies-stories__tab--{{item.id }} {% if item.active == true %} allies-stories__tab--active {% endif %}" data-tab="{{item.id }}">
+        <button class="col-3_sm-6 allies-stories__tab allies-stories__tab--{{item.id }} {% if item.active == true %} allies-stories__tab--active {% endif %}" data-tab="{{item.id }}">
           
           {% if item.hover-active == true %}
           <div class="hover-container-gallery" style="background-image:url('{{item.image }}')">
@@ -241,20 +241,20 @@ gallery-items:
 
       <div class="col-12 grid-middle bg-green relative">
 
-          <div class="col-4">
+          <div class="col-4_sm-12">
             <img class="allies-icon5" src="/images/hakau-icon32.png" alt="">
           </div>
           
-          <div class="col-8 grid-middle banner-stories">
+          <div class="col-8_sm-12 grid-middle banner-stories">
 
             <img class="allies-icon7" src="/images/hakau-icon33.png" alt="">
 
-            <div class="col-5 relative">
+            <div class="col-5_sm-12 relative">
               <div class="ally-image bg-image portrait-md" style="background-image: url('{{ item.image }}')">
               </div>
             </div>
 
-            <div class="col-7 padded-lg padded-l">
+            <div class="col-7_sm-12 padded-lg padded-l">
               <h3 class="margin-b-2">{{item.title }}</h3>
               <p>{{item.nickname }}</p>
               <p>{{item.location }}</p>
