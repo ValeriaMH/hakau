@@ -1763,6 +1763,14 @@ footer hr {
 
 .blog-card {
   border-radius: 0px;
+  top: 0;
+  transition: top 0.5s;
+  position: relative;
+}
+
+.blog-card:hover {
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+  top: -5px;
 }
 
 .blog-card .card-inner .tag {
