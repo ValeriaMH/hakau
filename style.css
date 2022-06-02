@@ -1594,18 +1594,19 @@ footer hr {
 
 .allies-icon7{
   position: absolute;
-  top: 2vh;
-  left: -27%;
-  width: 55%;
+  top: 45px;
+  left: -31%;
+  width: 63%;
   z-index: 1;
 }
 
 .ally-image {
   position: absolute;
-  top: -210px;
-  left: -61%;
+  top: -275px;
+  left: -50%;
   width: 100%;
   z-index: 2;
+  border-radius: 195px;
 }
 
 /* HOVER IMAGE CONTAINER */
@@ -1713,7 +1714,7 @@ footer hr {
   cursor: pointer;
   }
   .accordion dd {
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: var(--beige);
   color: var(--dark);
   font-size: 1.1rem;
@@ -1757,11 +1758,11 @@ footer hr {
   background: rgb(65,65,77);
   background: linear-gradient(0deg, rgba(42,42,50,0.8) 0%, rgba(42,42,50,0) 70%);
   text-transform: capitalize;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .blog-card {
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .blog-card .card-inner .tag {
