@@ -354,6 +354,7 @@ img { max-width: 100%; height: auto; }
 .portrait             { padding-bottom: 125%; }
 .square               { padding-bottom: 100%; }
 .square-2             { padding-bottom: 80%; }
+.square-3             { padding-bottom: 90%; }
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
@@ -564,6 +565,17 @@ p:last-child {
 
 .allies-home p {
   color: var(--beige);
+}
+
+#collection-card {
+  padding: 5% 3rem;
+}
+
+.collection-card h3 {
+  writing-mode: sideways-lr;
+  text-transform: uppercase;
+  color: var(--beige);
+  font-size: 2rem;
 }
 
 /* Slider */
@@ -1678,6 +1690,22 @@ footer hr {
   width: 100%;
   z-index: 2;
   border-radius: 195px;
+}
+
+.collection-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32%;
+  z-index: 1;
+}
+
+.collection-icon2 {
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  width: 20%;
+  z-index: 2;
 }
 
 /* HOVER IMAGE CONTAINER */

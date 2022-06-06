@@ -280,19 +280,33 @@ layout: default
   
   <section>
   
-    <div class="grid padded horizontal-scroll">
+    <div class="grid padded horizontal-scroll collection-card">
   
       {% for item in page.collections %}
-      <div class="col-6_sm-12 padded-sm center">
-        <div class="bg-beige padded-lg">
-          <h3 class="green-text">{{item.name }}</h3>
+      <div class="col-6_sm-12 grid center" id="collection-card">
+
+        <a class="col-12 grid-bottom {{item.collection-color }} relative">
+
+          <img class="collection-icon1" src="/images/hakau-icon34.png" alt="">
+          <img class="collection-icon2" src="{{item.icon_image }}" alt="">
+
+          <div class="col-3 padded-md padded-b-md left">
+            <h3>{{item.name }}</h3>
+          </div>
+  
+          <div class="col-9 bg-image square-3 {{item.image-position }}" style="background-image:url('{{ item.image }}')">
+          </div>
+
+        </a>
+
+        <div class="col-12 padded">
           <p>{{item.description }}</p>
           <div class="margin-b-1">
-            <a class="btn btn-green" href="{{item.cta-url }}">{{item.cta-name }}</a>
+            <a class="btn btn-dark" href="{{item.cta-url }}">{{item.cta-name }}</a>
           </div>
-          <p class="xs-text">{{item.small-text }}</p>
+          <!-- <p class="xs-text">{{item.small-text }}</p> -->
         </div>
-        <div class="bg-image landscape {{item.image-position }}" style="background-image:url('{{ item.image }}')"></div>
+
       </div>
       {% endfor %}
   
