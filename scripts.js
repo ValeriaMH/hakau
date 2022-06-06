@@ -139,25 +139,6 @@ AOS.init({
 });
 
 
-// Testimonial Slider
-
-$('.marca-slider-container').slick({
-
-  autoplay: true,
-  autoplaySpeed: 3000,
-  speed: 500,
-  arrows: false,
-  accesibility: true,
-  dots: true,
-  fade: false,
-  infinite: true,
-  pauseOnHover: true,
-  pauseOnDotsHover: true,
-  slidesToShow: 1,
-  slidesToScroll: 1
-
-});
-
 // Why Us Slider
 
 $('.testimonial-slider-container').slick({
@@ -176,6 +157,31 @@ $('.testimonial-slider-container').slick({
   slidesToScroll: 2
 
 });
+
+ // ALLIES HOME
+
+ const tabs = document.querySelectorAll('.allies-home__tab');
+ const tabsContainer = document.querySelector('.allies-home__tab-container');
+ const tabsContent = document.querySelectorAll('.allies-home__content');
+ 
+ tabsContainer.addEventListener('click', function (e) {
+   const clicked = e.target.closest('.allies-home__tab');
+ 
+   // Guard clause
+   if (!clicked) return;
+ 
+   // Remove active classes
+   tabs.forEach(t => t.classList.remove('allies-home__tab--active'));
+   tabsContent.forEach(c => c.classList.remove('allies-home__content--active'));
+ 
+   // Activate tab
+   clicked.classList.add('allies-home__tab--active');
+ 
+   // Activate content area
+   document
+     .querySelector(`.allies-home__content--${clicked.dataset.tab}`)
+     .classList.add('allies-home__content--active');
+ });
 
 
 

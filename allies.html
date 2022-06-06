@@ -34,26 +34,16 @@ allies:
   id: 2
   active: false
   hover-active: false
-- title:
+- title: Cristian Santa María Zamalloa
   image: /images/hakau-ecommerce2.jpg
   id: 3
   active: false
-  hover-active: false
-- title: Cristian Santa María Zamalloa
+  hover-active: true
+- title:
   image: /images/hakau-ecommerce7.jpg
   id: 3
   active: false
-  hover-active: true
-- title:
-  image: /images/hakau-ecommerce8.jpg
-  id: 4
-  active: false
   hover-active: false
-- title: Comunidad 4
-  image: /images/hakau-ecommerce6.jpg
-  id: 4
-  active: false
-  hover-active: true
 allies-stories:
 - title:  Aristides Ramos Salama
   nickname: '"The one who transforms the elements"'
@@ -98,20 +88,6 @@ allies-stories:
   button-name: Shop Cristian Products
   button-url:
   id: 3
-  active: false
-- title: Comunidad 4
-  nickname:
-  location:
-  description: Les presentamos a Cristian Santa María Zamalloa un joven artesano triunfador y soñador, quien desde muy pequeño viene trabajando para lograr que Umasbamba, comunidad en la que vive y donde nació sea reconocida como centro textil rescatando las tradiciones textiles que le enseñaron sus abuelos.<br><br> “Mi nombre es Cristian Santa María tengo 23 años  y vivo en la comunidad de Umasbamba con mi mama Vicentina, mi papa y algunos de mis hermanos, yo soy el menor de los siete y cuando era pequeño mi abuela me cuidaba y ella fue la que me enseñó a tejer…Trabajo desde que tenía 10 años en diferentes centros textiles de chincheros y con lo que he ido juntando de a pocos he construido aquí en mi casa este pequeño centro textil, porque mi sueño es que mi comunidad Umasbamba sea reconocida por los trabajos que hacemos. <br><br>Ahora hemos formado la asociación QORI LORAYPO junto con 10 familias y yo soy el presidente, le hemos puesto ese nombre porque es el nombre del tejido tradicional de aquí y también de una flor que usamos mucho como desinflamante. Nuestro sueño es poder ir a diferentes lugares contando quienes somos y de dónde venimos, para que la gente nos conozca, vengan a visitarnos y conozcan las diferentes actividades que se hacen aquí.”
-  image: /images/hakau-ecommerce5.jpg
-  gallery:
-  - gallery_image: /images/hakau-ecommerce6.jpg
-  - gallery_image: /images/hakau-ecommerce8.jpg
-  - gallery_image: /images/hakau-ecommerce2.jpg
-  - gallery_image: /images/hakau-ecommerce1.jpg
-  button-name: Shop Aristides Products
-  button-url:
-  id: 4
   active: false
 become-ally:
   title: Become an ally
@@ -214,7 +190,7 @@ gallery-items:
     <div class="col-9 allies-stories__tab-container left grid" id="allies-buttons">
 
       {% for item in page.allies %}
-        <button class="col-3_sm-6 allies-stories__tab allies-stories__tab--{{item.id }} {% if item.active == true %} allies-stories__tab--active {% endif %}" data-tab="{{item.id }}">
+        <button class="col-4_sm-6 allies-stories__tab allies-stories__tab--{{item.id }} {% if item.active == true %} allies-stories__tab--active {% endif %}" data-tab="{{item.id }}">
           
           {% if item.hover-active == true %}
           <div class="hover-container-gallery" style="background-image:url('{{item.image }}')">

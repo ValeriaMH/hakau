@@ -176,60 +176,60 @@ layout: default
   
   <!--------------------  ALLIES -------------------->
   
-  <section class="relative">
+  <section>
+
+    <div class="grid-middle bg-green3 allies-home relative padded-t">
+
+      <img class="allies-icon8" src="/images/hakau-icon4.png" alt="">
   
-    <div class="grid">
-  
-      <div class="col-3 bg-green padded">
-        <div class="ally-image-neg">
-          <div class="bg-image bg-radius-xxxlg portrait-md" style="background-image:url('{{ page.allies.ally_image }}')"></div>
-        </div>
+      <div class="col-12 padded relative center">
+        <h2>Allies that sustain the world</h2>
+        <img class="allies-icon9" src="/images/hakau-icon36.svg" alt="">
       </div>
   
-      <div class="col-9 grid relative">
-    
-        <div class="col-12 grid">
-          <div class="col-4 border-r-black padded-t"></div>
-          <div class="col-8"></div>
-          <div class="col-12 padded-sm padded-l-5">
-            <h3 class="large-text uppercase">{{page.allies.title }}</h3>
-          </div>
-          <div class="col-4 border-r-black padded-t"></div>
-          <div class="col-8"></div>
-        </div>
+      <div class="col-8 allies-home__tab-container left grid" id="allies-home">
   
-        <!-- PRODUCT IMAGE -->
-        <div class="col-6-bottom padded-lg md-padded padded-t-30 padded-b">
-          <div class="hover-container bg-radius-xxxlg" style="background-image:url('{{ page.allies.product_image }}')">
-            <div class="hover-overlay">
-              <div class="hover-inner padded center">
-                <a class="btn" href="{{page.allies.product-cta-url }}">{{page.allies.product-cta-name }}</a>
+        {% for item in page.allies %}
+          <button class="col-4_sm-6 allies-home__tab allies-home__tab--{{item.id }} {% if item.active == true %} allies-home__tab--active {% endif %}" data-tab="{{item.id }}">
+            
+            {% if item.hover-active == true %}
+            <div class="hover-container-gallery" style="background-image:url('{{item.image }}')">
+              <div class="hover-overlay-gallery">
+                <div class="hover-inner-gallery padded">
+                    <h4> {{item.title }} </h4>
+                </div> 
               </div>
             </div>
-          </div>
-        </div>
+            
+            {% else %}
+            <div class="hover-container-gallery square" style="background-image:url('{{item.image }}')">
+            </div>
+            {% endif %}
   
-        <!-- ALLY STORY -->
-        <div class="col-6 padded-lg">
-          <div>
-            <h3 class="uppercase">{{page.allies.ally-name }}</h3>
-            <p>{{page.allies.ally-nickname }}</p>
-            <p>{{page.allies.ally-hometown }}</p>
-          </div>
-          <div class="padded-t">
-            <p>{{page.allies.ally-description }}</p>
-          </div>
-          <div class="margin-t-2">
-            <a class="btn btn-orange" href="{{page.allies.ally-cta-url }}">{{page.allies.ally-cta-name }}</a>
-          </div>
-        </div>
-  
+          </button>
+        {% endfor %}
+        
       </div>
-  
-    </div>
 
-    <div class="peruvian-handmade">
-      <img src="/images/hakau-icon14.png" alt="hakau peruvian handmade">
+      <!-- Allies stories -->
+    {% for item in page.allies-stories %}
+    <div class="col-4 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm">
+
+
+        <div class="col-7_sm-12 padded-lg padded-l">
+          <h3 class="margin-b-2">{{item.title }}</h3>
+          <p>{{item.nickname }}</p>
+          <p>{{item.location }}</p>
+          <div class="padded-t">
+            <p>{{item.description }}</p>
+          </div>
+          <a class="btn btn-beige margin-t-2" href="{{item.button-url }}">{{item.button-name }}</a>
+          <a class="btn btn-beige margin-t-2" href="{{item.button-url }}">{{item.button-name }}</a>
+        </div>
+
+    </div>
+    {% endfor %}
+  
     </div>
   
   </section>
