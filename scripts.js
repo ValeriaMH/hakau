@@ -6,6 +6,21 @@ $(document).ready(function () {
     $(this).toggleClass('active');
   });
 
+// Accordion FAQ
+
+var allPanels = $('.accordion > dd').hide();
+
+$('.accordion > dt').click(function() {
+  allPanels.slideUp();
+
+  $(this).filter('.open').removeClass('open').addClass('closing')
+  $('.accordion > dt ').removeClass('open');
+  $(this).not(".closing").addClass('open').next().slideDown();
+  $('.accordion > dt').removeClass('closing');
+  
+  return false;
+});
+
    // ALLIES STORIES
 
 const tabs = document.querySelectorAll('.allies-stories__tab');
@@ -82,48 +97,23 @@ $('.allies-slider-container').slick({
 
 // Final Banner Slider
 
-$('.final-slider-container').slick({
+  $('.final-slider-container').slick({
   
-  autoplay: true,
-  autoplaySpeed: 3000,
-  speed: 500,
-  arrows: false,
-  accesibility: true,
-  dots: true,
-  fade: false,
-  infinite: true,
-  pauseOnHover: true,
-  pauseOnDotsHover: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-  
-});
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 500,
+    arrows: false,
+    accesibility: true,
+    dots: true,
+    fade: false,
+    infinite: true,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+    
+  });
+
 
 
 // Animate on scroll - activate
@@ -138,25 +128,6 @@ AOS.init({
 
 });
 
-
-// Why Us Slider
-
-$('.testimonial-slider-container').slick({
-
-  autoplay: true,
-  autoplaySpeed: 3000,
-  speed: 500,
-  arrows: true,
-  accesibility: true,
-  dots: true,
-  fade: false,
-  infinite: true,
-  pauseOnHover: true,
-  pauseOnDotsHover: true,
-  slidesToShow: 1,
-  slidesToScroll: 2
-
-});
 
  // ALLIES HOME
 
@@ -331,21 +302,6 @@ lightGallery(document.getElementById('lightgallery'), {
   speed: 500,
   download: false
   
-});
-
-// Accordion FAQ
-
-var allPanels = $('.accordion > dd').hide();
-
-$('.accordion > dt').click(function() {
-  allPanels.slideUp();
-
-  $(this).filter('.open').removeClass('open').addClass('closing')
-  $('.accordion > dt ').removeClass('open');
-  $(this).not(".closing").addClass('open').next().slideDown();
-  $('.accordion > dt').removeClass('closing');
-  
-  return false;
 });
 
 

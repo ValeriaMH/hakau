@@ -538,7 +538,6 @@ p:last-child {
   font-size: 2.7rem;
   color: var(--dark);
   text-align: left;
-  writing-mode: sideways-lr;
 }
 
 .allies-stories p {
@@ -549,7 +548,7 @@ p:last-child {
   padding: 0 0 15% 0%;
 }
 
-#allies-buttons {
+#allies-home {
   padding: 0 0 0% 0%;
 }
 
@@ -572,7 +571,7 @@ p:last-child {
 }
 
 .collection-card h3 {
-  writing-mode: sideways-lr;
+  writing-mode:vertical-rl;
   text-transform: uppercase;
   color: var(--beige);
   font-size: 2rem;
@@ -646,6 +645,8 @@ p:last-child {
 }
 
 /* FINAL BANNER SLIDER */
+
+
 
 #final-slider .slick-dots {
   left: 0;
