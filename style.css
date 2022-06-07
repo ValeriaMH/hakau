@@ -289,6 +289,28 @@ img { max-width: 100%; height: auto; }
   z-index: 2;
   position: relative;
 }
+
+.bg-overlay3 {
+  position: relative;
+}
+
+.bg-overlay3::before {
+  z-index: 2;
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0,0,0,0.6); */
+}
+
+.bg-overlay3 > * {
+  z-index: 1;
+  position: relative;
+}
+
+
 /* Add a second class to change the color or style  */
 
 .bg-overlay-gradient::before { 
@@ -297,6 +319,10 @@ img { max-width: 100%; height: auto; }
 
 .bg-overlay-gradient-logo::before { 
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+} 
+
+.bg-overlay-gradient2::before { 
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
 } 
 
 /* Card Styles */
@@ -456,6 +482,16 @@ p:last-child {
 }
 
 .banner-home h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.header-home-video h2 {
+  font-size: 3.8rem;
+  text-transform: uppercase;
+}
+
+.header-home-video h1 {
   font-size: 1.8rem;
   font-weight: 400;
 }
@@ -1405,8 +1441,38 @@ opacity: 0.5;
 /* BANNER HOME */
 
 .banner-home {
-  padding: 12% 10% 10% 10%;
+  /* padding: 12% 10% 10% 10%; */
   color: var(--white);
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-home-video {
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--beige);
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
 }
 
 /* BANNER W/QUOTE */

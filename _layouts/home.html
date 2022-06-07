@@ -3,21 +3,33 @@ layout: default
 ---
 
 <!------------------------ BANNER & MENU ------------------>
+{% include header-nav-why.html %}
 
-<header class="bg-image tall-100 tall-60-md tall-60-sm bg-pos-t" style="background-image:url('{{ page.hero-banner.banner_image }}')">
+<header class="header-home-video">
 
-    {% include header-nav.html %}
-    
-    <div class="banner-home center capped-width-narrow">
-        <h2 class="uppercase">{{page.hero-banner.quote }}</h2>
+    <div>
+      <div class="bg-video bg-overlay3 bg-overlay-gradient2">
+        
+        <video class="bg-video__content" autoplay loop muted poster="/images/texasprobuilders-services12.jpg">
+            <source src="/images/hakau-video.mp4" type="video/mp4">
+            <source src="/images/hakau-video.webm" type="video/webm">
+            Your browser is not supported!
+        </video>
+  
+      </div>
+  
+      <div class="capped-width-narrow padded-t-lg hide-sm center">
+        <h2>{{page.hero-banner.quote }}</h2>
         <h1>{{page.hero-banner.descriptor }}</h1>
         <div class="margin-t-2">
           <a class="btn" href="{{page.hero-banner.cta-url }}">{{page.hero-banner.cta-name }}</a>
         </div>
-    </div>
+      </div>
+  
+    </div>  
     
   
-  </header>
+</header>
   
   <!--------------------  MOBILE MENU -------------------->
   
