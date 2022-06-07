@@ -207,7 +207,7 @@ layout: default
             {% if item.hover-active == true %}
             <div class="hover-container-gallery" style="background-image:url('{{item.image }}')">
               <div class="hover-overlay-gallery">
-                <div class="hover-inner-gallery padded">
+                <div class="hover-inner-gallery padded-md">
                     <h4> {{item.title }} </h4>
                 </div> 
               </div>
@@ -225,18 +225,18 @@ layout: default
 
       <!-- Allies stories -->
     {% for item in page.allies-stories %}
-    <div class="col-4 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm">
+    <div class="col-4 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0">
 
 
-        <div class="col-7_sm-12 padded-lg padded-l">
+        <div class="col-7_sm-12 padded-lg padded-l padded-t-0 padded-b-0">
           <h3 class="margin-b-2">{{item.title }}</h3>
           <p>{{item.nickname }}</p>
           <p>{{item.location }}</p>
           <div class="padded-t">
             <p>{{item.description }}</p>
           </div>
-          <a class="btn btn-beige margin-t-2" href="{{item.button-url }}">{{item.button-name }}</a>
-          <a class="btn btn-beige margin-t-2" href="{{item.button-url }}">{{item.button-name }}</a>
+          <a class="btn btn-beige margin-t-2" href="{{item.button1-url }}">{{item.button1-name }}</a>
+          <a class="btn btn-beige margin-t-2" href="{{item.button2-url }}">{{item.button2-name }}</a>
         </div>
 
     </div>
