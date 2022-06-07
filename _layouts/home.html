@@ -325,7 +325,7 @@ layout: default
     </div>
   </section> -->
 
-  <section>
+  <!-- <section>
 
     <div class="grid">
 
@@ -352,4 +352,48 @@ layout: default
 
     </div>
 
+  </section> -->
+
+  <section>
+
+    <div class="grid">
+
+      <div class="col-12">
+       
+      <div class="col-12 grid relative center">
+  
+          <!-- The dots/circles -->
+          <div id="process-dots">
+  
+            {% for item in page.final-banner-slider %}
+              <div class="dot" onclick="currentSlide({{item.slide-number }})">
+              </div>
+            {% endfor %}
+          
+          </div> 
+          <!-- Slideshow container -->
+          <div class="col-12 slideshow-container">
+  
+            {% for item in page.final-banner-slider %}
+            <div class="mySlides fade" >
+              <div class="bg-image bg-overlay bg-overlay-gradient banner-quote" style="background-image:url('{{ item.image }}')">
+                <div class="capped-width-v-narrow">
+                  <h3 class="uppercase line-height-md-3">{{page.final-banner.quote }}</h3>
+                    <div class="margin-t-3">
+                      <a class="btn" href="{{page.final-banner.cta-url }}">{{page.final-banner.cta-name }}</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+  
+            
+          </div>
+  
+          <br>
+  
+      </div>
+      
+    </div>
+  
   </section>
