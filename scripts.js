@@ -95,24 +95,20 @@ $('.allies-slider-container').slick({
 
 });
 
-// Final Banner Slider
+// Animate on scroll - activate
+AOS.init({
 
-  $('.final-slider-container').slick({
-  
-    autoplay: true,
-    autoplaySpeed: 3000,
-    speed: 500,
-    arrows: false,
-    accesibility: true,
-    dots: true,
-    fade: false,
-    infinite: true,
-    pauseOnHover: true,
-    pauseOnDotsHover: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-    
-  });
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 300, // offset (in px) from the original trigger point
+  delay: 100, // values from 0 to 3000, with step 50ms
+  duration: 500, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false // whether animation should happen only once - while scrolling down
+
+});
+
+
+// Final Banner Slider
 
   let slideIndex = 0;
   showSlides();
@@ -133,18 +129,6 @@ $('.allies-slider-container').slick({
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 3000); // Change image every 2 seconds
   }
-
-// Animate on scroll - activate
-AOS.init({
-
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 300, // offset (in px) from the original trigger point
-  delay: 100, // values from 0 to 3000, with step 50ms
-  duration: 500, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false // whether animation should happen only once - while scrolling down
-
-});
 
 
  // ALLIES HOME
