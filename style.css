@@ -246,6 +246,7 @@ img { max-width: 100%; height: auto; }
 
 .hover-image-container {
   overflow: hidden;
+  border-radius: 150px;
 }
 
 .bg-image-hover {
@@ -256,10 +257,16 @@ img { max-width: 100%; height: auto; }
   -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
+    border-radius: 150px;
+    -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .bg-image-hover:hover {
   transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  border-radius: 150px;
 }
 
 .bg-radius-sm   { border-radius: 5px; }
@@ -611,6 +618,12 @@ p:last-child {
   text-transform: uppercase;
   color: var(--beige);
   font-size: 2rem;
+}
+
+.counter-section h3 {
+  font-size: 2.7rem;
+  color: var(--dark);
+  text-align: center;
 }
 
 /* Slider */
@@ -1176,11 +1189,11 @@ nav a {
 .social a {
   display: block;
   color: inherit;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   border-bottom: none;
-  margin: 1rem 0;
-  padding: 0 0.2rem;
+  margin: .8rem 0;
+  padding: 0;
 }
 
 .social a:hover {
