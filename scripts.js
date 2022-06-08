@@ -1,6 +1,19 @@
 // Mobile menu
 
 $(document).ready(function () {
+  const urlString = window.location.href;
+  const url = new URL(urlString);
+  const path = window.location.pathname;
+
+  if (path === '/allies') {
+    const id = url.searchParams.get('id');
+    if (id) {
+      document.querySelector(`.allies-stories__content--${id}`).classList.add('allies-stories__content--active');
+      const activeTab = document.querySelector('.allies-stories__content--active');
+      activeTab.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+    }
+  }
+
   $('.hamburger').click(function () {
     $('.mobile-menu').fadeToggle(100);
     $(this).toggleClass('active');
@@ -26,25 +39,28 @@ $('.accordion > dt').click(function() {
 const tabs = document.querySelectorAll('.allies-stories__tab');
 const tabsContainer = document.querySelector('.allies-stories__tab-container');
 const tabsContent = document.querySelectorAll('.allies-stories__content');
-
-tabsContainer.addEventListener('click', function (e) {
-  const clicked = e.target.closest('.allies-stories__tab');
-
-  // Guard clause
-  if (!clicked) return;
-
-  // Remove active classes
-  tabs.forEach(t => t.classList.remove('allies-stories__tab--active'));
-  tabsContent.forEach(c => c.classList.remove('allies-stories__content--active'));
-
-  // Activate tab
-  clicked.classList.add('allies-stories__tab--active');
-
-  // Activate content area
-  document
-    .querySelector(`.allies-stories__content--${clicked.dataset.tab}`)
-    .classList.add('allies-stories__content--active');
-});
+if (tabsContainer) {
+  tabsContainer.addEventListener('click', function (e) {
+    const clicked = e.target.closest('.allies-stories__tab');
+  
+    // Guard clause
+    if (!clicked) return;
+  
+    // Remove active classes
+    tabs.forEach(t => t.classList.remove('allies-stories__tab--active'));
+    tabsContent.forEach(c => c.classList.remove('allies-stories__content--active'));
+  
+    // Activate tab
+    clicked.classList.add('allies-stories__tab--active');
+  
+    // Activate content area
+    document.querySelector(`.allies-stories__content--${clicked.dataset.tab}`).classList.add('allies-stories__content--active');
+  
+    //scroll to active 
+    const activeTab = document.querySelector('.allies-stories__content--active');
+    activeTab.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+  });
+}
 
 
 // Allies Slider
@@ -125,8 +141,12 @@ AOS.init({
     for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
+    if (slides[slideIndex-1]) {
+      slides[slideIndex-1].style.display = "block";  
+    }
+    if (dots[slideIndex - 1]) {
+      dots[slideIndex-1].className += " active";
+    }
     setTimeout(showSlides, 3000); // Change image every 2 seconds
   }
 
@@ -136,25 +156,26 @@ AOS.init({
  const tabs = document.querySelectorAll('.allies-home__tab');
  const tabsContainer = document.querySelector('.allies-home__tab-container');
  const tabsContent = document.querySelectorAll('.allies-home__content');
- 
- tabsContainer.addEventListener('click', function (e) {
-   const clicked = e.target.closest('.allies-home__tab');
- 
-   // Guard clause
-   if (!clicked) return;
- 
-   // Remove active classes
-   tabs.forEach(t => t.classList.remove('allies-home__tab--active'));
-   tabsContent.forEach(c => c.classList.remove('allies-home__content--active'));
- 
-   // Activate tab
-   clicked.classList.add('allies-home__tab--active');
- 
-   // Activate content area
-   document
-     .querySelector(`.allies-home__content--${clicked.dataset.tab}`)
-     .classList.add('allies-home__content--active');
- });
+ if (tabsContainer) {
+   tabsContainer.addEventListener('click', function (e) {
+     const clicked = e.target.closest('.allies-home__tab');
+   
+     // Guard clause
+     if (!clicked) return;
+   
+     // Remove active classes
+     tabs.forEach(t => t.classList.remove('allies-home__tab--active'));
+     tabsContent.forEach(c => c.classList.remove('allies-home__content--active'));
+   
+     // Activate tab
+     clicked.classList.add('allies-home__tab--active');
+   
+     // Activate content area
+     document
+       .querySelector(`.allies-home__content--${clicked.dataset.tab}`)
+       .classList.add('allies-home__content--active');
+   });
+ }
 
 
 
