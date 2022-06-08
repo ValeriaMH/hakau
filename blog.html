@@ -73,7 +73,7 @@ final-banner:
       {% for post in site.posts limit:12 %}
 
       <article class="col-4_xs-12 post-item grid gallery-item-category {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
-          <a href="{{ post.url }}" class="blog-card col-12 grid bg-image portrait" style="background-image: url('{{ post.featured_image }}');">
+          <a href="{{ post.url }}" class="blog-card col-12 grid bg-image square" style="background-image: url('{{ post.featured_image }}');">
             <div class="card-inner col-12-bottom">
                 {% for item in post.categories %}
                     <span class="tag"> {{ item }} </span>

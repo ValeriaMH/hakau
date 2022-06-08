@@ -2057,7 +2057,7 @@ footer hr {
 
 .blog-card .card-inner {
   padding: 5% 10%;
-  padding-top: 100%;
+  padding-top: 80%;
   background: rgb(65,65,77);
   background: linear-gradient(0deg, rgba(42,42,50,0.8) 0%, rgba(42,42,50,0) 70%);
   text-transform: capitalize;
@@ -2081,7 +2081,7 @@ footer hr {
 }
 
 [class*="grid"].post-item {
-  padding: 2.5%;
+  padding: 1rem;
 }
 
 
