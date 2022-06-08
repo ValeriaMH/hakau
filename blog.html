@@ -9,7 +9,7 @@ seo:
   hide-from-google: true
 hero-banner:
   background:
-  banner_image: /images/hakau-banner3.jpg
+  banner_image: /images/hakau-community13.jpg
   title: Blog
 quote: Working with small businesses and supporting local economy
 values:
@@ -23,14 +23,14 @@ final-banner:
 
 <!------------------------ BANNER & MENU ------------------>
 
-<header class="bg-image tall-80" style="background-image:url('{{page.hero-banner.banner_image }}')">
+<header class="banner-blog bg-image tall-80 bg-overlay3 bg-overlay-gradient2" style="background-image:url('{{page.hero-banner.banner_image }}')">
 
-  {% include header-nav.html %}
+  {% include header-nav-why.html %}
   
-  <div class="grid padded-20 padded-b-0 center">
-    <div class="col-12-bottom">
-      <h1 class="uppercase white-text text-8 uppercase">{{page.hero-banner.title }}</h1>
-    </div>
+  <div class="padded padded-b-1">
+    
+      <h1>{{page.hero-banner.title }}</h1>
+   
   </div>
 
 </header>

@@ -1541,6 +1541,24 @@ opacity: 0.5;
   text-align: left;
 }
 
+.banner-blog {
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  background-attachment: fixed;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  color: var(--beige);
+  position: relative;
+  min-height: 80vh;
+}
+
+.banner-blog h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
 /* BORDERS */
 
 .border-r-black {
@@ -1853,7 +1871,7 @@ footer hr {
 
 .allies-icon8 {
   position: absolute;
-  top: -5%;
+  top: -7%;
   left: -2%;
   width: 15%;
 }
@@ -2055,7 +2073,7 @@ footer hr {
 
 .blog-card:hover {
   box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-  top: -5px;
+  top: -8px;
 }
 
 .blog-card .card-inner .tag {
