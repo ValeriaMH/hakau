@@ -430,7 +430,7 @@ h5 { font-size: 1.4rem; }
 h6 { font-size: 1.2rem; }
 
 p, li {
-  line-height: 1.4; 
+  line-height: 1.2; 
   margin-bottom: 1rem;
   font-weight: 400;
   font-size: 1rem;
@@ -537,7 +537,7 @@ p:last-child {
   color: var(--beige);
   font-weight: 700;
   font-size: 5rem;
-  line-height: 1.1;
+  line-height: .9;
 }
 
 .header-why p {
