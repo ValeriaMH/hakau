@@ -419,7 +419,7 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: 1.2rem;
 }
 
@@ -513,6 +513,7 @@ p:last-child {
   color: var(--orange);
   font-weight: 300;
   font-size: 1.5rem;
+  line-height: 1;
 }
 
 .best-sellers h4 span {
@@ -551,11 +552,13 @@ p:last-child {
   font-size: 2.7rem;
   color: var(--beige);
   text-align: center;
+  line-height: .9;
 }
 
 .founders h4 {
   font-size: 2.2rem;
   color: var(--beige);
+  line-height: .9;
 }
 
 .founders h3,
@@ -563,9 +566,16 @@ p:last-child {
   color: var(--beige);
 }
 
+.quote-about h3 {
+  font-size: 2.7rem;
+  color: var(--beige);
+  line-height: 1;
+}
+
 .values h2 {
   font-size: 4rem;
   color: var(--beige);
+  line-height: .9;
 }
 
 .values h3 {
@@ -603,6 +613,7 @@ p:last-child {
   font-size: 2.7rem;
   color: var(--beige);
   text-align: center;
+  font-weight: 600;
 }
 
 .allies-home p {
@@ -624,6 +635,8 @@ p:last-child {
   font-size: 2.7rem;
   color: var(--dark);
   text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
 }
 
 /* Slider */
@@ -1507,6 +1520,8 @@ opacity: 0.5;
 
 .banner-quote h3 {
   font-size: 3vw;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .banner-allies {
@@ -1524,7 +1539,8 @@ opacity: 0.5;
 }
 
 .banner-allies h4 {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
+  line-height: .9;
 }
 
 .banner-stories {
@@ -1872,8 +1888,9 @@ footer hr {
 .allies-icon8 {
   position: absolute;
   top: -7%;
-  left: -2%;
+  right: -2%;
   width: 15%;
+  transform: rotate(40deg);
 }
 
 .allies-icon9 {
