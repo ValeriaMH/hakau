@@ -484,7 +484,13 @@ p:last-child {
 .semi-bold { font-weight: 600;}
 .bold { font-weight: 700;}
 
-.highlight-dark {
+p.highlight-dark {
+  background-color: rgba(34, 34, 34, .7);
+  padding: 0 .25em;
+  color: var(--beige);
+}
+
+a.highlight-dark {
   background-color: rgba(34, 34, 34, .7);
   padding: 0 .25em;
   color: var(--beige);
