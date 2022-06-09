@@ -1,12 +1,12 @@
 en:
 - column-size: col-4_sm-12
   number: 547
-  image: /images/hakau-icon16.png
+  image: /images/hakau-icon37.png
   description: Jobs created
   id: counters_1
 - column-size: col-4_sm-12
   number: 100
-  image: /images/hakau-icon7.png
+  image: /images/hakau-icon38.png
   description: Less pounds of plastic waste
   id: counters_2
 - column-size: col-4_sm-12
@@ -17,12 +17,12 @@ en:
 es:
 - column-size: col-4_sm-12
   number: 547
-  image: /images/hakau-icon16.png
+  image: /images/hakau-icon37.png
   description: Puestos de trabajo artesanal creados
   id: counters_1
 - column-size: col-4_sm-12
   number: 100
-  image: /images/hakau-icon7.png
+  image: /images/hakau-icon38.png
   description: Puestos de trabajo artesanal creados
   id: counters_2
 - column-size: col-4_sm-12

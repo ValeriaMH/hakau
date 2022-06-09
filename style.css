@@ -606,7 +606,7 @@ p:last-child {
 }
 
 .allies-home h3 {
-  color: var(--orange);
+  color: var(--dark);
   opacity: .9;
 }
 
@@ -619,10 +619,11 @@ p:last-child {
 
 .allies-home p {
   color: var(--beige);
+  text-align: justify;
 }
 
 .allies-home span {
-  color: var(--orange);
+  color: var(--dark);
   opacity: .6;
 }
 
