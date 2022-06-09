@@ -10,7 +10,7 @@ $(document).ready(function () {
     if (id) {
       document.querySelector(`.allies-stories__content--${id}`).classList.add('allies-stories__content--active');
       const activeTab = document.querySelector('.allies-stories__content--active');
-      activeTab.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+      activeTab.scrollIntoView();
     }
   }
 
@@ -58,7 +58,7 @@ if (tabsContainer) {
   
     //scroll to active 
     const activeTab = document.querySelector('.allies-stories__content--active');
-    activeTab.scrollIntoView({ block: 'end',  behavior: 'smooth' });
+    activeTab.scrollIntoView({ behavior: 'smooth' });
   });
 }
 
