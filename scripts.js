@@ -4,10 +4,14 @@ $(document).ready(function () {
   const urlString = window.location.href;
   const url = new URL(urlString);
   const path = window.location.pathname;
-
+  const tabs = document.querySelectorAll('.allies-stories__tab');
+  const tabsContainer = document.querySelector('.allies-stories__tab-container');
+  const tabsContent = document.querySelectorAll('.allies-stories__content');
   if (path === '/allies') {
     const id = url.searchParams.get('id');
     if (id) {
+      tabs.forEach(t => t.classList.remove('allies-stories__tab--active'));
+      tabsContent.forEach(c => c.classList.remove('allies-stories__content--active'));
       document.querySelector(`.allies-stories__content--${id}`).classList.add('allies-stories__content--active');
       const activeTab = document.querySelector('.allies-stories__content--active');
       activeTab.scrollIntoView();
@@ -36,9 +40,7 @@ $('.accordion > dt').click(function() {
 
    // ALLIES STORIES
 
-const tabs = document.querySelectorAll('.allies-stories__tab');
-const tabsContainer = document.querySelector('.allies-stories__tab-container');
-const tabsContent = document.querySelectorAll('.allies-stories__content');
+
 if (tabsContainer) {
   tabsContainer.addEventListener('click', function (e) {
     const clicked = e.target.closest('.allies-stories__tab');
