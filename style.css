@@ -588,7 +588,7 @@ p:last-child {
 
 .allies-stories h2 {
   text-transform: uppercase;
-  font-size: 2.7rem;
+  font-size: 2.3rem;
   color: var(--dark);
   text-align: left;
 }
@@ -1865,7 +1865,7 @@ footer hr {
 
 .allies-icon5{
   position: absolute;
-  top: -40vh;
+  top: -25vh;
   left: 0;
   width: 20%;
 }
