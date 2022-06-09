@@ -484,7 +484,7 @@ p:last-child {
 .semi-bold { font-weight: 600;}
 .bold { font-weight: 700;}
 
-.highlight-dark mark {
+.highlight-dark {
   background-color: rbga(34,34,34,.2);
   padding: 0 .25em;
 }
