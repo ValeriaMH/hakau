@@ -11,7 +11,7 @@ en:
   id: counters_2
 - column-size: col-4_sm-12
   number: 250
-  image: /images/hakau-icon1.png
+  image: /images/hakau-icon36.png
   description: Members of our community
   id: counters_3
 es:
@@ -27,6 +27,6 @@ es:
   id: counters_2
 - column-size: col-4_sm-12
   number: 250
-  image: /images/hakau-icon1.png
+  image: /images/hakau-icon36.png
   description: Puestos de trabajo artesanal creados
   id: counters_3

@@ -607,6 +607,7 @@ p:last-child {
 
 .allies-home h3 {
   color: var(--orange);
+  opacity: .9;
 }
 
 .allies-home h2 {
@@ -618,6 +619,11 @@ p:last-child {
 
 .allies-home p {
   color: var(--beige);
+}
+
+.allies-home span {
+  color: var(--orange);
+  opacity: .6;
 }
 
 #collection-card {
