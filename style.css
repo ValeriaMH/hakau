@@ -485,7 +485,7 @@ p:last-child {
 .bold { font-weight: 700;}
 
 .highlight-dark {
-  background-color: rbga(34,34,34,.2);
+  background-color: rgba(34, 34, 34, .7);
   padding: 0 .25em;
 }
 
