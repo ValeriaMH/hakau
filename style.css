@@ -484,6 +484,11 @@ p:last-child {
 .semi-bold { font-weight: 600;}
 .bold { font-weight: 700;}
 
+mark {
+  background-color: var(--dark);
+  opacity: .2;
+}
+
 .banner-home h2 {
   font-size: 3.8rem;
 }
@@ -618,7 +623,7 @@ p:last-child {
 }
 
 .allies-home p {
-  color: var(--beige);
+  color: var(--dark);
   text-align: justify;
 }
 
