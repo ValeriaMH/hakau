@@ -484,9 +484,9 @@ p:last-child {
 .semi-bold { font-weight: 600;}
 .bold { font-weight: 700;}
 
-mark {
-  background-color: var(--dark);
-  opacity: .2;
+.highlight-dark mark {
+  background-color: rbga(34,34,34,.2);
+  padding: 0 .25em;
 }
 
 .banner-home h2 {
