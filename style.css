@@ -464,6 +464,8 @@ p:last-child {
 .beige-text       { color: var(--beige);}
 .orange-text      { color: var(--orange);}
 .green-text       { color: var(--green);}
+.green2-text       { color: var(--green2);}
+.green3-text       { color: var(--green3);}
 
 /* Font sizes */
 
@@ -486,6 +488,12 @@ p:last-child {
 
 .highlight-dark {
   background-color: rgba(34, 34, 34, .7);
+  padding: 0 .25em;
+  color: var(--beige);
+}
+
+.highlight-green3 {
+  background-color: rgba(183, 155, 104, .6);
   padding: 0 .25em;
   color: var(--beige);
 }
@@ -551,6 +559,7 @@ p:last-child {
   color: var(--beige);
   font-weight: 400;
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .founders h2 {
@@ -613,7 +622,14 @@ p:last-child {
 
 .allies-home h3 {
   color: var(--dark);
-  opacity: .9;
+  font-size: 2.3rem;
+  opacity: 1;
+}
+
+.allies-home h5 {
+  color: var(--dark);
+  font-size: 1.5rem;
+  opacity: .8;
 }
 
 .allies-home h2 {
@@ -629,7 +645,7 @@ p:last-child {
 }
 
 .allies-home span {
-  color: var(--dark);
+  /* color: var(--dark); */
   opacity: .6;
 }
 
@@ -938,6 +954,7 @@ p a {
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0,0,0,0);
   position: relative;
+  font-weight: 700;
 }
 
 .btn:after,
