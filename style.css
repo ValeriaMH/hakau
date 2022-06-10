@@ -127,6 +127,7 @@ img { max-width: 100%; height: auto; }
 .padded-r-xlg { padding-right: 15%; }
 .padded-r-20 { padding-right: 20%; }
 .padded-r-25 { padding-right: 25%; }
+.padded-r-30 { padding-right: 30%; }
 
 .padded-t-0 { padding-top: 0; }
 .padded-b-0 { padding-bottom: 0; }
@@ -531,8 +532,8 @@ p:last-child {
 }
 
 .best-sellers h4 span {
-  color: var(--orange);
-  font-weight: 700;
+  color: var(--green);
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -601,6 +602,11 @@ p:last-child {
   color: var(--beige);
 }
 
+.values span {
+  opacity: .4;
+  color: var(--beige);
+}
+
 .allies-stories h3 {
   color: var(--orange);
 }
@@ -614,6 +620,7 @@ p:last-child {
 
 .allies-stories p {
   color: var(--beige);
+  text-align: justify;
 }
 
 #allies-buttons {
@@ -949,7 +956,8 @@ p a {
 .btn,
 .btn-dark,
 .btn-orange,
-.btn-green { 
+.btn-green,
+.btn-green3 { 
   padding: 0.1rem 0.5rem;
   display: inline-block;
   width: auto;
@@ -964,7 +972,8 @@ p a {
 .btn:after,
 .btn-dark:after,
 .btn-orange:after,
-.btn-green:after {
+.btn-green:after,
+.btn-green3:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -980,7 +989,8 @@ p a {
 .btn:hover:after,
 .btn-dark:hover:after,
 .btn-orange:hover:after,
-.btn-green:hover:after {
+.btn-green:hover:after,
+.btn-green3:hover:after {
   width: 100%; 
   left: 0; 
 }
@@ -1008,6 +1018,14 @@ p a {
 
 .btn-green:after {
   background: var(--green);
+}
+
+.btn-green3 {
+  color: var(--green3);
+}
+
+.btn-green3:after {
+  background: var(--green3);
 }
 
 
