@@ -608,7 +608,12 @@ p:last-child {
 }
 
 .allies-stories h3 {
-  color: var(--orange);
+  color: var(--green3);
+  font-size: 2.3rem;
+}
+
+.allies-nick {
+  opacity: .6;
 }
 
 .allies-stories h2 {
@@ -616,6 +621,12 @@ p:last-child {
   font-size: 2.3rem;
   color: var(--dark);
   text-align: left;
+}
+
+.allies-stories h5 {
+  color: var(--beige);
+  font-size: 1.5rem;
+  opacity: .8;
 }
 
 .allies-stories p {
@@ -1931,7 +1942,7 @@ footer hr {
 
 .allies-icon7{
   position: absolute;
-  top: 45px;
+  top: 70px;
   left: -31%;
   width: 63%;
   z-index: 1;
