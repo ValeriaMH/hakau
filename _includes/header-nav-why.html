@@ -13,14 +13,32 @@
     </div>
 
     <div class="menu-links col-8_md-7 padded-r-2 padded-t-2 hide-sm">
-
+        
         {% if page.url contains '/es/' %}
+        <div class="col-2 dropdown-shop grid">
+            <a class="btn-subtle dropdown-title" href="{{ site.data.navigation.shop-url-es }}">{{ site.data.navigation.shop-name-es }}</a>
+            <div class="dropdown-content grid">
+                {% for item in site.data.navigation.shop-menu-es %}
+                    <a class="col-2 btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        
         {% for item in site.data.navigation.menu-es %}
-            <a class="btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
+            <a class="col-1 btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
         {% endfor %}
 
         {% else %}
-        {% for item in site.data.navigation.menu-en %}
+        <div class="dropdown-shop">
+            <span class="dropdown-title"> {{ site.data.navigation.shop-name-en }}</span>
+            <div class="dropdown-content grid">
+                {% for item in site.data.navigation.shop-menu-en %}
+                    <a class="col-4" href="{{ item.url }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        
+        {% for item in site.data.navigation.menu-es %}
             <a class="btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
         {% endfor %}
 

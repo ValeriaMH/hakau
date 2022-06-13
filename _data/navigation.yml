@@ -1,6 +1,4 @@
 menu-en:
-- name: Shop
-  url:
 - name: Sale
   url:
 - name: Why Hakau
@@ -12,8 +10,6 @@ menu-en:
 - name: Blog
   url: /blog
 menu-es:
-- name: Tienda
-  url:
 - name: Ofertas
   url:
 - name: Por qué Hakau
@@ -24,6 +20,34 @@ menu-es:
   url: /es/contacto
 - name: Blog
   url: /es/blog
+shop-name-en: Shop
+shop-url-en:
+shop-name-es: Tienda
+shop-url-es:
+shop-menu-en:
+- name: Hanan
+  url:
+  submenu:
+  - name: Crafts
+    url:
+- name: Kay
+  url:
+  submenu:
+  - name: Sustainable Clothing
+    url:
+  - name: Personal Care
+    url:
+  - name: Homeware
+    url:
+- name: Uku
+  url:
+  submenu:
+  - name: Cristals
+    url:
+  - name: Charms
+    url:
+  - name: Jewellery
+    url:
 translation:
   lang-1: EN
   lang-2: ES
