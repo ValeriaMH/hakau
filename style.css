@@ -231,6 +231,7 @@ img { max-width: 100%; height: auto; }
 .bg-beige       { background-color: var(--beige); }
 .bg-orange     { background-color: var(--orange); }
 .bg-green    { background-color: var(--green); }
+.bg-green2    { background-color: var(--green2); }
 .bg-green3    { background-color: var(--green3); }
 
 .bg-image {
@@ -1998,7 +1999,15 @@ footer hr {
   position: absolute;
   top: 7%;
   right: 6%;
+  width: 22%;
+}
+
+.faq-icon2 {
+  position: absolute;
+  bottom: 7%;
+  left: 4%;
   width: 20%;
+  animation: rotation 15s linear infinite;
 }
 
 /* HOVER IMAGE CONTAINER */
