@@ -8,10 +8,11 @@ seo:
     - sustainable ecommerce
   hide-from-google: true
 hero-banner:
-  banner1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  banner1_image: /images/hakau-community12.jpg
   banner2_image: /images/hakau-ecommerce3.jpg
+  banner3_image: /images/hakau-peru40.jpg
   background: bg-white
-  title: Join our common - unity
+  title: Join our common.unity
   description-1: Contact us
 allies:
   ally1_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
@@ -71,14 +72,14 @@ gallery-items:
 
 <!------------------------ BANNER & MENU ------------------>
 
-<header class="bg-white">
+<header class="bg-white contact-section">
 
   {% include header-nav.html %}
   
-  <div class="grid padded">
+  <div class="grid padded padded-b-0">
 
     <div class="col-5 padded orange-text">
-      <h2 class="text-4 line-height-md-2 margin-b-2">{{page.hero-banner.title }}</h2>
+      <h2 class="margin-b-2">{{page.hero-banner.title }}</h2>
       <h1 class="uppercase margin-t-5">{{page.hero-banner.description-1 }}</h1>
       <!-- CONTACT FORM -->
       <div class="grid contact padded-t">
@@ -107,58 +108,21 @@ gallery-items:
         <!-- SOCIAL ICONS -->
         <div class="social-contact">
           <ul>
-                {% if site.data.navigation.social.instagram == true %}
-                <li><a href="{{ site.data.navigation.social.instagram_url }}" target="_blank">
-                  <i class="fab fa-instagram"></i>
+            {% for item in site.data.navigation.social %}
+                <li><a href="{{item.url }}" target="_blank">
+                  <i class="{{item.icon }}"></i>
                 </a></li>
-                {% endif %}
+                {% endfor %}
           
-              {% if site.data.navigation.social.facebook == true %}
-              <li><a href="{{ site.data.navigation.social.facebook_url }}" target="_blank">
-              <i class="fab fa-facebook"></i>
-              </a></li>
-              {% endif %}
-          
-              {% if site.data.navigation.social.tik-tok == true %}
-              <li><a href="{{ site.data.navigation.social.tik-tok_url }}" target="_blank">
-                <i class="fab fa-tiktok"></i>
-              </a></li>
-              {% endif %}
-          
-              {% if site.data.navigation.social.youtube == true %}
-              <li><a href="{{ site.data.navigation.social.youtube_url }}" target="_blank">
-                <i class="fab fa-youtube"></i>
-              </a></li>
-              {% endif %}
-          
-              {% if site.data.navigation.social.linkedin == true %}
-              <li><a href="{{ site.data.navigation.social.linkedin_url }}" target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a></li>
-              {% endif %}
-          
-              {% if site.data.navigation.social.pinterest == true %}
-              <li><a href="{{ site.data.navigation.social.pinterest_url }}" target="_blank">
-                <i class="fab fa-pinterest"></i>
-              </a></li>
-              {% endif %}
-          
-              {% if site.data.navigation.social.twitter == true %}
-              <li><a href="{{ site.data.navigation.social.twitter_url }}" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a></li>
-              {% endif %}
-            </li>
           </ul>
-            
-    
-      
-           
    
         </div>
       </div>
       <div class="col-6-bottom padded-t-30 margin-contact-neg">
         <div class="bg-image square" style="background-image:url('{{ page.hero-banner.banner2_image }}')"></div>
+      </div>
+      <div class="col-7-top padded-l-md margin-t-negative">
+        <div class="bg-image square" style="background-image:url('{{ page.hero-banner.banner3_image }}')"></div>
       </div>
       
     </div>

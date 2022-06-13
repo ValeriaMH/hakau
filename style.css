@@ -213,7 +213,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .margin-contact-neg {
-  margin-left: -20%;
+  margin-left: -10%;
 }
 .margin-contact-neg2 {
   margin-left: 10%;
@@ -563,6 +563,11 @@ p:last-child {
   text-align: justify;
 }
 
+.contact-section h2 {
+  font-size: 4rem;
+  line-height: .9;
+}
+
 .founders h2 {
   text-transform: uppercase;
   font-size: 2.7rem;
@@ -832,6 +837,10 @@ p:last-child {
 
 /* Hide the images by default */
 .mySlides {
+  display: none;
+}
+
+.mySlides1 {
   display: none;
 }
 
