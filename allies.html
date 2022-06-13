@@ -182,6 +182,7 @@ gallery-items:
   background_image: /images/hakau-ecommerce2.jpg
   popup_image: /images/hakau-ecommerce2.jpg
   text-hover: House of artisans
+youtube-id: geomKGxovPc
 ---
 
 <!------------------------ BANNER & MENU ------------------>
@@ -335,11 +336,18 @@ gallery-items:
 
 <!--------------------  VIDEO -------------------->
 
-<section>
+<section class="padded-md youtube-section">
 
-  <div class="grid">
-    <div class="col-12 padded-lg center">
+  <div class="grid capped-width-narrow">
+    <div class="col-12 padded-md center">
       <h3>En Hakau somos Ayllu</h3>
+    </div>
+    <div class="col-12 padded-b">
+      <div class="embed-container">
+
+        <iframe src="https://www.youtube.com/embed/{{page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
+  
+      </div>
     </div>
   </div>
 

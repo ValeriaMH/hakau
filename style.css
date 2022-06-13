@@ -569,6 +569,10 @@ p:last-child {
   line-height: .9;
 }
 
+.youtube-section h3 {
+  font-size: 2.7rem;
+}
+
 .founders h2 {
   text-transform: uppercase;
   font-size: 2.7rem;
