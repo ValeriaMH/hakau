@@ -500,6 +500,11 @@ p:last-child {
   color: var(--beige);
 }
 
+.highlight-strong {
+  font-weight: 700;
+  color: var(--green3);
+}
+
 .banner-home h2 {
   font-size: 3.8rem;
 }
@@ -642,6 +647,10 @@ p:last-child {
 .allies-stories p {
   color: var(--beige);
   text-align: justify;
+}
+
+.allies-stories .orange-text p {
+  color: var(--orange);
 }
 
 #allies-buttons {
