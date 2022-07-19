@@ -505,6 +505,11 @@ p:last-child {
   color: var(--green3);
 }
 
+.highlight-strong2 {
+  font-weight: 400;
+  color: var(--green2);
+}
+
 .banner-home h2 {
   font-size: 3.8rem;
 }
