@@ -27,11 +27,15 @@ shop-url-es:
 shop-menu-en:
 - name: Hanan
   url:
+  link-color: link-orange
+  icon_image: /images/hakau-icon41.png
   submenu:
   - name: Crafts
     url:
 - name: Kay
   url:
+  link-color: link-green
+  icon_image: /images/hakau-icon42.png
   submenu:
   - name: Sustainable Clothing
     url:
@@ -41,12 +45,28 @@ shop-menu-en:
     url:
 - name: Uku
   url:
+  link-color: link-dark
+  icon_image: /images/hakau-icon43.png
   submenu:
   - name: Cristals
     url:
   - name: Charms
     url:
   - name: Jewellery
+    url:
+- name: Shop by Community
+  url:
+  link-color: link-green
+  submenu:
+  - name: Aristides Ramos Salama
+    url:
+  - name: Qory Loraypo
+    url:
+  - name: Warmi Awadora
+    url:
+  - name: Awanallaqta Tocapo
+    url:
+  - name: Huacca Arcana
     url:
 translation:
   lang-1: EN
