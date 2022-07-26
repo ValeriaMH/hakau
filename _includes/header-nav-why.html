@@ -1,4 +1,6 @@
 <nav class="col-12 grid hide-md fixed-menu">
+    
+    <!-- LOGO -->
     <div class="col-3_md-5 padded-l-2 padded-t-1 no-hover">
         {% if page.url contains '/es/' %}
         <a href="/es/inicio" class="logo">
@@ -14,6 +16,7 @@
 
     <div class="menu-links col-8_md-7 padded-r-2 padded-t-2 hide-sm">
         
+        <!-- MENU SPANISH -->
         {% if page.url contains '/es/' %}
         <div class="col-2 dropdown-shop grid">
             <a class="btn-subtle dropdown-title" href="{{ site.data.navigation.shop-url-es }}">{{ site.data.navigation.shop-name-es }}</a>
@@ -28,13 +31,19 @@
             <a class="col-1 btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
         {% endfor %}
 
+        <!-- MENU ENGLISH -->
         {% else %}
         <div class="dropdown-shop">
             <span class="dropdown-title"> {{ site.data.navigation.shop-name-en }}</span>
             <div class="dropdown-content grid">
+                <div class="col-2"></div>
                 {% for item in site.data.navigation.shop-menu-en %}
-                    <a class="col-4" href="{{ item.url }}">{{ item.name }}</a>
+                    <a class="col-2 padded" href="{{ item.url }}">{{ item.name }}</a>
+                    {% for menu in shop-menu-en.submenu %}
+                    <a href="{{ menu.url }}">{{ menu.name }}</a>
+                    {% endfor %}
                 {% endfor %}
+                <div class="col-4"></div>
             </div>
         </div>
         
