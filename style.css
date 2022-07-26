@@ -1322,9 +1322,9 @@ nav a {
 .hamburger {
   position: fixed;
   cursor: pointer;
-  top: 4.3vh;
-  right: 2vh;
-  z-index: 9;
+  top: 5.3vh;
+  left: 2.5vh;
+  z-index: 2;
   padding: 4px;
   }
   
@@ -1353,6 +1353,17 @@ nav a {
   .burger-bottom{
   bottom: -02px;
   }
+
+  /*nav menu*/
+.show {
+  left:0%;
+  opacity:1;
+}
+
+.hide {
+  opacity:0;
+  left:100%;
+}
   
   
   /* make sure this has the same top as the burger button has padding*/
@@ -1374,6 +1385,28 @@ nav a {
     transform: rotateZ(-45deg);
     }
 
+    /* HAMBURGER CLOSED */
+
+.hamburger.hamb-closed .burger-top {
+position: absolute;
+top: 7px;
+transform: rotateZ(45deg);
+transition: all 1s;
+}
+
+.hamburger.hamb-closed .burger-middle {
+/*   transform: rotateZ(270deg); */
+border-color: rgba(0,0,0,0);
+background-color:rgba(0,0,0,0);
+}
+
+.hamburger.hamb-closed .burger-bottom{
+  position: absolute;
+  bottom: 7px;
+  transform: rotateZ(-45deg);
+  transition: all 1s;
+  }
+
 /* Styles when the circle button is active  */
 .vertical {
   writing-mode: vertical-lr;
@@ -1387,7 +1420,7 @@ nav a {
   z-index: 3;
 }
 
-.mobile-menu {
+/* .mobile-menu {
   display: none;
   position: fixed;
   top: 0;
@@ -1396,7 +1429,6 @@ nav a {
   bottom: 0;
   background-color: var(--mobile-menu-background);
   padding: 5%;
-  /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1); */
   transition:1s;
   z-index: 3;
   }
@@ -1414,8 +1446,52 @@ nav a {
   
   .mobile-menu a:hover {
   color: var(--amarillo-claro);
-  }
+  } */
 
+
+   /* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: var(--beige); /* Black fallback color */
+  /*background-color: rgba(0,0,0, 0.9);  Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  width: 80%; /* 100% width */
+}
+
+/* When you mouse over the navigation links, change their color */
+/* .overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+} */
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 5.3vh;
+  left: 2.5vh;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+} 
 
 .social a {
   display: block;
@@ -2621,11 +2697,11 @@ row-gap: 0.5rem; */
 
   .logo {
     text-decoration: none;
-    font-size: 2.5rem;
-    max-width: 50%;
+    max-width: 16%;
   } 
 
   .md-padded-b-0 { padding-bottom: 0; }
+  .md-padded-l-0 { padding-left: 0; }
 
   .md-padded-t-1 {padding-top: 1rem; }
   .md-padded-b-1 {padding-bottom: 1rem; }

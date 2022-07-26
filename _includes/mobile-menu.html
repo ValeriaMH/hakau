@@ -1,21 +1,77 @@
-<section class="grid-middle mobile-menu padded center sm-padded-t-5">
+<!-- Use any element to open/show the overlay navigation menu -->
+<section class="grid overlay" id="myNav">
 
-    <div class="col-12-middle center">
-        <a href="/index" class="logo-mobile">
-            <img src="{{ site.data.site-settings.general.mobile-logo_image }}" />
+    <a href="javascript:void(0)" class="hamburger hamb-closed closebtn" onclick="closeNav()">
+        <span class="burger-top"></span>
+        <span class="burger-bottom"></span>
+    </a>
+
+    <div class="col-12 padded-sm center">
+        {% if page.url contains '/es/' %}
+        <a href="/es/inicio" class="logo">
+            <img src="{{ site.data.site-settings.general.logo-dark_image }}" alt="{{ site.data.site-settings.seo.title }}">
         </a>
+
+        {% else %}
+        <a href="/index" class="logo">
+            <img src="{{ site.data.site-settings.general.logo-dark_image }}" alt="{{ site.data.site-settings.seo.title }}">
+        </a>
+        {% endif %}
     </div>
 
-    <nav class="padded-t no-border-mobile-menu">
-        <a href="{{ site.data.navigation.menu.link-1.url }}">{{ site.data.navigation.menu.link-1.name }}</a>
-        <a href="{{ site.data.navigation.menu.link-2.url }}">{{ site.data.navigation.menu.link-2.name }}</a>
-        <a href="{{ site.data.navigation.menu.link-3.url }}">{{ site.data.navigation.menu.link-3.name }}</a>
-        <a href="{{ site.data.navigation.menu.link-4.url }}">{{ site.data.navigation.menu.link-4.name }}</a>
-        <a href="{{ site.data.navigation.menu.link-5.url }}">{{ site.data.navigation.menu.link-5.name }}</a>
-        <a href="{{ site.data.navigation.menu.link-6.url }}">{{ site.data.navigation.menu.link-6.name }}</a>
-        <a href="{{ site.data.navigation.menu.link-7.url }}">{{ site.data.navigation.menu.link-7.name }}</a>
-       
-    </nav>
+    <div class="menu-links-dark col-12 padded-t-2">
+        
+        <!-- MENU SPANISH -->
+        {% if page.url contains '/es/' %}
+        <div class="dropdown-shop grid">
+            <a class="btn-subtle dropdown-title" href="{{ site.data.navigation.shop-url-es }}">{{ site.data.navigation.shop-name-es }}</a>
+            <div class="dropdown-content grid">
+                {% for item in site.data.navigation.shop-menu-es %}
+                    <a class="col-2 btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        
+        {% for item in site.data.navigation.menu-es %}
+            <a class="col-1 btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+
+        <!-- MENU ENGLISH -->
+        {% else %}
+        <div class="dropdown-shop">
+            <span class="dropdown-title"> {{ site.data.navigation.shop-name-en }}</span>
+            <div class="dropdown-content grid">
+                <div class="col-2"></div>
+                {% for item in site.data.navigation.shop-menu-en %}
+                <div class="col-2 padded-1 {{item.link-color }}">
+               
+                        <a href="{{ item.url }}">{{ item.name }}</a>  
+                        {% if item.icon_image %}
+                        <img class="menu-icon" src="{{ item.icon_image }}">
+                        {% endif %}
+              
+                    
+                    <div class="submenu">
+                      <ul>
+                        {% for menu in item.submenu %}
+                            <li><a href="{{ menu.url }}">{{ menu.name }}</a></li>
+                        {% endfor %}
+                      </ul>      
+                    </div>
+                </div>
+                    
+                    
+                {% endfor %}
+                <div class="col-2"></div>
+            </div>
+        </div>
+        
+        {% for item in site.data.navigation.menu-en %}
+            <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+
+        {% endif %}
+    </div>
     
     <nav class="grid-bottom social-menu-mobile padded no-border-mobile-menu">
         <div class="col-12">

@@ -1,5 +1,13 @@
 // Mobile menu
 
+function openNav() {
+  document.getElementById("myNav").style.width = "90%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
 $(document).ready(function () {
   const urlString = window.location.href;
   const url = new URL(urlString);
@@ -64,10 +72,12 @@ $(document).ready(function () {
     }
   }
 
-  $(".hamburger").click(function () {
-    $(".mobile-menu").fadeToggle(100);
-    $(this).toggleClass("active");
-  });
+  // $(".hamburger").click(function () {
+  //   $(".mobile-menu").fadeToggle(100);
+  //   $(this).toggleClass("active");
+  // });
+
+  
 
   // Accordion FAQ
 
