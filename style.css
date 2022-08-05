@@ -407,6 +407,7 @@ img { max-width: 100%; height: auto; }
 .center         { text-align: center; }
 .justify        { text-align: justify; }
 .uppercase      { text-transform: uppercase; }
+.capitalize      { text-transform: capitalize; }
 .vertical-align { vertical-align: middle; }
 
 body {
@@ -549,12 +550,12 @@ p:last-child {
 }
 
 .best-sellers a p {
-  color: var(--dark);
+  color: var(--green);
   font-size: 1.1rem;
 }
 
 .best-sellers a h3 {
-  color: var(--dark);
+  color: var(--green2);
   text-transform: none;
   font-weight: 600;
   font-size: 1.2rem;
@@ -707,7 +708,7 @@ p:last-child {
 }
 
 .counter-section h3 {
-  font-size: 2.7rem;
+  font-size: 2rem;
   color: var(--dark);
   text-align: center;
   font-weight: 600;
