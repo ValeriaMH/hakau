@@ -2602,6 +2602,10 @@ hr.long {
   transition: all .3s;
 }
 
+.product-hover img {
+  border: 1px solid var(--green3);
+}
+
 .product-hover .product-img-top {
   display: none;
   position: absolute;
