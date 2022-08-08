@@ -10,11 +10,11 @@ layout: default
   
   <div class="grid">
 
-    <div class="col-5_md-6_sm-12 bg-dark padded padded-t-lg padded-r-md sm-padded sm-padded-t-15 relative">
+    <div class="col-5_md-6_sm-12 bg-dark padded padded-t-lg padded-r-md sm-padded sm-padded-t-15 xs-padded-md xs-padded-t-25 relative">
       <div class="why-us-icon">
         <img src="/images/hakau-icon13.png" alt="">
       </div>
-      <div class="padded-b padded-t">
+      <div class="padded-b padded-t xs-padded-t-25">
         <h1 class="margin-b-2">{{page.hero-banner.title }}</h1>
         <p>{{page.hero-banner.description-1 }}</p>
         <p>{{page.hero-banner.description-2 }}</p>
@@ -22,7 +22,7 @@ layout: default
       </div>
     </div>
     
-    <div class="col-7_md-6_sm-12 bg-image tall-100 tall-70-sm bg-pos-t relative" style="background-image:url('{{ page.hero-banner.banner_image }}')">
+    <div class="col-7_md-6_sm-12 bg-image tall-100 tall-70-sm tall-50-xs bg-pos-t relative" style="background-image:url('{{ page.hero-banner.banner_image }}')">
       <div class="why-us-k">
         <img src="/images/hakau-icon10.png" alt="">
       </div>
@@ -46,7 +46,7 @@ layout: default
 
 <section class="bg-orange founders">
 
-  <div class="grid padded-t">
+  <div class="grid padded-t hide-sm">
 
     <div class="col-4_sm-12 grid">
       <div class="col-12 padded-xlg"></div>
@@ -99,12 +99,59 @@ layout: default
     
   </div>
 
+  <div class="grid show-sm">
+
+    <div class="col-12 padded-md center sm-padded-t-lg sm-padded-b-0">
+      <h2 class="margin-b-2 md-margin-b-1 sm-margin-b-2 xs-margin-b-1">{{page.founders.title }}</h2>
+      <div class="md-margin-b-1 founders-line">
+        <img src="/images/hakau-icon36.svg" alt="">
+      </div>
+      
+    </div>
+
+    <div class="col-12 center sm-padded-lg sm-padded-t xs-padded-lg xs-padded-b-15">
+      <div class="founders-slider-container">
+      <!-----------------SLIDE 1--------------->
+          <div class="slider-item col-12 sm-text-center" id="slider-icons">
+              <img class="margin-b-2" src="{{page.founders.founder2_image }}" alt="" />
+              <h3>{{page.founders.founder2-name }}</h3>
+              <p>{{page.founders.founder2-description }}</p>
+          </div>
+      
+          <!-----------------SLIDE 2--------------->
+          <div class="slider-item col-12 sm-text-center" id="slider-icons">
+            <img class="margin-b-2" src="{{page.founders.founder3_image }}" alt="" />
+            <h3>{{page.founders.founder1-name }}</h3>
+            <p>{{page.founders.founder1-description }}</p>
+        </div>
+      
+        <!-----------------SLIDE 3--------------->
+        <div class="slider-item col-12 sm-text-center" id="slider-icons">
+          <img class="margin-b-2" src="{{page.founders.founder1_image }}" alt="" />
+          <h3>{{page.founders.founder3-name }}</h3>
+          <p>{{page.founders.founder3-description }}</p>
+      </div>
+          
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 relative">
+    <div class="why-us-icon2">
+      <img src="/images/hakau-icon37.svg" alt="">
+    </div>
+    <div class="why-us-icon3">
+      <img src="/images/hakau-icon39.png" alt="">
+    </div>
+  </div>
+  
+
 </section>
 
 <!--------------------  QUOTE -------------------->
 
 <section>
-  <div class="bg-dark white-text padded-md center relative quote-about">
+  <div class="bg-dark white-text padded-md sm-padded-t-lg xs-padded-b-lg center relative quote-about">
     <div class="black-heart center">
       <img src="/images/hakau-icon11.png" alt="">
     </div>
@@ -130,11 +177,11 @@ layout: default
     </div>
 
     <div class="col-4_sm-12">
-      <div class="bg-orange center padded-xlg padded-b-20 padded-t-20">
+      <div class="bg-orange center padded-xlg padded-b-20 padded-t-20 sm-padded-t-lg sm-padded-b-lg">
         <div class="padded-b">
           <img class="values-icon2" src="/images/hakau-icon18.png" alt="">
         </div>
-        <div class="padded-b-xlg">
+        <div class="padded-b-xlg sm-padded-b-md">
           <span>/Hanan/</span>
         </div>
         <h3>{{ page.values.value-1 }}</h3>
@@ -143,11 +190,11 @@ layout: default
     </div>
 
     <div class="col-4_sm-12">
-      <div class="bg-green center padded-xlg padded-b-20 padded-t-20">
+      <div class="bg-green center padded-xlg padded-b-20 padded-t-20 sm-padded-t-lg sm-padded-b-lg">
         <div class="padded-b">
           <img class="values-icon2" src="/images/hakau-icon19.png" alt="">
         </div>
-        <div class="padded-b-xlg">
+        <div class="padded-b-xlg sm-padded-b-md">
           <span>/Kay/</span>
         </div>
         <h3>{{ page.values.value-3 }}</h3>
@@ -156,11 +203,11 @@ layout: default
     </div>
 
     <div class="col-4_sm-12">
-      <div class="bg-dark center padded-xlg padded-b-20 padded-t-20">
+      <div class="bg-dark center padded-xlg padded-b-20 padded-t-20 sm-padded-t-lg sm-padded-b-lg">
         <div class="padded-b">
           <img class="values-icon2" src="/images/hakau-icon20.png" alt="">
         </div>
-        <div class="padded-b-xlg">
+        <div class="padded-b-xlg sm-padded-b-md">
           <span>/Uku/</span>
         </div>
         <h3>{{ page.values.value-5 }}</h3>

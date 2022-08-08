@@ -3,7 +3,7 @@ general:
   logo-dark_image: /images/hakau-icon25.png
   logo-size: 45%
   mobile-logo_image: /images/hakau-icon4.png
-  mobile-logo-size: 60%
+  mobile-logo-size: 30%
   explore-logo-size: 50%
 technical:
   adobe-fonts-embed: <link rel="stylesheet" href="https://use.typekit.net/hqq0vnm.css">

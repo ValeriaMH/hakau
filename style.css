@@ -736,7 +736,7 @@ p:last-child {
 }
 
 .slick-prev {
-  left:3rem;
+  left: 3rem;
   z-index: 2;
 }
 
@@ -756,23 +756,33 @@ p:last-child {
   bottom: 10px;
 }
 
-/* .slick-dots li,
-.slick-dots li button {
-  width: 0.5rem;
+/* SLIDER ARROWS AND DOTS FOUNDERS */
+
+.founders-slider-container .slick-next {
+  right:-2rem;
 }
 
-.slick-dots li button::before {
-  color: var(--celeste);
-  font-size: 1rem;
+.founders-slider-container .slick-prev {
+  left: -3rem;
+  z-index: 2;
 }
 
-.slick-dots li.slick-active button::before {
-  color: var(--celeste);
+.founders-slider-container .slick-next::before, .founders-slider-container .slick-prev::before {
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 1;
+    opacity: 1;
+    color: var(--beige);
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
 }
 
-.slick-dotted.slick-slider {
-  margin-bottom: 0.2rem;
-} */
+.founders-slider-container .slick-dots {
+  left: 0;
+/* without this the padding of the parent affects the centering of the dots. Do not delete   */
+  bottom: -2rem;
+}
+
 
 .horizontal-scroll {
   overflow-x: auto;
@@ -2753,6 +2763,7 @@ row-gap: 0.5rem; */
   .md-padded-b-lg { padding-bottom: 10%; }
   .md-padded-t-lg { padding-top: 10%; }
   .md-padded-t-xlg { padding-top: 15%; }
+  .md-padded-t-60 { padding-top: 60%; }
 
   .md-padded { padding: 5%; }
   .md-padded-r { padding-right: 5%; }
@@ -2801,6 +2812,9 @@ row-gap: 0.5rem; */
   }
 
   .text-8 { font-size: 6rem; }
+  .header-why h1 {
+    font-size: 4rem;
+  }
 
   .founders h4 {
     font-size: 1.8rem;
@@ -2822,6 +2836,47 @@ row-gap: 0.5rem; */
     font-size: 1.3rem;
   }
 
+  .banner-allies h4 {
+    font-size: 2rem;
+  }
+
+  .allies-stories h2 {
+    font-size: 1.5rem;
+  }
+
+  .allies-icon3 {
+    top: 20vh;
+    left: 30%;
+    width: 12%;
+    z-index: 2;
+  }
+
+  .allies-icon2 {
+    left: 2%;
+    width: 8%;
+  }
+
+  .allies-icon4 {
+    top: 65vh;
+    left: 19%;
+    width: 15%;
+  }
+
+  .allies-icon6 {
+    top: -9vh;
+    left: 40%;
+    width: 48%;
+  }
+
+  .allies-icon5 {
+    top: -13vh;
+    width: 20%;
+  }
+
+  .banner-allies {
+    min-height: 90vh;
+  }
+
 
 }
 
@@ -2841,7 +2896,11 @@ row-gap: 0.5rem; */
   }
 
   .logo img {
-    max-width: var(--logo-size);
+    max-width: var(--mobile-logo-size);
+  }
+
+  .hamburger {
+    top: 4.3vh;
   }
 
   .sm-text-center { text-align: center; }
@@ -2861,6 +2920,7 @@ row-gap: 0.5rem; */
   .sm-padded-t-lg { padding-top: 10%; }
   .sm-padded-t-15 { padding-top: 15%; }
   .sm-padded-b { padding-bottom: 5%; }
+  .sm-padded-b-md { padding-bottom: 7%; }
   .sm-padded-b-lg { padding-bottom: 10%; }
   .sm-padded-b-0 { padding-bottom: 0; }
   .sm-padded-b-3 { padding-bottom: 3rem; }
@@ -2977,6 +3037,14 @@ row-gap: 0.5rem; */
   .text-8 { font-size: 5rem; }
   .text-4 { font-size: 3rem; }
 
+  .quote-about h3 {
+    font-size: 2rem;
+  }
+
+  .values h2 {
+    font-size: 2.8rem;
+  }
+
   .header-why h1 {
     font-size: 3.5rem;
   }
@@ -2992,6 +3060,26 @@ row-gap: 0.5rem; */
     width: 35%;
   }
 
+  .founders-line img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .black-heart img {
+    max-width: 12%;
+    top: -21%;
+    left: 45%;
+  }
+
+  .why-us-icon2 img {
+    width: 73%;
+  }
+
+  .why-us-icon3 img {
+    right: 5%;
+    width: 22%;
+  }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -3003,13 +3091,23 @@ row-gap: 0.5rem; */
 		.hide-xs { display: none;  }
 
     .tall-40-xs  { min-height: 40vh; }
+    .tall-50-xs  { min-height: 50vh; }
 
     .xs-square { padding-bottom: 100%;}
 
     .xs-padded-t-0 { padding-top: 0%; }
     .xs-padded-t-lg { padding-top: 10%; }
+    .xs-padded-t-25 { padding-top: 25%; }
+
+    .xs-padded-b-lg { padding-bottom: 10%; }
+    .xs-padded-b-15 { padding-bottom: 15%; }
+
+    .xs-padded-r-25 { padding-right: 25%; }
 
     .xs-padded-md { padding: 7%; }
+    .xs-padded-lg { padding: 10%; }
+
+    .xs-margin-b-1 { margin-bottom: 1rem; }
 
     .logo {
       max-width: 100%;
@@ -3043,6 +3141,25 @@ row-gap: 0.5rem; */
 
     .text-4 { font-size: 2.5rem; }
     .large-text { font-size: 1.5rem; }
+    .header-why h1 {
+      font-size: 3rem;
+    }
+
+    .quote-about h3 {
+      font-size: 1.8rem;
+    }
+
+    .header-why p {
+      font-size: 1rem;
+    }
+
+    .founders h2 {
+      font-size: 2.3rem;
+    }
+
+    .values h2 {
+      font-size: 2.5rem;
+    }
 
     .bullet2 {
       right: -14%;
@@ -3063,6 +3180,40 @@ row-gap: 0.5rem; */
       width: 18%;
       top: 5%;
       right: 15%;
+    }
+
+    .why-us-icon img {
+      top: 87%;
+      width: 44%;
+    }
+
+    .why-us-icon2 img {
+      width: 94%;
+      right: -3%;
+    }
+
+    .black-heart img {
+      max-width: 17%;
+      top: -19%;
+      left: 41%;
+    }
+
+    .values-icon img {
+      top: 3vh;
+      right: 6%;
+      width: 8%;
+    }
+
+    .founders-slider-container .slick-next::before, .founders-slider-container .slick-prev::before {
+      font-size: 1.5rem;
+    }
+    .founders-slider-container .slick-next {
+      right: -1.5rem;
+      top: 40%;
+    }
+    .founders-slider-container .slick-prev {
+      left: -1.5rem;
+      top: 40%;
     }
 
 }

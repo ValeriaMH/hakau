@@ -235,6 +235,25 @@ if (tabsContainer) {
   });
 }
 
+// Founders
+
+$('.founders-slider-container').slick({
+
+  autoplay: true,
+  autoplaySpeed: 2000,
+  speed: 500,
+  arrows: true,
+  accesibility: true,
+  dots: true,
+  fade: false,
+  infinite: true,
+  pauseOnHover: true,
+  pauseOnDotsHover: true,
+  slidesToShow: 1,
+  slidesToScroll: 1
+
+});
+
 //  Image Lazy loading
 document.addEventListener("DOMContentLoaded", function () {
   var lazyloadImages;
