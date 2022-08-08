@@ -104,6 +104,9 @@ allies-stories:
   - gallery_image: /images/hakau-ecommerce5.jpg
   - gallery_image: /images/hakau-peru53.jpg
   - gallery_image: /images/hakau-peru50.jpg
+  - gallery_image: /images/hakau-peru50.jpg
+  - gallery_image: /images/hakau-peru50.jpg
+  - gallery_image: /images/hakau-peru50.jpg
   button-name: Shop Aristides Products
   button-url:
   id: 4
@@ -187,7 +190,7 @@ youtube-id: geomKGxovPc
 
 <!------------------------ BANNER & MENU ------------------>
 
-<header class="header-why">
+<header class="header-why header-why-xs">
 
   {% include header-nav-why.html %}
   
@@ -236,7 +239,7 @@ youtube-id: geomKGxovPc
         <img class="allies-icon2" src="/images/hakau-icon2.png" alt="">
           <img class="allies-icon3" src="/images/hakau-icon15.png" alt="">
           <img class="allies-icon4" src="/images/hakau-icon14.png" alt="">
-          <div class="padded-t-30 md-padded-t-60 sm-padded-t-30">
+          <div class="padded-t-30 md-padded-t-60 sm-padded-t-30 xs-padded-t-50">
             <h1 class="margin-b-1">Get to<br> know our<br> allies</h1>
           </div>
       </div>
@@ -274,7 +277,7 @@ youtube-id: geomKGxovPc
 
   <div class="grid-top bg-beige allies-stories relative padded-t md-padded-t-lg">
 
-    <div class="col-3_sm-12 padded padded-l-lg relative sm-padded">
+    <div class="col-3_sm-12 padded padded-l-lg relative sm-padded xs-padded-r-15">
       <h2 class="margin-t-2">Allies that sustain the world</h2>
       <img class="allies-icon6" src="/images/hakau-icon5.png" alt="">
     </div>
@@ -317,12 +320,12 @@ youtube-id: geomKGxovPc
 
             <img class="allies-icon7" src="/images/hakau-icon33.png" alt="">
 
-            <div class="col-5_md-4_sm-12 relative">
+            <div class="col-5_md-4_sm-12 relative hide-sm">
               <div class="ally-image bg-image portrait-md md-portrait-md" style="background-image: url('{{ item.image }}')">
               </div>
             </div>
 
-            <div class="col-7_md-8_sm-12 padded-xlg padded-l padded-r-lg md-padded-r-md md-padded-l-0">
+            <div class="col-7_md-8_sm-12 padded-xlg padded-l padded-r-lg md-padded-r-md md-padded-l-0 sm-padded-md sm-padded-t-15">
               <h3 class="margin-b-2">{{item.title }}</h3><h5 class="margin-b-05">{{item.name }}</h5>
               <span class="allies-nick">/{{item.nickname }}/</span>
               <div class="padded-t-1 orange-text">
@@ -340,7 +343,7 @@ youtube-id: geomKGxovPc
 
       <div class="col-12 grid allies-slider-container">
 
-        {% for gallery in item.gallery limit: 6 %}
+        {% for gallery in item.gallery limit: 8 %}
         
         <div class="col-2_sm-5_xs-11 center">
           <div class="slider-item">
@@ -363,7 +366,7 @@ youtube-id: geomKGxovPc
 
 <!--------------------  VIDEO -------------------->
 
-<section class="padded-md youtube-section">
+<section class="padded-md youtube-section sm-padded-b-lg">
 
   <div class="grid capped-width-narrow">
     <div class="col-12 padded-md center">
@@ -383,12 +386,12 @@ youtube-id: geomKGxovPc
 <!--------------------  BECOME AN ALLY -------------------->
 
 <section>
-  <div class="bg-orange white-text padded-md center relative">
+  <div class="bg-orange white-text padded-md xs-padded-t-lg xs-padded-b-lg center relative">
     <div class="orange-heart center">
       <img src="/images/hakau-icon12.png" alt="">
     </div>
     <div class="capped-width-v-narrow">
-      <h3 class="xlarge-text line-height-md-2">{{page.become-ally.title }}</h3>
+      <h3 class="xlarge-text line-height-md-2 become-ally-xs">{{page.become-ally.title }}</h3>
       <p>{{page.become-ally.description }}</p>
       <div class="margin-t-3">
         <a class="btn" href="{{page.become-ally.cta-url }}">{{page.become-ally.cta-name }}</a>
@@ -404,16 +407,16 @@ youtube-id: geomKGxovPc
   <div class="grid-middle capped-width-narrow relative padded-t">
 
     
-    <div class="col-3 grid relative" data-aos="fade-left" data-aos-duration="500">
+    <div class="col-3_xs-2 grid relative" data-aos="fade-left" data-aos-duration="500">
       <span class="bullet"></span><div class="col-12 border-b-black"></div>
     </div>
 
-    <div class="col-6-bottom center padded">
+    <div class="col-6_xs-8-bottom center padded">
       <h3 class="large-text uppercase editable">{{page.gallery.title }}</h3>
       <p>{{page.gallery.description }}</p>
     </div>
 
-    <div class="col-3 grid relative" data-aos="fade-right" data-aos-duration="500">
+    <div class="col-3_xs-2 grid relative" data-aos="fade-right" data-aos-duration="500">
       <div class="col-12 border-b-black"></div><span class="bullet2"></span>
     </div>
    

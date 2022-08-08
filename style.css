@@ -3110,6 +3110,12 @@ row-gap: 0.5rem; */
     left: 45%;
   }
 
+  .orange-heart img {
+    max-width: 12%;
+    top: -15%;
+    left: 45%;
+  }
+
   .why-us-icon2 img {
     width: 73%;
   }
@@ -3142,6 +3148,21 @@ row-gap: 0.5rem; */
     width: 18%;
   }
 
+  .allies-icon7 {
+    top: 110px;
+    left: -33%;
+    width: 59%;
+  }
+
+  .allies-icon5 {
+    top: -9vh;
+    z-index: 1;
+  }
+
+  #allies-buttons {
+    padding: 0 0 25% 0%;
+  }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -3160,11 +3181,13 @@ row-gap: 0.5rem; */
     .xs-padded-t-0 { padding-top: 0%; }
     .xs-padded-t-lg { padding-top: 10%; }
     .xs-padded-t-25 { padding-top: 25%; }
+    .xs-padded-t-50 { padding-top: 50%; }
 
     .xs-padded-b-lg { padding-bottom: 10%; }
     .xs-padded-b-15 { padding-bottom: 15%; }
 
     .xs-padded-r-25 { padding-right: 25%; }
+    .xs-padded-r-15 { padding-right: 15%; }
 
     .xs-padded-md { padding: 7%; }
     .xs-padded-lg { padding: 10%; }
@@ -3207,6 +3230,14 @@ row-gap: 0.5rem; */
       font-size: 3rem;
     }
 
+    .youtube-section h3 {
+      font-size: 2rem;
+    }
+
+    .header-why-xs h1 {
+      font-size: 2.5rem;
+    }
+
     .quote-about h3 {
       font-size: 1.8rem;
     }
@@ -3221,6 +3252,10 @@ row-gap: 0.5rem; */
 
     .values h2 {
       font-size: 2.5rem;
+    }
+
+    .become-ally-xs {
+      font-size: 1.8rem;
     }
 
     .bullet2 {
@@ -3260,10 +3295,61 @@ row-gap: 0.5rem; */
       left: 41%;
     }
 
+    .orange-heart img {
+      max-width: 17%;
+      top: -15%;
+      left: 41%;
+    }
+
     .values-icon img {
       top: 3vh;
       right: 6%;
       width: 8%;
+    }
+
+    .allies-icon1 {
+      position: absolute;
+      top: 3vh;
+      right: 4%;
+    }
+
+    .allies-icon3 {
+      top: 13vh;
+      left: 39%;
+      width: 16%;
+    }
+
+    .allies-icon2 {
+      left: 2%;
+      width: 13%;
+      top: 16vh;
+    }
+
+    .allies-icon6 {
+      top: 0vh;
+      left: 75%;
+      width: 18%;
+    }
+
+    .allies-icon5 {
+      top: -10vh;
+      width: 30%;
+    }
+
+    .bullet2 {
+      top: -0.9vh;
+    }
+
+    .bullet {
+      top: -1vh;
+    }
+
+    #allies-buttons {
+      padding: 0 0 35% 0%;
+    }
+
+    .banner-allies {
+      min-height: 50vh;
     }
 
     .founders-slider-container .slick-next::before, .founders-slider-container .slick-prev::before {
