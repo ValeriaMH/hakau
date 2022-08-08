@@ -2756,6 +2756,9 @@ row-gap: 0.5rem; */
 
   .md-padded { padding: 5%; }
   .md-padded-r { padding-right: 5%; }
+  .md-padded-r-15 { padding-right: 15%; }
+
+  .md-margin-b-1 { margin-bottom: 1rem; }
 
   .flex-wrap-md {
     flex-wrap: wrap-reverse;
@@ -2793,7 +2796,27 @@ row-gap: 0.5rem; */
     font-size: 4.5vw;
   }
 
+  .banner-quote {
+    background-attachment: unset;
+  }
+
   .text-8 { font-size: 6rem; }
+
+  .founders h4 {
+    font-size: 1.8rem;
+  }
+
+  .founders h2 {
+    font-size: 2.5rem;
+  }
+
+  .quote-about h3 {
+    font-size: 2.5rem;
+  }
+
+  .values h2 {
+    font-size: 3.4rem;
+  }
 
 
 }
