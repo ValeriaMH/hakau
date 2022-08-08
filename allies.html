@@ -96,7 +96,7 @@ allies-stories:
   name:
   nickname: The one who transforms the elements
   location:  Pisac, Cusco-PERU
-  description: We present you Aristides Ramos Salama "Aris" jeweler master who learned this art thanks to his paternal grandfather Santiago from a very young age. He was born in Urubamba where he lived with his family and after a while he moved to Pisac to achieve his dreams.<br><br>“Hello, my name is Aris, I am 32 years old and I live in Pisac with my wife and Gael, my son who has just been born. I learned this trade when I was little with my grandfather Santiago. When I was 12 years old, I used to do simple things like rings and spirals, but the most difficult thing was to maintain the temperature so that everything didn't melt and fall apart. <span class="highlight-green3">I dream that the work I do reaches other places and that the craftsmanship and what is behind each piece and its meaning can be transmitted. </span><br><br> For example, the spiral represents Pachamama, who is mother earth, what we are and where we live and have power, thanks to her she protects us from everything and provides everything. My dream is also that Gael continues with this and achieve that craftsmanship is recognized as the tradition of making with the hands.”
+  description: We present you Aristides Ramos Salama "Aris" jeweler master who learned this art thanks to his paternal grandfather Santiago from a very young age. He was born in Urubamba where he lived with his family and after a while he moved to Pisac to achieve his dreams.<br><br>“Hello, my name is Aris, I am 32 years old and I live in Pisac with my wife and Gael, my son who has just been born. I learned this trade when I was little with my grandfather Santiago. When I was 12 years old, I used to do simple things like rings and spirals, but the most difficult thing was to maintain the temperature so that everything didn't melt and fall apart. <span class="highlight-strong2">I dream that the work I do reaches other places and that the craftsmanship and what is behind each piece and its meaning can be transmitted. </span><br><br> For example, the spiral represents Pachamama, who is mother earth, what we are and where we live and have power, thanks to her she protects us from everything and provides everything. My dream is also that Gael continues with this and achieve that craftsmanship is recognized as the tradition of making with the hands.”
   image: /images/hakau-ecommerce6.jpg
   gallery:
   - gallery_image: /images/hakau-peru56.jpg
@@ -191,9 +191,9 @@ youtube-id: geomKGxovPc
 
   {% include header-nav-why.html %}
   
-  <div class="grid">
+  <div class="grid hide-sm">
 
-    <div class="col-9_md-8_sm-12 grid">
+    <div class="col-9_md-8 grid">
 
       <div class="col-12 grid bg-orange">
         <div class="col-8_md-7_sm-12 padded-lg">
@@ -218,7 +218,7 @@ youtube-id: geomKGxovPc
     
     </div>
 
-    <div class="col-3_md-4_sm-12 grid">
+    <div class="col-3_md-4 grid">
       <div class="col-12 bg-green relative bg-image square" style="background-image:url('/images/hakau-icon31.png')">
         <img class="allies-icon1" src="/images/hakau-icon13.png" alt="">
       </div>
@@ -226,9 +226,36 @@ youtube-id: geomKGxovPc
         <div class="bg-image bg-pos-t portrait-md" style="background-image:url('{{ page.hero-banner.banner2_image }}')"></div>
       </div>
     </div>
-  
+
   </div>
 
+  <div class="grid show-sm">
+    <div class="col-12 bg-orange grid">
+
+      <div class="col-8 padded-lg">
+        <img class="allies-icon2" src="/images/hakau-icon2.png" alt="">
+          <img class="allies-icon3" src="/images/hakau-icon15.png" alt="">
+          <img class="allies-icon4" src="/images/hakau-icon14.png" alt="">
+          <div class="padded-t-30 md-padded-t-60 sm-padded-t-30">
+            <h1 class="margin-b-1">Get to<br> know our<br> allies</h1>
+          </div>
+      </div>
+
+      <div class="col-4">
+        <div class="bg-green relative bg-image square" style="background-image:url('/images/hakau-icon31.png')">
+          <img class="allies-icon1" src="/images/hakau-icon13.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="bg-image bg-pos-t banner-allies" style="background-image:url('{{ page.hero-banner.banner1_image }}')">
+          <h4>Sustainable<br> e-commerce</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    
 </header>
 
 <!--------------------  MOBILE MENU -------------------->
@@ -245,14 +272,14 @@ youtube-id: geomKGxovPc
 
 <section>
 
-  <div class="grid-top bg-beige allies-stories relative padded-t">
+  <div class="grid-top bg-beige allies-stories relative padded-t md-padded-t-lg">
 
-    <div class="col-3 padded padded-l-lg relative">
+    <div class="col-3_sm-12 padded padded-l-lg relative sm-padded">
       <h2 class="margin-t-2">Allies that sustain the world</h2>
       <img class="allies-icon6" src="/images/hakau-icon5.png" alt="">
     </div>
 
-    <div class="col-9 allies-stories__tab-container left grid" id="allies-buttons">
+    <div class="col-9_sm-12 allies-stories__tab-container left grid" id="allies-buttons">
 
       {% for item in page.allies %}
         <button class="col-4_sm-6 allies-stories__tab allies-stories__tab--{{item.id }} {% if item.active == true %} allies-stories__tab--active {% endif %}" data-tab="{{item.id }}">
@@ -282,20 +309,20 @@ youtube-id: geomKGxovPc
 
       <div class="col-12 grid-middle bg-green relative">
 
-          <div class="col-4_sm-12">
+          <div class="col-4_md-3_sm-12">
             <img class="allies-icon5" src="/images/hakau-icon32.png" alt="">
           </div>
           
-          <div class="col-8_sm-12 grid-middle banner-stories">
+          <div class="col-8_md-9_sm-12 grid-middle banner-stories">
 
             <img class="allies-icon7" src="/images/hakau-icon33.png" alt="">
 
-            <div class="col-5_sm-12 relative">
-              <div class="ally-image bg-image portrait-md" style="background-image: url('{{ item.image }}')">
+            <div class="col-5_md-4_sm-12 relative">
+              <div class="ally-image bg-image portrait-md md-portrait-md" style="background-image: url('{{ item.image }}')">
               </div>
             </div>
 
-            <div class="col-7_sm-12 padded-xlg padded-l padded-r-lg">
+            <div class="col-7_md-8_sm-12 padded-xlg padded-l padded-r-lg md-padded-r-md md-padded-l-0">
               <h3 class="margin-b-2">{{item.title }}</h3><h5 class="margin-b-05">{{item.name }}</h5>
               <span class="allies-nick">/{{item.nickname }}/</span>
               <div class="padded-t-1 orange-text">

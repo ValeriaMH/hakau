@@ -2753,6 +2753,8 @@ row-gap: 0.5rem; */
     max-width: 16%;
   } 
 
+  .md-portrait-md { padding-bottom: 148%; }
+
   .md-padded-b-0 { padding-bottom: 0; }
   .md-padded-l-0 { padding-left: 0; }
 
@@ -2767,6 +2769,7 @@ row-gap: 0.5rem; */
 
   .md-padded { padding: 5%; }
   .md-padded-r { padding-right: 5%; }
+  .md-padded-r-md { padding-right: 7%; }
   .md-padded-r-15 { padding-right: 15%; }
 
   .md-margin-b-1 { margin-bottom: 1rem; }
@@ -2844,6 +2847,18 @@ row-gap: 0.5rem; */
     font-size: 1.5rem;
   }
 
+  .allies-stories h3 {
+    font-size: 1.7rem;
+  }
+
+  .allies-stories h5 {
+    font-size: 1.3rem;
+  }
+
+  .youtube-section h3 {
+    font-size: 2.5rem;
+  }
+
   .allies-icon3 {
     top: 20vh;
     left: 30%;
@@ -2871,6 +2886,29 @@ row-gap: 0.5rem; */
   .allies-icon5 {
     top: -13vh;
     width: 20%;
+  }
+
+  .allies-icon7 {
+    position: absolute;
+    top: 110px;
+    left: -29%;
+    width: 59%;
+    z-index: 1;
+  }
+
+  .ally-image {
+    position: absolute;
+    top: -223px;
+    left: -50%;
+    width: 105%;
+    z-index: 2;
+    border-radius: 195px;
+  }
+
+  .orange-heart img {
+    max-width: 10%;
+    top: -15%;
+    left: 45%;
   }
 
   .banner-allies {
@@ -2919,6 +2957,7 @@ row-gap: 0.5rem; */
   .sm-padded-t { padding-top: 5%; }
   .sm-padded-t-lg { padding-top: 10%; }
   .sm-padded-t-15 { padding-top: 15%; }
+  .sm-padded-t-30 { padding-top: 30%; }
   .sm-padded-b { padding-bottom: 5%; }
   .sm-padded-b-md { padding-bottom: 7%; }
   .sm-padded-b-lg { padding-bottom: 10%; }
@@ -3078,6 +3117,29 @@ row-gap: 0.5rem; */
   .why-us-icon3 img {
     right: 5%;
     width: 22%;
+  }
+
+  .allies-icon3 {
+    top: 18vh;
+    left: 39%;
+    width: 14%;
+  }
+
+  .allies-icon2 {
+    left: 4%;
+    width: 10%;
+    top: 24vh;
+  }
+
+  .banner-allies {
+    min-height: 70vh;
+    background-position: 50% 30%;
+  }
+
+  .allies-icon6 {
+    top: 2vh;
+    left: 75%;
+    width: 18%;
   }
 
 }
