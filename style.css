@@ -3102,6 +3102,10 @@ row-gap: 0.5rem; */
     font-size: 2rem;
   }
 
+  .xxlarge-text-sm {
+    font-size: 2.5rem;
+  }
+
   .values h2 {
     font-size: 2.8rem;
   }
@@ -3179,6 +3183,10 @@ row-gap: 0.5rem; */
   .allies-icon5 {
     top: -9vh;
     z-index: 1;
+  }
+
+  .faq-icon1 {
+    width: 17%;
   }
 
   #allies-buttons {
