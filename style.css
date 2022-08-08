@@ -2818,6 +2818,10 @@ row-gap: 0.5rem; */
     font-size: 3.4rem;
   }
 
+  .values h3 {
+    font-size: 1.3rem;
+  }
+
 
 }
 
@@ -2855,6 +2859,7 @@ row-gap: 0.5rem; */
   .sm-padded-t-0 { padding-top: 0; }
   .sm-padded-t { padding-top: 5%; }
   .sm-padded-t-lg { padding-top: 10%; }
+  .sm-padded-t-15 { padding-top: 15%; }
   .sm-padded-b { padding-bottom: 5%; }
   .sm-padded-b-lg { padding-bottom: 10%; }
   .sm-padded-b-0 { padding-bottom: 0; }
@@ -2972,9 +2977,19 @@ row-gap: 0.5rem; */
   .text-8 { font-size: 5rem; }
   .text-4 { font-size: 3rem; }
 
+  .header-why h1 {
+    font-size: 3.5rem;
+  }
+
   .hakau-k img {
     top: -9%;
     left: -4%;
+  }
+
+  .why-us-icon img {
+    top: 77%;
+    right: -6%;
+    width: 35%;
   }
 
 }
