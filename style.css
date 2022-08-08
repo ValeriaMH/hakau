@@ -2967,6 +2967,7 @@ row-gap: 0.5rem; */
     .tall-40-xs  { min-height: 40vh; }
 
     .xs-padded-t-0 { padding-top: 0%; }
+    .xs-padded-t-lg { padding-top: 10%; }
 
     .xs-padded-md { padding: 7%; }
 
@@ -3002,6 +3003,11 @@ row-gap: 0.5rem; */
     .hakau-k img {
       top: -8%;
       left: -6%;
+      width: 21%;
+    }
+
+    .allies-icon8 {
+      top: -4%;
       width: 21%;
     }
 

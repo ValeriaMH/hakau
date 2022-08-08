@@ -199,10 +199,10 @@ layout: default
         <img class="allies-icon9" src="/images/hakau-icon36.svg" alt="">
       </div>
   
-      <div class="col-8_sm-6 allies-home__tab-container left grid" id="allies-home">
+      <div class="col-8_sm-6_xs-12 allies-home__tab-container left grid" id="allies-home">
   
         {% for item in page.allies %}
-          <button class="col-4_md-6 allies-home__tab allies-home__tab--{{item.id }} {% if item.active == true %} allies-home__tab--active {% endif %}" data-tab="{{item.id }}">
+          <button class="col-4_md-6_xs-4 allies-home__tab allies-home__tab--{{item.id }} {% if item.active == true %} allies-home__tab--active {% endif %}" data-tab="{{item.id }}">
             
             {% if item.hover-active == true %}
             <div class="hover-container-gallery" style="background-image:url('{{item.image }}')">
@@ -225,7 +225,7 @@ layout: default
 
       <!-- Allies stories -->
     {% for item in page.allies-stories %}
-    <div class="col-4_sm-6 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0 padded-b">
+    <div class="col-4_sm-6_xs-12 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0 padded-b xs-padded-t-lg">
 
 
         <div class="padded-lg padded-l padded-t-0 padded-b-0">
