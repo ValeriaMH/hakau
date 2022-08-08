@@ -42,9 +42,9 @@ layout: default
   {% include mobile-menu.html %}
   
   <!--------------------  WHAT IS HAKAU -------------------->
-  <section class="padded center padded-t-0">
+  <section class="padded center padded-t-0 xs-padded-md">
   
-    <div class="grid-middle capped-width-narrow relative padded-t">
+    <div class="grid-middle capped-width-narrow relative padded-t xs-padded-t-0">
   
       
       <div class="col-3 grid relative" data-aos="fade-left" data-aos-duration="500">
@@ -66,7 +66,7 @@ layout: default
   
   <!--------------------  HANAN -------------------->
   
-  <section class="bg-orange padded padded-tb-sm relative">
+  <section class="bg-orange padded padded-tb-sm sm-padded relative">
 
     <div class="hakau-k">
       <img src="/images/hakau-icon2.png" alt="">
@@ -108,7 +108,7 @@ layout: default
   
   <!--------------------  KAY -------------------->
   
-  <section class="bg-green padded padded-tb-sm">
+  <section class="bg-green padded padded-tb-sm sm-padded">
   
     <div class="grid-middle white-text">
   
@@ -130,8 +130,8 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <div class="hover-image-container bg-radius-xxlg">
-          <div class="bg-image-hover bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.kay_image }}')"></div>
+        <div class="hover-image-container">
+          <div class="bg-image-hover landscape-md" style="background-image:url('{{ page.hakau-world.kay_image }}')"></div>
         </div>
         
         <div class="margin-t-1 margin-b-1">
@@ -146,7 +146,7 @@ layout: default
   
   <!--------------------  UKU -------------------->
   
-  <section class="bg-dark padded padded-tb-sm">
+  <section class="bg-dark padded padded-tb-sm sm-padded">
   
     <div class="grid-middle white-text">
   
@@ -168,8 +168,8 @@ layout: default
       </div>
   
       <div class="col-4_sm-12 padded-sm center">
-        <div class="hover-image-container bg-radius-xxlg">
-          <div class="bg-image-hover bg-radius-xxlg landscape-md" style="background-image:url('{{ page.hakau-world.uku_image }}')"></div>
+        <div class="hover-image-container">
+          <div class="bg-image-hover landscape-md" style="background-image:url('{{ page.hakau-world.uku_image }}')"></div>
         </div>
         
         <div class="margin-t-1 margin-b-1">
@@ -199,7 +199,7 @@ layout: default
         <img class="allies-icon9" src="/images/hakau-icon36.svg" alt="">
       </div>
   
-      <div class="col-8 allies-home__tab-container left grid" id="allies-home">
+      <div class="col-8_sm-6 allies-home__tab-container left grid" id="allies-home">
   
         {% for item in page.allies %}
           <button class="col-4_md-6 allies-home__tab allies-home__tab--{{item.id }} {% if item.active == true %} allies-home__tab--active {% endif %}" data-tab="{{item.id }}">
@@ -225,10 +225,10 @@ layout: default
 
       <!-- Allies stories -->
     {% for item in page.allies-stories %}
-    <div class="col-4 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0 padded-b">
+    <div class="col-4_sm-6 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0 padded-b">
 
 
-        <div class="col-7_sm-12 padded-lg padded-l padded-t-0 padded-b-0">
+        <div class="padded-lg padded-l padded-t-0 padded-b-0">
           <h3 class="margin-b-2">{{item.title }}</h3>
           <h5 class="margin-b-1">{{item.name }}</h5>
           <span>/{{item.nickname }}/</span>
@@ -253,7 +253,7 @@ layout: default
 
   <section>
 
-    <div class="grid best-sellers padded-lg padded-r padded-b relative">
+    <div class="grid best-sellers padded-lg padded-r padded-b sm-padded sm-padded-t-lg relative">
 
       <div class="green-economy hide-md">
         <img data-aos="fade-right" data-aos-duration="500" src="/images/hakau-icon9.png" alt="">
@@ -302,7 +302,7 @@ layout: default
     <div class="grid padded horizontal-scroll collection-card">
   
       {% for item in page.collections %}
-      <div class="col-6_md-9_sm-12 grid center" id="collection-card">
+      <div class="col-6_md-9_sm-10 grid center" id="collection-card">
 
         <a class="col-12 grid-bottom {{item.collection-color }} relative">
 

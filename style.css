@@ -2810,7 +2810,11 @@ row-gap: 0.5rem; */
   .show-sm-flex { display: flex; }
 
   .logo {
-    max-width: 70%;
+    max-width: var(--logo-size);
+  }
+
+  .logo img {
+    max-width: var(--logo-size);
   }
 
   .sm-text-center { text-align: center; }
@@ -2945,6 +2949,11 @@ row-gap: 0.5rem; */
   .text-8 { font-size: 5rem; }
   .text-4 { font-size: 3rem; }
 
+  .hakau-k img {
+    top: -9%;
+    left: -4%;
+  }
+
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -2956,6 +2965,10 @@ row-gap: 0.5rem; */
 		.hide-xs { display: none;  }
 
     .tall-40-xs  { min-height: 40vh; }
+
+    .xs-padded-t-0 { padding-top: 0%; }
+
+    .xs-padded-md { padding: 7%; }
 
     .logo {
       max-width: 100%;
@@ -2980,6 +2993,17 @@ row-gap: 0.5rem; */
     }
 
     .text-4 { font-size: 2.5rem; }
+    .large-text { font-size: 1.5rem; }
+
+    .bullet2 {
+      right: -14%;
+    }
+
+    .hakau-k img {
+      top: -8%;
+      left: -6%;
+      width: 21%;
+    }
 
 }
 
