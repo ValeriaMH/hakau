@@ -2086,6 +2086,14 @@ footer hr {
   left: 7%;
 }
 
+.green-economy2 img {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  right: 38%;
+}
+
 @keyframes tilt {
 
   0% {
