@@ -1,6 +1,6 @@
-<nav class="col-12 grid hide-md">
+<nav class="col-12 grid">
 
-    <div class="col-3_md-5 padded-l-2 padded-t-1 no-hover">
+    <div class="col-3_md-12 padded-l-2 padded-t-1 no-hover md-text-center md-padded-l-0">
 
         {% if page.url contains '/es/' %}
         <a href="/es/inicio" class="logo">
@@ -15,7 +15,7 @@
 
     </div>
 
-    <div class="menu-links-dark col-8_md-7 padded-r-2 padded-t-2 hide-sm">
+    <div class="menu-links-dark col-8_md-7 padded-r-2 padded-t-2 hide-md">
 
         {% if page.url contains '/es/' %}
         {% for item in site.data.navigation.menu-es %}

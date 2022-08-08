@@ -1552,7 +1552,7 @@ background-color:rgba(0,0,0,0);
 .social-contact {
   position: absolute;
   top: 0;
-  right: -12%;
+  right: -14%;
   color: var(--dark);
   font-size: 1.5rem;
   text-decoration: none;
@@ -2859,6 +2859,14 @@ row-gap: 0.5rem; */
     font-size: 2.5rem;
   }
 
+  .contact-section h2 {
+    font-size: 3rem;
+  }
+
+  .contact-section h1 {
+    font-size: 1.8rem;
+  }
+
   .allies-icon3 {
     top: 20vh;
     left: 30%;
@@ -2911,8 +2919,22 @@ row-gap: 0.5rem; */
     left: 45%;
   }
 
+  .faq-icon1 {
+    top: 3%;
+    right: 3%;
+    width: 22%;
+  }
+
   .banner-allies {
     min-height: 90vh;
+  }
+
+  .social-contact {
+    right: -20%;
+  }
+
+  .social-contact li {
+    margin-bottom: .5rem;
   }
 
 
