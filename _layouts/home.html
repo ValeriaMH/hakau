@@ -225,10 +225,10 @@ layout: default
 
       <!-- Allies stories -->
     {% for item in page.allies-stories %}
-    <div class="col-4_sm-6_xs-12 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0 padded-b xs-padded-t-lg">
+    <div class="col-4_sm-6_xs-12 allies-home__content allies-home__content--{{item.id }} {% if item.active == true %} allies-home__content--active {% endif %} padded-sm padded-t-0 padded-b">
 
 
-        <div class="padded-lg padded-l padded-t-0 padded-b-0">
+        <div class="padded-lg padded-l padded-t-0 padded-b-0 xs-padded-md">
           <h3 class="margin-b-2">{{item.title }}</h3>
           <h5 class="margin-b-1">{{item.name }}</h5>
           <span>/{{item.nickname }}/</span>
@@ -275,7 +275,7 @@ layout: default
       <div class="col-9_md-12 grid">
         {% for item in page.featured-products %}
        
-          <div class="col-4_md-6 padded-1 center">
+          <div class="col-4_md-6_xs-12 padded-1 center">
             <a href="">
               <div class="product-hover">
                 <img src="{{item.first_image }}" alt="{{item.title }}">
@@ -302,7 +302,7 @@ layout: default
     <div class="grid padded horizontal-scroll collection-card">
   
       {% for item in page.collections %}
-      <div class="col-6_md-9_sm-10 grid center" id="collection-card">
+      <div class="col-6_md-9_sm-10_xs-11 grid-top center" id="collection-card">
 
         <a class="col-12 grid-bottom {{item.collection-color }} relative">
 
@@ -313,7 +313,7 @@ layout: default
             <h3>{{item.name }}</h3>
           </div>
   
-          <div class="col-9 bg-image square-3 {{item.image-position }}" style="background-image:url('{{ item.image }}')">
+          <div class="col-9 bg-image square-3 xs-square {{item.image-position }}" style="background-image:url('{{ item.image }}')">
           </div>
 
         </a>
