@@ -399,6 +399,7 @@ img { max-width: 100%; height: auto; }
 .bg-pos-c { background-position: center; }
 
 .bg-pos-t2 { background-position: 50% 20%; }
+.bg-pos-t3 { background-position: 50% 70%; }
 
 /* ------------ Typography Styles ----------------------- */
 
