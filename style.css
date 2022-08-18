@@ -2406,7 +2406,7 @@ footer hr {
     content: "+";
     position: absolute;
     top: 0.4rem;
-    right: 0.4rem;
+    right: -0.6rem;
     display: block;
     width: 1rem;
     height: 1rem;
@@ -3220,10 +3220,13 @@ row-gap: 0.5rem; */
     .xs-padded-r-25 { padding-right: 25%; }
     .xs-padded-r-15 { padding-right: 15%; }
 
+    .xs-padded { padding: 5%; }
     .xs-padded-md { padding: 7%; }
     .xs-padded-lg { padding: 10%; }
 
     .xs-margin-b-1 { margin-bottom: 1rem; }
+
+    .xs-margin-t-2 { margin-top: 2rem; }
 
     .logo {
       max-width: 100%;
@@ -3287,6 +3290,28 @@ row-gap: 0.5rem; */
 
     .become-ally-xs {
       font-size: 1.8rem;
+    }
+
+    .contact-section h2 {
+      font-size: 2.5rem;
+    }
+
+    .accordion dt {
+      font-size: 1.1rem;
+    }
+
+    .accordion dd {
+      font-size: 1rem;
+    }
+
+    .banner-blog {
+      min-height: 60vh;
+      background-attachment: unset;
+      background-position: 50% 30%;
+    }
+
+    .banner-blog h1 {
+      font-size: 6rem;
     }
 
     .bullet2 {
