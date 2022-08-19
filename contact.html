@@ -8,7 +8,8 @@ seo:
     - sustainable ecommerce
   hide-from-google: true
 hero-banner:
-  banner1_image: /images/hakau-community12.jpg
+  banner1_image: /images/hakau-warmi-awadora10.jpg
+  banner1-position: bg-pos-t2
   banner2_image: /images/hakau-ecommerce3.jpg
   banner3_image: /images/hakau-peru40.jpg
   background: bg-white
@@ -78,9 +79,9 @@ gallery-items:
   
   <div class="grid padded padded-b-0">
 
-    <div class="col-5_sm-12 padded orange-text">
+    <div class="col-5_sm-12 padded orange-text xs-padded-t-lg">
       <h2 class="margin-b-2">{{page.hero-banner.title }}</h2>
-      <h1 class="uppercase margin-t-5">{{page.hero-banner.description-1 }}</h1>
+      <h1 class="uppercase margin-t-5 xs-margin-t-2">{{page.hero-banner.description-1 }}</h1>
       <!-- CONTACT FORM -->
       <div class="grid contact padded-t">
         
@@ -105,7 +106,7 @@ gallery-items:
 
     <div class="col-7 grid hide-sm">
       <div class="col-6-top margin-contact-neg2 relative">
-        <div class="bg-image square" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
+        <div class="bg-image square {{page.hero-banner.banner1-position }}" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
         <!-- SOCIAL ICONS -->
         <div class="social-contact">
           <ul>
@@ -177,7 +178,7 @@ gallery-items:
         <h3 class="xxlarge-text center xxlarge-text-sm">
             Frequently Asked Questions
         </h3>
-        <dl class="accordion padded-lg padded-b-0 sm-padded-md">
+        <dl class="accordion padded-lg padded-b-0 sm-padded-md xs-padded xs-padded-t-lg">
   
           {% for item in site.data.frequent-questions %}
   

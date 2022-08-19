@@ -35,7 +35,7 @@ final-banner:
 
 <!--------------------  MOBILE MENU -------------------->
 
-<div class="hamburger show-sm">
+<div class="hamburger show-md">
   <span class="burger-top"></span>
   <span class="burger-middle"></span>
   <span class="burger-bottom"></span>
@@ -70,7 +70,7 @@ final-banner:
 
       {% for post in site.posts limit:12 %}
 
-      <article class="col-4_xs-12 post-item grid gallery-item-category {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
+      <article class="col-4_sm-6_xs-12 post-item grid gallery-item-category {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
           <a href="{{ post.url }}" class="blog-card col-12 grid bg-image square" style="background-image: url('{{ post.featured_image }}');">
             <div class="card-inner col-12-bottom">
                 {% for item in post.categories %}
@@ -91,7 +91,7 @@ final-banner:
 <!--------------------  QUOTE -------------------->
 
 <section>
-  <div class="bg-green white-text padded-md center relative quote-about">
+  <div class="bg-green white-text padded-md center relative quote-about xs-padded-t-lg">
     <div class="black-heart center">
       <img src="/images/hakau-icon40.png" alt="">
     </div>
