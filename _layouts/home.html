@@ -10,9 +10,9 @@ layout: default
     <div>
       <div class="bg-video bg-overlay3 bg-overlay-gradient2">
         
-        <video class="bg-video__content" autoplay loop muted poster="/images/hakau-peru59.jpg">
-            <source src="/images/hakau-video.mp4" type="video/mp4">
-            <source src="/images/hakau-video.webm" type="video/webm">
+        <video class="bg-video__content" autoplay loop muted poster="{{page.hero-banner.banner_image }}">
+            <source src="{{page.hero-banner.videomp4_image }}" type="video/mp4">
+            <source src="{{page.hero-banner.videowebm_image }}" type="video/webm">
             Your browser is not supported!
         </video>
   
@@ -52,7 +52,7 @@ layout: default
       </div>
   
       <div class="col-6-bottom center padded">
-        <h3 class="large-text uppercase editable">{{page.hakau-world.what-is-hakau }}</h3>
+        <h3 class="large-text uppercase">{{page.hakau-world.what-is-hakau }}</h3>
       </div>
   
       <div class="col-3 grid relative" data-aos="fade-right" data-aos-duration="500">
@@ -75,7 +75,7 @@ layout: default
     <div class="grid-middle white-text">
   
       <div class="col-4_sm-12 padded-sm hide-sm">
-        <h4 class="uppercase editable">Hanan</h4>
+        <h4 class="uppercase">Hanan</h4>
         <p>{{page.hakau-world.hanan-p1 }}</p>
         <p>{{page.hakau-world.hanan-p2 }}</p>
       </div>
@@ -86,7 +86,7 @@ layout: default
       </div>
 
       <div class="col-4_sm-12 padded-sm show-sm">
-        <h4 class="uppercase editable">Hanan</h4>
+        <h4 class="uppercase">Hanan</h4>
         <p>{{page.hakau-world.hanan-p1 }}</p>
         <p>{{page.hakau-world.hanan-p2 }}</p>
       </div>
@@ -113,7 +113,7 @@ layout: default
     <div class="grid-middle white-text">
   
       <div class="col-4_sm-12 padded-sm hide-sm">
-        <h4 class="uppercase editable">Kay</h4>
+        <h4 class="uppercase">Kay</h4>
         <p>{{page.hakau-world.kay-p1 }}</p>
         <p>{{page.hakau-world.kay-p2 }}</p>
       </div>
@@ -124,7 +124,7 @@ layout: default
       </div>
 
       <div class="col-4_sm-12 padded-sm show-sm">
-        <h4 class="uppercase editable">Kay</h4>
+        <h4 class="uppercase">Kay</h4>
         <p>{{page.hakau-world.kay-p1 }}</p>
         <p>{{page.hakau-world.kay-p2 }}</p>
       </div>
@@ -151,7 +151,7 @@ layout: default
     <div class="grid-middle white-text">
   
       <div class="col-4_sm-12 padded-sm hide-sm">
-        <h4 class="uppercase editable">Uku</h4>
+        <h4 class="uppercase">Uku</h4>
         <p>{{page.hakau-world.uku-p1 }}</p>
         <p>{{page.hakau-world.uku-p2 }}</p>
       </div>
@@ -162,7 +162,7 @@ layout: default
       </div>
 
       <div class="col-4_sm-12 padded-sm show-sm">
-        <h4 class="uppercase editable">Uku</h4>
+        <h4 class="uppercase">Uku</h4>
         <p>{{page.hakau-world.uku-p1 }}</p>
         <p>{{page.hakau-world.uku-p2 }}</p>
       </div>
@@ -195,7 +195,7 @@ layout: default
       <img class="allies-icon8" src="/images/hakau-icon4.png" alt="">
   
       <div class="col-12 padded relative center">
-        <h2>Allies that sustain the world</h2>
+        <h2>{{page.allies-title }}</h2>
         <img class="allies-icon9" src="/images/hakau-icon36.svg" alt="">
       </div>
   
@@ -264,12 +264,12 @@ layout: default
       </div>
 
       <div class="col-12 padded-b-0">
-        <h2>Our best sellers</h2>
+        <h2>{{page.featured-products-text.title }}</h2>
       </div>
 
       <div class="col-3_md-12 padded padded-l-0">
-        <h4>Create a conscious life in <span class="green-text">common.unity</span></h4>
-        <a class="btn btn-orange" href="">Shop</a>
+        <h4>{{page.featured-products-text.subtitle }} <span class="green-text">{{page.featured-products-text.subtitle-green }}</span></h4>
+        <a class="btn btn-orange" href="{{page.featured-products-text.cta-url }}">{{page.featured-products-text.cta-name }}</a>
       </div>
 
       <div class="col-9_md-12 grid">
