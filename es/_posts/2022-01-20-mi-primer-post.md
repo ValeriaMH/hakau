@@ -15,7 +15,7 @@ seo:
   keywords:
   hide-from-google: true
 ---
-La iconograf&iacute;a prehisp&aacute;nica est&aacute; llena de simbolismos que nos ayudan a entender la visi&oacute;n de los antiguos peruanos. Kauffmann&nbsp; Doing, antrop&oacute;logo, arque&oacute;logo e historiador peruano, proporcion&oacute; la clave para identificar y entender los signos m&aacute;gicos-religiosos de especial jerarqu&iacute;a y cuya presencia en la iconograf&iacute;a andina se ve reflejada a lo largo del desarrollo de las sociedades del Per&uacute;. Empezando en Chav&iacute;n de Hu&aacute;ntar hasta el fin del Imperio Inca, y por qué no, hasta nuestros d&iacute;as.
+La iconografía prehispánica está llena de simbolismos que nos ayudan a entender la visión de los antiguos peruanos. Kauffmann Doing, antropólogo, arqueólogo e historiador peruano, proporcionó la clave para identificar y entender los signos mágicos-religiosos de especial jerarquía y cuya presencia en la iconografía andina se ve reflejada a lo largo del desarrollo de las sociedades del Perú. Empezando en Chavín de Huántar hasta el fin del Imperio Inca, y por qué no, hasta nuestros días.
 
 Hoy nos centraremos en este:
 
@@ -23,9 +23,9 @@ Hoy nos centraremos en este:
 
 ### **Este es el famoso MEANDRO ESCALONADO**
 
-Este s&iacute;mbolo nos ayuda a entender la manera en la que miraban el mundo los antiguos peruanos. Sociedades que vivieron en permanente crisis para producir la suficiente cantidad de alimientos para su sobrevivir y que a su vez, estaban expuestos a los cambios de la madre naturaleza.
+Este símbolo nos ayuda a entender la manera en la que miraban el mundo los antiguos peruanos. Sociedades que vivieron en permanente crisis para producir la suficiente cantidad de alimientos para su sobrevivir y que a su vez, estaban expuestos a los cambios de la madre naturaleza.
 
-Entendamos este s&iacute;mbolo por separado.
+Entendamos este símbolo por separado.
 
 ![](/images/hakau-blog-meandro2.png){: width="616" height="276"}
 
@@ -39,23 +39,23 @@ En este bolso Nasca podemos apreciar la forma escalonada.
 
 MUSEO CHILENO DE ARTE PRECOLOMBINO(S/F) Bolsa Nasca. 100-700 d.C.
 
-Seg&uacute;n Kauffmann, el signo escalonado hace referencia a los andenes o terrazas de cultivo que eran decoradas para honrar a la Diosa Tierra o Pachamama.
+Según Kauffmann, el signo escalonado hace referencia a los andenes o terrazas de cultivo que eran decoradas para honrar a la Diosa Tierra o Pachamama.
 
 ![](/images/hakau-blog-meandro4.jpg){: width="1200" height="675"}
 
 **DIOS DEL AGUA**
 
-En este manto Chancay podemos encontrar el signo de agua como una onda compuesto por m&aacute;s elementos, sin embargo, la forma se respeta.
+En este manto Chancay podemos encontrar el signo de agua como una onda compuesto por más elementos, sin embargo, la forma se respeta.
 
 ![](/images/hakau-blog-meandro5.png){: width="586" height="576"}
 
-Se asume que la forma de bast&oacute;n est&aacute; inspirada en la imagen que genera la cresta de una ola.
+Se asume que la forma de bastón está inspirada en la imagen que genera la cresta de una ola.
 
 ![](/images/hakau-blog-meandro6.jpg){: width="950" height="480"}
 
 **FERTILIDAD**
 
-Si unimos ambos s&iacute;mbolos, tenemos una figura que hace referencia a la fertilidad y a una clara relaci&oacute;n al ciclo natural del agua.
+Si unimos ambos símbolos, tenemos una figura que hace referencia a la fertilidad y a una clara relación al ciclo natural del agua.
 
 ![](/images/hakau-blog-meandro7.jpg){: width="626" height="575"}
 
@@ -69,37 +69,35 @@ Si unimos ambos s&iacute;mbolos, tenemos una figura que hace referencia a la fer
 
 ![](/images/hakau-blog-meandro11.jpg){: width="843" height="817"}
 
-En conclusi&oacute;n, como dice Uwe Carslon en su libro Iconograf&iacute;a Andina: Interpretaci&oacute;n del simbolismo en antiguos tejidos peruanos:
+En conclusión, como dice Uwe Carslon en su libro Iconografía Andina: Interpretación del simbolismo en antiguos tejidos peruanos:
 
-*&nbsp;“ No se debe ni se puede pretender tratar a fondo este tema, es decir aclarar la iconograf&iacute;a de los antiguos pueblos peruanos, pues quedan todav&iacute;a muchas preguntas pendientes. No obstante, se logra acercarse considerablemente a ese mundo elemental de expresiones, que en gran parte es asumido religiosamente. Esto vale m&aacute;s a&uacute;n, ya que estas culturas no ten&iacute;an reglas fijas para representar a sus divinidades.”* CARLSON, Uwe (2012)
+ *“ No se debe ni se puede pretender tratar a fondo este tema, es decir aclarar la iconografía de los antiguos pueblos peruanos, pues quedan todavía muchas preguntas pendientes. No obstante, se logra acercarse considerablemente a ese mundo elemental de expresiones, que en gran parte es asumido religiosamente. Esto vale más aún, ya que estas culturas no tenían reglas fijas para representar a sus divinidades.”* CARLSON, Uwe (2012)
 
-Te invito a investigar m&aacute;s sobre el tema. Te dejo las fuentes d&oacute;nde obtuve la informaci&oacute;n para que puedas aprender a mayor profundidad sobre el **MEANDRO ESCALONADO.**
+Te invito a investigar más sobre el tema. Te dejo las fuentes dónde obtuve la información para que puedas aprender a mayor profundidad sobre el **MEANDRO ESCALONADO.**
 
-&iquest;Sab&iacute;as esto? Te leemos.
+¿Sabías esto? Te leemos.
 
 Besos,
 
 Belén Cuadros
 
-&nbsp;
+Bibliografía:
 
-Bibliograf&iacute;a:
+CARLSON, Uwe (2012) Iconografía Andina: Interpretación del simbolismo en antiguos tejidos peruanos.
 
-CARLSON, Uwe (2012) Iconograf&iacute;a Andina: Interpretaci&oacute;n del simbolismo en antiguos tejidos peruanos.
+CARLSON, Uwe (s/f) Emblemática Moche: La imagen divinizada
 
-CARLSON, Uwe (s/f) Emblem&aacute;tica Moche: La imagen divinizada
+Imágenes:
 
-Im&aacute;genes:
+CARLSON, Uwe (2012) Iconografía Andina: Interpretación del simbolismo en antiguos tejidos peruanos.
 
-CARLSON, Uwe (2012) Iconograf&iacute;a Andina: Interpretaci&oacute;n del simbolismo en antiguos tejidos peruanos.
-
-CARLSON, Uwe (s/f) Emblem&aacute;tica Moche: La imagen divinizada.
+CARLSON, Uwe (s/f) Emblemática Moche: La imagen divinizada.
 
 MUSEO CHILENO DE ARTE PRECOLOMBINO(S/F) Bolsa Nasca. 100-700 d.C. ([http://precolombino.cl/en/sala-textil/bolsa/](http://precolombino.cl/en/sala-textil/bolsa/))
 
 ABRECHTGROUP.COM(S/F) Los Andesnes del Camino Inca ([https://abrecht-group.com/2019/07/29/los-andenes-del-camino-inca/](https://abrecht-group.com/2019/07/29/los-andenes-del-camino-inca/))
 
-ARTS INSTITUTE CHICAGO (S/F) Mantle Corners. Chancay. Central Coast, Per&uacute;. 1000-1476 d.C. ([https://www.artic.edu/artworks/85405/mantle-corners](https://www.artic.edu/artworks/85405/mantle-corners))
+ARTS INSTITUTE CHICAGO (S/F) Mantle Corners. Chancay. Central Coast, Perú. 1000-1476 d.C. ([https://www.artic.edu/artworks/85405/mantle-corners](https://www.artic.edu/artworks/85405/mantle-corners))
 
 COLLINS, Ray (s/f) En la cresta de la ola. Obtenida de ([https://www.metro951.com/2015/04/en-la-cresta-de-la-ola/entretenimiento/](https://www.metro951.com/2015/04/en-la-cresta-de-la-ola/entretenimiento/))
 
@@ -111,4 +109,4 @@ SOTHEBYS.COM (S/F) Wari Figural Vessel in Black and White Tunic ca. A.D. 600-100
 
 LOMAN, Bernad (S/f)( [https://www.pinterest.es/pin/575968239854782441/](https://www.pinterest.es/pin/575968239854782441/))
 
-ARTS INSTITUTE CHICAGO (S/F) Feathered Chim&uacute; tunic. ([https://www.artic.edu/artworks/85533/feathered-tunic](https://www.artic.edu/artworks/85533/feathered-tunic))
+ARTS INSTITUTE CHICAGO (S/F) Feathered Chimú tunic. ([https://www.artic.edu/artworks/85533/feathered-tunic](https://www.artic.edu/artworks/85533/feathered-tunic))
