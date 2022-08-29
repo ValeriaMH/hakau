@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<!------------------------ BANNER & MENU ------------------>
+
+<header class="banner-blog bg-image tall-80 bg-overlay3 bg-overlay-gradient2" style="background-image:url('{{page.hero-banner.banner_image }}')">
+
+    {% include header-nav-why.html %}
+    
+    <div class="padded padded-b-1">
+      
+        <h1>{{page.hero-banner.title }}</h1>
+     
+    </div>
+  
+  </header>
+  
+  <!--------------------  MOBILE MENU -------------------->
+  
+  <div class="hamburger show-md">
+    <span class="burger-top"></span>
+    <span class="burger-middle"></span>
+    <span class="burger-bottom"></span>
+  </div>
+  
+  {% include mobile-menu.html %}
+  
+  
+  <section>
+  
+    <div class="grid">
+  
+      <div class="col-12-left filter padded-sm">
+        <h4 class="filter-title uppercase">Categories <i class="fas fa-angle-down orange-text"></i></h4>
+        <div class="filter-content portfolio-filter-category" id="portfolio-filter-category">
+            <span>category1</span>
+            <span>category2</span>
+            <span>category3</span>
+            <span>All</span>
+        </div>
+    </div>
+  
+    </div>
+  
+  </section>
+  
+  <!--------------------  POSTS -------------------->
+  
+  <section>
+  
+    <div class="grid padded filterable-gallery-category" id="filterable-gallery-category">
+  
+      {% if page.url contains '/es/' %} 
+
+      {% assign articulos = site.posts | where: "lang","es" %}
+
+        {% for post in articulos limit:12 %}
+
+        <article class="col-4_sm-6_xs-12 post-item grid gallery-item-category {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
+            <a href="{{ post.url }}" class="blog-card col-12 grid bg-image square" style="background-image: url('{{ post.featured_image }}');">
+              <div class="card-inner col-12-bottom">
+                  {% for item in post.categories %}
+                      <span class="tag"> {{ item }} </span>
+                  {% endfor %}
+                  <h2 class="margin-t-1"> {{ post.title }} </h2>
+                  <p> {{ post.description }} </p>
+              </div>
+            </a>
+          </article>
+        
+        {% endfor %}
+  
+        {% else %}
+
+        {% assign articles = site.posts | where: "lang","en" %}
+  
+        {% for post in articles limit:12 %}
+  
+        <article class="col-4_sm-6_xs-12 post-item grid gallery-item-category {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
+            <a href="{{ post.url }}" class="blog-card col-12 grid bg-image square" style="background-image: url('{{ post.featured_image }}');">
+              <div class="card-inner col-12-bottom">
+                  {% for item in post.categories %}
+                      <span class="tag"> {{ item }} </span>
+                  {% endfor %}
+                  <h2 class="margin-t-1"> {{ post.title }} </h2>
+                  <p> {{ post.description }} </p>
+              </div>
+            </a>
+          </article>
+        
+        {% endfor %}
+  
+        {% endif %}
+  
+    </div>
+    
+  </section>
+  
+  <!--------------------  QUOTE -------------------->
+  
+  <section>
+    <div class="bg-green white-text padded-md center relative quote-about xs-padded-t-lg">
+      <div class="black-heart center">
+        <img src="/images/hakau-icon40.png" alt="">
+      </div>
+      <div class="capped-width-v-narrow">
+        <h3>{{page.quote }}</h3>
+      </div>
+    </div>
+  </section>
+  
