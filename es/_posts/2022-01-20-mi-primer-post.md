@@ -20,13 +20,15 @@ La iconograf&iacute;a prehisp&aacute;nica est&aacute; llena de simbolismos que n
 
 Hoy nos centraremos en este:
 
+![](/images/hakau-blog-meandro1.png){: width="504" height="276"}
+
 ### **Este es el famoso MEANDRO ESCALONADO**
 
 Este s&iacute;mbolo nos ayuda a entender la manera en la que miraban el mundo los antiguos peruanos. Sociedades que vivieron en permanente crisis para producir la suficiente cantidad de alimientos para su sobrevivir y que a su vez, estaban expuestos a los cambios de la madre naturaleza.
 
 Entendamos este s&iacute;mbolo por separado.
 
-&nbsp;
+![](/images/hakau-blog-meandro2.png){: width="616" height="276"}
 
 Estamos ante dos signos igual de importantes.
 
@@ -34,23 +36,39 @@ Estamos ante dos signos igual de importantes.
 
 En este bolso Nasca podemos apreciar la forma escalonada.
 
+![](/images/hakau-blog-meandro3.png){: width="742" height="730"}
+
 MUSEO CHILENO DE ARTE PRECOLOMBINO(S/F) Bolsa Nasca. 100-700 d.C.
 
 Seg&uacute;n Kauffmann, el signo escalonado hace referencia a los andenes o terrazas de cultivo que eran decoradas para honrar a la Diosa Tierra o Pachamama.
+
+![](/images/hakau-blog-meandro4.jpg){: width="1200" height="675"}
 
 **DIOS DEL AGUA**
 
 En este manto Chancay podemos encontrar el signo de agua como una onda compuesto por m&aacute;s elementos, sin embargo, la forma se respeta.
 
+![](/images/hakau-blog-meandro5.png){: width="586" height="576"}
+
 Se asume que la forma de bast&oacute;n est&aacute; inspirada en la imagen que genera la cresta de una ola.
+
+![](/images/hakau-blog-meandro6.jpg){: width="950" height="480"}
 
 **FERTILIDAD**
 
 Si unimos ambos s&iacute;mbolos, tenemos una figura que hace referencia a la fertilidad y a una clara relaci&oacute;n al ciclo natural del agua.
 
+![](/images/hakau-blog-meandro7.jpg){: width="626" height="575"}
+
 **MIRA DIFERENTES EJEMPLOS**
 
-&nbsp;
+![](/images/hakau-blog-meandro8.jpg){: width="564" height="562"}
+
+![](/images/hakau-blog-meandro9.jpg){: width="564" height="743"}
+
+![](/images/hakau-blog-meandro10.jpg){: width="563" height="902"}
+
+![](/images/hakau-blog-meandro11.jpg){: width="843" height="817"}
 
 En conclusi&oacute;n, como dice Uwe Carslon en su libro Iconograf&iacute;a Andina: Interpretaci&oacute;n del simbolismo en antiguos tejidos peruanos:
 
