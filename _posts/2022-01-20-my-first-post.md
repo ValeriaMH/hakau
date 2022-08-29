@@ -7,7 +7,6 @@ categories:
   - category1
 lang: en
 featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
-comments: true
 seo:
   title:
   description:
