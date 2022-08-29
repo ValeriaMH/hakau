@@ -43,3 +43,34 @@ img.small-centered-image {
       width: margin 0 1rem;
     }
 }
+
+
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 40px;
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 1rem 2rem;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+}
+
+a.button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  box-shadow: 1rem 1rem 2rem rgba(0,0,0,.2);
+}
+
+
+@media(max-width: 767px) {
+    .float-right-image, 
+    .float-left-image {
+      float: none;
+      width: margin 0 1rem;
+    }
+}
