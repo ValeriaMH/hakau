@@ -2526,7 +2526,7 @@ footer hr {
   text-transform: uppercase;
   font-size: .8rem;
   margin: .5rem .5rem;
-  color: var(--blue);
+  color: var(--green2);
 }
 
 .category a {
@@ -2534,10 +2534,15 @@ footer hr {
 }
 
 .post-info {
-  font-size: 0.8rem;
-  color: var(--pink);
+  font-size: 0.7rem;
+  color: var(--orange);
   font-weight: 300;
   margin-top: .8rem;
+}
+
+.short-descriptor {
+  opacity: .8;
+  margin-bottom: 2rem;
 }
 
 /* Individual Blog Post Pages  */
@@ -2545,7 +2550,8 @@ footer hr {
 .blog-content h1 { 
   font-weight: 700;
   font-size: 3rem;
-  line-height: 1.4;
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .blog-content h2 { 
@@ -2553,7 +2559,7 @@ footer hr {
 }
 
 .blog-content p {
-  line-height: 1.4;
+  line-height: 1.2;
   font-weight: 300;
   margin: 0 auto 2rem;
   overflow-wrap: break-word;
@@ -2562,14 +2568,15 @@ footer hr {
 
 .blog-content p a {
   text-decoration: none;
-  border-bottom: 1px solid var(--dark-text);
+  border-bottom: 1px solid var(--dark);
   font-size: 1.1rem;
+  color: var(--dark);
 }
 
 .blog-content p a:hover {
   text-decoration: none;
-  border-bottom: 1px solid var(--pink);
-  color: var(--pink);
+  border-bottom: 1px solid var(--orange);
+  color: var(--orange);
   font-size: 1.1rem;
 }
 
@@ -2594,19 +2601,19 @@ footer hr {
 
 .blog-content li a:hover {
   text-decoration: none;
-  border-bottom: 1px solid var(--pink);
-  color: var(--pink);
+  border-bottom: 1px solid var(--orange);
+  color: var(--orange);
   font-size: 1.1rem;
 }
 
 .blog-content td {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--green2);
   padding: 1rem;
   width: 50%;
 }
 
 .bog-content th {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--green2);
   padding: .5rem;
 }
 
@@ -2616,11 +2623,11 @@ footer hr {
 }
 
 .blog-content hr {
-  border: .5px solid var(--pink);
+  border: .5px solid var(--orange);
 }
 
 .more-categories hr {
-  border: .5px solid var(--pink);
+  border: .5px solid var(--orange);
 }
 
 .blog-content strong {
@@ -2633,12 +2640,12 @@ footer hr {
 
 .blog-content a.btn:hover {
   border-bottom: none;
-  color: var(--white);
+  color: var(--orange);
 }
 
 .explore-category span {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--green);
+  color: var(--dark);
   text-transform: uppercase;
   font-size: .8rem;
   font-weight: 500;
@@ -2648,7 +2655,7 @@ footer hr {
 }
 
 .explore-category span:hover {
-  background-color: var(--pink);
+  background-color: var(--orange);
 }
 
 .explore-cat-container {
@@ -2680,22 +2687,21 @@ blockquote {
   font-style: italic;
   padding-left: 1.5rem;
   margin-left: 1.5rem;
-  border-left: 1.5px solid var(--blue);
+  border-left: 1.5px solid var(--green2);
 }
 
 blockquote p {
   font-size: 1.2rem;
-  color: var(--blue);
+  color: var(--green2);
 }
 
 /* Sidebar */
 .sidebar-item {
-  border: 2px solid var(--light);
+  border: 2px solid var(--orange);
   margin-bottom: 1rem;
-  color: var(--medium-text);
+  color: var(--orange);
 }
 .sidebar-item p {
-  font-family: 'Poppins', sans-serif; 
   font-weight: 300;
 }
 
@@ -2718,7 +2724,7 @@ blockquote p {
 /* Miscelaneous elements  */
 
 hr.short {
-  border: 1px solid var(--dark-text);
+  border: 1px solid var(--orange);
   width: 2rem;
   margin: 1rem 0;
 }
@@ -2729,7 +2735,7 @@ hr.short.center {
 }
 
 hr.long {
-  border: 0.8px solid var(--dark-text);
+  border: 0.8px solid var(--orange);
   width: 97%;
   margin: 1rem;
   opacity: 0.5;

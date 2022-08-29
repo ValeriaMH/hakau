@@ -2,6 +2,7 @@
 layout: post-with-sidebar
 title: ¿Por qué es tan importante el Meandro Escalonado?
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+short-descriptor: Descúbrelo en este artículo
 author: Belén Cuadros
 categories:
   - category1
@@ -14,8 +15,6 @@ seo:
   keywords:
   hide-from-google: true
 ---
-##### Desc&uacute;brelo en este art&iacute;culo
-
 La iconograf&iacute;a prehisp&aacute;nica est&aacute; llena de simbolismos que nos ayudan a entender la visi&oacute;n de los antiguos peruanos. Kauffmann&nbsp; Doing, antrop&oacute;logo, arque&oacute;logo e historiador peruano, proporcion&oacute; la clave para identificar y entender los signos m&aacute;gicos-religiosos de especial jerarqu&iacute;a y cuya presencia en la iconograf&iacute;a andina se ve reflejada a lo largo del desarrollo de las sociedades del Per&uacute;. Empezando en Chav&iacute;n de Hu&aacute;ntar hasta el fin del Imperio Inca, y por qué no, hasta nuestros d&iacute;as.
 
 Hoy nos centraremos en este:
