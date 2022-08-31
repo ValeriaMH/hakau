@@ -36,6 +36,12 @@ img.small-centered-image {
     text-align: center;
 }
 
+img.medium-centered-image {
+    max-width: 500px;
+    margin:auto;
+    text-align: center;
+}
+
 
 @media(max-width: 767px) {
     .float-right-image, 
