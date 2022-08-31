@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+<header class="bg-white contact-section">
+
+    {% include header-nav.html %}
+    
+    <div class="grid padded padded-b-0">
+  
+      <div class="col-5_sm-12 padded orange-text xs-padded-t-lg">
+        <h2 class="margin-b-2">{{page.hero-banner.title }}</h2>
+        <h1 class="uppercase margin-t-5 xs-margin-t-2">{{page.hero-banner.description-1 }}</h1>
+        <!-- CONTACT FORM -->
+        <div class="grid contact padded-t">
+          
+          <div class="col-12">
+            <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+              <div class="col-12 name-border">
+                <input type="text" name="name" placeholder="Your Name">
+              </div>
+              <div class="col-12 email-border">
+                <input type="email" name="_replyto" placeholder="Your Email">
+              </div>
+              <div class="col-12">
+                <textarea placeholder="Hi, I'd like to be part of Hakau..."></textarea>
+              </div>
+              <div class="col-12">
+                <input type="submit" value="Send" class="btn-contact">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-7 grid hide-sm">
+        <div class="col-6-top margin-contact-neg2 relative">
+          <div class="bg-image square {{page.hero-banner.banner1-position }}" style="background-image:url('{{ page.hero-banner.banner1_image }}')"></div>
+          <!-- SOCIAL ICONS -->
+          <div class="social-contact">
+            <ul>
+              {% for item in site.data.navigation.social %}
+                  <li><a href="{{item.url }}" target="_blank">
+                    <i class="{{item.icon }}"></i>
+                  </a></li>
+                  {% endfor %}
+            
+            </ul>
+     
+          </div>
+        </div>
+        <div class="col-6-bottom padded-t-30 margin-contact-neg">
+          <div class="bg-image square" style="background-image:url('{{ page.hero-banner.banner2_image }}')"></div>
+        </div>
+        <div class="col-7-top padded-l-md margin-t-negative">
+          <div class="bg-image square" style="background-image:url('{{ page.hero-banner.banner3_image }}')"></div>
+        </div>
+        
+      </div>
+      
+      <div class="col-12 center sm-padded-lg sm-padded-t xs-padded-lg xs-padded-b-15 show-sm">
+        <div class="founders-slider-container">
+        <!-----------------SLIDE 1--------------->
+            <div class="slider-item col-12 sm-text-center" id="slider-icons">
+                <img class="margin-b-2" src="{{page.hero-banner.banner1_image }}" alt="" />
+            </div>
+        
+            <!-----------------SLIDE 2--------------->
+            <div class="slider-item col-12 sm-text-center" id="slider-icons">
+              <img class="margin-b-2" src="{{page.hero-banner.banner2_image }}" alt="" />
+          </div>
+        
+          <!-----------------SLIDE 3--------------->
+          <div class="slider-item col-12 sm-text-center" id="slider-icons">
+            <img class="margin-b-2" src="{{page.hero-banner.banner3_image }}" alt="" />
+        </div>
+            
+        </div>
+      </div>
+  
+    </div>
+  
+  </header>
+  
+  <!--------------------  MOBILE MENU -------------------->
+  
+  <div class="hamburger show-md">
+    <span class="burger-top"></span>
+    <span class="burger-middle"></span>
+    <span class="burger-bottom"></span>
+  </div>
+  
+  {% include mobile-menu.html %}
+  
+  <!--------------------  FAQ -------------------->
+  
+  <section class="padded-t-lg">
+  
+    <div class="grid padded padded-lg bg-orange relative">
+  
+      <div class="col-12 padded white-text">
+  
+          <img class="faq-icon1" src="/images/hakau-icon35.png" alt="">
+  
+          <img class="faq-icon2" src="/images/hakau-icon9.png" alt="">
+  
+          <h3 class="xxlarge-text center xxlarge-text-sm">
+              Frequently Asked Questions
+          </h3>
+          <dl class="accordion padded-lg padded-b-0 sm-padded-md xs-padded xs-padded-t-lg">
+    
+            {% for item in site.data.frequent-questions %}
+    
+            <dt> {{item.question }}</dt>
+            <dd> {{item.answer }}</dd>
+          
+            {% endfor %}
+          
+          </dl>
+        </div>
+      
+      
+    </div>
+  
+  </section>
