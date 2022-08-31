@@ -29,6 +29,7 @@ Este s&iacute;mbolo nos ayuda a entender la manera en la que miraban el mundo lo
 Entendamos este s&iacute;mbolo por separado.
 
 ![](/images/hakau-blog-meandro2.png){: .small-centered-image width="616" height="276"}
+{: .center}
 
 Estamos ante dos signos igual de importantes.
 
@@ -37,40 +38,55 @@ Estamos ante dos signos igual de importantes.
 En este bolso Nasca podemos apreciar la forma escalonada.
 
 ![](/images/hakau-blog-meandro3.png){: .small-centered-image width="742" height="730"}
+{: .center}
 
 MUSEO CHILENO DE ARTE PRECOLOMBINO(S/F) Bolsa Nasca. 100-700 d.C.
+{: .center}
 
 Seg&uacute;n Kauffmann, el signo escalonado hace referencia a los andenes o terrazas de cultivo que eran decoradas para honrar a la Diosa Tierra o Pachamama.
 
-![](/images/hakau-blog-meandro4.jpg){: .small-centered-image width="1200" height="675"}
+![](/images/hakau-blog-meandro4.jpg){: .medium-centered-image width="1200" height="675"}
+{: .center}
 
 **DIOS DEL AGUA**
+{: .center}
 
 En este manto Chancay podemos encontrar el signo de agua como una onda compuesto por m&aacute;s elementos, sin embargo, la forma se respeta.
 
-![](/images/hakau-blog-meandro5.png){: .small-centered-image width="586" height="576"}
+![](/images/hakau-blog-meandro5.png){: .medium-centered-image width="586" height="576"}
+{: .center}
 
 Se asume que la forma de bast&oacute;n est&aacute; inspirada en la imagen que genera la cresta de una ola.
+{: .center}
 
-![](/images/hakau-blog-meandro6.jpg){: .small-centered-image width="950" height="480"}
+![](/images/hakau-blog-meandro6.jpg){: .medium-centered-image width="950" height="480"}
+{: .center}
 
 **FERTILIDAD**
+{: .center}
 
 Si unimos ambos s&iacute;mbolos, tenemos una figura que hace referencia a la fertilidad y a una clara relaci&oacute;n al ciclo natural del agua.
 
-![](/images/hakau-blog-meandro7.jpg){: .small-centered-image width="626" height="575"}
+![](/images/hakau-blog-meandro7.jpg){: .medium-centered-image width="626" height="575"}
+{: .center}
 
 **MIRA DIFERENTES EJEMPLOS**
+{: .center}
 
-![](/images/hakau-blog-meandro8.jpg){: .small-centered-image width="564" height="562"}
+![](/images/hakau-blog-meandro8.jpg){: .medium-centered-image width="564" height="562"}
+{: .center}
 
 ![](/images/hakau-blog-meandro9.jpg){: .small-centered-image width="564" height="743"}
+{: .center}
 
 ![](/images/hakau-blog-meandro10.jpg){: .small-centered-image width="563" height="902"}
+{: .center}
 
 ![](/images/hakau-blog-meandro11.jpg){: .small-centered-image width="843" height="817"}
+{: .center}
 
 En conclusi&oacute;n, como dice Uwe Carslon en su libro Iconograf&iacute;a Andina: Interpretaci&oacute;n del simbolismo en antiguos tejidos peruanos:
+{: .center}
 
 *&nbsp;“ No se debe ni se puede pretender tratar a fondo este tema, es decir aclarar la iconograf&iacute;a de los antiguos pueblos peruanos, pues quedan todav&iacute;a muchas preguntas pendientes. No obstante, se logra acercarse considerablemente a ese mundo elemental de expresiones, que en gran parte es asumido religiosamente. Esto vale m&aacute;s a&uacute;n, ya que estas culturas no ten&iacute;an reglas fijas para representar a sus divinidades.”* CARLSON, Uwe (2012)
 
