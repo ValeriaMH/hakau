@@ -19,7 +19,7 @@ La iconograf&iacute;a prehisp&aacute;nica est&aacute; llena de simbolismos que n
 
 Hoy nos centraremos en este:
 
-![](/images/hakau-blog-meandro1.png){: .wide-image width="504" height="276"}
+![](/images/hakau-blog-meandro1.png){: .small-centered-image width="504" height="276"}
 {: .center}
 
 ### **Este es el famoso MEANDRO ESCALONADO**
