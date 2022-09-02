@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% include header-nav.html %}
+
+<section class="grid padded capped-width">
+
+    <div class="padded-1 col-12 blog-content sm-padded-0">
+
+        <div class="intro padded-1 padded-r-lg sm-padded-r">
+
+            {% for item in page.categories %}
+            <span class="tag"> {{ item }}</span>
+            {% endfor %}
+
+            <h1> {{ page.title }} </h1>
+            <h5 class="short-descriptor">{{page.short-descriptor }}</h5>
+
+            <p class="post-info"> {{ page.author }} | {{ page.post-date }} </p>
+
+        </div>
+        <div class="padded-1 padded-r-lg sm-padded-r justify">
+
+            {{content}}
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RELATED POSTS -->
+
+<!-- {% if page.related-posts == true %}
+    {% include related-posts.html %}
+{% endif %} -->
+
+
+
+<!-- {% include related-posts.html %} -->

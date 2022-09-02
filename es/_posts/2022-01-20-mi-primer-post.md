@@ -1,5 +1,5 @@
 ---
-layout: post-with-sidebar
+layout: post
 title: ¿Por qué es tan importante el Meandro Escalonado?
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 short-descriptor: Descúbrelo en este artículo
@@ -9,6 +9,7 @@ lang: es
 categories:
   - conectando con la raíz
 featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+related-posts: true
 sidebar:
   about-hakau-title: Sobre Hakau
   description-1: 'Cuando de un bien físico se trata, sabemos lo que es necesario para poder heredar. Pero cuando de un saber hablamos, necesitamos concretamente una sola cosa: escuchar.'

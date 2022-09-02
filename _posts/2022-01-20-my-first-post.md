@@ -1,5 +1,5 @@
 ---
-layout: post-with-sidebar
+layout: post
 title: My first Post
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 author: Astrid
