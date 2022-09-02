@@ -4,7 +4,7 @@ title: Nacimiento Hakau
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 short-descriptor:
 author: por Astrid, Lucía & Jessica
-post-date: 20 Enero 2022
+date-published: 02 Setiembre 2022
 lang: es
 categories:
   - conectando con la raíz
