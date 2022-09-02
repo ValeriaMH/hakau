@@ -111,13 +111,24 @@ layout: default
           </h3>
           <dl class="accordion padded-lg padded-b-0 sm-padded-md xs-padded xs-padded-t-lg">
     
-            {% for item in site.data.frequent-questions-es %}
+            {% if page.url contains '/es/' %}
+            {% for item in site.data.frequent-questions.es %}
     
             <dt> {{item.question }}</dt>
             <dd> {{item.answer }}</dd>
           
             {% endfor %}
-          
+
+            {% else %}
+            {% for item in site.data.frequent-questions.en %}
+
+            <dt> {{item.question }}</dt>
+            <dd> {{item.answer }}</dd>
+
+            {% endfor %}
+
+            {% endif %}
+
           </dl>
         </div>
       

@@ -1,4 +1,4 @@
-frequent-question-en:
+en:
 - question: How long does it take for my order to arrive?
   answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
 - question: What forms of payment do you accept?
@@ -9,14 +9,14 @@ frequent-question-en:
   answer: After much active and practical listening, HAKAU connects and shares from a commercial system based on reciprocity and redistribution as our ancestors inherited, together with a supportive and alternative commercial system that seeks development focused on communities, who they inhabit and their environment. Within the main fair trade criteria that we adopt, we relate to others also using fair trade practices, capacity development and respect for the environment.
 - question: What is the origin of HAKAU products?
   answer: The origin of all the products marketed by HAKAU are developed in the Peruvian territory with native materials from the areas where they are made.
-frequent-question-es:
--question: ¿Cuánto tiempo tarda en llegar mi pedido?
- answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
--question: ¿Qué formas de pago se aceptan?
- answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
--question: ¿Cuál es la política de devoluciones?
- answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
--question: ¿Cuál es el sistema de comercio de HAKAU?
- answer: Después de mucha escucha activa y práctica, HAKAU se relaciona y comparte desde un sistema comercial basado en la reciprocidad y la redistribución como el que heredaron nuestros antepasados, junto con un sistema comercial solidario y alternativo que busca el desarrollo centrado en las comunidades, en quienes habitan y en su entorno. Dentro de los principales criterios de comercio justo que adoptamos, nos relacionamos con otros utilizando también prácticas de comercio justo, desarrollo de capacidades y respeto al medio ambiente.
--question: ¿Cuál es el origen de los productos de HAKAU?
- answer: El origen de todos los productos comercializados por HAKAU son desarrollados en el territorio peruano con materiales nativos de las zonas donde se elaboran.
+es:
+- question: ¿Cuánto tiempo tarda en llegar mi pedido?
+  answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
+- question: ¿Qué formas de pago se aceptan?
+  answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
+- question: ¿Cuál es la política de devoluciones?
+  answer: Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
+- question: ¿Cuál es el sistema de comercio de HAKAU?
+  answer: Después de mucha escucha activa y práctica, HAKAU se relaciona y comparte desde un sistema comercial basado en la reciprocidad y la redistribución como el que heredaron nuestros antepasados, junto con un sistema comercial solidario y alternativo que busca el desarrollo centrado en las comunidades, en quienes habitan y en su entorno. Dentro de los principales criterios de comercio justo que adoptamos, nos relacionamos con otros utilizando también prácticas de comercio justo, desarrollo de capacidades y respeto al medio ambiente.
+- question: ¿Cuál es el origen de los productos de HAKAU?
+  answer: El origen de todos los productos comercializados por HAKAU son desarrollados en el territorio peruano con materiales nativos de las zonas donde se elaboran.
