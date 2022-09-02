@@ -235,7 +235,7 @@ img { max-width: 100%; height: auto; }
 .bg-green3    { background-color: var(--green3); }
 
 .bg-image {
-    background-color: var(--amarillo-claro); /* Set a fall-back color while images are loading 
+    background-color: var(--beige); /* Set a fall-back color while images are loading 
     background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600'); */ 
     background-size: cover;
     background-position: center; 
@@ -2697,22 +2697,48 @@ blockquote p {
 
 /* Sidebar */
 .sidebar-item {
-  border: 2px solid var(--orange);
+  border: 1.5px solid var(--orange);
   margin-bottom: 1rem;
-  color: var(--orange);
+  color: var(--dark);
 }
+
 .sidebar-item p {
   font-weight: 300;
 }
 
+.sidebar-item a h4 {
+  color: var(--dark);
+  text-transform: unset;
+} 
+
 .sidebar-item a {
   padding: 0.25rem 0rem;
+  text-transform: unset;
+}
+
+.sidebar-item a h4:hover {
+  color: var(--green2);
+}
+
+.sidebar-item nav a {
+  color: var(--dark);
+  text-transform: capitalize;
+}
+
+.sidebar-item nav a:hover {
+  color: var(--green2);
 }
 
 .recent-posts-nav a {
   display: block;
   font-weight: 300;
   padding: 0.25rem 0rem;
+  color: var(--dark);
+  text-transform: unset;
+}
+
+.recent-posts-nav a:hover {
+  color: var(--green3);
 }
 
 /* Social Share Nav  */
