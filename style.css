@@ -2801,6 +2801,34 @@ hr.long {
   margin: .5rem 0;
 }
 
+/* Filterable Gallery Style BLOG */
+
+
+/* .filterable-gallery-category [class*=col] {
+  padding: 1rem 2rem;
+} */
+
+.hidden {
+  display: none;
+}
+
+/* Filter Navigation BLOG */
+
+.portfolio-filter-category span {
+  cursor: pointer;
+  animation: none;
+}
+
+.portfolio-filter-category .active {
+  color: var(--orange);
+}
+
+.portfolio-filter-category span:hover,
+.portfolio-filter-category span:focus {
+  color: var(--orange);
+  box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
+}
+
 /* IMAGES STYLES */
 
 .hakau-icon {

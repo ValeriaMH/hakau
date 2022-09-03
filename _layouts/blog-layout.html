@@ -26,24 +26,47 @@ layout: default
   
   {% include mobile-menu.html %}
   
-  
-  <section>
-  
-    <div class="grid">
-  
-      <div class="col-12-left filter padded-sm">
-        <h4 class="filter-title uppercase">Categories <i class="fas fa-angle-down orange-text"></i></h4>
-        <div class="filter-content portfolio-filter-category" id="portfolio-filter-category">
-            <span>category1</span>
-            <span>category2</span>
-            <span>category3</span>
-            <span>All</span>
-        </div>
-    </div>
-  
-    </div>
-  
-  </section>
+  {% if page.url contains '/es/' %}
+        
+    <section>
+
+      <div class="grid">
+    
+        <div class="col-12-left filter padded-sm">
+          <h4 class="filter-title uppercase">Categorías <i class="fas fa-angle-down orange-text"></i></h4>
+          <div class="filter-content portfolio-filter-category" id="portfolio-filter-category">
+            {% for item in site.data.categories.es %}
+              <span>{{item}}</span>
+            {% endfor %}
+              <span>Todos</span>
+          </div>
+      </div>
+    
+      </div>
+    
+    </section>
+        
+  {% else %}
+
+    <section>
+
+      <div class="grid">
+    
+        <div class="col-12-left filter padded-sm">
+          <h4 class="filter-title uppercase">Categories <i class="fas fa-angle-down orange-text"></i></h4>
+          <div class="filter-content portfolio-filter-category" id="portfolio-filter-category-en">
+            {% for item in site.data.categories.en %}
+              <span>{{item}}</span>
+            {% endfor %}
+              <span>All</span>
+          </div>
+      </div>
+    
+      </div>
+    
+    </section>
+
+  {% endif %}
   
   <!--------------------  POSTS -------------------->
   
