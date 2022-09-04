@@ -4,7 +4,7 @@ title: My second Post
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 author: Lu
 categories:
-  - category3
+  - category 3
 lang: en
 featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
 seo:

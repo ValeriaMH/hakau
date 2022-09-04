@@ -7,7 +7,7 @@ author: por Astrid, Lucía & Jessica
 date-published: 02 Setiembre 2022
 lang: es
 categories:
-  - conectand
+  - conectando con la raíz
 featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
 related-posts: true
 sidebar:

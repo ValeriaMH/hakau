@@ -4,7 +4,7 @@ title: My first Post
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 author: Astrid
 categories:
-  - category1
+  - connecting with the roots
 lang: en
 featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
 seo:

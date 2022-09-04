@@ -14,17 +14,17 @@ layout: default
      
     </div>
   
-  </header>
+</header>
   
   <!--------------------  MOBILE MENU -------------------->
   
-  <div class="hamburger show-md">
-    <span class="burger-top"></span>
-    <span class="burger-middle"></span>
-    <span class="burger-bottom"></span>
-  </div>
+<div class="hamburger show-md">
+  <span class="burger-top"></span>
+  <span class="burger-middle"></span>
+  <span class="burger-bottom"></span>
+</div>
   
-  {% include mobile-menu.html %}
+{% include mobile-menu.html %}
   
   {% if page.url contains '/es/' %}
         
@@ -32,9 +32,9 @@ layout: default
 
       <div class="grid">
     
-        <div class="col-12-left filter padded-sm">
+        <div class="col-12-left filter padded-sm padded-b-0 padded-t">
           <h4 class="filter-title uppercase">Categorías <i class="fas fa-angle-down orange-text"></i></h4>
-          <div class="filter-content portfolio-filter-category" id="portfolio-filter-category">
+          <div class="filter-content portfolio-filter-category-es" id="portfolio-filter-category-es">
             {% for item in site.data.categories.es %}
               <span>{{item}}</span>
             {% endfor %}
@@ -52,11 +52,11 @@ layout: default
 
       <div class="grid">
     
-        <div class="col-12-left filter padded-sm">
+        <div class="col-12-left filter padded-sm padded-b-0 padded-t">
           <h4 class="filter-title uppercase">Categories <i class="fas fa-angle-down orange-text"></i></h4>
-          <div class="filter-content portfolio-filter-category" id="portfolio-filter-category-en">
+          <div class="filter-content portfolio-filter-category" id="portfolio-filter-category">
             {% for item in site.data.categories.en %}
-              <span>{{item}}</span>
+              <span>{{item }}</span>
             {% endfor %}
               <span>All</span>
           </div>
@@ -72,15 +72,15 @@ layout: default
   
   <section>
   
-    <div class="grid padded filterable-gallery-category" id="filterable-gallery-category">
-  
-      {% if page.url contains '/es/' %} 
+    {% if page.url contains '/es/' %} 
+
+    <div class="grid padded filterable-gallery-category-es" id="filterable-gallery-category-es">
 
       {% assign articulos = site.posts | where: "lang","es" %}
 
         {% for post in articulos limit:12 %}
 
-        <article class="col-4_sm-6_xs-12 post-item grid gallery-item-category {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
+        <article class="col-4_sm-6_xs-12 post-item grid gallery-item-category-es {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
             <a href="{{ post.url }}" class="blog-card col-12 grid bg-image square" style="background-image: url('{{ post.featured_image }}');">
               <div class="card-inner col-12-bottom">
                   {% for item in post.categories %}
@@ -90,11 +90,15 @@ layout: default
                   <p> {{ post.description }} </p>
               </div>
             </a>
-          </article>
+        </article>
         
         {% endfor %}
+    
+    </div>
   
-        {% else %}
+    {% else %}
+      
+    <div class="grid padded filterable-gallery-category" id="filterable-gallery-category">
 
         {% assign articles = site.posts | where: "lang","en" %}
   
@@ -110,13 +114,13 @@ layout: default
                   <p> {{ post.description }} </p>
               </div>
             </a>
-          </article>
+        </article>
         
         {% endfor %}
   
-        {% endif %}
-  
     </div>
+
+    {% endif %}
     
   </section>
   
