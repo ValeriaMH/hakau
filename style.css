@@ -3514,6 +3514,20 @@ row-gap: 0.5rem; */
     width: 17%;
   }
 
+  .conectamos-desde-mob img {
+    transform: rotate(7deg);
+    position: absolute;
+    top: 8vh;
+    right: 13%;
+    width: 30%;
+    height: auto;
+  }
+
+  .hakau-footer img {
+    margin-left: -9%;
+    margin-bottom: -0.65rem;
+  }
+
   #allies-buttons {
     padding: 0 0 25% 0%;
   }
