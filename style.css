@@ -2339,6 +2339,7 @@ footer hr {
   right: -2%;
   width: 15%;
   transform: rotate(40deg);
+  overflow-x: hidden;
 }
 
 .allies-icon9 {
