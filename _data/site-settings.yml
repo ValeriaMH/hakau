@@ -7,9 +7,32 @@ general:
   explore-logo-size: 50%
 technical:
   adobe-fonts-embed: <link rel="stylesheet" href="https://use.typekit.net/hqq0vnm.css">
+  en:
+    cookie-banner-text: We would like to use third party cookies and scripts to improve the functionality of this website.
+    cookie-banner-cta-name: More information
+    cookie-banner-cta-url: /privacy-policy
+    cookie-banner-approve: Approve
+  es:
+    cookie-banner-text: Nos gustaría utilizar cookies y scripts de terceros para mejorar la funcionalidad de este sitio web. 
+    cookie-banner-cta-name: Más información
+    cookie-banner-cta-url: /es/politica-de-privacidad
+    cookie-banner-approve: Aprobar
 seo:
   site_name: Hakau | Sustainable Fair Trade E-commerce
   title: Hakau | Sustainable Fair Trade E-commerce
   description:
   keywords:
   - sustainable ecommerce
+contact-form:
+  en:
+    subscribe-title: Subscribe to get the latest news
+    email: Email Address
+    first-name: First Name
+    last-name: Last Name
+    required: indicates required
+  es:
+    subscribe-title: Suscríbete para recibir las últimas novedades
+    email: Correo Electrónico
+    first-name: Nombre
+    last-name: Apellido
+    required: campos requeridos

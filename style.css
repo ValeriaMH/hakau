@@ -1261,6 +1261,14 @@ p a {
   background: var(--green3);
 }
 
+.btn-subtle2:hover {
+  color: var(--orange);
+}
+
+.btn-subtle2 {
+  font-size: .8rem;
+}
+
 
 /* ------------ Header & Hamburger Menu -------------- */
 /* header {
