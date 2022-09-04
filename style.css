@@ -3439,6 +3439,12 @@ row-gap: 0.5rem; */
     line-height: 1.1;
   }
 
+  .picaron p,
+  .picaron p a {
+    font-size: .8rem;
+    padding-left: 0;
+  }
+
   .hakau-k img {
     top: -9%;
     left: -4%;
