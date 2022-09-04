@@ -319,6 +319,27 @@ img { max-width: 100%; height: auto; }
   position: relative;
 }
 
+.bg-overlay4 {
+  position: relative;
+}
+
+.bg-overlay4::before {
+  z-index: 1;
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0,0,0,0.6); */
+}
+
+.bg-overlay4 > * {
+  z-index: 1;
+  position: relative;
+}
+
+
 
 /* Add a second class to change the color or style  */
 
@@ -1872,7 +1893,8 @@ color: var(--white);
   color: var(--white);
 }
 
-.bg-video {
+.bg-video,
+.bg-video-mob {
   position: absolute;
   top: 0;
   left: 0;
@@ -1885,13 +1907,25 @@ color: var(--white);
   min-height: 100vh;
 }
 
+.bg-video-mob {
+  min-height: 70vh;
+  position: relative;
+  padding: 7%;
+  background-color: var(--beige); /* Set a fall-back color while images are loading 
+    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600'); */ 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
 .bg-video__content {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.header-home-video {
+.header-home-video,
+.header-home-video-mob {
   padding: 10%;
   display: flex;
   align-items: center;
@@ -1900,6 +1934,11 @@ color: var(--white);
   position: relative;
   min-height: 100vh;
   text-align: center;
+}
+
+.header-home-video-mob {
+  min-height: 70vh;
+  padding: 0;
 }
 
 /* BANNER W/QUOTE */
@@ -3389,6 +3428,17 @@ row-gap: 0.5rem; */
     font-size: 3.5rem;
   }
 
+  .header-home-video h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+  .header-home-video h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+
   .hakau-k img {
     top: -9%;
     left: -4%;
@@ -3466,6 +3516,15 @@ row-gap: 0.5rem; */
 
   #allies-buttons {
     padding: 0 0 25% 0%;
+  }
+
+  .social a {
+    display: inline-block;
+    margin: 0 .7rem;
+  }
+
+  .social a:first-child {
+    margin-left: 0rem;
   }
 
 }
