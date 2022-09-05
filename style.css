@@ -986,7 +986,8 @@ p:last-child {
   position: relative;
   display: inline-block;
  }
- .dropdown-title {
+ .dropdown-title,
+ .dropdown-title-dark {
   padding: 0.1rem 0.5rem;
   display: inline-block;
   width: auto;
@@ -997,7 +998,12 @@ p:last-child {
   position: relative;
  }
 
- .dropdown-title:after {
+ .dropdown-title-dark {
+  color: var(--dark);
+ }
+
+ .dropdown-title:after,
+ .dropdown-title-dark:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -1010,7 +1016,12 @@ p:last-child {
   width: 0;
 }
 
-.dropdown-title:hover:after {
+.dropdown-title-dark:after {
+  background: var(--dark);
+}
+
+.dropdown-title:hover:after,
+.dropdown-title-dark:hover:after {
   width: 100%; 
   left: 0; 
 }
@@ -2258,7 +2269,7 @@ footer hr {
   right: -20%;
   width: 40%;
   transform: rotate(0deg);
-  z-index: 2;
+  z-index: 1;
 }
 
 .why-us-icon2 img {

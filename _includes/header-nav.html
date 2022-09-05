@@ -20,7 +20,7 @@
         <!-- MENU SPANISH -->
         {% if page.url contains '/es/' %}
         <div class="dropdown-shop">
-            <span class="dropdown-title"> {{ site.data.navigation.shop-name-es }}</span>
+            <span class="dropdown-title-dark"> {{ site.data.navigation.shop-name-es }}</span>
             <div class="dropdown-content grid">
                 <div class="col-2"></div>
                 {% for item in site.data.navigation.shop-menu-es %}
@@ -54,7 +54,7 @@
         <!-- MENU ENGLISH -->
         {% else %}
         <div class="dropdown-shop">
-            <span class="dropdown-title"> {{ site.data.navigation.shop-name-en }}</span>
+            <span class="dropdown-title-dark"> {{ site.data.navigation.shop-name-en }}</span>
             <div class="dropdown-content grid">
                 <div class="col-2"></div>
                 {% for item in site.data.navigation.shop-menu-en %}
