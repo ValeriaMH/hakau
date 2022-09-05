@@ -12,7 +12,13 @@
   <!-- SOCIALS -->
   <div class="grid">
     <div class="col-3_sm-12 padded">
-      <p class="semi-bold">Sé parte de esta<br>común - unidad</p>
+
+      {% if page.url contains '/es/' %}
+      <p class="semi-bold">{{site.data.navigation.social-quote-es }}</p>
+      {% else %}
+      <p class="semi-bold">{{site.data.navigation.social-quote-en }}</p>
+      {% endif %}
+
       <nav class="social">
 
         {% for item in site.data.navigation.social %}
@@ -29,9 +35,45 @@
   </div>
  
   <!-- FOOTER LINKS ENGLISH-->
-   <div class="grid relative">
+  {% if page.url contains '/es/' %}
+  <div class="grid relative">
     <div class="col-3_sm-12 padded">
-      <h4>SHOP</h4>
+      <h4>{{site.data.navigation.footer-menu1-title-es }}</h4>
+      <nav class="footer-links">
+        {% for item in site.data.navigation.footer-menu1-es %}
+          <a href="{{item.url }}">{{item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="col-3_sm-12 padded">
+      <h4>{{site.data.navigation.footer-menu2-title-es }}</h4>
+      <nav class="footer-links">
+        {% for item in site.data.navigation.footer-menu2-es %}
+          <a href="{{item.url }}">{{item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="col-4_sm-12 padded">
+      <h4>{{site.data.navigation.footer-menu3-title-es }}</h4>
+      <nav class="footer-links">
+        {% for item in site.data.navigation.footer-menu3-es %}
+          <a href="{{item.url }}">{{item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="col-2-middle conectamos-desde hide-sm">
+      <img src="/images/hakau-icon29.png" alt="hakau conectamos desde el corazon">
+    </div>
+
+    <div class="conectamos-desde-mob show-sm">
+      <img src="/images/hakau-icon29.png" alt="hakau conectamos desde el corazon">
+    </div>
+
+  </div>
+  {% else %}
+  <div class="grid relative">
+    <div class="col-3_sm-12 padded">
+      <h4>{{site.data.navigation.footer-menu1-title-en }}</h4>
       <nav class="footer-links">
         {% for item in site.data.navigation.footer-menu1-en %}
           <a href="{{item.url }}">{{item.name }}</a>
@@ -39,7 +81,7 @@
       </nav>
     </div>
     <div class="col-3_sm-12 padded">
-      <h4>WHY HAKAU?</h4>
+      <h4>{{site.data.navigation.footer-menu2-title-en }}</h4>
       <nav class="footer-links">
         {% for item in site.data.navigation.footer-menu2-en %}
           <a href="{{item.url }}">{{item.name }}</a>
@@ -47,7 +89,7 @@
       </nav>
     </div>
     <div class="col-4_sm-12 padded">
-      <h4>CUSTOMER SERVICE</h4>
+      <h4>{{site.data.navigation.footer-menu3-title-en }}</h4>
       <nav class="footer-links">
         {% for item in site.data.navigation.footer-menu3-en %}
           <a href="{{item.url }}">{{item.name }}</a>
@@ -63,6 +105,7 @@
     </div>
 
   </div>
+  {% endif %}
 
   <div class="grid-bottom">
     <div class="col-8 hakau-footer">

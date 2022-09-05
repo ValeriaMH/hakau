@@ -115,6 +115,7 @@ shop-menu-es:
 translation:
   lang-1: EN
   lang-2: ES
+footer-menu1-title-en: SHOP
 footer-menu1-en:
 - name: Shop Hanan
   url: /shop
@@ -126,24 +127,27 @@ footer-menu1-en:
   url:
 - name: On sale
   url:
+footer-menu2-title-en: WHY HAKAU?
 footer-menu2-en:
 - name: Our story
   url: /why-hakau
 - name: Our allies
-  url:
+  url: /allies
 - name: Become an ally
   url:
 - name: Blog
-  url:
+  url: /blog
+footer-menu3-title-en: CUSTOMER SERVICE
 footer-menu3-en:
 - name: Delivery and refunds
   url:
 - name: FAQ
   url:
 - name: Contact us
-  url:
+  url: /contact
 - name: Privacy Policy
   url:
+footer-menu1-title-es: TIENDA
 footer-menu1-es:
 - name: Compra Hanan
   url: /shop
@@ -155,30 +159,34 @@ footer-menu1-es:
   url:
 - name: Ofertas
   url:
+footer-menu2-title-es: ¿POR QUÉ HAKAU?
 footer-menu2-es:
 - name: Nuestra historia
   url: /es/por-que-hakau
 - name: Nuestros aliados
   url: /es/aliados
-- name: Sé un aliado
+- name: Conviértete en aliado
   url: 
 - name: Blog
   url: /es/blog
+footer-menu3-title-es: SERVICIO AL CLIENTE
 footer-menu3-es:
 - name: Entrega y devoluciones
   url: 
 - name: Preguntas frecuentes
   url:
 - name: Contáctanos 
-  url:
+  url: /es/contacto
 - name: Politica de privacidad
   url:
+social-quote-en: Be part of this<br>common.unity
+social-quote-es: Sé parte de esta<br>común.unidad
 social:
-- url:
+- url: https://www.instagram.com/hakauperu/
   icon: fab fa-instagram
-- url:
+- url: https://www.facebook.com/hakauperu
   icon: fab fa-facebook-square
 - url:
   icon: fab fa-linkedin-in
-- url:
+- url: https://www.youtube.com/channel/UCIOAmEAOUr0vAZUdm4aZQLg
   icon: fab fa-youtube
