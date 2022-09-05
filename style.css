@@ -1066,7 +1066,8 @@ p:last-child {
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
  }
 
- .menu-links .dropdown-content a {
+ .menu-links .dropdown-content a,
+ .menu-links-dark .dropdown-content a {
   display: inline-block;
   padding: .2rem .5rem;
   color: var(--green);
@@ -1093,7 +1094,8 @@ p:last-child {
   display: flex;
  }
 
- .menu-links .dropdown-content-mobile a {
+ .menu-links .dropdown-content-mobile a,
+ .menu-links-dark .dropdown-content-mobile a {
   display: inline-block;
   padding: .2rem .5rem;
   color: var(--green);
@@ -1101,21 +1103,26 @@ p:last-child {
   margin-bottom: .8rem;
  }
 
- .menu-links .submenu a {
+ .menu-links .submenu a,
+ .menu-links-dark .submenu a {
   padding: .2rem .5rem;
   color: var(--green);
   margin: 0;
   text-transform: capitalize;
  }
 
- .menu-links .submenu li {
+ .menu-links .submenu li,
+ .menu-links-dark .submenu li {
   list-style: none;
   margin-bottom: 0;
  }
 
  .menu-links .link-orange a,
  .menu-links .link-dark a,
- .menu-links .link-green a {
+ .menu-links .link-green a,
+ .menu-links-dark .link-orange a,
+ .menu-links-dark .link-dark a,
+ .menu-links-dark .link-green a {
   color: var(--orange);
   width: auto;
   text-decoration: none;
@@ -1125,7 +1132,10 @@ p:last-child {
 
  .menu-links .link-orange a:after,
  .menu-links .link-dark a:after,
- .menu-links .link-green a:after {
+ .menu-links .link-green a:after,
+ .menu-links-dark .link-orange a:after,
+ .menu-links-dark .link-dark a:after,
+ .menu-links-dark .link-green a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -1140,24 +1150,31 @@ p:last-child {
 
  .menu-links .link-orange a:hover:after,
  .menu-links .link-dark a:hover:after,
- .menu-links .link-green a:hover:after {
+ .menu-links .link-green a:hover:after,
+ .menu-links-dark .link-orange a:hover:after,
+ .menu-links-dark .link-dark a:hover:after,
+ .menu-links-dark .link-green a:hover:after {
   width: 100%; 
   left: 0; 
  }
 
- .menu-links .link-dark a {
+ .menu-links .link-dark a,
+ .menu-links-dark .link-dark a {
   color: var(--dark);
  }
 
- .menu-links .link-dark a:after {
+ .menu-links .link-dark a:after,
+ .menu-links-dark .link-dark a:after {
   background: var(--dark);
  }
 
- .menu-links .link-green a:after {
+ .menu-links .link-green a:after,
+ .menu-links-dark .link-green a:after {
   background: var(--green);
  }
  
- .menu-links .link-green a {
+ .menu-links .link-green a,
+ .menu-links-dark .link-green a {
   color: var(--green);
  }
 

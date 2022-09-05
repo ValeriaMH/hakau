@@ -68,6 +68,50 @@ shop-menu-en:
     url:
   - name: Huacca Arcana
     url:
+shop-menu-es:
+- name: Hanan
+  url:
+  link-color: link-orange
+  icon_image: /images/hakau-icon41.png
+  submenu:
+  - name: Artesanías
+    url:
+- name: Kay
+  url:
+  link-color: link-green
+  icon_image: /images/hakau-icon42.png
+  submenu:
+  - name: Ropa
+    url:
+  - name: Cuidado personal
+    url:
+  - name: Decoración
+    url:
+- name: Uku
+  url:
+  link-color: link-dark
+  icon_image: /images/hakau-icon43.png
+  submenu:
+  - name: Cristales
+    url:
+  - name: Amuletos
+    url:
+  - name: Joyería
+    url:
+- name: Comprar por Comunidad
+  url:
+  link-color: link-green
+  submenu:
+  - name: Aristides Ramos Salama
+    url:
+  - name: Qory Loraypo
+    url:
+  - name: Warmi Awadora
+    url:
+  - name: Awanallaqta Tocapo
+    url:
+  - name: Huacca Arcana
+    url:
 translation:
   lang-1: EN
   lang-2: ES

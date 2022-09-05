@@ -19,12 +19,31 @@
         
         <!-- MENU SPANISH -->
         {% if page.url contains '/es/' %}
-        <div class="col-2 dropdown-shop grid">
-            <a class="btn-subtle dropdown-title" href="{{ site.data.navigation.shop-url-es }}">{{ site.data.navigation.shop-name-es }}</a>
+        <div class="dropdown-shop">
+            <span class="dropdown-title"> {{ site.data.navigation.shop-name-es }}</span>
             <div class="dropdown-content grid">
+                <div class="col-2"></div>
                 {% for item in site.data.navigation.shop-menu-es %}
-                    <a class="col-2 btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
+                <div class="col-2 padded-1 {{item.link-color }}">
+               
+                        <a href="{{ item.url }}">{{ item.name }}</a>  
+                        {% if item.icon_image %}
+                        <img class="menu-icon" src="{{ item.icon_image }}">
+                        {% endif %}
+              
+                    
+                    <div class="submenu">
+                      <ul>
+                        {% for menu in item.submenu %}
+                            <li><a href="{{ menu.url }}">{{ menu.name }}</a></li>
+                        {% endfor %}
+                      </ul>      
+                    </div>
+                </div>
+                    
+                    
                 {% endfor %}
+                <div class="col-2"></div>
             </div>
         </div>
         
