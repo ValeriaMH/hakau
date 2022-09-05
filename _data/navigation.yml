@@ -145,8 +145,8 @@ footer-menu3-en:
   url:
 - name: Contact us
   url: /contact
-- name: Privacy Policy
-  url:
+- name: Terms and conditions
+  url: /terms-and-conditions
 footer-menu1-title-es: TIENDA
 footer-menu1-es:
 - name: Compra Hanan
@@ -177,8 +177,8 @@ footer-menu3-es:
   url:
 - name: Contáctanos 
   url: /es/contacto
-- name: Politica de privacidad
-  url:
+- name: Términos y Condiciones
+  url: /es/terminos-y-condiciones
 social-quote-en: Be part of this<br>common.unity
 social-quote-es: Sé parte de esta<br>común.unidad
 social:
