@@ -1525,6 +1525,19 @@ nav a {
   left: 0; 
 }
 
+.mobile-menu-links-shopify a {
+  padding: 1rem 0.5rem .1rem;
+  display: block;
+  width: auto;
+  text-decoration: none;
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.mobile-menu-links-shopify a:hover {
+  background-color: rgba(183, 155, 104, .1);
+}
+
 /* HAMBURGER */
 
 .hamburger {
