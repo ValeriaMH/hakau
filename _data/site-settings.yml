@@ -23,16 +23,3 @@ seo:
   description:
   keywords:
   - sustainable ecommerce
-contact-form:
-  en:
-    subscribe-title: Subscribe to get the latest news
-    email: Email Address
-    first-name: First Name
-    last-name: Last Name
-    required: indicates required
-  es:
-    subscribe-title: Suscríbete para recibir las últimas novedades
-    email: Correo Electrónico
-    first-name: Nombre
-    last-name: Apellido
-    required: campos requeridos

@@ -19,16 +19,16 @@ layout: default
           <div class="col-12">
             <form class="grid-center" name="contact" method="POST" data-netlify="true" {% if page.url contains '/es/' %} action="/es/inicio.html" {% else %} action="/index.html" {% endif %}>
               <div class="col-12 name-border">
-                <input type="text" name="name" placeholder="Su Nombre">
+                <input type="text" name="name" placeholder="{{page.contact-form.name }}">
               </div>
               <div class="col-12 email-border">
-                <input type="email" name="_replyto" placeholder="Su Email">
+                <input type="email" name="_replyto" placeholder="{{page.contact-form.email }}">
               </div>
               <div class="col-12">
-                <textarea placeholder="Hola, me gustaría formar parte de Hakau..."></textarea>
+                <textarea placeholder="{{page.contact-form.message }}"></textarea>
               </div>
               <div class="col-12">
-                <input type="submit" value="Enviar" class="btn-contact">
+                <input type="submit" value="{{page.contact-form.contact-cta-name }}" class="btn-contact">
               </div>
             </form>
           </div>
