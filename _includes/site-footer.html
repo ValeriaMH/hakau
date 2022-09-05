@@ -27,13 +27,13 @@
       <iframe src="https://cdn.lightwidget.com/widgets/04cef1cdbd26509db9d8894e5e8d434a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
     </div>
   </div>
-
-  <!-- FOOTER LINKS -->
-  <div class="grid relative">
+ 
+  <!-- FOOTER LINKS ENGLISH-->
+   <div class="grid relative">
     <div class="col-3_sm-12 padded">
       <h4>SHOP</h4>
       <nav class="footer-links">
-        {% for item in site.data.navigation.footer-menu1 %}
+        {% for item in site.data.navigation.footer-menu1-en %}
           <a href="{{item.url }}">{{item.name }}</a>
         {% endfor %}
       </nav>
@@ -41,7 +41,7 @@
     <div class="col-3_sm-12 padded">
       <h4>WHY HAKAU?</h4>
       <nav class="footer-links">
-        {% for item in site.data.navigation.footer-menu2 %}
+        {% for item in site.data.navigation.footer-menu2-en %}
           <a href="{{item.url }}">{{item.name }}</a>
         {% endfor %}
       </nav>
@@ -49,7 +49,7 @@
     <div class="col-4_sm-12 padded">
       <h4>CUSTOMER SERVICE</h4>
       <nav class="footer-links">
-        {% for item in site.data.navigation.footer-menu3 %}
+        {% for item in site.data.navigation.footer-menu3-en %}
           <a href="{{item.url }}">{{item.name }}</a>
         {% endfor %}
       </nav>
@@ -72,7 +72,8 @@
       <p>Copyright 2022 | Website by<a href="https://www.picaronstudio.com" target="_blank">Picaron Studio</a></p>
     </div>
   </div>
-
+  
   {% include cookie-banner.html %}
+
 
 </footer>

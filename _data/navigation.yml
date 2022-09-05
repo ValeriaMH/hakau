@@ -71,7 +71,7 @@ shop-menu-en:
 translation:
   lang-1: EN
   lang-2: ES
-footer-menu1:
+footer-menu1-en:
 - name: Shop Hanan
   url: /shop
 - name: Shop Kay
@@ -82,7 +82,7 @@ footer-menu1:
   url:
 - name: On sale
   url:
-footer-menu2:
+footer-menu2-en:
 - name: Our story
   url: /why-hakau
 - name: Our allies
@@ -91,7 +91,7 @@ footer-menu2:
   url:
 - name: Blog
   url:
-footer-menu3:
+footer-menu3-en:
 - name: Delivery and refunds
   url:
 - name: FAQ
@@ -99,6 +99,35 @@ footer-menu3:
 - name: Contact us
   url:
 - name: Privacy Policy
+  url:
+footer-menu1-es:
+- name: Compra Hanan
+  url: /shop
+- name: Compra Kay
+  url:
+- name: Compra Uku
+  url:
+- name: Productos mas vendidos
+  url:
+- name: Ofertas
+  url:
+footer-menu2-es:
+- name: Nuestra historia
+  url: /es/por-que-hakau
+- name: Nuestros aliados
+  url: /es/aliados
+- name: Sé un aliado
+  url: 
+- name: Blog
+  url: /es/blog
+footer-menu3-es:
+- name: Entrega y devoluciones
+  url: 
+- name: Preguntas frecuentes
+  url:
+- name: Contáctanos 
+  url:
+- name: Politica de privacidad
   url:
 social:
 - url:
