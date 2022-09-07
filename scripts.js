@@ -214,6 +214,87 @@ $(document).ready(function () {
       activeTab.scrollIntoView({ behavior: "smooth" });
     });
   }
+  let appended = false;
+
+  $('.dropdown-title-mobile').on('click', function () {
+    $('.dropdown-content-mobile').addClass('flex');
+    $('#dropdown-arrow-next').addClass('hidden');
+    $('.dropdown-title-mobile').addClass('hidden');
+  })
+  $('#dropdown-arrow-back').on('click', function () {
+    if (appended) {
+      $('.menu-item').removeClass('hidden');
+      appended = false;
+      $(`#submenu_1`).remove();
+      $(`#submenu_2`).remove();
+      $(`#submenu_3`).remove();
+      $(`#submenu_4`).remove();
+    } else {
+      $('.dropdown-content-mobile').removeClass('flex');
+      $('#dropdown-arrow-next').removeClass('hidden');
+      $('.dropdown-title-mobile').removeClass('hidden');
+    }
+  })
+  function replaceAll(string, search, replace) {
+    return string.split(search).join(replace);
+  }
+  const addSubmenu = (htmlElement, index) => {
+    if (!appended) {
+      let submenuString = replaceAll(`[${htmlElement.dataset.submenu}]`, '}{', '}, {');
+      submenuString = replaceAll(submenuString, '=>', ': ');
+      submenuString = replaceAll(submenuString, 'nil', 'null');
+      const submenu = JSON.parse(submenuString);
+      let listHTML = '';
+      for (let i = 0; i < submenu.length; i += 1) {
+        listHTML += `
+          <li
+            style="
+              list-style: none;
+              margin-bottom: 15px;
+              margin-top: 15px;
+            "
+          >
+            <a 
+              href="${submenu[i].url}"
+              style="
+                margin: 0px;
+                padding: 0px;
+              "
+            >${submenu[i].name}</a>
+          </li>`;
+      }
+      const submenusHTML = `
+      <div 
+        class="submenu"
+        style="
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        "
+        id="submenu_${index}"
+      >
+        <ul>
+            ${listHTML}
+        </ul>      
+      </div>`;
+      const htmlSubmenu = $(submenusHTML)[0];
+      console.log('htmlSubmenu: ', htmlSubmenu);
+      htmlElement.append(htmlSubmenu);
+      appended = true;
+      $('.menu-item').addClass('hidden');
+    } else {
+      appended = false;
+      $(`#submenu_1`).remove();
+      $(`#submenu_2`).remove();
+      $(`#submenu_3`).remove();
+      $(`#submenu_4`).remove();
+    }
+  };
+
+  $('#menu_1').on('click', () => addSubmenu($('#menu_1')[0], 1));
+  $('#menu_2').on('click', () => addSubmenu($('#menu_2')[0], 2));
+  $('#menu_3').on('click', () => addSubmenu($('#menu_3')[0], 3));
+  $('#menu_4').on('click', () => addSubmenu($('#menu_4')[0], 4));
 });
 
 // Animate on scroll - activate

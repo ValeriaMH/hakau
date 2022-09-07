@@ -1040,6 +1040,11 @@ p:last-child {
   position: relative;
   display: inline-block;
  }
+.dropdown-shop-responsive {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+ }
  .dropdown-title,
  .dropdown-title-dark {
   padding: 0.1rem 0.5rem;
@@ -1050,6 +1055,7 @@ p:last-child {
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0,0,0,0);
   position: relative;
+  cursor: pointer;
  }
 
  .dropdown-title-dark {
@@ -1088,6 +1094,7 @@ p:last-child {
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0,0,0,0);
   position: relative;
+  cursor: pointer;
  }
 
  .dropdown-title-mobile:after {
@@ -1139,10 +1146,12 @@ p:last-child {
   margin: 0;
   margin-bottom: .8rem;
  }
-
+  #dropdown-title-mobile {
+    color: var(--green);
+  }
  .dropdown-content-mobile {
   position: absolute;
-  top: -20px;
+  top: -25px;
   left: -40px;
   padding: 1.5rem;
   display: none;
@@ -1150,15 +1159,28 @@ p:last-child {
   /* border-radius: 10px; */
   z-index: 3;
   text-align: left;
-  width: 380px;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
   flex-direction: column;
   overflow-y: scroll;
  }
 
- .dropdown-shop:hover .dropdown-content-mobile {
+ .dropdown-shop:hover{
+  display: inline-block;
+  width: 100%;
+ }
+
+ .flex {
   display: flex;
  }
 
+ .arrow-back {
+  width: 28px;
+  margin-left: 26px;
+  cursor: pointer;
+ }
+ 
  .menu-links .dropdown-content-mobile a,
  .menu-links-dark .dropdown-content-mobile a {
   display: inline-block;
@@ -2988,7 +3010,20 @@ hr.long {
 } */
 
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.menu-item:hover {
+  background-color: rgba(183, 155, 104, .1);
 }
 
 /* Filter Navigation BLOG */
