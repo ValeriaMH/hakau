@@ -8,7 +8,7 @@ date-published: 02 Setiembre 2022
 lang: es
 categories:
   - conectando con la raíz
-featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+featured_image: /images/hakau-blog-meandro.jpg
 related-posts: true
 sidebar:
   about-hakau-title: Sobre Hakau
@@ -22,7 +22,7 @@ sidebar:
 seo:
   title:
   description:
-  social_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  social_image: /images/hakau-blog-meandro.jpg
   keywords:
   hide-from-google: true
 ---

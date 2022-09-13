@@ -2512,6 +2512,15 @@ footer hr {
   margin-top: -.5rem;
 }
 
+.warmi-icon {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  z-index: 3;
+}
+
 /* HOVER IMAGE CONTAINER */
 
 .hover-container {
