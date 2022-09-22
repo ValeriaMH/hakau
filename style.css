@@ -2706,6 +2706,10 @@ footer hr {
   color: var(--green2);
 }
 
+.tag:first-child {
+  margin-left: 0;
+}
+
 .category a {
   display: inline-block;
 }

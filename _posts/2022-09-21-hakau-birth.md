@@ -1,16 +1,16 @@
 ---
 layout: post
-title: My third Post
+title: Hakau Birth
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-author: Jeka
+author: by Astrid, Lucía & Jessica
 categories:
-  - category2
+  - connecting with the roots
 lang: en
-featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+featured_image: /images/hakau-blog-letter.png
 seo:
-  title:
+  title: Hakau Birth
   description:
-  social_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  social_image: /images/hakau-blog-letter.pngv
   keywords:
   hide-from-google: true
 ---

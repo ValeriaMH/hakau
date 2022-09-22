@@ -1,16 +1,18 @@
 ---
 layout: post
-title: My first Post
+title: Why is the Step Meander (Meandro Escalonado) so important?
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-author: Astrid
+short-descriptor: Descúbrelo en este artículo
+author: by Belén Cuadros
+date-published: 20 Setiembre 2022
+lang: en
 categories:
   - connecting with the roots
-lang: en
-featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+featured_image: /images/hakau-blog-meandro.jpg
 seo:
-  title:
+  title: Why is the Step Meander (Meandro Escalonado) so important?
   description:
-  social_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  social_image: /images/hakau-blog-meandro.jpg
   keywords:
   hide-from-google: true
 ---

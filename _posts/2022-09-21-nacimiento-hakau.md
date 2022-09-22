@@ -8,7 +8,7 @@ date-published: 02 Setiembre 2022
 lang: es
 categories:
   - conectando con la raíz
-featured_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+featured_image: /images/hakau-blog-letter.png
 related-posts: true
 sidebar:
   about-hakau-title: Sobre Hakau
@@ -26,9 +26,9 @@ sidebar:
   recent-posts-title: Post Recientes
   explore-categories-title: Explora Categorías
 seo:
-  title:
+  title: Nacimiento Hakau
   description:
-  social_image: https://source.unsplash.com/8Ogfqvw15Rg/1600x1600
+  social_image: /images/hakau-blog-letter.png
   keywords:
   hide-from-google: true
 ---
