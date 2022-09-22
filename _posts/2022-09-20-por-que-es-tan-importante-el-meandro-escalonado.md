@@ -10,15 +10,6 @@ categories:
   - conectando con la raíz
 featured_image: /images/hakau-blog-meandro.jpg
 related-posts: true
-sidebar:
-  about-hakau-title: Sobre Hakau
-  description-1: 'Cuando de un bien físico se trata, sabemos lo que es necesario para poder heredar. Pero cuando de un saber hablamos, necesitamos concretamente una sola cosa: escuchar.'
-  description-2: Que la sabiduría de nuestra gente recorra el mundo entero, que lo que es realmente importante encuentre siempre alguien para viajar a través del tiempo y el espacio, a través de la pacha.
-  featured-product-title: Producto Destacado
-  featured-product_image: /images/featured-product1.jpg
-  featured-product-url:
-  recent-posts-title: Post Recientes
-  explore-categories-title: Explora Categorías
 seo:
   title:
   description:

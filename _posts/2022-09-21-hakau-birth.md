@@ -3,10 +3,12 @@ layout: post
 title: Hakau Birth
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 author: by Astrid, Lucía & Jessica
+date-published: 21 Setiembre 2022
+lang: en
 categories:
   - connecting with the roots
-lang: en
 featured_image: /images/hakau-blog-letter.png
+related-posts: true
 seo:
   title: Hakau Birth
   description:
@@ -14,10 +16,18 @@ seo:
   keywords:
   hide-from-google: true
 ---
-## My first Post
+Hakau nace de un sue&ntilde;o compartido que se volvi&oacute; colectivo y comunitario donde, desde el escucharnos e ir destejiendo esa madeja que era en el imaginario, nos permitimos hilo por hilo empezar a tejer en conjunto con nosotras y con los otros.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En un principio eran solo hilos que parec&iacute;an un enredo y que a la vez quer&iacute;an abarcar mucho&nbsp; pero poco a poco con paciencia, transparencia y mucha comunicaci&oacute;n nos fuimos dando cuenta que no era un enredo sino un lenguaje distinto, una trama nueva a la cual no est&aacute;bamos acostumbradas…&nbsp;
 
-### Why do we use it?
+Y si bien hab&iacute;an cosas que nos resultaban familiares, hab&iacute;a otras que sab&iacute;amos que eran diferentes y sentimos que era necesario mantenerlo as&iacute;…siendo conscientes que para acceder a ellas era indispensable hacerlo desde nuestro presente. Desde ese espacio empezamos a tejer el puente que nos permitiera co-crear desde el saber que estaba dormido y el saber que estaba despierto.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Es as&iacute; que al reconectar con nuestras ra&iacute;ces despertamos la sabidur&iacute;a ancestral que nos habita, esta es la base de nuestra co.creaci&oacute;n y modelo comercial. Hakau busca materializar la cosmovisi&oacute;n andina que nuestros ancestros compart&iacute;an, enfoc&aacute;ndonos en el balance entre el cosmos, el ser humano y nuestra Pachamama. As&iacute; mismo y manteniendo este balance, Hakau comparte desde un sistema comercial basado en la reciprocidad y la redistribuci&oacute;n, unido a un sistema comercial solidario y alternativo que busca el desarrollo enfocado en las comunidades, quienes la habitan y su entorno medio ambiental.
+
+Al inicio mencionamos que Hakau nace de un sue&ntilde;o compartido de tres y aqu&iacute; nos presentamos…las tres somos Astrid, Lucia y Jessica…Astrid es el cabeza, Lucia el tronco y Jessica los pies, y en conjunto somos el cuerpo de Hakau…pero para que este cuerpo se mantenga vivo entendimos que se tiene que integrar de la manera m&aacute;s honesta posible a su entorno. Es ah&iacute; en el encuentro con los otros y desde la escucha m&aacute;s profunda donde nos convertimos en&nbsp; AYLLU (comunidad) y desde ah&iacute; compartimos recordando que las **profundidades no conocen de kil&oacute;metros…**
+
+Indudablemente, una de las cosas m&aacute;s valiosas que aprendemos con Hakau es la importancia de vernos y reconocernos, reconocer nuestras habilidades y compartirlas, permitiendo que se vayan fortaleciendo en ese compartir. Nuestro sue&ntilde;o es seguir expandiendo esta red de saberes, amor, comunidad y creaci&oacute;n.&nbsp;
+
+Gracias por estar aqu&iacute; y por ser parte de nuestro ayllu. Te invito a ser parte de este viaje.
+
+*Astrid, Luc&iacute;a & Jessica*
