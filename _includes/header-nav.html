@@ -15,14 +15,14 @@
 
     </div>
 
-    <div class="menu-links-dark col-8_md-7 padded-r-2 padded-t-2 hide-md">
+    <div class="menu-links-dark col-8_md-7-center padded-l-2 padded-r-2 padded-t-2 hide-md">
         
         <!-- MENU SPANISH -->
         {% if page.url contains '/es/' %}
         <div class="dropdown-shop">
             <span class="dropdown-title-dark"> {{ site.data.navigation.shop-name-es }}</span>
             <div class="dropdown-content grid">
-                <div class="col-2"></div>
+                <div class="col-4"></div>
                 {% for item in site.data.navigation.shop-menu-es %}
                 <div class="col-2 padded-1 {{item.link-color }}">
                
@@ -56,7 +56,7 @@
         <div class="dropdown-shop">
             <span class="dropdown-title-dark"> {{ site.data.navigation.shop-name-en }}</span>
             <div class="dropdown-content grid">
-                <div class="col-2"></div>
+                <div class="col-4"></div>
                 {% for item in site.data.navigation.shop-menu-en %}
                 <div class="col-2 padded-1 {{item.link-color }}">
                
@@ -82,7 +82,7 @@
         </div>
         
         {% for item in site.data.navigation.menu-en %}
-            <a class="btn-subtle" href="{{ item.url }}">{{ item.name }}</a>
+            <a href="{{ item.url }}">{{ item.name }}</a>
         {% endfor %}
 
         {% endif %}
