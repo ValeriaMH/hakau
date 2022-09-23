@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Why is the Step Meander (Meandro Escalonado) so important?
-description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+description: >-
+  Learn about the way the ancient Peruvians looked at the world, through one of
+  the most important symbols: Meandro Escalonado
 short-descriptor: Find out in this article
 author: by Belén Cuadros
 date-published: 20 September 2022
