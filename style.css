@@ -2513,12 +2513,13 @@ footer hr {
 }
 
 .warmi-icon {
-  width: 40%;
+  width: 15%;
   height: auto;
   position: absolute;
-  top: -10rem;
-  left: 0;
+  top: 4vh;
+  right: 10%;
   z-index: 3;
+  rotate: 14deg;
 }
 
 /* HOVER IMAGE CONTAINER */

@@ -1,6 +1,4 @@
 menu-en:
-- name: Sale
-  url:
 - name: Why Hakau
   url: /why-hakau
 - name: Allies
@@ -10,8 +8,6 @@ menu-en:
 - name: Blog
   url: /blog
 menu-es:
-- name: Ofertas
-  url:
 - name: Por qué Hakau
   url: /es/por-que-hakau
 - name: Aliados
@@ -54,20 +50,6 @@ shop-menu-en:
     url:
   - name: Jewellery
     url:
-- name: Shop by Community
-  url:
-  link-color: link-green
-  submenu:
-  - name: Aristides Ramos Salama
-    url:
-  - name: Qory Loraypo
-    url:
-  - name: Warmi Awadora
-    url:
-  - name: Awanallaqta Tocapo
-    url:
-  - name: Huacca Arcana
-    url:
 shop-menu-es:
 - name: Hanan
   url:
@@ -97,20 +79,6 @@ shop-menu-es:
   - name: Amuletos
     url:
   - name: Joyería
-    url:
-- name: Comprar por Comunidad
-  url:
-  link-color: link-green
-  submenu:
-  - name: Aristides Ramos Salama
-    url:
-  - name: Qory Loraypo
-    url:
-  - name: Warmi Awadora
-    url:
-  - name: Awanallaqta Tocapo
-    url:
-  - name: Huacca Arcana
     url:
 translation:
   lang-1: EN
