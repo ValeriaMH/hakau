@@ -2694,6 +2694,15 @@ footer hr {
   padding: 1rem;
 }
 
+.related-posts a h3 {
+  color: var(--dark);
+  text-transform: initial;
+}
+
+.related-posts a h3:hover {
+  color: var(--green);
+}
+
 /* BLOG CONTENT */
 
 /* Individual Elements */

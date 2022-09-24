@@ -2,7 +2,7 @@
 
     <h4 class="center"> Posts Similares </h4>
     
-    <div class="grid-center">
+    <div class="grid-center related-posts">
     
     
     {% capture pageCategory %}{{ page.categories[0] }}{% endcapture %}
@@ -12,7 +12,7 @@
       {% for post in relevant-posts limit:3 %}
 
           <a href="{{post.url}}" class="col-4_md-6_xs-12 padded-2 post-item">
-            <div class="bg-image landscape margin-b-05 bg-radius-lg" style="background-image:url({{post.featured_image}})"> </div>
+            <div class="bg-image landscape margin-b-05" style="background-image:url({{post.featured_image}})"> </div>
             
                 <span class="post-info"> {{post.author }} // </span> 
                 <span class="post-info"> {{post.date-published }} </span>
