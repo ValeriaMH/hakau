@@ -1,9 +1,21 @@
 <footer class="bg-dark padded padded-b-0 white-text">
 
-  <div class="grid padded-b">
+  <div class="grid padded-b padded-r">
     <div class="col-3_sm-12">
-      <h4 class="orange-text">Suscribe</h4>
-      <p>Conoce a nuevos aliados y accede a ofertas exclusivas</p>
+      <h4 class="orange-text">
+        {% if page.url contains '/es/' %}
+        {{site.data.site-settings.subscribe-es }} 
+        {% else %}
+        {{site.data.site-settings.subscribe-en }} 
+        {% endif %}
+      </h4>
+      <p>
+        {% if page.url contains '/es/' %}
+        {{site.data.site-settings.subscribe-description-es }} 
+        {% else %}
+        {{site.data.site-settings.subscribe-description-en }} 
+        {% endif %}
+      </p>
     </div>
     <!-- <div class="col-1 hide-sm"></div> -->
     <div class="col-7_sm-12 padded-t-1">
