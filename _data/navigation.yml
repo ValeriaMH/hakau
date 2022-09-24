@@ -17,69 +17,67 @@ menu-es:
 - name: Blog
   url: /es/blog
 shop-name-en: Shop
-shop-url-en:
 shop-name-es: Tienda
-shop-url-es:
 shop-menu-en:
 - name: Hanan
-  url:
+  url: https://shop.hakauperu.com/collections/hanan-collection
   link-color: link-orange
   icon_image: /images/hakau-icon41.png
-  submenu:
-  - name: Crafts
-    url:
-- name: Kay
-  url:
-  link-color: link-green
-  icon_image: /images/hakau-icon42.png
   submenu:
   - name: Sustainable Clothing
-    url:
-  - name: Personal Care
-    url:
-  - name: Homeware
-    url:
-- name: Uku
-  url:
-  link-color: link-dark
-  icon_image: /images/hakau-icon43.png
-  submenu:
-  - name: Cristals
-    url:
-  - name: Charms
-    url:
-  - name: Jewellery
-    url:
-shop-menu-es:
-- name: Hanan
-  url:
-  link-color: link-orange
-  icon_image: /images/hakau-icon41.png
-  submenu:
-  - name: Artesanías
-    url:
+    url: https://shop.hakauperu.com/collections/sustainable-clothing
+  - name: Accessories
+    url: https://shop.hakauperu.com/collections/accessories
 - name: Kay
-  url:
+  url: https://shop.hakauperu.com/collections/kay-collection
   link-color: link-green
   icon_image: /images/hakau-icon42.png
   submenu:
-  - name: Ropa
-    url:
-  - name: Cuidado personal
-    url:
-  - name: Decoración
-    url:
+  - name: Home Deco
+    url: https://shop.hakauperu.com/collections/kay-deco
+  - name: Accessories
+    url: https://shop.hakauperu.com/collections/kay-accessories
+  - name: Personal Use
+    url: https://shop.hakauperu.com/collections/kay-personal-use
 - name: Uku
-  url:
+  url: https://shop.hakauperu.com/collections/uku-collection
   link-color: link-dark
   icon_image: /images/hakau-icon43.png
   submenu:
-  - name: Cristales
-    url:
-  - name: Amuletos
-    url:
+  - name: Jewelry
+    url: https://shop.hakauperu.com/collections/uku-jewelry
+  - name: Acccessories
+    url: https://shop.hakauperu.com/collections/uku-accesories
+shop-menu-es:
+- name: Hanan
+  url: https://shop.hakauperu.com/collections/hanan-collection
+  link-color: link-orange
+  icon_image: /images/hakau-icon41.png
+  submenu:
+  - name: Ropa Sostenible
+    url: https://shop.hakauperu.com/collections/sustainable-clothing
+  - name: Accesorios
+    url: https://shop.hakauperu.com/collections/accessories
+- name: Kay
+  url: https://shop.hakauperu.com/collections/kay-collection
+  link-color: link-green
+  icon_image: /images/hakau-icon42.png
+  submenu:
+  - name: Decoración
+    url: https://shop.hakauperu.com/collections/kay-deco
+  - name: Accesorios
+    url: https://shop.hakauperu.com/collections/kay-accessories
+  - name: Uso Personal
+    url: https://shop.hakauperu.com/collections/kay-personal-use
+- name: Uku
+  url: https://shop.hakauperu.com/collections/uku-collection
+  link-color: link-dark
+  icon_image: /images/hakau-icon43.png
+  submenu:
   - name: Joyería
-    url:
+    url: https://shop.hakauperu.com/collections/uku-jewelry
+  - name: Accesorios
+    url: https://shop.hakauperu.com/collections/uku-accesories
 translation:
   lang-1: EN
   lang-2: ES
@@ -90,10 +88,6 @@ footer-menu1-en:
 - name: Shop Kay
   url:
 - name: Shop Uku
-  url:
-- name: Best Sellers
-  url:
-- name: On sale
   url:
 footer-menu2-title-en: WHY HAKAU?
 footer-menu2-en:
@@ -122,10 +116,6 @@ footer-menu1-es:
 - name: Compra Kay
   url:
 - name: Compra Uku
-  url:
-- name: Productos mas vendidos
-  url:
-- name: Ofertas
   url:
 footer-menu2-title-es: ¿POR QUÉ HAKAU?
 footer-menu2-es:
