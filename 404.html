@@ -1,0 +1,38 @@
+---
+layout: default
+seo:
+  title: Page not found | Hakau
+  description:
+  social_image:
+  keywords:
+    - Sustainable ecommerce
+  hide-from-google: true
+page-title: PAGE NOT FOUND
+page-description: Oops! Looks like this isn't page we can direct you to. You can head back to our home page to keep exploring, or contact us if you can’t find what you are looking for!
+cta-name: Back to home
+cta-url: /index
+---
+
+<!------------------------ BANNER & MENU ------------------>
+
+<header class="not-found tall-90 tall-70-sm tall-60-sm">
+
+{% include header-nav.html %}
+
+<div class="hamburger show-md" onclick="openNav()">
+    <span class="burger-top"></span>
+    <span class="burger-middle"></span>
+    <span class="burger-bottom"></span>
+</div>
+  
+{% include mobile-menu.html %}
+
+    <div class="capped-width-v-narrow center padded-t-lg padded">
+        <h4>{{page.page-title }}</h4>
+        <p class="padded-20 padded-b-0 padded-t-0 ">{{page.page-description }}</p>
+        <a href="{{page.cta-url }}" class="btn btn-orange">{{page.cta-name }}</a>
+    </div>
+
+
+</header>
+
