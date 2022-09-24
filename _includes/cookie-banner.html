@@ -55,11 +55,11 @@
     if(readCookie('cookie-notice-dismissed')=='true') {
 
         // Google Analytics
-  window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-WVS172VBWT');
+  gtag('config', '{{site.data.site-settings.technical.google-analytics-id }}');
 
      
     } else {
