@@ -290,7 +290,7 @@ layout: default
         {% for item in page.featured-products %}
        
           <div class="col-4_md-6_xs-12 padded-1 center">
-            <a href="">
+            <a href="{{item.url }}">
               <div class="product-hover">
                 <img src="{{item.first_image }}" alt="{{item.title }}">
                 {% if item.second_image %}
