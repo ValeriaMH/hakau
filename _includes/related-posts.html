@@ -1,6 +1,12 @@
 <section class="padded">
 
-    <h4 class="center"> Posts Similares </h4>
+    <h4 class="center"> 
+      {% if page.lang == 'en' %}
+      {{site.data.site-settings.related-posts-en }} 
+      {% else %}
+      {{site.data.site-settings.related-posts-es }} 
+      {% endif %}
+    </h4>
     
     <div class="grid-center related-posts">
     

@@ -2670,7 +2670,7 @@ footer hr {
   padding-top: 80%;
   background: rgb(65,65,77);
   background: linear-gradient(0deg, rgba(42,42,50,0.8) 0%, rgba(42,42,50,0) 70%);
-  text-transform: capitalize;
+  text-transform: initial;
   border-radius: 0px;
 }
 
