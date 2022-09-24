@@ -84,11 +84,11 @@ translation:
 footer-menu1-title-en: SHOP
 footer-menu1-en:
 - name: Shop Hanan
-  url: /shop
+  url: https://shop.hakauperu.com/collections/hanan-collection
 - name: Shop Kay
-  url:
+  url: https://shop.hakauperu.com/collections/kay-collection
 - name: Shop Uku
-  url:
+  url: https://shop.hakauperu.com/collections/uku-collection
 footer-menu2-title-en: WHY HAKAU?
 footer-menu2-en:
 - name: Our story
@@ -96,15 +96,13 @@ footer-menu2-en:
 - name: Our allies
   url: /allies
 - name: Become an ally
-  url:
+  url: /allies#become-ally
 - name: Blog
   url: /blog
 footer-menu3-title-en: CUSTOMER SERVICE
 footer-menu3-en:
-- name: Delivery and refunds
-  url:
 - name: FAQ
-  url:
+  url: /contact#faq-section
 - name: Contact us
   url: /contact
 - name: Terms and conditions
@@ -112,11 +110,11 @@ footer-menu3-en:
 footer-menu1-title-es: TIENDA
 footer-menu1-es:
 - name: Compra Hanan
-  url: /shop
+  url: https://shop.hakauperu.com/collections/hanan-collection
 - name: Compra Kay
-  url:
+  url: https://shop.hakauperu.com/collections/kay-collection
 - name: Compra Uku
-  url:
+  url: https://shop.hakauperu.com/collections/uku-collection
 footer-menu2-title-es: ¿POR QUÉ HAKAU?
 footer-menu2-es:
 - name: Nuestra historia
@@ -124,19 +122,19 @@ footer-menu2-es:
 - name: Nuestros aliados
   url: /es/aliados
 - name: Conviértete en aliado
-  url: 
+  url: /es/aliados#become-ally
 - name: Blog
   url: /es/blog
 footer-menu3-title-es: SERVICIO AL CLIENTE
 footer-menu3-es:
-- name: Entrega y devoluciones
-  url: 
 - name: Preguntas frecuentes
-  url:
+  url: /es/contacto#faq-section
 - name: Contáctanos 
   url: /es/contacto
 - name: Términos y Condiciones
   url: /es/terminos-y-condiciones
+- name: Libro de Reclamaciones
+  url:
 social-quote-en: Be part of this<br>common.unity
 social-quote-es: Sé parte de esta<br>común.unidad
 social:
