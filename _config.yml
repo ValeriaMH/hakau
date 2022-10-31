@@ -27,6 +27,15 @@ _select_data:
     btn-green: Green Button
     btn-green3: Green Button 3
     btn-dark: Dark Button
+  
+  backgrounds:
+    bg-dark: Dark Background
+    bg-white: White Background
+    bg-beige: Beige Background
+    bg-orange: Orange Background
+    bg-green: Green Background
+    bg-green2: Green 2 Background
+    bg-green3: Green 3 Background
 
 _options:
   content:
