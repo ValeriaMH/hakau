@@ -13,11 +13,17 @@ layout: default
     </div>
     {% endif %}
 
-    {% if page.url contains '/es/' %}
-
     {% for post in site.categories[page.category] %}
 
-        {% include post-loop-item-es.html %}
+        {% if page.post-style == true %}
+
+            {% include post-loop-item-square.html %}
+
+        {% else %}
+
+            {% include post-loop-item-small.html %}
+
+        {% endif %}
 
     {% endfor %}
 
