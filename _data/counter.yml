@@ -1,32 +1,32 @@
 en:
-- column-size: col-4_sm-12
-  number: 102
-  image: /images/hakau-icon37.png
-  description: Jobs created
-  id: counters_1
-- column-size: col-4_sm-12
-  number: 100
-  image: /images/hakau-icon38.png
-  description: Less pounds of plastic waste
-  id: counters_2
-- column-size: col-4_sm-12
-  number: 130
-  image: /images/hakau-icon36.png
-  description: Members of our community
-  id: counters_3
+  - column-size: col-4_sm-12
+    number: 102
+    image: /images/hakau-icon37.png
+    description: Jobs created
+    id: counters_1
+  - column-size: col-4_sm-12
+    number: 100
+    image: /images/hakau-icon38.png
+    description: Less pounds of plastic waste
+    id: counters_2
+  - column-size: col-4_sm-12
+    number: 130
+    image: /images/hakau-icon36.png
+    description: Members of our community
+    id: counters_3
 es:
-- column-size: col-4_sm-12
-  number: 102
-  image: /images/hakau-icon37.png
-  description: Puestos de trabajo artesanal creados
-  id: counters_1
-- column-size: col-4_sm-12
-  number: 100
-  image: /images/hakau-icon38.png
-  description: Puestos de trabajo artesanal creados
-  id: counters_2
-- column-size: col-4_sm-12
-  number: 130
-  image: /images/hakau-icon36.png
-  description: Puestos de trabajo artesanal creados
-  id: counters_3
+  - column-size: col-4_sm-12
+    number: 102
+    image: /images/hakau-icon37.png
+    description: Puestos de trabajo artesanal creados
+    id: counters_1
+  - column-size: col-4_sm-12
+    number: 100
+    image: /images/hakau-icon38.png
+    description: Menos kilos de residuos plásticos
+    id: counters_2
+  - column-size: col-4_sm-12
+    number: 130
+    image: /images/hakau-icon36.png
+    description: Miembros de nuestra comunidad
+    id: counters_3
