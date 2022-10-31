@@ -1,19 +1,16 @@
 palette:
   dark_color: '#222222'
-  white_color: '#FFFFFF'
-  beige_color: '#FEF8F0'
-  orange_color: '#AC441E'
-  green_color: '#96844C'
+  white_color: '#ffffff'
+  beige_color: '#fef8f0'
+  orange_color: '#ac441e'
+  green_color: '#96844c'
   green2_color: '#907233'
-  green3_color: '#B79B68'
+  green3_color: '#b79b68'
 backgrounds:
-  body-background_color: '#FFFFFF'
-  mobile-menu-background_color: '#FEF8F0'
+  body-background_color: '#ffffff'
+  mobile-menu-background_color: '#fef8f0'
 text:
-  body-font-family: "'Cormorant Garamond', serif"
-  menu-text_color: '#FFFFFF'
-  mobile-menu-text_color: '#AC441E'
-  footer-text_color: '#FFFFFF'  
-  
-
-  
+  body-font-family: '''Cormorant Garamond'', serif'
+  menu-text_color: '#ffffff'
+  mobile-menu-text_color: '#ac441e'
+  footer-text_color: '#ffffff'
