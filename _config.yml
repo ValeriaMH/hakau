@@ -23,13 +23,10 @@ _select_data:
     col-3_sm-12: One Quarter Desktop (Stacked)
     
   buttons:
-    button-special: Button Special
-    button-rojo: Button Rojo
-    button-celeste: Button Celeste
-    button-fresa: Button Fresa
-    button-amarillo: Button Amarillo
-    button-negro: Button Negro
-    button-beige: Button Beige
+    btn-orange: Orange Button
+    btn-green: Green Button
+    btn-green3: Green Button 3
+    btn-dark: Dark Button
 
 _options:
   content:
