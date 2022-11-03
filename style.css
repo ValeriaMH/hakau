@@ -1408,6 +1408,11 @@ nav a {
     color: var(--beige);
 }
 
+a.archive {
+  color: var(--dark);
+  text-transform: unset;
+}
+
 .fixed-menu {
   position: absolute;
   top: 0;
