@@ -1462,6 +1462,12 @@ a.archive {
   background: var(--dark);
 }
 
+.explore-links a {
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  display: block;
+}
+
 .logo {
   text-decoration: none;
   font-size: 2.5rem;

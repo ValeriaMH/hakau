@@ -146,3 +146,14 @@ social:
   icon: fab fa-linkedin-in
 - url: https://www.youtube.com/channel/UCIOAmEAOUr0vAZUdm4aZQLg
   icon: fab fa-youtube
+explore:
+- name: Shop Products
+  url: /asesoria
+- name: Why Hakau
+  url: https://bit.ly/mapaempatiamarketing
+- name: Meet our allies
+  url: https://www.minacontent.pe/test-redes-sociales.html
+- name: Blog
+  url: /index#ebook
+- name: Contact us
+  url: /index#servicios

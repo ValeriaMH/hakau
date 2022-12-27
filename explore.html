@@ -1,0 +1,52 @@
+---
+layout: no-footer
+seo:
+title: Quick Links | Hakau Peru
+description:
+social_image: /images/hakau-icon25.png
+keywords:
+- sustainable ecommerce
+hide-from-google: true
+---
+
+<section class="grid-middle bg-dark center explore tall-100 relative padded-md padded-b-0" id="explore">
+
+    <div class="explore-pattern">
+        <img src="/images/mina-content-agency3.svg" alt="">
+      </div>
+
+    <div class="col-12 padded-b-0">
+        <a href="/index.html" class="logo-explore">
+            <img src="{{ site.data.site-settings.general.explore-logo_image }}">
+        </a>
+    </div>
+
+    <nav class="col-12-top grid explore-links">
+
+        <div class="col-3 hide-sm"></div>
+        <div class="col-6_sm-12">
+            {% for item in site.data.navigation.explore %}
+            <a class="btn-green3" href="{{ item.url }}">{{ item.name }}</a>
+            {% endfor %}
+        </div>
+        <div class="col-3 hide-sm"></div>
+
+    </nav>
+
+    <div class="col-10-bottom hakau-footer">
+        <img src="/images/hakau-icon21.png" alt="hakau logo">
+    </div>
+
+    <div class="col-1"></div>
+
+    <nav class="col-1 social-menu-explore">
+
+        {% for item in site.data.navigation.social %}
+        <a href="{{item.url }}" target="_blank">
+            <i class="{{item.icon }}"></i>
+        </a>
+        {% endfor %}
+
+    </nav>
+
+</section>
