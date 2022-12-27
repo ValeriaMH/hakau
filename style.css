@@ -2545,6 +2545,23 @@ footer hr {
   rotate: 14deg;
 }
 
+.explore-k img {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+}
+
+.explore-conectamos img {
+  width: 33%;
+  height: auto;
+  position: absolute;
+  bottom: -90%;
+  left: 3%;
+  rotate: -4deg;
+}
+
 /* HOVER IMAGE CONTAINER */
 
 .hover-container {
