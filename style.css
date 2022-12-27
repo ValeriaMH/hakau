@@ -1807,6 +1807,10 @@ background-color:rgba(0,0,0,0);
   padding-right: 0;
 }
 
+.social-menu-explore a {
+  margin-bottom: .5rem;
+}
+
 .social-explore a {
   color: inherit;
   font-size: 1.5rem;
