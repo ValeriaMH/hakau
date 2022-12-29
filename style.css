@@ -3745,7 +3745,7 @@ row-gap: 0.5rem; */
   }
 
   .hakau-footer-exp img {
-    width: 100%;
+    width: 70%;
     margin-left: -9%;
     margin-bottom: -0.65rem;
   }
@@ -3772,10 +3772,10 @@ row-gap: 0.5rem; */
   }
 
   .explore-conectamos img {
-    width: 33%;
+    width: 20%;
     height: auto;
     position: absolute;
-    bottom: -90%;
+    bottom: -30%;
     left: 3%;
     rotate: -4deg;
   }
@@ -3982,6 +3982,22 @@ row-gap: 0.5rem; */
       top: -10vh;
       width: 30%;
     }
+
+    .hakau-footer-exp img {
+      width: 100%;
+      margin-left: -9%;
+      margin-bottom: -0.65rem;
+    }
+
+    .explore-conectamos img {
+      width: 33%;
+      height: auto;
+      position: absolute;
+      bottom: -90%;
+      left: 3%;
+      rotate: -4deg;
+    }
+  
 
     .bullet2 {
       top: -0.9vh;
