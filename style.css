@@ -1807,8 +1807,12 @@ background-color:rgba(0,0,0,0);
   padding-right: 0;
 }
 
+.explore {
+  overflow-y: hidden;
+}
+
 .social-menu-explore a {
-  margin-bottom: .5rem;
+  display: inline-block;
 }
 
 .social-explore a {
@@ -1896,6 +1900,12 @@ footer nav a {
 .hakau-footer img {
   margin-left: -9%;
   margin-bottom: -1rem;
+}
+
+.hakau-footer-exp img {
+  width: 50%;
+  margin-left: -9%;
+  margin-bottom: -.6rem;
 }
 
 /* ------------ Contact Forms  ----------------------- */
@@ -2550,7 +2560,7 @@ footer hr {
 }
 
 .explore-k img {
-  width: 15%;
+  width: 5%;
   height: auto;
   position: absolute;
   top: 2%;
@@ -2558,11 +2568,11 @@ footer hr {
 }
 
 .explore-conectamos img {
-  width: 33%;
+  width: 12%;
   height: auto;
   position: absolute;
-  bottom: -90%;
-  left: 3%;
+  bottom: 0%;
+  left: 20%;
   rotate: -4deg;
 }
 
@@ -3734,6 +3744,11 @@ row-gap: 0.5rem; */
     margin-bottom: -0.65rem;
   }
 
+  .hakau-footer-exp img {
+    margin-left: -9%;
+    margin-bottom: -0.65rem;
+  }
+
   #allies-buttons {
     padding: 0 0 25% 0%;
   }
@@ -3745,6 +3760,28 @@ row-gap: 0.5rem; */
 
   .social a:first-child {
     margin-left: 0rem;
+  }
+
+  .explore-k img {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+  }
+
+  .explore-conectamos img {
+    width: 33%;
+    height: auto;
+    position: absolute;
+    bottom: -90%;
+    left: 3%;
+    rotate: -4deg;
+  }
+
+  .social-menu-explore a {
+    display: block;
+    margin-bottom: .5rem;
   }
 
 }
