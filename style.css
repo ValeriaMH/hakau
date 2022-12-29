@@ -3745,6 +3745,7 @@ row-gap: 0.5rem; */
   }
 
   .hakau-footer-exp img {
+    width: 100%;
     margin-left: -9%;
     margin-bottom: -0.65rem;
   }
