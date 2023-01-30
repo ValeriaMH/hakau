@@ -3,7 +3,7 @@ layout: no-footer
 ---
 
 
-<section class="grid-middle bg-dark center explore tall-100 relative padded-md padded-b-0" id="explore">
+<section class="grid-middle bg-beige center explore tall-100 relative padded-md padded-b-0" id="explore">
 
   <div class="explore-k">
       <img src="/images/hakau-icon2.png" alt="">
@@ -19,29 +19,57 @@ layout: no-footer
         <img src="{{ site.data.site-settings.general.explore-logo_image }}">
       </a>
     {% endif %}
+    <div class="padded-t explore-descriptor">
+      <p>Embracing our origins, we connect with the world.</p>
+    </div>
+    
   </div>
 
-  <nav class="col-12 grid explore-links relative">
+ 
 
-      <div class="col-4 hide-sm"></div>
-      <div class="col-4_sm-12">
-        {% if page.url contains '/es/' %}
-          {% for item in site.data.navigation.explore-es %}
-          <a class="btn-green3" href="{{ item.url }}">{{ item.name }}</a>
-          {% endfor %}
-        {% else %}
-          {% for item in site.data.navigation.explore-en %}
-          <a class="btn-green3" href="{{ item.url }}">{{ item.name }}</a>
-          {% endfor %}
-        {% endif %}
-      </div>
-      <div class="col-4 hide-sm"></div>
+  <div class="col-12 grid-middle explore-links relative">
 
-      <div class="explore-conectamos">
-          <img src="/images/hakau-icon14.png" alt="hakau conectamos desde el corazon">
-      </div>
+    {% if page.url contains '/es/' %}
 
-  </nav>
+      {% for item in site.data.navigation.explore-es %}
+
+        <div class="grid-middle-center padded-05">
+            <div class="col-4_md-7_sm-12 grid-middle left bg-orange bg-radius-md button-explore">
+                <a href="{{item.url }}" class="col-3 padded-sm">
+                    <div class="bg-image square bg-radius-md" style="background-image:url('{{ item.image }}')"></div>
+                </a>
+    
+                <a href="{{item.url }}" class="col-9 padded">
+                    <p> {{item.name }} </p>
+                </a>
+            </div>
+           
+        </div>
+
+      {% endfor %}
+    
+      {% else %}
+
+      {% for item in site.data.navigation.explore-en %}
+
+        <div class="col-12 grid padded-05" id="explore-link">
+            <div class="col-4_md-7_sm-12 grid-middle left bg-white border-green">
+                <a href="{{item.url }}" class="col-3 padded-sm">
+                    <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+                </a>
+    
+                <a href="{{item.url }}" class="col-9 padded">
+                    <p> {{item.name }} </p>
+                </a>
+            </div>
+           
+        </div>
+
+        {% endfor %}
+
+    {% endif %}
+    
+</div>
 
   <div class="col-7_sm-10-bottom hakau-footer-exp left">
       <img src="/images/hakau-icon21.png" alt="hakau logo">

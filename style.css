@@ -791,6 +791,7 @@ p:last-child {
   border-bottom: 1px solid var(--orange);
 }
 
+
 /* Slider */
 
 .slider-item {
@@ -1464,8 +1465,17 @@ a.archive {
 
 .explore-links a {
   font-weight: 400;
-  margin: 0 0 1rem 0;
-  display: block;
+  color: var(--dark);
+  /* margin: 0 0 1rem 0; */
+  /* display: block; */
+}
+
+#explore-link {
+  padding: 0 0 1rem 0;
+}
+
+.border-green {
+  border: 1px solid var(--green3);
 }
 
 .logo {
@@ -1809,6 +1819,10 @@ background-color:rgba(0,0,0,0);
 
 .explore {
   overflow-y: hidden;
+}
+
+.explore-descriptor p {
+  opacity: .8;
 }
 
 .social-menu-explore a {

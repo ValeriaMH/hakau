@@ -147,24 +147,16 @@ social:
 - url: https://www.youtube.com/channel/UCIOAmEAOUr0vAZUdm4aZQLg
   icon: fab fa-youtube
 explore-en:
-- name: Shop Products
+- name: Hakau | Sustainable Fair Trade E-commerce
   url: /asesoria
+  image:
 - name: Why Hakau
   url: https://bit.ly/mapaempatiamarketing
-- name: Meet our allies
-  url: https://www.minacontent.pe/test-redes-sociales.html
-- name: Blog
-  url: /index#ebook
-- name: Contact us
-  url: /index#servicios
+  image:
 explore-es:
 - name: Shop Products
   url: /asesoria
+  image:
 - name: Why Hakau
   url: https://bit.ly/mapaempatiamarketing
-- name: Meet our allies
-  url: https://www.minacontent.pe/test-redes-sociales.html
-- name: Blog
-  url: /index#ebook
-- name: Contact us
-  url: /index#servicios
+  image:
