@@ -1466,12 +1466,21 @@ a.archive {
 .explore-links a {
   font-weight: 400;
   color: var(--dark);
+  text-transform: unset;
   /* margin: 0 0 1rem 0; */
   /* display: block; */
 }
 
 #explore-link {
   padding: 0 0 1rem 0;
+}
+
+#explore-featured-link {
+  padding: 0 0 1rem 0;
+}
+
+#explore-featured-link a {
+  color: var(--white);
 }
 
 .border-green {
@@ -1827,6 +1836,7 @@ background-color:rgba(0,0,0,0);
 
 .social-menu-explore a {
   display: inline-block;
+  font-size: 1.2rem;
 }
 
 .social-explore a {
@@ -1918,8 +1928,8 @@ footer nav a {
 
 .hakau-footer-exp img {
   width: 50%;
-  margin-left: -9%;
-  margin-bottom: -.6rem;
+  margin-left: -11%;
+  margin-bottom: -1rem;
 }
 
 /* ------------ Contact Forms  ----------------------- */
@@ -2585,8 +2595,8 @@ footer hr {
   width: 12%;
   height: auto;
   position: absolute;
-  bottom: 0%;
-  left: 20%;
+  top: 45%;
+  left: 0%;
   rotate: -4deg;
 }
 
@@ -3789,13 +3799,11 @@ row-gap: 0.5rem; */
     width: 20%;
     height: auto;
     position: absolute;
-    bottom: -30%;
     left: 3%;
     rotate: -4deg;
   }
 
   .social-menu-explore a {
-    display: block;
     margin-bottom: .5rem;
   }
 
@@ -3999,16 +4007,15 @@ row-gap: 0.5rem; */
 
     .hakau-footer-exp img {
       width: 100%;
-      margin-left: -9%;
-      margin-bottom: -0.65rem;
+      margin-left: -11%;
+      margin-bottom: -1.1rem;
     }
 
     .explore-conectamos img {
-      width: 33%;
+      width: 28%;
       height: auto;
       position: absolute;
-      bottom: -90%;
-      left: 3%;
+      left: -5%;
       rotate: -4deg;
     }
   

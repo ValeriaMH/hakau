@@ -146,17 +146,25 @@ social:
   icon: fab fa-linkedin-in
 - url: https://www.youtube.com/channel/UCIOAmEAOUr0vAZUdm4aZQLg
   icon: fab fa-youtube
+explore-featured-en:
+- name: Energy Collection
+  url: https://shop.hakauperu.com/collections/energy-collection
+  image: /images/hakau-collection1.jpg
+explore-featured-es:
+- name: Collección Energía
+  url: https://shop.hakauperu.com/collections/energy-collection
+  image: /images/hakau-collection1.jpg
 explore-en:
-- name: Hakau | Sustainable Fair Trade E-commerce
-  url: /asesoria
-  image:
-- name: Why Hakau
-  url: https://bit.ly/mapaempatiamarketing
-  image:
+- name: HAKAU | Sustainable Fair Trade E-commerce 🦅🐆🐍
+  url: https://www.hakauperu.com/
+  image: /images/resume-vm-portfolio2.jpg
+- name: Community | Allies that sustain the world 🤝🏾🏔️
+  url: https://www.hakauperu.com/allies
+  image: /images/hakau-ecommerce3.jpg
 explore-es:
-- name: Shop Products
-  url: /asesoria
-  image:
-- name: Why Hakau
-  url: https://bit.ly/mapaempatiamarketing
-  image:
+- name: HAKAU | E-commerce sostenible de comercio justo
+  url: https://www.hakauperu.com/es/inicio.html
+  image: /images/resume-vm-portfolio2.jpg
+- name: Comunidad | Aliados que sostienen el mundo
+  url: https://www.hakauperu.com/es/aliados
+  image: /images/hakau-ecommerce3.jpg

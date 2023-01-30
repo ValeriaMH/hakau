@@ -24,27 +24,68 @@ layout: no-footer
     </div>
     
   </div>
-
  
+  <!-- LINKS -->
 
   <div class="col-12 grid-middle explore-links relative">
+
+    <!-- FEATURED LINKS -->
+
+    {% if page.url contains '/es/' %}
+
+      {% for item in site.data.navigation.explore-featured-es %}
+
+      <div class="col-12 grid padded-05" id="explore-featured-link">
+        <div class="col-4_md-7_sm-12 grid-middle left bg-orange border-green">
+            <a href="{{item.url }}" class="col-2 padded-sm">
+                <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+            </a>
+
+            <a href="{{item.url }}" class="col-10 padded">
+                <p> {{item.name }} </p>
+            </a>
+        </div>
+      </div>
+
+      {% endfor %}
+    
+      {% else %}
+
+      {% for item in site.data.navigation.explore-featured-en %}
+
+        <div class="col-12 grid padded-05" id="explore-featured-link">
+            <div class="col-4_md-7_sm-12 grid-middle left bg-orange border-green">
+                <a href="{{item.url }}" class="col-2 padded-sm">
+                    <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+                </a>
+    
+                <a href="{{item.url }}" class="col-10 padded">
+                    <p> {{item.name }} </p>
+                </a>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    {% endif %}
+
+    <!-- REGULAR LINKS -->
 
     {% if page.url contains '/es/' %}
 
       {% for item in site.data.navigation.explore-es %}
 
-        <div class="grid-middle-center padded-05">
-            <div class="col-4_md-7_sm-12 grid-middle left bg-orange bg-radius-md button-explore">
-                <a href="{{item.url }}" class="col-3 padded-sm">
-                    <div class="bg-image square bg-radius-md" style="background-image:url('{{ item.image }}')"></div>
-                </a>
-    
-                <a href="{{item.url }}" class="col-9 padded">
-                    <p> {{item.name }} </p>
-                </a>
-            </div>
-           
+      <div class="col-12 grid padded-05" id="explore-link">
+        <div class="col-4_md-7_sm-12 grid-middle left bg-white border-green">
+            <a href="{{item.url }}" class="col-2 padded-sm">
+                <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+            </a>
+
+            <a href="{{item.url }}" class="col-10 padded">
+                <p> {{item.name }} </p>
+            </a>
         </div>
+      </div>
 
       {% endfor %}
     
@@ -54,37 +95,45 @@ layout: no-footer
 
         <div class="col-12 grid padded-05" id="explore-link">
             <div class="col-4_md-7_sm-12 grid-middle left bg-white border-green">
-                <a href="{{item.url }}" class="col-3 padded-sm">
+                <a href="{{item.url }}" class="col-2 padded-sm">
                     <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
                 </a>
     
-                <a href="{{item.url }}" class="col-9 padded">
+                <a href="{{item.url }}" class="col-10 padded">
                     <p> {{item.name }} </p>
                 </a>
             </div>
-           
         </div>
 
         {% endfor %}
 
     {% endif %}
+
+    <div class="col-12 center padded-t-lg relative">
+
+      <h4 class="padded-b-1">Follow us</h4>
+
+      <nav class="col-2_sm-1-middle social-menu-explore">
+        {% for item in site.data.navigation.social %}
+        <a href="{{item.url }}" target="_blank">
+            <i class="{{item.icon }}"></i>
+        </a>
+        {% endfor %}  
+      </nav>
+
+      <div class="explore-conectamos">
+        <img src="/images/hakau-icon14.png" alt="">
+      </div>
+
+    </div>
     
-</div>
+  </div>
 
   <div class="col-7_sm-10-bottom hakau-footer-exp left">
-      <img src="/images/hakau-icon21.png" alt="hakau logo">
+      <img src="/images/hakau-icon25.png" alt="hakau logo">
   </div>
 
   <div class="col-3_sm-1"></div>
 
-  <nav class="col-2_sm-1-middle social-menu-explore">
-
-      {% for item in site.data.navigation.social %}
-      <a href="{{item.url }}" target="_blank">
-          <i class="{{item.icon }}"></i>
-      </a>
-      {% endfor %}
-
-  </nav>
 
 </section>

@@ -4,7 +4,7 @@ general:
   logo-size: 45%
   mobile-logo_image: /images/hakau-icon4.png
   mobile-logo-size: 40%
-  explore-logo_image: /images/hakau-icon45.png
+  explore-logo_image: /images/hakau-icon46.png
   explore-logo-size: 50%
 technical:
   adobe-fonts-embed: <link rel="stylesheet" href="https://use.typekit.net/hqq0vnm.css">
