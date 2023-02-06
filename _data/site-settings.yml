@@ -4,6 +4,7 @@ general:
   logo-size: 45%
   mobile-logo_image: /images/hakau-icon4.png
   mobile-logo-size: 40%
+  explore-logo_image: /images/hakau-icon46.png
   explore-logo-size: 50%
 technical:
   adobe-fonts-embed: <link rel="stylesheet" href="https://use.typekit.net/hqq0vnm.css">
@@ -27,6 +28,7 @@ subscribe-description-es: Conoce a nuevos aliados y accede a ofertas exclusivas.
 seo:
   site_name: Hakau | Sustainable Fair Trade E-commerce
   title: Hakau | Sustainable Fair Trade E-commerce
-  description:
+  description: Sustainable Fair Trade Ecommerce
+  social_image: /images/hakau-seo-image.png
   keywords:
   - sustainable ecommerce

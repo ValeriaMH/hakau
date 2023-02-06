@@ -791,6 +791,7 @@ p:last-child {
   border-bottom: 1px solid var(--orange);
 }
 
+
 /* Slider */
 
 .slider-item {
@@ -1462,6 +1463,30 @@ a.archive {
   background: var(--dark);
 }
 
+.explore-links a {
+  font-weight: 400;
+  color: var(--dark);
+  text-transform: unset;
+  /* margin: 0 0 1rem 0; */
+  /* display: block; */
+}
+
+#explore-link {
+  padding: 0 0 1rem 0;
+}
+
+#explore-featured-link {
+  padding: 0 0 1rem 0;
+}
+
+#explore-featured-link a {
+  color: var(--white);
+}
+
+.border-green {
+  border: 1px solid var(--green3);
+}
+
 .logo {
   text-decoration: none;
   font-size: 2.5rem;
@@ -1801,6 +1826,19 @@ background-color:rgba(0,0,0,0);
   padding-right: 0;
 }
 
+.explore {
+  overflow-y: hidden;
+}
+
+.explore-descriptor p {
+  opacity: .8;
+}
+
+.social-menu-explore a {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
 .social-explore a {
   color: inherit;
   font-size: 1.5rem;
@@ -1885,6 +1923,12 @@ footer nav a {
 
 .hakau-footer img {
   margin-left: -9%;
+  margin-bottom: -1rem;
+}
+
+.hakau-footer-exp img {
+  width: 50%;
+  margin-left: -11%;
   margin-bottom: -1rem;
 }
 
@@ -2016,14 +2060,26 @@ color: var(--white);
   color: var(--white);
 }
 
-.bg-video,
-.bg-video-mob {
+.bg-video {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   z-index: -1;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+}
+
+.bg-video-mob {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   opacity: 1;
   overflow: hidden;
   display: flex;
@@ -2525,6 +2581,23 @@ footer hr {
   right: 10%;
   z-index: 3;
   rotate: 14deg;
+}
+
+.explore-k img {
+  width: 5%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+}
+
+.explore-conectamos img {
+  width: 12%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  rotate: -4deg;
 }
 
 /* HOVER IMAGE CONTAINER */
@@ -3695,6 +3768,12 @@ row-gap: 0.5rem; */
     margin-bottom: -0.65rem;
   }
 
+  .hakau-footer-exp img {
+    width: 70%;
+    margin-left: -9%;
+    margin-bottom: -0.65rem;
+  }
+
   #allies-buttons {
     padding: 0 0 25% 0%;
   }
@@ -3706,6 +3785,27 @@ row-gap: 0.5rem; */
 
   .social a:first-child {
     margin-left: 0rem;
+  }
+
+  .explore-k img {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+  }
+
+  .explore-conectamos img {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    rotate: -4deg;
+  }
+
+  .social-menu-explore a {
+    margin-bottom: .5rem;
   }
 
 }
@@ -3896,7 +3996,7 @@ row-gap: 0.5rem; */
     }
 
     .allies-icon6 {
-      top: 0vh;
+      top: 4vh;
       left: 75%;
       width: 18%;
     }
@@ -3905,6 +4005,21 @@ row-gap: 0.5rem; */
       top: -10vh;
       width: 30%;
     }
+
+    .hakau-footer-exp img {
+      width: 100%;
+      margin-left: -11%;
+      margin-bottom: -1.1rem;
+    }
+
+    .explore-conectamos img {
+      width: 28%;
+      height: auto;
+      position: absolute;
+      left: -5%;
+      rotate: -4deg;
+    }
+  
 
     .bullet2 {
       top: -0.9vh;

@@ -368,7 +368,7 @@ if (tabsContainer) {
 $('.founders-slider-container').slick({
 
   autoplay: true,
-  autoplaySpeed: 500,
+  autoplaySpeed: 2000,
   speed: 500,
   arrows: true,
   accesibility: true,

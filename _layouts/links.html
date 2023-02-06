@@ -1,0 +1,139 @@
+---
+layout: no-footer
+---
+
+
+<section class="grid-middle bg-beige center explore tall-100 relative padded-md padded-b-0" id="explore">
+
+  <div class="explore-k">
+      <img src="/images/hakau-icon2.png" alt="">
+  </div>
+
+  <div class="col-12-bottom padded-b">
+    {% if page.url contains '/es/' %}
+      <a href="/es/inicio.html" class="logo-explore">
+          <img src="{{ site.data.site-settings.general.explore-logo_image }}">
+      </a>
+    {% else %}
+      <a href="/index.html" class="logo-explore">
+        <img src="{{ site.data.site-settings.general.explore-logo_image }}">
+      </a>
+    {% endif %}
+    <div class="padded-t explore-descriptor">
+      <p>Embracing our origins, we connect with the world.</p>
+    </div>
+    
+  </div>
+ 
+  <!-- LINKS -->
+
+  <div class="col-12 grid-middle explore-links relative">
+
+    <!-- FEATURED LINKS -->
+
+    {% if page.url contains '/es/' %}
+
+      {% for item in site.data.navigation.explore-featured-es %}
+
+      <div class="col-12 grid-center padded-05" id="explore-featured-link">
+        <div class="col-5_md-7_sm-12 grid-middle left bg-orange border-green">
+            <a href="{{item.url }}" class="col-2 padded-sm">
+                <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+            </a>
+
+            <a href="{{item.url }}" class="col-10 padded">
+                <p> {{item.name }} </p>
+            </a>
+        </div>
+      </div>
+
+      {% endfor %}
+    
+      {% else %}
+
+      {% for item in site.data.navigation.explore-featured-en %}
+
+        <div class="col-12 grid-center padded-05" id="explore-featured-link">
+            <div class="col-5_md-7_sm-12 grid-middle left bg-orange border-green">
+                <a href="{{item.url }}" class="col-2 padded-sm">
+                    <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+                </a>
+    
+                <a href="{{item.url }}" class="col-10 padded">
+                    <p> {{item.name }} </p>
+                </a>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    {% endif %}
+
+    <!-- REGULAR LINKS -->
+
+    {% if page.url contains '/es/' %}
+
+      {% for item in site.data.navigation.explore-es %}
+
+      <div class="col-12 grid-center padded-05" id="explore-link">
+        <div class="col-5_md-7_sm-12 grid-middle left bg-white border-green">
+            <a href="{{item.url }}" class="col-2 padded-sm">
+                <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+            </a>
+
+            <a href="{{item.url }}" class="col-10 padded">
+                <p> {{item.name }} </p>
+            </a>
+        </div>
+      </div>
+
+      {% endfor %}
+    
+      {% else %}
+
+      {% for item in site.data.navigation.explore-en %}
+
+        <div class="col-12 grid-center padded-05" id="explore-link">
+            <div class="col-5_md-7_sm-12 grid-middle left bg-white border-green">
+                <a href="{{item.url }}" class="col-2 padded-sm">
+                    <div class="bg-image square" style="background-image:url('{{ item.image }}')"></div>
+                </a>
+    
+                <a href="{{item.url }}" class="col-10 padded">
+                    <p> {{item.name }} </p>
+                </a>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    {% endif %}
+
+    <div class="col-12 center padded-t-lg relative">
+
+      <h4 class="padded-b-1">Follow us</h4>
+
+      <nav class="col-2_sm-1-middle social-menu-explore">
+        {% for item in site.data.navigation.social %}
+        <a href="{{item.url }}" target="_blank">
+            <i class="{{item.icon }}"></i>
+        </a>
+        {% endfor %}  
+      </nav>
+
+      <div class="explore-conectamos">
+        <img src="/images/hakau-icon14.png" alt="">
+      </div>
+
+    </div>
+    
+  </div>
+
+  <div class="col-7_sm-10-bottom hakau-footer-exp left">
+      <img src="/images/hakau-icon25.png" alt="hakau logo">
+  </div>
+
+  <div class="col-3_sm-1"></div>
+
+
+</section>
