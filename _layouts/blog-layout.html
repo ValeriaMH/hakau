@@ -80,9 +80,7 @@ layout: default
 
     <div class="grid padded filterable-gallery-category-es" id="filterable-gallery-category-es">
 
-      {% assign articulos = site.posts | where: "lang","es" %}
-
-        {% for post in articulos limit:12 %}
+        {% for post in site.spanish-posts limit:12 %}
 
         <article class="col-4_sm-6_xs-12 post-item grid gallery-item-category-es {% for item in post.categories limit:1 %} {{item | slugify }} {% endfor %} {% for item in post.categories limit:1 offset:1 %}{{item | slugify }}{% endfor %}">
             <a href="{{ post.url }}" class="blog-card col-12 grid bg-image square" style="background-image: url('{{ post.featured_image }}');">

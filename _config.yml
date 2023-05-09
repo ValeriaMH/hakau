@@ -4,6 +4,9 @@ collections:
     permalink: /posts/:year/:slug
   archives: 
     output: true
+  spanish-posts:
+    output: true
+    permalink: /es/posts/:year/:slug
 
 _select_data:
   aspect-ratios:
